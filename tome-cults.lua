@@ -804,9 +804,7 @@ t("Seeds of the Black Tree", "黑色树之种", "entity name")
 t("corrupt stone", "被污染的石头", "_t")
 t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "这团扭曲的触手似乎感染了一块灵晶，在自然和超自然之间形成了一种奇异的混合。曾经清晰的宝石现在看起来更像一块黑曜石碎片，触手在上面伸出，宛如鞭子一般。你无法想象，恐魔竟然能够和大自然混合。", "_t")
 t("15% chance to cast Tendrils Eruption level 3 on your target", "15%几率对目标施放等级3的触手地狱", "_t")
--- untranslated text
---[==[
-t("%s: \"%s\"", "%s: \"%s\"", "tformat")
+
 t([[The book of horrors,
 the book of terrors,
 the book of pain,
@@ -816,24 +814,28 @@ the book of lunacy.
 
 It which reads the book shall know pain beyond pain.
 Read now for a fate worse than death inside awaits.
-]], [[The book of horrors,
-the book of terrors,
-the book of pain,
-the book of gain,
-the book of insanity,
-the book of lunacy.
+]], [[恐怖之书，
+惊惧之书，
+痛苦之书，
+收获之书，
+疯狂之书，
+癫狂之书。
 
-It which reads the book shall know pain beyond pain.
-Read now for a fate worse than death inside awaits.
+读这本书的人会理解超越痛苦的痛苦。
+现在翻开，等待着你的是比死亡更可怕的命运。
 ]], "_t")
-t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "_t")
-t("It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "_t")
+t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "派尔纪对于埃亚尔的许多住民来说如同世界末日一般。魔法大爆炸带来的毁灭让大地干枯焦灼。食物稀缺，偏执和狂热在人群中蔓延，人们生活在绝望之中。它们中的少数人从一个不速之客那里得到了拯救。那位被称为“导师”的大师来自遥远的群星之间，从一座古老的夏图尔传送门中出现。它在埃亚尔召集了一群渴求知识的幸存者，他们愿意使用任何东西作为武器，对抗这片大地上肆虐的恐怖。", "_t")
+t("It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "今天晚上很冷，白天你没有找到吃的东西，身上的皮衣此时也起不到什么御寒的作用。你正准备出去打猎，但其他人都警告你千万不要这样做。夜晚很危险，天空中似乎有奇怪的光线。至少，可以说是一个不好的预兆。但是，最近食物难得，所以大家和你一样饥肠辘辘。", "_t")
 t([[The world inside the tome depicts a castle. At least, it gives the impression of a castle. It has a dreamlike feeling to it, enough so to make you wonder if you're awake or not. The glass walls shimmer brightly with countless brilliant lights, reflected from some unknown source.
 
-Judging by the way the walls constantly shift and change themselves, you can be certain that this place will be difficult to explore.]], [[The world inside the tome depicts a castle. At least, it gives the impression of a castle. It has a dreamlike feeling to it, enough so to make you wonder if you're awake or not. The glass walls shimmer brightly with countless brilliant lights, reflected from some unknown source.
+Judging by the way the walls constantly shift and change themselves, you can be certain that this place will be difficult to explore.]], [[书中的世界描绘了一座城堡。至少，它给人的感觉是一座城堡。它有一种如梦似幻的感觉，不禁让你怀疑自己是否清醒。玻璃墙壁上闪烁着无数绚丽的灯光，不知从哪里反射过来的。
 
-Judging by the way the walls constantly shift and change themselves, you can be certain that this place will be difficult to explore.]], "_t")
-t("#GREEN#The worms embed themselves easily in your mutated skin.", "#GREEN#The worms embed themselves easily in your mutated skin.", "logPlayer")
+城堡的墙壁正在不断移动，变化。你可以确信，这个地方很难探索。]], "_t")
+t("#GREEN#The worms embed themselves easily in your mutated skin.", "#GREEN#蠕虫很容易嵌入你的变异皮肤中。", "logPlayer")
+
+-- untranslated text
+--[==[
+t("%s: \"%s\"", "%s: \"%s\"", "tformat")
 --]==]
 
 

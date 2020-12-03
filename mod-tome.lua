@@ -4006,12 +4006,12 @@ t("STILL CAN'T HEAR YOU, BUT LISTEN UP. THE BROTHERHOOD OF ALCHEMISTS IS ACCEPTI
 t("HOW CAN I HELP?", "我怎么帮你？", "_t")
 t("THE BROTHERHOOD KNOWS DAMNED WELL WHAT ADVANCES IN THE FIELD OF ALCHEMY WOULD DO FOR EVERY CIVILIZATION IN EXISTENCE, BUT THEY HOARD THEIR FEW WORTHWHILE SECRETS LIKE A GREAT BROWN WYRM SITTING ON ITS PILE OF CRAP. YOU KNOW WHAT? I DON'T EVEN WANT THE ASS-CURE FOR ME. I'M GOING TO STEAL EVERY SECRET THEY'VE GOT, WRITE THEM DOWN, MAKE A HUNDRED COPIES, AND NAIL ONE TO A TREE IN EVERY VILLAGE IN MAJ'EYAL.", "兄弟会精通该死的炼金领域，而他们却像一头大棕龙坐在它的粪堆上一样保守着他们的秘密！要知道，其实我才不想要那什么蛋疼的秘方，我准备把他们的秘密都偷出来，写在纸上，抄上一百份，然后贴到马基埃亚尔所有村庄的树上去！", "_t")
 t("THAT'S NOT A VERY HERMIT-LIKE ATTITUDE.", "这可不像一个隐士的态度。", "_t")
-t("AND THEN WHAT WILL THEY DO? ONCE THEIR PRECIOUS SECRETS-- WHICH, IN ALL PROBABILITY, EITHER DON'T EXIST OR ARE THINGS LIKE RECIPES FOR ELIXIRS OF WHO-GIVES-A-FLYING-DUCK-- ARE OUT IN THE OPEN, THE BROTHERHOOD OF ASSWIPES WILL HAVE NOTHING TO HOLD IT TOGETHER BUT ELIXIRS OF THEIR TEARS AND WIDESPREAD DISDAIN FROM THE REST OF THE WORLD. SPEAK UP, THEN. ARE YOU IN OR OUT?", "AND 然后他们会怎么样？当他们的宝贝秘密，或许根本就不存在，或者就是些操蛋秘方公之于众之后，除了用他们的泪水做药剂和被大家鄙视之外，“基佬兄弟会”就没什么秘密可藏了。现在，说大声点！你是接受任务还是拒绝？", "_t")
+t("AND THEN WHAT WILL THEY DO? ONCE THEIR PRECIOUS SECRETS-- WHICH, IN ALL PROBABILITY, EITHER DON'T EXIST OR ARE THINGS LIKE RECIPES FOR ELIXIRS OF WHO-GIVES-A-FLYING-DUCK-- ARE OUT IN THE OPEN, THE BROTHERHOOD OF ASSWIPES WILL HAVE NOTHING TO HOLD IT TOGETHER BUT ELIXIRS OF THEIR TEARS AND WIDESPREAD DISDAIN FROM THE REST OF THE WORLD. SPEAK UP, THEN. ARE YOU IN OR OUT?", "然后他们会怎么样？当他们的宝贝秘密，或许根本就不存在，或者就是些操蛋秘方公之于众之后，除了用他们的泪水做药剂和被大家鄙视之外，“基佬兄弟会”就没什么秘密可藏了。现在，说大声点！你是接受任务还是拒绝？", "_t")
 t("I'M IN.", "我接受！", "_t")
 t("I CANNOT AID YOU AT THIS TIME.", "我没空帮你！", "_t")
 t([[#LIGHT_GREEN#*He hands you a slip of paper with the names and properties of some elixirs on it.*#WHITE#
 THE INGREDIENTS TO THESE SUCKERS ARE SORT OF A TRADE SECRET, SO I'LL TELL YOU ABOUT ONE AND WE'LL SEE HOW THAT GOES. OH, AND I'LL MAKE ENOUGH FOR YOU TO HAVE A SWIG WHEN I'M DONE, SO GOOD FOR YOU. WHICH ONE WILL IT BE? JUST POINT AT THE DAMNED LIST. I HAVEN'T HEARD A THING YOU'VE SAID YET. I HOPE TO HELL YOU'RE NOT STANDING THERE TRYING TO SELL ME SOMETHING.]], [[#LIGHT_GREEN#*他递给你一张写着药剂材料的纸片。*#WHITE#
-对它们来说药剂配方是一个商业机密，所以一次我只给你一个，然后我会告诉你怎么做。呃……等我做好以后一定会让你喝个够，这会令你大受裨益。好了，你现在选哪一个？你只要用手点一下这该死的列表就可以了，你说的话我一个字都没听见。但愿你别再在这里跟我说什么了！]], "_t")
+对它们来说药剂配方是一个商业机密，所以一次我只给你一个，然后我会告诉你怎么做。哦，等我做好以后一定会让你喝个够，这会令你大受裨益。好了，你现在选哪一个？你只要用手点一下这该死的列表就可以了，你说的话我一个字都没听见。但愿你别再在这里跟我说什么了！]], "_t")
 t("[Indicate the %s.]", "[指向 %s.]", "tformat")
 t("HERE'S A LIST OF THE STUFF I NEED. MOST OF IT WILL TRY TO KILL YOU, SO I HOPE YOU'RE NOT INCOMPETENT. I'VE GOT PLENTY OF INCOMPETENT HELP ALREADY. I HOPE FOR YOUR SAKE THAT YOU'RE SMARTER AND FASTER THAN THEM.", "这里有一张我需要的材料清单，大多数材料拥有者可能会要了你的小命，但愿你没那么挫，我已经有一票挫子帮手了。希望你比他们要聪明，动作麻利点！", "_t")
 t("I'LL BE OFF.", "我走了", "_t")
@@ -4027,7 +4027,7 @@ t([[#LIGHT_GREEN#*For the first time you've seen, genuine pleasure lights up the
 GOOD WORK, WHOEVER YOU ARE. ALL OF MAJ'EYAL OWES YOU THEIR THANKS, EXCEPT FOR MEMBERS OF THE BROTHERHOOD OF ALCHEMISTS, WHO MIGHT TRY TO DO YOU BODILY HARM. FORTUNATELY FOR YOU, THEY'RE MOSTLY HARMLESS.]], [[#LIGHT_GREEN#*你第一次看到，半身人满是煤灰的脸上绽放出了诚恳的笑容。*#WHITE#
 干的好！不管你是谁！整个马基埃亚尔都应该感谢你，除了那些炼金术士兄弟会成员，他们想加害于你。不过幸运的是，那些货通常来说根本伤不到你。]], "_t")
 t("[Give him the monster bits]", "[给他材料]", "_t")
-t("WAIT HERE. THERE'S A GOOD CHANCE YOU'LL GET BLOWN INTO ADVENTURER KIBBLE IF YOU STEP INSIDE THIS BUILDING. MY ROBE OF MAD ALCHEMIST PROTECTION IS THE ONLY REASON I'M NOT VAPOUR.", "在这儿等着，这是一个不错的机会，如果你进入这栋建筑，你会有幸成为冒险家牌肉松。由于我有这件强大的炼金长袍保护，我才没变成粉蒸肉。", "_t")
+t("WAIT HERE. THERE'S A GOOD CHANCE YOU'LL GET BLOWN INTO ADVENTURER KIBBLE IF YOU STEP INSIDE THIS BUILDING. MY ROBE OF MAD ALCHEMIST PROTECTION IS THE ONLY REASON I'M NOT VAPOUR.", "在这儿等着就好，如果你进入这栋建筑，你会有幸成为冒险家牌肉松。由于我有这件强大的炼金长袍保护，我才没变成粉蒸肉。", "_t")
 t("[Wait]", "[等待]", "_t")
 t("GIVE ME AN HOUR, AND THINK UNPLEASANT THOUGHTS ABOUT THE BROTHERHOOD. IF ANYTHING EXPLODES, COME RESCUE ME, EVEN IF IT LOOKS LIKE THE BUILDING IS AN INFERNO OF POISONOUS SMOKE AND POLKA-DOT FLAMES.", "给我一小时时间，你在这等着，想想那可恶的兄弟会。要是听到爆炸声，你得来救我，不管什么情况哪怕房子烧成窟窿，变成冒着毒烟的地狱你也得进来。", "_t")
 t([[#LIGHT_GREEN#*Disaster fails to occur. The halfling finally returns and hands you a small vial of sooty glass.*#WHITE#
@@ -4052,7 +4052,7 @@ Say, you interested in dismembering stuff and getting paid?]], [[#LIGHT_GREEN#*�
 说！你是不是对收钱帮人搜集材料感兴趣？]], "_t")
 t("Always.", "对！", "_t")
 t("[leave]", "[离开]", "_t")
-t("By the corpses of the gods, I love adventurers. Was about to become one myself when it suddenly hit me. And by \"it\" I mean \"my wife.\" Har!", "感谢上帝，我喜欢冒险者，我正准备自己也去当个冒险者时被它打了一下，呃……我说的“它”其实是指我老婆，哈！", "_t")
+t("By the corpses of the gods, I love adventurers. Was about to become one myself when it suddenly hit me. And by \"it\" I mean \"my wife.\" Har!", "感谢上帝，我喜欢冒险者，我本准备自己也去当个冒险者，结果它打了回来，呃……我说的“它”其实是指我老婆，哈！", "_t")
 t("What do you propose?", "那……你的建议呢？", "_t")
 t("I propose that I give you a list of monster parts to fetch, then you go and fetch them, then I make some blindingly amazing brews with said monster parts, then I get accepted into the Brotherhood of Alchemists.", "我的想法就是，我给你怪物物品清单，然后你给我把它们都找回来。然后我用这些材料做一些很炫的药剂，之后我就可以加入炼金术士兄弟会了。", "_t")
 t("Sounds like a plan.", "听上去是一个不错的计划。", "_t")
@@ -5437,14 +5437,14 @@ t([[Ah yes! I am so glad! I will be able to go back to Angolw...err... Oh well, 
 During the dark years of the Spellhunt, many thousands of years ago, Linaniil, the great mage of the Kor'Krul, worried that magic might disappear with her generation and be lost to mortals should they need it again.
 So she set a secret plan into action and built a secret place where magic would be kept alive.
 Her plan worked and the group built a town called Angolwen in the western mountains. #LIGHT_GREEN#*He marks it on your map, along with a portal to access it*#WHITE#
-Not many people are accepted there but I will arrange for you to be allowed inside.]], [[哦……对，我可以重新返回安格利…，呃……我想我现在可以告诉你了，你帮了我这么多我应该告诉你。
-在魔法狩猎的那些黑暗年代里，几千年前，莱娜尼尔，卡尔·库尔的大法师，担心魔法会在她们那一代人身上灭绝，人们需要的这些魔法会从这个世界上消失。
+Not many people are accepted there but I will arrange for you to be allowed inside.]], [[啊，太棒了！我终于可以重新返回安格利…，呃……你帮了我这么多，我想我应该告诉你真相了。
+几千年前，在魔法狩猎的那些黑暗年代里，卡库罗尔的大法师莱娜尼尔，担心魔法会在她们那一代人身上灭绝，人们需要的这些魔法会从这个世界上消失。
 于是她秘密安置了一个隐秘的地方继续传承魔法。
 她执行了她的计划，她手下的人在西部的群山之中建立了一个叫做安格利文的小镇。#LIGHT_GREEN#*他在你的地图上做了一个记号，然后为你开启了一个传送门。*#WHITE#
 只有少部分人会被那里的人接受，我会想办法让你进去的。]], "_t")
 t("Oh! How could such a place be kept secret for so long... This is interesting indeed. Thank you for your trust!", "哦！这个秘密的地方怎么能保持隐秘这么长时间，真的很有趣，谢谢你对我的信任。", "_t")
 t([[Ah yes! I am so glad! I will be able to go back to Angolwen now, and perhaps we will meet there.
-Please take this ring; it has served me well.]], [[哦……对！我太高兴了！我终于可以回到安格利文了，也许我们会在那里再次见面。
+Please take this ring; it has served me well.]], [[啊，太棒了！我终于可以回到安格利文了，也许我们会在那里再次见面。
 请收下这枚戒指，曾经它对我很有用。]], "_t")
 t("Thanks, and best luck in your studies!", "谢谢，祝你好运！", "_t")
 

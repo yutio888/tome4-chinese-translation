@@ -25105,11 +25105,11 @@ t([[Attack the target for %d%% Nature weapon damage.
 
 		基于你目前的体型，吞噬的生命值上限如下所示：
 		微小：%d%%
-		矮小：%d%%
+		较小：%d%%
 		中等：%d%%
-		高大：%d%%
+		较大：%d%%
 		庞大：%d%%
-		巨型：%d%%]], "tformat")
+		巨大：%d%%]], "tformat")
 t("Quake", "地震", "talent name")
 t("@Source@ shakes the ground!", "@Source@使大地震动！", "_t")
 t([[You slam the ground, shaking the area around you in a radius of %d.

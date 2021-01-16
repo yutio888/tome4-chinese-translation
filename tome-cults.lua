@@ -658,6 +658,11 @@ t("armor", "护甲", "entity type")
 t("head", "头部", "entity subtype")
 t("Fanged Collar", "利牙项环", "entity name")
 t("It's a head... but is it yours?", "这是一个头…但是这是你的头吗？", "_t")
+-- new text
+--[==[
+t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/world-artifacts.lua"
@@ -698,8 +703,28 @@ t("That one wasn't such an impressive kill...", "这次杀戮一点都不让人�
 t("Getting a bit sloppy on the kills no?", "在杀人这件事上是不是有点马虎了？", "_t")
 t("Forbidden Tome: \"Of Knowledge And Horrors\"", "禁忌之书：《知识与恐怖》", "entity name")
 t("A gross tome of lost knowledge. Even touching it makes you feel sick.", "一本有关逝去的古老知识的书。光是触摸它就足以让你感到不适。", "_t")
+t([[The book of horrors,
+the book of terrors,
+the book of pain,
+the book of gain,
+the book of insanity,
+the book of lunacy.
+
+It which reads the book shall know pain beyond pain.
+Read now for a fate worse than death inside awaits.
+]], [[恐怖之书，
+惊惧之书，
+痛苦之书，
+收获之书，
+疯狂之书，
+癫狂之书。
+
+读这本书的人会理解超越痛苦的痛苦。
+现在翻开，等待着你的是比死亡更可怕的命运。
+]], "_t")
 t("Forbidden Tome: \"The Day It Came\"", "禁忌之书：《到来之日》", "entity name")
 t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "这本书的封皮老而枯干。当你拿着它的时候，你感受到绝望、困难，痛苦，无助的感情向你袭来。书中的存在许诺着强大的力量，但是，代价是什么呢？", "_t")
+t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "派尔纪对于埃亚尔的许多住民来说如同世界末日一般。魔法大爆炸带来的毁灭让大地干枯焦灼。食物稀缺，偏执和狂热在人群中蔓延，人们生活在绝望之中。它们中的少数人从一个不速之客那里得到了拯救。那位被称为“导师”的大师来自遥远的群星之间，从一座古老的夏图尔传送门中出现。它在埃亚尔召集了一群渴求知识的幸存者，他们愿意使用任何东西作为武器，对抗这片大地上肆虐的恐怖。", "_t")
 t("Hithre died. Somehow this is not what should have happened.", "希瑟尔死了。啊，好像故事本来不应该是这样的。", "_t")
 t("Hithre", "希瑟尔", "_t")
 t("Main protagonist", "主角", "_t")
@@ -711,6 +736,7 @@ t("The Day It Came", "到来之日", "_t")
 t("This chapter has taught your some important lesson. What did you learn?", "本书教会你许多重要的课程，你学到了什么吗？", "_t")
 t("Forbidden Tome: \"A View From The Gallery\"", "禁忌之书：《画廊一瞥》", "entity name")
 t("The story of Grung, a halfling separated from his tribe that is just trying to survive while a terrible war, very long ago, rages on.", "这本书讲述着格朗格的故事，他是远古时代的一个半身人，从部落中走散。他只是想生存下去，然而一场毁天灭地的大战正在他的身边肆虐。", "_t")
+t("It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "今天晚上很冷，白天你没有找到吃的东西，身上的皮衣此时也起不到什么御寒的作用。你正准备出去打猎，但其他人都警告你千万不要这样做。夜晚很危险，天空中似乎有奇怪的光线。至少，可以说是一个不好的预兆。但是，最近食物难得，所以大家和你一样饥肠辘辘。", "_t")
 t("Poor Grung. All he wanted was food, but what he found instead was death.", "可怜的格朗格。他只想要得到食物，但是他得到的却是死亡。", "_t")
 t("Grung", "格朗格", "_t")
 t("The importance of evading blows (+10 defense)", "闪避攻击的重要性 (+10 闪避)", "_t")
@@ -721,6 +747,11 @@ t("A View From The Gallery", "画廊一瞥", "_t")
 t("This chapter has taught your some survival tips. What did you learn?", "本书教会教会你一些生存技巧，你学到了什么吗？", "_t")
 t("Forbidden Tome: \"The Illusory Castle\"", "禁忌之书：《虚幻城堡》", "entity name")
 t("The tome in front of you seems to be as much made of dreamstuff as it is from leather and parchment. Crystalline shards dance underneath its surface, giving you an impression of a world altering itself to the tune of some indiscernable logic.", "在你面前的似乎是皮革和羊皮纸制成的梦幻般的东西。水晶般的碎片在它的表面起舞，让你觉得似乎世界在你的眼前以你无法察觉的逻辑发生着变化的感觉。", "_t")
+t([[The world inside the tome depicts a castle. At least, it gives the impression of a castle. It has a dreamlike feeling to it, enough so to make you wonder if you're awake or not. The glass walls shimmer brightly with countless brilliant lights, reflected from some unknown source.
+
+Judging by the way the walls constantly shift and change themselves, you can be certain that this place will be difficult to explore.]], [[书中的世界描绘了一座城堡。至少，它给人的感觉是一座城堡。它有一种如梦似幻的感觉，不禁让你怀疑自己是否清醒。玻璃墙壁上闪烁着无数绚丽的灯光，不知从哪里反射过来的。
+
+城堡的墙壁正在不断移动，变化。你可以确信，这个地方很难探索。]], "_t")
 t("misc", "杂项", "entity type")
 t("gross", "杂项", "entity subtype")
 t("Cut Drem Arm", "被切下来的德瑞姆手臂", "entity name")
@@ -771,6 +802,7 @@ t("convince all non arcane users in radius 10 to turn on their spellcasting frie
 t("Worm Nest", "虫穴", "entity name")
 t("disgusting robe", "恶心的长袍", "_t")
 t("This unusually thick robe constantly wriggles and squirms. Small worms sometimes pop out of it, dropping to the floor. The worms will cushion attacks against your person, but you somehow do not like the idea of having so many parasitic creatures so close to your vulnerable flesh.", "这件异常厚重的长袍不断蠕动。上面的小蠕虫有时会从上面跳出来，掉到地板上。这些蠕虫会缓冲敌人对你的攻击，但是让这这么多寄生生物如此接近你脆弱的肉体…实在是太恶心了", "_t")
+t("#GREEN#The worms embed themselves easily in your mutated skin.", "#GREEN#蠕虫很容易嵌入你的变异皮肤中。", "logPlayer")
 t("Light of Revelation", "揭示之光", "entity name")
 t("disturbing lantern", "令人不安的灯笼", "_t")
 t("The \"lantern\" appears to be a glowing shard of a glass-like substance. Despite how bright it is, its light deeply disturbs you. It illuminates everything in its wake, including things which you would rather not see. Part of you wants to throw it away, but another part wants to know the unearthly truths it will reveal to you.", "这个“灯笼”似乎是一块发光的玻璃状物体的碎片。尽管它十分明亮，但它的光却让你深感不安。它照亮了身边的一切，包括你不愿意看到的东西。你内心的一部分想要把它扔掉，但另一部分却又渴望着它向你揭示的超自然的真相。", "_t")
@@ -804,35 +836,6 @@ t("Seeds of the Black Tree", "黑色树之种", "entity name")
 t("corrupt stone", "被污染的石头", "_t")
 t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "这团扭曲的触手似乎感染了一块灵晶，在自然和超自然之间形成了一种奇异的混合。曾经清晰的宝石现在看起来更像一块黑曜石碎片，触手在上面伸出，宛如鞭子一般。你无法想象，恐魔竟然能够和大自然混合。", "_t")
 t("15% chance to cast Tendrils Eruption level 3 on your target", "15%几率对目标施放等级3的触手地狱", "_t")
-
-t([[The book of horrors,
-the book of terrors,
-the book of pain,
-the book of gain,
-the book of insanity,
-the book of lunacy.
-
-It which reads the book shall know pain beyond pain.
-Read now for a fate worse than death inside awaits.
-]], [[恐怖之书，
-惊惧之书，
-痛苦之书，
-收获之书，
-疯狂之书，
-癫狂之书。
-
-读这本书的人会理解超越痛苦的痛苦。
-现在翻开，等待着你的是比死亡更可怕的命运。
-]], "_t")
-t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "派尔纪对于埃亚尔的许多住民来说如同世界末日一般。魔法大爆炸带来的毁灭让大地干枯焦灼。食物稀缺，偏执和狂热在人群中蔓延，人们生活在绝望之中。它们中的少数人从一个不速之客那里得到了拯救。那位被称为“导师”的大师来自遥远的群星之间，从一座古老的夏图尔传送门中出现。它在埃亚尔召集了一群渴求知识的幸存者，他们愿意使用任何东西作为武器，对抗这片大地上肆虐的恐怖。", "_t")
-t("It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "今天晚上很冷，白天你没有找到吃的东西，身上的皮衣此时也起不到什么御寒的作用。你正准备出去打猎，但其他人都警告你千万不要这样做。夜晚很危险，天空中似乎有奇怪的光线。至少，可以说是一个不好的预兆。但是，最近食物难得，所以大家和你一样饥肠辘辘。", "_t")
-t([[The world inside the tome depicts a castle. At least, it gives the impression of a castle. It has a dreamlike feeling to it, enough so to make you wonder if you're awake or not. The glass walls shimmer brightly with countless brilliant lights, reflected from some unknown source.
-
-Judging by the way the walls constantly shift and change themselves, you can be certain that this place will be difficult to explore.]], [[书中的世界描绘了一座城堡。至少，它给人的感觉是一座城堡。它有一种如梦似幻的感觉，不禁让你怀疑自己是否清醒。玻璃墙壁上闪烁着无数绚丽的灯光，不知从哪里反射过来的。
-
-城堡的墙壁正在不断移动，变化。你可以确信，这个地方很难探索。]], "_t")
-t("#GREEN#The worms embed themselves easily in your mutated skin.", "#GREEN#蠕虫很容易嵌入你的变异皮肤中。", "logPlayer")
-
 -- untranslated text
 --[==[
 t("%s: \"%s\"", "%s: \"%s\"", "tformat")
@@ -3608,7 +3611,7 @@ section "tome-cults/data/timed_effects.lua"
 
 t("other", "其他", "effect subtype")
 t("Fight your foe! If anything wrong happens, the Fortress will pull you out.", "攻击敌人！如果出了什么问题，堡垒会把你送出去", "_t")
-t("frenzy", "疯狂", "effect subtype")
+t("frenzy", "狂乱", "effect subtype")
 t("Frenzy", "狂热", "_t")
 t("Class talents have no cooldown the first time they are used.", "第一次使用的职业技能不进入冷却。", "_t")
 t("bleed", "流血", "effect subtype")
@@ -4106,7 +4109,18 @@ t("food", "食物", "entity type")
 t("food", "食物", "entity subtype")
 t("food", "食物", "_t")
 t("Food for Grung!", "格朗格的食物！", "_t")
+t("heart", "心脏", "_t")
+t("kidney", "肾脏", "_t")
 t("name", "名字", "entity name")
+-- new text
+--[==[
+t("disgusting heart", "disgusting heart", "_t")
+t("lump of flesh", "lump of flesh", "_t")
+t("flesh piece", "flesh piece", "_t")
+t("intestine", "intestine", "_t")
+t("eye", "eye", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-haze-cave/zone.lua"
@@ -4192,6 +4206,43 @@ section "tome-cults/data/zones/ft-horrors/objects.lua"
 t("A page of the tome.", "书页", "_t")
 t("Forbidden Tome: \"Home, Horrific Home\"", "禁忌之书：《家，可怕的家》", "entity name")
 t("A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "一本有关逝去的古老知识的书。触摸它让你同时感到不适和不知名的安心感。", "_t")
+-- new text
+--[==[
+t([[Clarity found in safety.
+Clarity found in comfort.
+Thoughts and idle dreams drifting through space.
+No one to harm.
+No one to distract.
+Just thoughts.
+Work to great works.
+Meditate.
+Pain is a lens.
+Focus through it.
+Let flesh be your canvas.
+Let flesh fuel dreams.
+Thoughts are treasures.
+Treasure thoughts.
+Thoughts treasured when they are alone. 
+
+#RED#Reading this tome will slowly pull you in over 5 turns.]], [[Clarity found in safety.
+Clarity found in comfort.
+Thoughts and idle dreams drifting through space.
+No one to harm.
+No one to distract.
+Just thoughts.
+Work to great works.
+Meditate.
+Pain is a lens.
+Focus through it.
+Let flesh be your canvas.
+Let flesh fuel dreams.
+Thoughts are treasures.
+Treasure thoughts.
+Thoughts treasured when they are alone. 
+
+#RED#Reading this tome will slowly pull you in over 5 turns.]], "_t")
+--]==]
+
 -- untranslated text
 --[==[
 t("..", "..", "entity name")
@@ -4577,6 +4628,11 @@ t("The Face of the Deep", "深渊之貌", "entity name")
 t("This creature sells runes and infusions for the sanctuary.", "这个生物在避难所出售纹身和符文。", "_t")
 t("The Conjointed", "合体者", "entity name")
 t("This creature sells tools for the sanctuary.", "这个生物在避难所出售工具。", "_t")
+-- new text
+--[==[
+t("Destroy @himher@!", "Destroy @himher@!", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-cults/data/zones/town-kroshkkur/objects.lua"
@@ -4947,6 +5003,17 @@ t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#你不能在�
 t("You feel this book is extremely dangerous for you. Proceed?", "你觉得这本书非常危险，确定要进入吗？", "_t")
 t("Cancel", "取消", "_t")
 t("Read Tome", "读书", "_t")
+-- new text
+--[==[
+t("\
+#CRIMSON#Will crumble to dust when read!", "\
+#CRIMSON#Will crumble to dust when read!", "_t")
+t("\
+#YELLOW#Can only be read %d times.", "\
+#YELLOW#Can only be read %d times.", "tformat")
+t("Read the book", "Read the book", "_t")
+--]==]
+
 -- untranslated text
 --[==[
 t("", "", "_t")

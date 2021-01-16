@@ -217,7 +217,7 @@ t("#RED##Source# is unstoppable!", "#RED##Source#势不可挡！!", "delayedLogM
 t("RESURRECT!", "复活!", "_t")
 t("You feel a surge of power as a powerful creature falls nearby.", "你感受到一股力量的涌动，附近有个强大的生物倒下。", "logPlayer")
 t("%s feeds you hate from its latest victim. (+%d hate)", "%s最近的受害者为你提供%d仇恨", "logPlayer")
-t("#LIGHT_RED#The cease to exist spell fizzles and cancels, leaving the timeline intact.", "#LIGHT_RED#当前法术失败而终止，时间线保持了稳定。", "logPlayer")
+t("#LIGHT_RED#The cease to exist spell fizzles and cancels, leaving the timeline intact.", "#LIGHT_RED#存在抹杀技能失败并取消，时间线保持不变。", "logPlayer")
 t("Prodigy!", "获得觉醒技！", "_t")
 t([[You have achieved #LIGHT_GREEN#level %d#WHITE# and gained a #LIGHT_GREEN#prodigy point#LAST#!
 
@@ -372,7 +372,7 @@ t("You cannot change your equipment while sleeping!", "你不能在睡眠中切�
 t("You cannot change your equipment!", "你不能切换装备!", "logPlayer")
 t("You had to drop %s due to lack of space.", "由于空间不足，你必须丢下%s。", "logPlayer")
 t("%s - %sEncumbrance %d/%d", "%s-%s负重 %d/%d", "tformat")
-t("You extract %s from %s", "你从%s中提炼了%s。", "logPlayer")
+t("You extract %s from %s", "你从%s中提炼了%s。", "logPlayer", {2,1})
 t("You gain %0.2f gold from the transmogrification of %s.", "你获得了%0.2f金币，转化了%s。", "log")
 t("Transmogrification Chest", "转化之盒", "_t")
 t("When you close the inventory window, all items in the chest will be transmogrified.", "当你关闭物品栏的时候，所有在转化之盒里的物品都会被自动转化", "_t")
@@ -403,7 +403,7 @@ t("She looks tired and wounded.", "她看起来又累又饿，且身受重伤。
 t("%s, the repented thief", "%s, 忏悔的盗贼", "_t")
 t("%s, the lone alchemist", "%s, 落单的炼金术师", "_t")
 t("%s, the lost sun paladin", "%s, 迷路的太阳骑士", "_t")
-t("%s, the lost defiler", "%s, 迷路的堕落者", "_t")
+t("%s, the lost defiler", "%s, 迷路的腐化者", "_t")
 t("temporal portal", "时空传送门", "_t")
 t([[Oh but you are ... are you ?! ME?!
 		So I was right, this is not my original time-thread!
@@ -2921,9 +2921,9 @@ t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD# 每等级生命加值： #LIGH
 ------------------------------------------------
 section "mod-tome/data/birth/classes/corrupted.lua"
 
-t("Defiler", "堕落系", "birth descriptor name")
+t("Defiler", "腐化者", "birth descriptor name")
 t("Dark thoughts, black bloods, vile deeds... Those who spill their brethren's blood will find its power.", "黑暗的思想、黑色的血液、卑鄙的行为……那些背信弃义的人会发现他们的力量所在。", "_t")
-t("Defilers are touched by the mark of evil. They are a blight on the world. Working to promote the cause of evil, they serve their masters, or themselves become masters.", "堕落者身上有邪恶的印记，他们是世界的祸害，服务于他们的邪恶主人，或者他们自己成为主人。", "_t")
+t("Defilers are touched by the mark of evil. They are a blight on the world. Working to promote the cause of evil, they serve their masters, or themselves become masters.", "腐化者身上有邪恶的印记，他们是世界的祸害，服务于他们的邪恶主人，或者他们自己成为主人。", "_t")
 t("Reaver", "收割者", "birth descriptor name")
 t("Reap thee the souls of thine enemies, and the powers of darkness shall enter thy flesh.", "收割敌人的灵魂，你会发现黑暗的力量涌入体内。", "_t")
 t("Reavers are terrible foes, charging their enemies with a weapon in each hand.", "收割者是一个恐怖的对手，他可以向敌人挥舞两把单手武器。", "_t")
@@ -19857,7 +19857,7 @@ t("Select the party member to receive the hexes generic talent tree:", "选择�
 t("Grand Corruptor", "大腐化者", "_t")
 t("#LIGHT_GREEN#The Grand Corruptor gazes upon you. You feel knowledge flowing in your mind. You can now train some corruption powers.", "#LIGHT_GREEN#大腐化者凝视着你。你感觉到知识在你的脑海里流动。你可以学习一些堕落能力了。", "_t")
 t("Victory is mine!", "胜利是属于我的！", "_t")
-t("While you were in the Far East, the Grand Corruptor was busy in Maj'Eyal.", "当你在远东战斗的视乎，大腐化者正在马基·埃亚尔忙碌着。", "_t")
+t("While you were in the Far East, the Grand Corruptor was busy in Maj'Eyal.", "当你在远东战斗的时候，大腐化者正在马基·埃亚尔忙碌着。", "_t")
 t("With the fall of Zigur he was able to attack and take control of Elvala, the Shaloren capital city.", "在伊格陨落之后，他成功地进攻并占领了埃尔瓦拉，永恒精灵的首都。", "_t")
 t("His plans however do not stop there.", "他的野心绝不止步于此。", "_t")
 
@@ -20177,6 +20177,12 @@ t("Melinda decided to come live with you in your Fortress.", " 梅琳达决定�
 t("The Fortress Shadow has established a portal for her so she can come and go freely.", " 堡垒之影为她建造了一个传送门，他让她能够自由来去。", "_t")
 t("Melinda", "米琳达", "_t")
 t("You saved her from the depth of a cultists' lair and fell in love with her. She has moved into the Fortress to see you more often.", "你把她从邪教徒的巢穴中救了出来，并且与她相爱了。她现在搬到了堡垒里，可以经常见到你。", "_t")
+-- new text
+--[==[
+t("After your victory you came back to Last Hope and reunited with Melinda, who after many years remains free of demonic corruption.", "After your victory you came back to Last Hope and reunited with Melinda, who after many years remains free of demonic corruption.", "_t")
+t("You lived together and led a happy life. Melinda even learned a few adventurer's tricks and you both traveled Eyal, making new legends.", "You lived together and led a happy life. Melinda even learned a few adventurer's tricks and you both traveled Eyal, making new legends.", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "mod-tome/data/quests/lumberjack-cursed.lua"
@@ -20918,7 +20924,7 @@ You gain a bonus to Mindpower equal to %d%% of your Magic.
 
 #{italic}#你里面有些不对劲。你的太阳法术被遮蔽了，但你血腥的行径使得事物依然如同白昼一样清晰。#{normal}#]], "tformat")
 t("Flee the Sun", "阴走", "talent name")
-t("%s's teleportation fizzles!", "%s的传送失败了!", "logSeen")
+t("%s's teleportation fizzles!", "%s 的传送失败了!", "logSeen")
 t("%s emerges from the darkness!", "%s从黑暗中现身了!", "logSeen")
 t([[Fade into the darkness and reappear elsewhere within range %d.  When you emerge from the shadows, you are accompanied by a bright flash, dealing %0.2f light damage to enemies in radius 1.
 						 The damage will increase with your Spellpower.]], [[匿迹于黑暗之中并在距离 %d 码范围内的另一处重现。一道闪光会伴随着你从阴影中现身，对半径1码范围内的敌人造成 %0.2f 光系伤害。
@@ -21238,7 +21244,7 @@ t("Searing Sight", "灼烧", "talent name")
 t([[Your Radiance is so powerful it burns all foes caught in it, dealing %0.1f light damage to all foes caught inside every turn.
 		Each enemy effected has a %d%% chance of being dazed and blinded by the light for 3 turns. The daze and blind can be applied to each enemy at most once every 7 turns.
 		The damage increases with your Spellpower.]], [[你强大的光辉灼烧其中的目标，对里面所有的敌人每回合造成 %0.1f 光系伤害。
-		每个被这一效果影响的敌人会有 %d%% 几率被光震慑或致盲，持续 3 回合。震慑或致盲对单个敌人最多每 7 回合触发一次。
+		每个被这一效果影响的敌人会有 %d%% 几率被光眩晕或致盲，持续 3 回合。眩晕或致盲对单个敌人最多每 7 回合触发一次。
 		伤害受法术强度加成。]], "tformat")
 t("Illumination", "照明", "talent name")
 t([[The light of your Radiance allows you to see that which would normally be unseen and strike that which would normally be protected.
@@ -24207,6 +24213,8 @@ This strength comes at a cost: you lose %d%% of your maximum life every turn.  T
 #{italic}#如果你走运，代价就是你的一切。#{normal}#]], "tformat")
 t("Self-Judgement", "自裁", "talent name")
 t("#CRIMSON##Target# suffers from %s from #Source#, mitigating the blow!#LAST#.", "#CRIMSON##Target# 承受了来自#Source#的 %s , 降低了伤害!#LAST#.", "logCombat")
+t("an attack", "一次攻击", "_t")
+t("damage", "伤害", "_t")
 t("%s(%d bled out#LAST#%s)#LAST#", "%s(%d 减免#LAST#%s)#LAST#", "tformat")
 t([[Any direct damage that exceeds %d%% of your maximum life has the excess damage converted to a shallow wound that bleeds over the next %d turns. This bleed cannot be resisted or removed, but can be reduced by Bloodstained. Extremely powerful hits (more than %d%% of your max life) are not fully converted.
 
@@ -24293,6 +24301,8 @@ t([[Assault nearby foes with 4 fast attacks for %d%% (at 0 Hate) to %d%% (at 100
 t("Reckless Charge", "鲁莽冲撞", "talent name")
 t("#Source# knocks back #Target#!", "#Source#击退了#Target#！", "logCombat")
 t("#Target# blocks #Source#!", "#Target# 格挡了 #Source#！", "logCombat")
+t("Big", "大", "_t")
+t("Small", "小", "_t")
 t("Charge through your opponents, attacking anyone near your path for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage. %s opponents may be knocked away from your path. You can attack a maximum of %d times, and can hit targets along your path more than once.", "冲过你的目标，途经的所有目标受到 %d%% （0仇恨）至 %d%% （100+仇恨）伤害。 %s 体型的目标会被你弹开。你最多可以攻击 %d 次，并且你对路径上的敌人可造成不止 1 次攻击。", "tformat")
 t("Cleave", "分裂攻击", "talent name")
 t("#Source# cleaves through #Target#!", "#Source#劈中了#Target#！", "logCombat")
@@ -24303,6 +24313,11 @@ t([[While active, every swing of your weapon strikes strikes other adjacent enem
 		分裂攻击、杀意涌动和无所畏惧不能同时开启，并且激活一个也会使另外两个进入冷却。
 		当使用双手武器时，分裂攻击会造成 25%% 的额外伤害。
 		分裂攻击伤害受力量值加成。]], "tformat")
+-- new text
+--[==[
+t("Medium-sized", "Medium-sized", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/strife.lua"
@@ -24831,7 +24846,7 @@ t("Chromatic Fury", "天龙之怒", "talent name")
 t([[You have gained the full power of the various drakes throughout the world, and have become both resistant and attuned to physical, fire, cold, lightning, acid, nature, blight, and darkness damage.
 		Your resistance to these elements is increased by %0.1f%% and all damage you deal with them is increased by %0.1f%% with %0.1f%% resistance penetration.
 
-		Learning this talent will add a Willpower bonus to your breath talent damage with the same scaling as Strength, effectively doubling it when the stats are equal.]], [[你获得了世界中数不清的龙的力量传承，你对物理、火焰、寒冷、酸性、自然、枯萎和暗影属性伤害的抵抗力和适应力增强了。
+		Learning this talent will add a Willpower bonus to your breath talent damage with the same scaling as Strength, effectively doubling it when the stats are equal.]], [[你获得了世界中数不清的龙的力量传承，你对物理、火焰、寒冷、闪电、酸性、自然、枯萎和暗影属性伤害的抵抗力和适应力增强了。
 		你对这些属性的抗性提升 %0.1f%% ，使用这些属性的时候伤害提升 %0.1f%% ，获得 %0.1f%% 伤害穿透。
 
 		学习此技能后，你的龙息技能伤害将在原来受力量属性加成的基础上，额外受到意志属性加成，加成比例相等。举例而言，如果你的意志值和力量值相等，你的龙息技能伤害，将达到学习此技能前的两倍。]], "tformat")
@@ -29334,7 +29349,7 @@ t([[Carve 40 to 80 alchemist gems out of a natural gemstone.
 		许多法术需要使用炼金宝石。 
 		每种宝石拥有不同的特效。]], "tformat")
 t("Extract Gems", "宝石提炼", "talent name")
-t("You extract %s from %s", "你从%s中提炼了%s。", "logPlayer")
+t("You extract %s from %s", "你从%s中提炼了%s。", "logPlayer", {2,1})
 t("Try to extract gems from which metallic item?", "从哪个金属物品中提取宝石？", "_t")
 t("Extract magical gems from metal weapons and armours. At this skill level you can work with metals of at maximum tier %d.", "从金属武器或护甲中提取魔法宝石。在当前技能等级下，你最多只能从材质等级 %d 的金属装备中提取物品。", "tformat")
 t("Imbue Item", "装备附魔", "talent name")
@@ -33603,7 +33618,7 @@ Vim is the life force of all beings. It does not regenerate, and can only be sto
 - 用极度邪恶的近战攻击造成致命伤害
 - 使用白骨之力进行攻击和防御 #WHITE#
 
-堕落者使用活力值来施放他们的法术。
+收割者使用活力值来施放他们的法术。
 活力是所有生物的生命力量，它不会自己回复，而必须从你的目标身上偷取。
 ]], "_t")
 
@@ -34745,7 +34760,7 @@ t("Corrupting Strike", "黑暗连击", "_t")
 t("The targets natural essence in corrupted reducing disease resistance by 100%%.", "目标自然力量被腐蚀，疾病抗性降低100%%。", "tformat")
 t("#Target# is completely vulnerable to disease!", "#Target#对疾病毫无抵抗力！", "_t")
 t("#Target# no longer vulnerable to disease.", "#Target#恢复了对疾病的抵抗力！", "_t")
-t("frenzy", "疯狂", "effect subtype")
+t("frenzy", "狂乱", "effect subtype")
 t("Bloodlust", "嗜血杀戮", "_t")
 t("The target is in a magical frenzy, improving spellpower by %d.", "目标进入魔法狂暴状态，提升法术强度 %d 。", "tformat")
 t("Acid Splash", "酸液飞溅", "_t")
@@ -35716,7 +35731,7 @@ t("#Target# speeds up.", "#Target#速度加快。", "_t")
 t("+Quick", "+提速", "_t")
 t("#Target# slows down.", "#Target#速度减慢了。", "_t")
 t("-Quick", "-提速", "_t")
-t("frenzy", "疯狂", "effect subtype")
+t("frenzy", "狂乱", "effect subtype")
 t("Frenzied Focus", "灵能狂热", "_t")
 t("This creatures psionic focus item is supercharged!", "这个生物用念力控制的物品进入了暴走模式！", "_t")
 t("#Target# enters a frenzy!", "#Target#进入狂热状态！", "_t")
@@ -36408,7 +36423,7 @@ t("Aeons Stasis", "沉睡千年", "_t")
 t("The target is in temporal stasis.", "目标处于静滞时空中。", "_t")
 t("#Target#'s is back to the normal timeflow.", "在#Target#中沉睡了无数年的生物被唤醒了！", "_t")
 t("-Aeons Stasis", "-沉睡千年", "_t")
-t("frenzy", "疯狂", "effect subtype")
+t("frenzy", "狂乱", "effect subtype")
 t("Unstoppable", "势不可挡", "_t")
 t("The target is unstoppable! It refuses to die and cannot heal.  When the effect ends, it will heal %d Life (%d%% of maximum life per foe slain during the frenzy).", "目标无可阻挡！拒绝死亡，效果结束时回复 %d 生命(每杀一个怪回复 %d%% 最大生命 )。", "tformat")
 t("combat", "战斗", "effect subtype")
@@ -36967,7 +36982,7 @@ t("#Target# is moving freely.", "#Target#可以自由移动。", "_t")
 t("+Free Action", "+自由行动", "_t")
 t("#Target# is moving less freely.", "#Target#自由移动效果消失。", "_t")
 t("-Free Action", "-自由行动", "_t")
-t("frenzy", "疯狂", "effect subtype")
+t("frenzy", "狂乱", "effect subtype")
 t("Adrenaline Surge", "肾上腺素", "_t")
 t("The target's combat damage is improved by %d and it an continue to fight past the point of exhaustion, supplementing life for stamina.", "目标战斗伤害提高 %d 能量枯竭时消耗生命值代替体力值继续战斗。", "tformat")
 t("#Target# feels a surge of adrenaline.", "#Target#被注入了肾上腺素。", "_t")
@@ -42747,7 +42762,7 @@ t("Maj'Eyal is the biggest continent in the world of Eyal. Though records sugges
 t("The effects of the Spellblaze were not all instant, and many centuries later the Cataclysm tore the continent apart once more, devastating coastal areas the destroying all of the Naloren lands.", "魔法大爆炸造成的影响并非仅局限于那一瞬间，这场大灾难过去了几个世纪，大陆一次又一次被撕裂，沿海的纳鲁精灵王国受到了毁灭性的打击而从此灭绝。", "init.lua load_tips")
 t("Archers are fast and deadly, and with pinning shots can render their foes helpless as they swiftly dispatch them.", "弓箭手行动迅捷而致命，他们可以使用定身射击将敌人分散并各个击破。", "init.lua load_tips")
 t("Reavers are powerful fighters with corrupted blood, and the strength to wield a one-handed weapon in each arm.", "收割者是流着堕落之血的强大战士，他们双手各可以装备一件单手武器。", "init.lua load_tips")
-t("Corruptors feed off the essence of others, and can use their own corrupted blood to launch deadly magical attacks.", "堕落者可以吸取他人的精华，并使用他们的堕落力量发动致命的魔法攻击。", "init.lua load_tips")
+t("Corruptors feed off the essence of others, and can use their own corrupted blood to launch deadly magical attacks.", "腐化者可以吸取他人的精华，并使用他们的堕落力量发动致命的魔法攻击。", "init.lua load_tips")
 t("Clever rogues can lay traps to damage or debilitate their foes without having to go near them.", "聪明的盗贼可以在不近身的情况下安置陷阱对敌人造成伤害或者削弱他们。", "init.lua load_tips")
 t("Rogues can move silently and stealthily, letting them approach foes unaware or avoid them entirely.", "盗贼可以悄无声息的移动，在敌人毫无察觉的情况下悄悄近身。", "init.lua load_tips")
 t("A movement infusion can let you quickly approach a ranged opponent, or quickly escape a melee one.", "移动纹身可以使你快速地接近一个远程敌人或者逃离近战敌人。", "init.lua load_tips")

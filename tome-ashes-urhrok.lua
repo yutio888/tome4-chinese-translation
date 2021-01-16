@@ -723,7 +723,7 @@ t([[Your actions foreshadow a bleak outcome for your foes.
 		每有一层诅咒，你杀死被诅咒目标时获得的活力值增加 100%% 。
 		获得活力值基础值取决于意志。]], "tformat")
 t("Weakened Soul", "灵魂弱化", "talent name")
-t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, reducing their resistances by 2%%.", "你施加的每层悲惨结局效果，将会影响最多%d个生物，使其抗性降低2%%。", "tformat")
+t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, reducing their resistances by 2%%.", "你施加的每层悲惨结局效果，将会影响最多 %d 个生物，使其抗性降低2%%。", "tformat")
 t("Grim Future", "无情未来", "talent name")
 t([[The future looks grim indeed... for your foes.
 		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.

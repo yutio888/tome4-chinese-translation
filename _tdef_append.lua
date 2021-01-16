@@ -117,3 +117,14 @@ tDef(0, "war hound")
 tDef(0, "weapons")
 tDef(0, "west")
 tDef(0, "worried loremaster")
+
+section "tome-orcs/data/general/events/celestial-well.lua"
+tDef(0, "sunwell", "entity name")
+tDef(0, "moonwell", "entity name")
+
+section "tome-cults/data/zones/ft-illusory-castle/generatorMap.lua"
+
+tDef(0, "left", "ft-illusory-castle branch name")
+tDef(0, "main", "ft-illusory-castle branch name")
+tDef(0, "right", "ft-illusory-castle branch name")
+tDef(0, "nil", "ft-illusory-castle branch name")

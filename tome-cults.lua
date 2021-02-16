@@ -248,21 +248,21 @@ t("That was weird...", "真奇怪…", "_t")
 ------------------------------------------------
 section "tome-cults/data/damage_types.lua"
 
-t("unstable rift", "不稳定的裂口", "_t")
-t("rift explosion", "裂口爆炸", "_t")
-t("voidburn", "虚空灼烧", "_t")
-t("slowing void", "减速虚空", "_t")
-t("draining void", "吸血虚空", "_t")
+t("unstable rift", "不稳定的裂口", "damage type")
+t("rift explosion", "裂口爆炸", "damage type")
+t("voidburn", "虚空灼烧", "damage type")
+t("slowing void", "减速虚空", "damage type")
+t("draining void", "吸血虚空", "damage type")
 t("#Source# drains life from #Target#!", "#Source#从#Target#吸取了生命！", "logCombat")
-t("mesmerize", "吸引", "_t")
-t("obliterating void", "湮灭虚空", "_t")
-t("aging temporal", "时间衰老", "_t")
+t("mesmerize", "吸引", "damage type")
+t("obliterating void", "湮灭虚空", "damage type")
+t("aging temporal", "时间衰老", "damage type")
 t("%s resists the blindness!", "%s抵抗了致盲!", "logSeen")
 t("%s resists the pin!", "%s抵抗了定身！", "logSeen")
 t("%s resists the confusion!", "%s抵抗了混乱！", "logSeen")
-t("decaying ground", "腐朽之地", "_t")
-t("defiled blood", "污血", "_t")
-t("antropy energies", "反熵能量", "_t")
+t("decaying ground", "腐朽之地", "damage type")
+t("defiled blood", "污血", "damage type")
+t("antropy energies", "反熵能量", "damage type")
 t("#PURPLE#The %s fully awakens as you absorb antropic forces!", "#PURPLE#在你汲取反熵能量的时候，%s完全觉醒了！", "logSeen")
 t("#PURPLE#The %s seems to shudder as you absorb some antropic forces.", "#PURPLE#在你汲取反熵能量的时候，%s似乎隐约颤抖。", "logSeen")
 
@@ -652,17 +652,13 @@ t("tool", "工具", "entity subtype")
 t("Bizzare Contraption", "奇怪的设备", "entity name")
 t("bizzare contraption", "奇怪的装置", "_t")
 t("This strange device appears to be entirely mechanical in nature, but you cannot understand how any of the components are supposed to work. There does appear to be some sort of metallic grid in its side which sometimes emits strange noises.", "这个奇怪的装置看上去是完全机械制的，但是你根本不明白这些组件到底是怎么工作的。在它的侧面有着某种金属的网格，有时会发出奇怪的噪声。", "_t")
+t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10%几率完全吸收一次攻击。这一效果具有30回合冷却时间。", "_t")
 t("The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "奇怪的装置完全吸收了伤害 (吸收 %0.2f 伤害)。", "logSeen")
 t("#{italic}##LIGHT_GREEN#Enabling protective electromagnetic barrier and real time health monitoring.#{normal}#", "#{italic}##LIGHT_GREEN#已开启保护性电磁屏障和实时健康监测。#{normal}#", "logPlayer")
 t("armor", "护甲", "entity type")
 t("head", "头部", "entity subtype")
 t("Fanged Collar", "利牙项环", "entity name")
 t("It's a head... but is it yours?", "这是一个头…但是这是你的头吗？", "_t")
--- new text
---[==[
-t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/world-artifacts.lua"
@@ -2766,49 +2762,49 @@ section "tome-cults/data/talents/demented/demented.lua"
 t("Insanity Pool", "疯狂槽", "talent name")
 t("Allows you to have an insanity pool. Insanity is used for most demented powers.", "允许你有一个疯狂槽。疯狂值被用于大多数疯狂系技能。", "_t")
 t("demented", "疯狂", "talent category")
-t("tentacles", "触手", "_t")
+t("tentacles", "触手", "talent type")
 t("Grow horrific tentacles to assail your foes.", "长出可怕的触手攻击你的敌人。", "_t")
-t("horrific body", "恐怖身躯", "_t")
+t("horrific body", "恐怖身躯", "talent type")
 t("Let your body mutate in terrible and efficient ways.", "让你的身体以可怕而有效的方式变异。", "_t")
-t("writhing body", "扭曲身体", "_t")
+t("writhing body", "扭曲身体", "talent type")
 t("Enhance your body and tentacle with new attacks and horrific growths.", "用新的攻击和可怕的生长来增强你的身体和触手。", "_t")
-t("path of horror", "恐魔之路", "_t")
+t("path of horror", "恐魔之路", "talent type")
 t("Continue your journey on the side of horror.", "继续你成为恐魔的旅程。", "_t")
-t("controlled horrors", "恐魔操控", "_t")
+t("controlled horrors", "恐魔操控", "talent type")
 t("Summon decaying horrors to do your bidding!", "召唤堕落的恐魔来执行你的命令！", "_t")
-t("slow death", "慢性死亡", "_t")
+t("slow death", "慢性死亡", "talent type")
 t("Turn the insides of your body into a digesting weapon of pain!", "把你身体的内部变成一个消化的武器！", "_t")
-t("disfigured face", "毁容", "_t")
+t("disfigured face", "毁容", "talent type")
 t("Your face is the stuff of nightmares!", "你的脸简直是噩梦！", "_t")
-t("friend of the worm", "蠕虫之友", "_t")
+t("friend of the worm", "蠕虫之友", "talent type")
 t("Conjure your Worm that Walks friend!", "召唤你的蠕虫合体伙伴！", "_t")
-t("nether", "虚空", "_t")
+t("nether", "虚空", "talent type")
 t("Annihilate your foes with pure void energy.", "用纯粹的虚空能量消灭你的敌人。", "_t")
-t("madness", "疯狂", "_t")
+t("madness", "疯狂", "talent type")
 t("Spread the madness of the void to your enemies.", "把虚空的疯狂传播给你的敌人。", "_t")
-t("void", "虚空", "_t")
+t("void", "虚空", "talent type")
 t("Draw upon the power of the void to protect yourself from harm.", "利用虚空的力量来保护自己免受伤害。", "_t")
-t("entropy", "熵", "_t")
+t("entropy", "熵", "talent type")
 t("Learn to withstand and direct the entropy you cause.", "学会承受和引导你造成的熵。", "_t")
-t("timethief", "偷窃时间", "_t")
+t("timethief", "偷窃时间", "talent type")
 t("Steal time from others, weakening them to empower yourself.", "偷取敌人的时间，削弱他们的力量并强化自己。", "_t")
-t("oblivion", "毁灭", "_t")
+t("oblivion", "毁灭", "talent type")
 t("Channel the essence of entropy to reduce your foes to dust.", "引导熵的本质，将你的敌人化为灰烬。", "_t")
-t("rift", "裂隙", "_t")
+t("rift", "裂隙", "talent type")
 t("Tear holes in space and time to unleash devastating forces on your foes.", "在空间和时间上撕开破洞，向你的敌人释放毁灭性的力量。", "_t")
-t("chronophage", "耗竭", "_t")
+t("chronophage", "耗竭", "talent type")
 t("Feast upon the ruined timelines of your enemies.", "享受你敌人毁灭的时间线。", "_t")
-t("scourge drake", "天谴龙", "_t")
+t("scourge drake", "天谴龙", "talent type")
 t("Take on the defining aspects of a Scourge Drake.", "化身成为天谴龙形态使你能使用天谴龙技能。", "_t")
-t("doom", "末日", "_t")
+t("doom", "末日", "talent type")
 t("Foretell the dire fate of your enemies.", "预言你敌人的悲惨命运。", "_t")
-t("prophecy", "预言", "_t")
+t("prophecy", "预言", "talent type")
 t("The various prophecies you can tell.", "各种各样的预言。", "_t")
-t("calamity", "不幸", "_t")
+t("calamity", "不幸", "talent type")
 t("Stack the odds in your favour.", "操控偶然性来协助你战斗。", "_t")
-t("beyond sanity", "非理性", "_t")
+t("beyond sanity", "非理性", "talent type")
 t("Let yourself walk in chaos!", "在混乱中行走！", "_t")
-t("other", "其他", "_t")
+t("other", "其他", "talent type")
 t("Talents of the various entities of the world.", "世界上各种怪物的能力。", "_t")
 
 ------------------------------------------------
@@ -2893,16 +2889,16 @@ t([[Weave your chosen prophecy into your speech, dooming your foe twice over. Th
 		同一种预言只能以一种方式进行强化，隆重演说，双重诅咒或者天启。
 		当前预言 : %s]], "tformat")
 t("Revelation", "天启", "talent name")
-t([[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant you one of the following effects for 10 turns.
+t([[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant one of the following effects.
 		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
 		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
-		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by the damage link.
+		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by Prophecy of Treason.
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 	
-		Current prophecy: %s]], [[当你宣读预言时，来自虚空的回响将指引你带来敌人的末日。你选择的预言将提供 1 0 回合的加成。
+		Current prophecy: %s]], [[当你宣读预言时，来自虚空的回响将指引你带来敌人的末日。你选择的预言将提供一下三种加成之一。
 		疯狂预言：每次目标使用技能时，你的一个技能的冷却时间将减少 %d 。
 		毁灭预言：每次目标受到伤害时，你回复 %d%% 伤害值。
-		背叛预言 : 你受到的 %d%% 伤害将转移至周围随机目标。
+		背叛预言：你受到的 %d%% 伤害将转移至周围随机受背叛预言影响的目标。
 		
 		同一种预言只能以一种方式进行强化，隆重演说，双重诅咒或者天启。
 		当前预言 : %s]], "tformat")
@@ -3330,9 +3326,9 @@ t([[You extend your tentacle to grab a distant target, pulling it to you.
 section "tome-cults/data/talents/demented/timethief.lua"
 
 t("Accelerate", "窃速神偷", "talent name")
-t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius 7 by 50%% for %d turns.
+t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns.
 You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
-Any actions other than movement will cancel the effect.]], [[扭曲周围时空，周围 7 码内敌人移动速度降低 50%% ，持续 %d 回合。
+Any actions other than movement will cancel the effect.]], [[扭曲周围时空，周围 %d 码内敌人移动速度降低 50%% ，持续 %d 回合。
 		你使用偷取的速度强化自身，使自己获得一回合神速状态，移动速度提高 %d%% ，每减速一个敌人，额外提高 %d%% ，最大个数 4 个。
 		移动外的任何行动将终止加速效果。]], "tformat")
 t("Switch", "偷天换日", "talent name")
@@ -3462,7 +3458,7 @@ t([[Evolve %d allies within radius 10 in random ways for 5 turns.
 		#ORCHID#形态:#LAST# 增加 %d 全属性。
 		#ORCHID#力量:#LAST# 增加 %d%% 伤害。]], "tformat")
 t("golem", "傀儡", "talent category")
-t("glass", "玻璃", "_t")
+t("glass", "玻璃", "talent type")
 t("Glass Golem basic capacity.", "玻璃傀儡的基础能力。", "_t")
 t("Glass Splinters", "玻璃碎片", "talent name")
 t("%s resists the splinters!", "%s 抵抗了玻璃碎片!", "logSeen")
@@ -3491,7 +3487,7 @@ t([[Smash the target with the force of the void dealing %0.2f darkness and %0.2f
 section "tome-cults/data/talents/misc/races.lua"
 
 t("race", "种族技能", "talent category")
-t("drem", "德瑞姆", "_t")
+t("drem", "德瑞姆", "talent type")
 t("The various racial bonuses a character can have.", " 多种多样的种族天赋。", "_t")
 t("Frenzy", "狂热", "talent name")
 t([[Enter a killing frenzy for 3 turns.
@@ -3527,7 +3523,7 @@ t([[Your affinity with things that dwell deep beneath the surface allows you to 
 t("\
 For Drems this effect activates as long as the hungering mouth summoned by From Below It Devours is alive.", "\
 对于德瑞姆，这一效果在“自深渊吞噬万物”召唤的饥饿巨口仍然存活时持续生效。", "_t")
-t("krog", "克罗格", "_t")
+t("krog", "克罗格", "talent type")
 t("Wrath of the Wilds", "自然之怒", "talent name")
 t([[You unleash the wrath of the wilds for 5 turns.
 		When you deal damage to a creature while wrath is active you have %d%% chance (100%% for the first creature hit each turn) to stun them for 3 turns.
@@ -3575,7 +3571,7 @@ t([[You were created by ziguranth for one purpose only, to wage war on magic!
 		打击你的敌人，造成 %d%% %s 武器伤害，并沉默它们 %d 回合。
 		伤害类型根据龙血的类型而决定。
 		沉默的几率受物理强度或精神强度的最高值加成。]], "tformat")
-t("parasite", "寄生", "_t")
+t("parasite", "寄生", "talent type")
 t("The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "一个角色可以学习的各种种族技能……当它的头被寄生兽取代的时候。", "_t")
 t("Take a Bite", "咬一口", "talent name")
 t("#Source# tries to bite #target#!", "#Source#试图咬#target#!", "logCombat")
@@ -4109,18 +4105,14 @@ t("food", "食物", "entity type")
 t("food", "食物", "entity subtype")
 t("food", "食物", "_t")
 t("Food for Grung!", "格朗格的食物！", "_t")
+t("disgusting heart", "恶心的心脏", "_t")
+t("lump of flesh", "一团肉", "_t")
+t("flesh piece", "血肉碎片", "_t")
 t("heart", "心脏", "_t")
 t("kidney", "肾脏", "_t")
+t("intestine", "内脏", "_t")
+t("eye", "眼睛", "_t")
 t("name", "名字", "entity name")
--- new text
---[==[
-t("disgusting heart", "disgusting heart", "_t")
-t("lump of flesh", "lump of flesh", "_t")
-t("flesh piece", "flesh piece", "_t")
-t("intestine", "intestine", "_t")
-t("eye", "eye", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-haze-cave/zone.lua"
@@ -4206,8 +4198,6 @@ section "tome-cults/data/zones/ft-horrors/objects.lua"
 t("A page of the tome.", "书页", "_t")
 t("Forbidden Tome: \"Home, Horrific Home\"", "禁忌之书：《家，可怕的家》", "entity name")
 t("A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "一本有关逝去的古老知识的书。触摸它让你同时感到不适和不知名的安心感。", "_t")
--- new text
---[==[
 t([[Clarity found in safety.
 Clarity found in comfort.
 Thoughts and idle dreams drifting through space.
@@ -4224,25 +4214,23 @@ Thoughts are treasures.
 Treasure thoughts.
 Thoughts treasured when they are alone. 
 
-#RED#Reading this tome will slowly pull you in over 5 turns.]], [[Clarity found in safety.
-Clarity found in comfort.
-Thoughts and idle dreams drifting through space.
-No one to harm.
-No one to distract.
-Just thoughts.
-Work to great works.
-Meditate.
-Pain is a lens.
-Focus through it.
-Let flesh be your canvas.
-Let flesh fuel dreams.
-Thoughts are treasures.
-Treasure thoughts.
-Thoughts treasured when they are alone. 
+#RED#Reading this tome will slowly pull you in over 5 turns.]], [[在安全中发现清晰。
+在舒适中找到清晰。
+让思绪和空想在虚空中飘荡。
+不要被任何食物伤害。
+不要被任何东西打扰
+只要思考。
+努力思考。
+冥想。
+痛苦只是一种错觉。
+全神贯注。
+让肉体成为你的画布。
+让肉体点燃梦想。
+思想是财富。
+珍惜思想。
+当他们独自一人的时候，思想是珍贵的。
 
-#RED#Reading this tome will slowly pull you in over 5 turns.]], "_t")
---]==]
-
+#RED#阅读这本书将会在5回合内将你慢慢拉入书中。]], "_t")
 -- untranslated text
 --[==[
 t("..", "..", "entity name")
@@ -4610,6 +4598,7 @@ section "tome-cults/data/zones/town-kroshkkur/npcs.lua"
 
 t("horror", "恐魔", "entity type")
 t("eldritch", "艾尔德里奇", "entity subtype")
+t("Destroy @himher@!", "摧毁@himher@!", "_t")
 t("drem cultist", "德瑞姆邪教徒", "entity name")
 t("A drem cultist.", "一位德瑞姆邪教徒", "_t")
 t("drem seeker of knowledge", "德瑞姆知识探求者", "entity name")
@@ -4628,11 +4617,6 @@ t("The Face of the Deep", "深渊之貌", "entity name")
 t("This creature sells runes and infusions for the sanctuary.", "这个生物在避难所出售纹身和符文。", "_t")
 t("The Conjointed", "合体者", "entity name")
 t("This creature sells tools for the sanctuary.", "这个生物在避难所出售工具。", "_t")
--- new text
---[==[
-t("Destroy @himher@!", "Destroy @himher@!", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/zones/town-kroshkkur/objects.lua"
@@ -4998,22 +4982,18 @@ t("The gizmocombobulator of the font seems to have failed, you have not been bil
 ------------------------------------------------
 section "tome-cults/overload/mod/dialogs/ForbiddenTome.lua"
 
+t("\
+#CRIMSON#Will crumble to dust when read!", "\
+#CRIMSON#这本书会在阅读后化为碎片！", "_t")
+t("\
+#YELLOW#Can only be read %d times.", "\
+#YELLOW#只能阅读%d次。", "tformat")
+t("Read the book", "读这本书", "_t")
 t("#RED#You can't enter a Forbidden Tome yet!#LAST#", "#RED#你现在无法进入禁忌之书！#LAST#", "log")
 t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#你不能在这里进入禁忌之书！#LAST#", "log")
 t("You feel this book is extremely dangerous for you. Proceed?", "你觉得这本书非常危险，确定要进入吗？", "_t")
 t("Cancel", "取消", "_t")
 t("Read Tome", "读书", "_t")
--- new text
---[==[
-t("\
-#CRIMSON#Will crumble to dust when read!", "\
-#CRIMSON#Will crumble to dust when read!", "_t")
-t("\
-#YELLOW#Can only be read %d times.", "\
-#YELLOW#Can only be read %d times.", "tformat")
-t("Read the book", "Read the book", "_t")
---]==]
-
 -- untranslated text
 --[==[
 t("", "", "_t")

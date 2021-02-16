@@ -282,19 +282,19 @@ t([[You point your ghastly finger at a foe affected by Ghastly Wail and send a p
 section "tome-possessors/data/talents/psionic/psionic.lua"
 
 t("psionic", "灵能", "talent category")
-t("possession", "支配", "_t")
+t("possession", "支配", "talent type")
 t("Learn to possess the bodies of your foes!", "学会支配敌人的身体！", "_t")
-t("body snatcher", "躯体夺取", "_t")
+t("body snatcher", "躯体夺取", "talent type")
 t("Manipulate your dead foes bodies for power and success!", "复制敌人的身体，获取力量和胜利！", "_t")
-t("psionic menace", "灵能威吓", "_t")
+t("psionic menace", "灵能威吓", "talent type")
 t("Laught terrible mind attacks to wear down your foes from afar with your double mindstars!", "使用双持灵晶远程击败敌人", "_t")
-t("psychic blows", "灵能打击", "_t")
+t("psychic blows", "灵能打击", "talent type")
 t("Wield a two handed weapon to channel your psionics into your foes' faces!", "用灵能操控双手武器攻击对手！", "_t")
-t("battle psionics", "灵能战斗", "_t")
+t("battle psionics", "灵能战斗", "talent type")
 t("Dual wield a one handed weapon and a mindstar to assail your enemies's minds and bodies!", "使用单手武器和灵晶攻击敌人的身体和精神！", "_t")
-t("deep horror", "无尽恐惧", "_t")
+t("deep horror", "无尽恐惧", "talent type")
 t("Through your psionic powers you become a nightmare for your foes.", "通过灵能量，你成为了敌人的梦魇！", "_t")
-t("ravenous mind", "极度饥渴", "_t")
+t("ravenous mind", "极度饥渴", "talent type")
 t("Your mind hungers for pain and suffering! Feed it!", "你的精神渴望痛苦！满足它吧！", "_t")
 
 ------------------------------------------------
@@ -335,7 +335,7 @@ t([[You shatter your weapon in the ground, projecting a psionic shockwave in a c
 		范围内的所有敌人受到 %d%% 武器精神伤害。
 		任何被击中的灵能克隆体将立即破碎，在半径 1 的范围内爆炸造成 %0.2f 物理伤害。
 		如果你没有装备双手武器，但是在副手栏里装备了，你会立刻自动切换。]], "tformat")
--- new text
+-- untranslated text
 --[==[
 t("A temporary psionic imprint.", "A temporary psionic imprint.", "_t")
 --]==]

@@ -133,14 +133,10 @@ t("moonwell", "moonwell", "entity name")
 ------------------------------------------------
 section "tome-cults/data/zones/ft-illusory-castle/generatorMap.lua"
 
-t("main", "主手", "ft-illusory-castle branch name")
--- untranslated text
---[==[
-t("left", "left", "ft-illusory-castle branch name")
-t("right", "right", "ft-illusory-castle branch name")
-t("nil", "nil", "ft-illusory-castle branch name")
---]==]
-
+t("left", "左线", "ft-illusory-castle branch name")
+t("main", "主线", "ft-illusory-castle branch name")
+t("right", "右线", "ft-illusory-castle branch name")
+t("nil", "空", "ft-illusory-castle branch name")
 -- old translated text
 t("shortcut to chapter \"%s\"", "通向章节\"%s\"的近路", "tformat")
 t("[actual level %d, on branch %s]", "[实际楼层%d，分支%s]", "tformat")

@@ -4540,19 +4540,6 @@ t("Scourged Pits", "瘟疫之穴", "_t")
 t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GREEN#其中一棵树摇了一下，醒了！", "logSeen")
 
 ------------------------------------------------
-section "tome-cults/data/zones/test/grids.lua"
-
-t("floor", "地板", "entity type")
-t("ancient", "远古", "entity subtype")
-t("floor", "地板", "entity name")
-t("wall", "墙壁", "entity type")
-t("wall", "墙壁", "entity name")
-t("door", "门", "entity name")
-t("statue", "雕像", "entity name")
-t("previous level", "前往上一层", "entity name")
-t("next level", "前往下一层", "entity name")
-
-------------------------------------------------
 section "tome-cults/data/zones/test/npcs.lua"
 
 t("humanoid", "人形生物", "entity type")

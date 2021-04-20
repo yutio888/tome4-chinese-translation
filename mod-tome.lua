@@ -1122,6 +1122,12 @@ t("This does not seem to have any effect.", "似乎没有发生任何作用。",
 t("You use the %s on the pedestal. There is a distant 'clonk' sound.", "你在基座上使用了 %s 。你听到远处传来一声“咔嗒”声。", "logPlayer")
 t("#LIGHT_RED#%s briefly catches sight of you!", "#LIGHT_RED#%s 发现了你的踪迹！", "logPlayer")
 t("#LIGHT_RED#You sense that Something has taken notice of you ...", "#LIGHT_RED#你感觉到有某个生物注意到了你的存在。", "logPlayer")
+-- untranslated text
+--[==[
+t("", "", "log")
+--]==]
+
+-- old translated text
 t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#接受了任务“%s”！#WHITE#（按下“j”查看任务日志）", "logPlayer")
 t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#接受了任务“%s”!", "saySimple")
 t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#任务“%s”状态已经更新！#WHITE#（按下“j”查看任务日志）", "logPlayer")
@@ -1132,11 +1138,6 @@ t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#
 t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#任务“%s”已完成!", "saySimple")
 t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#任务“%s”失败！#WHITE#（按下“j”查看任务日志）", "logPlayer")
 t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#任务“%s”失败了!", "saySimple")
--- untranslated text
---[==[
-t("", "", "log")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/class/Projectile.lua"
@@ -1446,6 +1447,20 @@ t("checked door", "被检查的门", "_t")
 t("at %s", "在 %s", "tformat")
 t("at object (diggable)", "可挖掘的地形", "_t")
 t("the path is blocked", "路被挡住了", "_t")
+
+------------------------------------------------
+section "mod-tome/class/interface/PlayerQuestPopup.lua"
+
+t("#LIGHT_GREEN#Accepted quest '%s'! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#接受了任务“%s”！#WHITE#（按下“j”查看任务日志）", "logPlayer")
+t("#LIGHT_GREEN#Accepted quest '%s'!", "#LIGHT_GREEN#接受了任务“%s”!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' status updated! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#任务“%s”状态已经更新！#WHITE#（按下“j”查看任务日志）", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' updated!", "#LIGHT_GREEN#任务“%s”已更新!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' completed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#任务“%s”完成！#WHITE#（按下“j”查看任务日志）", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' completed!", "#LIGHT_GREEN#任务“%s”已完成!", "saySimple")
+t("#LIGHT_GREEN#Quest '%s' is done! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_GREEN#任务“%s”完成！#WHITE#（按下“j”查看任务日志）", "logPlayer")
+t("#LIGHT_GREEN#Quest '%s' done!", "#LIGHT_GREEN#任务“%s”已完成!", "saySimple")
+t("#LIGHT_RED#Quest '%s' is failed! #WHITE#(Press 'j' to see the quest log)", "#LIGHT_RED#任务“%s”失败！#WHITE#（按下“j”查看任务日志）", "logPlayer")
+t("#LIGHT_RED#Quest '%s' failed!", "#LIGHT_RED#任务“%s”失败了!", "saySimple")
 
 ------------------------------------------------
 section "mod-tome/class/interface/TooltipsData.lua"
@@ -7473,6 +7488,7 @@ t("door", "门", "entity name")
 t("open door", "敞开的门", "entity name")
 t("sealed door", "被封印的门", "entity name")
 t("This door seems to be sealed.", "这扇门似乎被封印了。", "_t")
+t("This door seems to have been sealed off. You think you can open it.", "这扇门似乎被封印了，你觉得你可以打开它。", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/grids/gothic.lua"
@@ -36040,6 +36056,7 @@ t("Elemental Surge: Lightning", "元素狂潮：闪电", "_t")
 t("Movement speed increased by %d%%.", "移动速度增加 %d%% 。", "tformat")
 t("Elemental Surge: Light", "元素狂潮：光明", "_t")
 t("All talent cooldowns reduced by %d%%.", "所有技能冷却减少 %d%% 。", "tformat")
+t("circle", "法阵", "effect subtype")
 t("Circle Surge", "法阵潮涌", "_t")
 t([[Residual power from the surge is emanating from the circles.
 		Shifting Shadows: +1 negative.

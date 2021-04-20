@@ -351,6 +351,16 @@ t("", "", "_t")
 
 
 ------------------------------------------------
+section "engine/engine/Chat.lua"
+
+t("following chain...", "追踪链接...", "log")
+-- new text
+--[==[
+t(" - %s : %d", " - %s : %d", "log")
+--]==]
+
+
+------------------------------------------------
 section "engine/engine/DebugConsole.lua"
 
 t("Lua Console", "Lua 控制台", "_t")
@@ -1849,7 +1859,7 @@ t("Your password is too short", "你的密码过短", "_t")
 t("Login...", "登录中…", "_t")
 t("Login in your account, please wait...", "正在登录账户，请稍后…", "_t")
 t("Steam client not found.", "找不到Steam客户端", "_t")
--- untranslated text
+-- new text
 --[==[
 t("#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "#LIGHT_BLUE##{underline}#%s#LAST##{normal}#", "tformat")
 --]==]

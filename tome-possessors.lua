@@ -304,6 +304,7 @@ t("You are disarmed.", "你被缴械了。", "logPlayer")
 t("You require a two handed weapon to use this talent.", "你需要装备一把双手武器来施展这个技能。", "logPlayer")
 t("Psychic Crush", "精神粉碎", "talent name")
 t("%s's Psychic Image", "%s的精神影像", "tformat")
+t("A temporary psionic imprint.", "一个临时的心灵印记", "_t")
 t("#ROYAL_BLUE#%s's psychic imprint appears!", "#ROYAL_BLUE#%s的心灵印记浮现了！", "logSeen")
 t("%s resists the psychic blow!", "%s抵抗了精神打击！", "logSeen")
 t([[Using both your mind and your arms you propel your two handed weapon to deal a huge strike doing %d%% weapon mind damage.
@@ -335,11 +336,6 @@ t([[You shatter your weapon in the ground, projecting a psionic shockwave in a c
 		范围内的所有敌人受到 %d%% 武器精神伤害。
 		任何被击中的灵能克隆体将立即破碎，在半径 1 的范围内爆炸造成 %0.2f 物理伤害。
 		如果你没有装备双手武器，但是在副手栏里装备了，你会立刻自动切换。]], "tformat")
--- untranslated text
---[==[
-t("A temporary psionic imprint.", "A temporary psionic imprint.", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-possessors/data/talents/psionic/ravenous-mind.lua"

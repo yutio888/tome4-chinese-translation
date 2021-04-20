@@ -20454,7 +20454,7 @@ t("#SLATE#* You have closed %s wormhole(s).#WHITE#", "#SLATE#* 你稳定了 %s �
 ------------------------------------------------
 section "mod-tome/data/quests/start-dwarf.lua"
 
-t("Reknor is lost!", "在瑞克纳迷路了！", "_t")
+t("Reknor is lost!", "瑞库纳沦陷了！", "_t")
 t("You were part of a group of dwarves sent to investigate the situation of the kingdom of Reknor.", " 你是被指派到瑞库纳王国去调查情况的一个矮人小分队的一员。", "_t")
 t("When you arrived there you found nothing but orcs, well organized and very powerful.", " 当你到达那里时，你受到了大量有组织的强力兽人的阻击。", "_t")
 t("Most of your team was killed there and now you and Norgan (the sole survivor besides you) must hurry back to the Iron Council to bring the news.", " 你队伍中大多数人被杀死，现在你和诺尔甘 ( 除你以外的唯一幸存者 ) 必须赶紧突围回到钢铁议会去汇报这里的情况。", "_t")
@@ -37895,7 +37895,7 @@ You see pyroclasts ejected from the heart of the volcano, they look relatively h
 ------------------------------------------------
 section "mod-tome/data/zones/deep-bellow/grids.lua"
 
-t("The Iron Council (Dwarven empire main city)", "钢铁议会（矮人帝国的主城）", "entity name")
+t("The Iron Council (Dwarven empire main city)", "钢铁王座（矮人帝国的主城）", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/deep-bellow/npcs.lua"
@@ -39082,11 +39082,11 @@ section "mod-tome/data/zones/reknor-escape/npcs.lua"
 t("humanoid", "人形生物", "entity type")
 t("orc", "兽人", "entity subtype")
 t("Brotoq the Reaver", "收割者布罗托克", "entity name")
-t("A huge orc blocks your way to the Iron Council. You must pass.", "一只阻挡了钢铁王座道路的兽人。你必须打倒他。", "_t")
+t("A huge orc blocks your way to the Iron Council. You must pass.", "一只阻挡了通向钢铁议会道路的兽人。你必须打倒他。", "_t")
 t(", who ate their brains still warm,", "，他将你的脑袋直接吞下，", "_t")
 t("dwarf", "矮人", "entity subtype")
 t("Norgan", "诺尔甘", "entity name")
-t("Norgan and you are the sole survivors of the Reknor expedition; your duty is to make sure the news makes it back to the Iron Council.", "诺尔甘和你都是瑞库纳探险队的幸存者，你的任务是把消息带回钢铁王座。", "_t")
+t("Norgan and you are the sole survivors of the Reknor expedition; your duty is to make sure the news makes it back to the Iron Council.", "诺尔甘和你都是瑞库纳探险队的幸存者，你的任务是把消息带回钢铁议会。", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/reknor-escape/objects.lua"
@@ -39860,7 +39860,7 @@ section "mod-tome/data/zones/town-angolwen/npcs.lua"
 t("humanoid", "人形生物", "entity type")
 t("human", "人类", "entity subtype")
 t("Linaniil, Supreme Archmage of Angolwen", "安格利文超阶魔导师·莱娜尼尔", "entity name")
-t("A tall, pale woman dressed in a revealing silk robe. Her gaze is so intense it seems to burn.", "一位穿着启迪丝绸长袍的高挑女人。她的目光是如此的炽热，似乎会融尽一切。", "_t")
+t("A tall, pale woman dressed in a revealing silk robe. Her gaze is so intense it seems to burn.", "一位穿着暴露丝绸长袍的高挑、白暂的女性。她的目光是如此的炽热，似乎会融尽一切。", "_t")
 t("Remove @himher@!", "干掉@himher@!", "_t")
 t("#GOLD#Linaniil concentrates her formidable will to restore her body!", "#GOLD#莱娜尼尔集中了她强大的意志，复原了她的身体！", "saySimple")
 t("shalore", "永恒精灵", "entity subtype")
@@ -40108,7 +40108,7 @@ t("Delver's Delights", "挖掘者的快乐", "entity name")
 ------------------------------------------------
 section "mod-tome/data/zones/town-iron-council/zone.lua"
 
-t("Iron Council", "钢铁王座", "_t")
+t("Iron Council", "钢铁议会", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/zones/town-last-hope/grids.lua"

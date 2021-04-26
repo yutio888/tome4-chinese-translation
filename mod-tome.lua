@@ -24723,7 +24723,7 @@ t([[The fungus on your body allows regeneration effects to last longer.
 		Each time you gain a beneficial effect with the regeneration subtype you increase its duration by %d%% + 1 rounded up.
 		The effect will increase with your Mindpower.]], [[你身上的孢子让回复效果更加持久。
 		每当你获得一个回复类的增益效果，你会让它的持续时间增加 %d%% +1，向上取整。
-		技能效果受意志值加成。]], "tformat")
+		技能效果受精神强度加成。]], "tformat")
 t("Ancestral Life", "原始生命", "talent name")
 t("#LIGHT_GREEN##Source# gains %d%%%% of a turn from Ancestral Life.#LAST#", "#LIGHT_GREEN##Source#从原始生命处获得%d%%%%回合。#LAST#", "logCombat")
 t([[Your fungus reaches into the primordial ages of the world, granting you ancient instincts.

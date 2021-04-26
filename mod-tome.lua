@@ -37895,7 +37895,7 @@ You see pyroclasts ejected from the heart of the volcano, they look relatively h
 ------------------------------------------------
 section "mod-tome/data/zones/deep-bellow/grids.lua"
 
-t("The Iron Council (Dwarven empire main city)", "钢铁王座（矮人帝国的主城）", "entity name")
+t("The Iron Council (Dwarven empire main city)", "钢铁议会（矮人帝国的主城）", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/deep-bellow/npcs.lua"

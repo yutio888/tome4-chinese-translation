@@ -5268,7 +5268,7 @@ The mecharachnid has an inbuilt teleportation device that will recall it to you 
 你的机械蜘蛛获得 %d 级蒸汽枪掌握、强化命中和重甲训练技能。机械蜘蛛使用敏捷代替力量装备护甲。
 机械蜘蛛带有一个内置的传送装置，如果在战斗结束后它不在你的附近，会自动传送到你的身边。]], "tformat")
 t("Stormcoil Generator", "风暴线圈发电机", "talent name")
-t("You equip your mecharachnid with a stormcoil generator, a mechanical device that projects a powerful electrical field. On taking a hit greater than 15%% of its maximum life, the excess damage will be reduced by %d%% and converted into energy, giving your mecharachnid %d%% increased global speed for 2 turns.", "你给机械蜘蛛装备风暴线圈发电机，这一装置可以产生强大的电力立场。当受到超过最大生命值 15%% 的伤害的时候，超过的伤害将会被降低 %d%% ，并被转化为能量，增加机械蜘蛛 %d%% 的整体速度，持续 2 回合。", "tformat")
+t("You equip your mecharachnid with a stormcoil generator, a mechanical device that projects a powerful electrical field. On taking a hit greater than 15%% of its maximum life, the excess damage will be reduced by %d%% and converted into energy, giving your mecharachnid %d%% increased global speed for 2 turns.", "你给机械蜘蛛装备风暴线圈发电机，这一装置可以产生强大的电力场。当受到超过最大生命值 15%% 的伤害的时候，超过的伤害将会被降低 %d%% ，并被转化为能量，增加机械蜘蛛 %d%% 的整体速度，持续 2 回合。", "tformat")
 t("Mecharachnid Chassis", "机械蜘蛛底盘", "talent name")
 t("Assault", "强袭", "_t")
 t("Armament", "武装", "_t")

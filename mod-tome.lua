@@ -2936,7 +2936,7 @@ t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD# 每等级生命加值： #LIGH
 ------------------------------------------------
 section "mod-tome/data/birth/classes/corrupted.lua"
 
-t("Defiler", "腐化者", "birth descriptor name")
+t("Defiler", "堕落系", "birth descriptor name")
 t("Dark thoughts, black bloods, vile deeds... Those who spill their brethren's blood will find its power.", "黑暗的思想、黑色的血液、卑鄙的行为……那些背信弃义的人会发现他们的力量所在。", "_t")
 t("Defilers are touched by the mark of evil. They are a blight on the world. Working to promote the cause of evil, they serve their masters, or themselves become masters.", "腐化者身上有邪恶的印记，他们是世界的祸害，服务于他们的邪恶主人，或者他们自己成为主人。", "_t")
 t("Reaver", "收割者", "birth descriptor name")
@@ -2948,11 +2948,11 @@ t("#GOLD#Stat modifiers:", "#GOLD# 属性修正：", "_t")
 t("#LIGHT_BLUE# * +4 Strength, +1 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +4 力量 , +1 敏捷 , +0 体质", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 魔法 , +0 意志 , +0 灵巧", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD# 每等级生命加值： #LIGHT_BLUE# +2", "_t")
-t("Corruptor", "堕落者", "birth descriptor name")
-t("Blight and depravity hold the greatest powers. Accept temptation and become one with corruption.", "枯萎和邪恶掌握了强大的力量。接受诱惑成为堕落者中的一员吧。", "_t")
-t("A corruptor is a terrible foe, wielding dark magics that can sap the very soul of her target.", "堕落者是一个恐怖的对手，使用黑暗魔法并汲取目标的灵魂。", "_t")
+t("Corruptor", "腐化者", "birth descriptor name")
+t("Blight and depravity hold the greatest powers. Accept temptation and become one with corruption.", "枯萎和邪恶掌握了强大的力量。接受诱惑成为腐化者中的一员吧。", "_t")
+t("A corruptor is a terrible foe, wielding dark magics that can sap the very soul of her target.", "腐化者是一个恐怖的对手，使用黑暗魔法并汲取目标的灵魂。", "_t")
 t("They can harness the blight of evil, crushing souls, stealing life force to replenish themselves.", "他们驾驭邪恶的枯萎术，粉碎灵魂，偷取生命力量来治疗自己。", "_t")
-t("The most powerful corruptors can even take on some demonic aspects for themselves.", "最强大的堕落者甚至可以掌握恶魔的力量。", "_t")
+t("The most powerful corruptors can even take on some demonic aspects for themselves.", "最强大的腐化者甚至可以掌握恶魔的力量。", "_t")
 t("Their most important stats are: Magic and Willpower", "他们最重要的属性是：魔法和意志。", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +0 力量 , +0 敏捷 , +2 体质", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 魔法 , +3 意志 , +0 灵巧", "_t")
@@ -3024,7 +3024,7 @@ t("#GOLD#Life per level:#LIGHT_BLUE# -4 (*special*)", "#GOLD# 每等级生命加
 ------------------------------------------------
 section "mod-tome/data/birth/classes/rogue.lua"
 
-t("Rogue", "盗贼系", "birth descriptor name")
+t("Rogue", "盗贼", "birth descriptor name")
 t("Rogues are masters of tricks; they can strike from the shadows, and lure monsters into deadly traps.", "盗贼是诡计大师，他们可以从阴影中发动攻击，也可以引诱怪物到他们的死亡陷阱里。", "_t")
 t("Rogues are masters of tricks. A Rogue can get behind you unnoticed and stab you in the back for tremendous damage.", "盗贼是诡计专家。盗贼可以潜行到你背后而不被发现，然后通过背后刺杀中造成巨大伤害。", "_t")
 t("Rogues usually prefer to dual-wield daggers. They can also become trapping experts, detecting and disarming traps as well as setting them.", "盗贼通常双持匕首，他们同样可以成为陷阱专家，除了安装陷阱以外他们可以侦测并拆除陷阱。", "_t")
@@ -3164,7 +3164,7 @@ t("#WHITE#Start with a simplified character and discover the game in a simple qu
 t("All damage done to the player reduced by 20%", "角色所受伤害减少 20%", "_t")
 t("All healing for the player increased by 10%", "角色治疗效果增加 10%", "_t")
 t("No main game achievements possible.", "无法获得主游戏的成就。", "_t")
-t("Easier", "简单", "_t")
+t("Easier", "简单", "birth descriptor name")
 t("#GOLD##{bold}#Easier mode#WHITE##{normal}#", "#GOLD##{bold}#简单难度#WHITE##{normal}#", "_t")
 t("Provides an easier game experience.", "提供一个较简单的游戏体验。", "_t")
 t("Use it if you feel uneasy tackling the harder modes.", "其他难度游戏困难时请选择此模式。", "_t")
@@ -26745,7 +26745,7 @@ t([[Instantly removes runic and infusion saturations.
 		For %d turns your inscriptions cool down twice as fast.
 		At level 5 your command over inscriptions is so good that you can use one more (you still need a category point to unlock it; you need to exit the levelup screen to validate it).]], [[立刻解除纹身紊乱和符文紊乱。
 		接下来 %d 回合内，你的纹身和符文冷却速度加倍。
-		技能等级 5 时，你能解锁一个新的纹身位。]], "tformat")
+		技能等级 5 时，你能额外使用一个纹身（需要大系点解锁）。]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/misc/tutorial.lua"

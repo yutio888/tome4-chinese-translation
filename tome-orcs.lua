@@ -4510,13 +4510,13 @@ While locked on your regular rocket pod attacks are disabled. However, each turn
 Marked targets also lose %d defense and cannot benefit from concealment or evasion.
 The defense loss will increase with your Steampower.]], [[让你的火箭发射器锁定目标 5 回合。
 当你锁定目标的时候，自动火箭发射将会被暂停。然而，每回合你会朝目标发射火箭弹幕，造成额外 %d%% 的伤害。
-被锁定的目标也会失去 %d 闪避值，并且无法从隐匿和闪避效果中受益。
+被锁定的目标也会失去 %d 闪避值，且躲闪效果和不可见带来的闪避效果会被取消。
 闪避值降低效果受蒸汽强度加成。]], "tformat")
 t("Death From Above", "死亡天降", "talent name")
 t([[You use your rocket pods to launch yourself into the air for 3 turns, firing a radius 2 barrage of rockets that deal %d%% steamgun damage as fire in radius 2. 
 		While flying you gain %d%% movement speed, %d%% chance to evade melee and ranged attacks, and can reactivate this talent at will to repeat the rocket barrage.
 		Using any talent other than Rocket Barrage will end this effect immediately.]], [[你启动火箭发射器，将自己发射到天空中，持续 3 回合，同时发射范围为 2 的火箭弹幕，在 2 码半径内造成 %d%% 火焰蒸汽枪伤害。
-		当处在飞行状态的时候，你获得 %d%% 移动速度， %d%% 几率躲避近战和远程攻击，并且可以重新激活这个技能，再次发射火箭弹幕。使用任何火箭弹幕之外的技能都会提前终止这一效果。]], "tformat")
+		当处在飞行状态的时候，你获得 %d%% 移动速度， %d%% 几率躲闪近战和远程攻击，并且可以重新激活这个技能，再次发射火箭弹幕。使用任何火箭弹幕之外的技能都会提前终止这一效果。]], "tformat")
 t("Rocket Barrage", "火箭弹幕", "talent name")
 t("Fires a barrage of rockets in radius 2, dealing %d%% steamgun damage as fire.", "发射火箭弹幕，在 2 码半径内造成 %d%% 火焰蒸汽枪伤害。", "tformat")
 
@@ -5083,7 +5083,7 @@ t("Evasive Shots", "反击射击", "talent name")
 t([[Using small engines to augment your reflexes you are able to automatically fire retaliatory shots at your foes doing %d%% weapon damage.
 		Retaliation shots are fired when you evade/are missed by a melee or ranged attack.
 		This can only happen once per turn and uses shots as normal.]], [[开启引擎强化反射神经，你能进行反击射击 , 造成 %d%% 武器伤害。
-		反击射击是当你闪避或躲避近战、远程攻击时触发的自动射击。
+		反击射击是当你闪避或躲闪近战、远程攻击时触发的自动射击。
 		反击射击一回合只能触发一次，且照常消耗弹药。]], "tformat")
 t("Trick Shot", "魔术射击", "talent name")
 t([[Your cunning and dexterity allow you to fire incredible trick shots that can hit multiple targets.
@@ -5306,7 +5306,7 @@ t([[You rush to the target and strike with your tailsaw, dealing %d%% damage and
 		You now also use your Dexterity in place of Strength when equipping Steamsaws as well as when calculating weapon damage, and have your Steamsaw damage increased by %d%% and Physical Power by %d.]], [[你冲向敌人，用尾部蒸汽链锯进行攻击，造成 %d%% 伤害，并嘲讽半径 %d 码内的所有敌人。
 		装备蒸汽链锯的时候，你使用敏捷代替力量值计算装备需求和计算武器伤害，并且增加你蒸汽链锯的伤害 %d%% ，物理强度 %d 。]], "tformat")
 t("Defensive Protocol", "防御协议", "talent name")
-t("Enhancements to your mecharachnid combat skill increases your melee and ranged evasion by %d%%, and causes you to automatically strike adjacent enemies with your tailsaw for %d%% damage each turn.", "强化机械蜘蛛的近身战斗能力，增加近战和远程闪避率 %d%% ，你每回合会自动用尾部的蒸汽链锯打击临近的敌人，造成 %d%% 伤害。", "tformat")
+t("Enhancements to your mecharachnid combat skill increases your melee and ranged evasion by %d%%, and causes you to automatically strike adjacent enemies with your tailsaw for %d%% damage each turn.", "强化机械蜘蛛的近身战斗能力，增加 %d%% 概率躲闪近战和远程攻击，你每回合会自动用尾部的蒸汽链锯打击临近的敌人，造成 %d%% 伤害。", "tformat")
 t("Pincer Strike", "钢爪钳制", "talent name")
 t("#Target# resists the pincer strike from #Source#!", "#Target#抵抗了#Source#的钢爪钳制！", "logCombat")
 t("You strike the target with your tailsaw for %d%% damage. If this hits, you attempt to clamp them with your pincers for %d turns. This pins, reduces their attack, spell and mind speed by %d%%, and lets you make a free, unavoidable strike with your tailsaw against them each turn for %d%% damage. This ends if you move more than 1 tile from the target.", "你用蒸汽链锯打击敌人，造成 %d%% 伤害。如果攻击命中，你会试图钳制住敌人 %d 回合。这会定身它们，降低他们 %d%% 战斗、法术和精神速度，并且每回合你会用蒸汽链锯对它们进行一次自动的，无法回避的打击，造成 %d%% 伤害。如果你离敌人的距离超过 1 码，该技能自动终止。", "tformat")
@@ -6220,7 +6220,7 @@ t("Countdown", "倒计时", "_t")
 t("At the end of this effect, your missile will explode!", "导弹会在该效果到时间后爆炸！", "tformat")
 t("Locked On", "目标锁定", "_t")
 t("Automatically firing a missile barrage against a target for %d%% increased damage.", "自动朝目标发射火箭弹幕，伤害增加 %d%% 。", "tformat")
-t("The target has been marked by a rocket pod, reducing defence by %d and negating all evasion effects.", "目标被火箭发射器锁定，降低闪避值 %d ，且闪避率效果失效。", "tformat")
+t("The target has been marked by a rocket pod, reducing defence by %d and negating all evasion effects.", "目标被火箭发射器锁定，降低闪避值 %d ，且躲闪效果失效。", "tformat")
 t("#Target# has been marked by a rocket pod!", "#Target#被火箭发射器锁定！", "_t")
 t("+Locked On", "+目标锁定", "_t")
 t("#Target# is no longer being marked by a rocket pod.", "#Target#不再被火箭发射器锁定。", "_t")
@@ -6549,7 +6549,7 @@ t("%d%% chance to fully absorb any damaging actions.", "%d%% 几率完全吸收�
 t("Miasma", "瘴气", "_t")
 t("Affected by toxic chemicals. Has %d%% talent failure, %d%% reduced healing, and takes %0.2f additional acid damage from melee and ranged attacks.", "被有毒化学物质影响。 %d%% 技能失败率，降低 %d%% 治疗效果，受到近战或远程攻击的时候受到额外 %0.2f 酸性伤害。", "tformat")
 t("Death From Above", "死亡天降", "_t")
-t("Hovering in place, gaining %d%% evasion, %d%% movement speed and launching a powerful rocket barrage each turn.", "目标悬浮在空中，获得 %d%% 闪避率， %d%% 移动速度，每回合可以发射强力的火箭弹幕。", "tformat")
+t("Hovering in place, gaining %d%% evasion, %d%% movement speed and launching a powerful rocket barrage each turn.", "目标悬浮在空中，获得 %d%% 躲闪概率， %d%% 移动速度，每回合可以发射强力的火箭弹幕。", "tformat")
 t("#Target# takes flight!", "#Target#起飞！", "_t")
 t("+Death From Above", "+死亡天降", "_t")
 t("#Target# lands.", "#Target# 落地。", "_t")

@@ -160,7 +160,7 @@ t("#FFD700#S. power#FFFFFF#: ", "#FFD700#法术强度#FFFFFF#：", "_t")
 t("#0080FF#S. save#FFFFFF#:  ", "#0080FF#法术豁免#FFFFFF#：", "_t")
 t("#FFD700#M. power#FFFFFF#: ", "#FFD700#精神强度#FFFFFF#：", "_t")
 t("#0080FF#M. save#FFFFFF#:  ", "#0080FF#精神豁免#FFFFFF#：", "_t")
-t("Critical Mult: ", "暴击加成：", "_t")
+t("Critical Mult: ", "暴击伤害：", "_t")
 t("Time left: ", "剩余时间：", "_t")
 t("#LIGHT_BLUE#Main:#LAST#%s", "#LIGHT_BLUE#主手:#LAST#%s", "tformat")
 t("#LIGHT_BLUE#Off :#LAST#%s", "#LIGHT_BLUE#副手:#LAST#%s", "tformat")
@@ -206,7 +206,7 @@ t("to psi", "到灵能值", "_t")
 t("#YELLOW#%s has been healed by a blast of positive energy!#LAST#", "#YELLOW#%s被一股正能量治疗！#LAST#", "logSeen")
 t("%s fades for a moment and then reforms whole again!", "%s消失了一阵之后又完好无损地出现了！", "logSeen")
 t("#CRIMSON##Source# leeches life from #Target#!", "#LIGHT_RED##Source#从#Target#身上吸取生命！", "delayedLogMessage")
-t("#CRIMSON##Source# steals life from #Target#!", "#CRIMSON##Source#从#Target#处吸取生命!", "delayedLogMessage")
+t("#CRIMSON##Source# steals life from #Target#!", "#CRIMSON##Source#从#Target#处偷取生命!", "delayedLogMessage")
 t("#SLATE#(%d to stone)#LAST#", "#SLATE#(%d 石头吸收)#LAST#", "tformat")
 t("#OLIVE_DRAB##Source# redirects damage from #Target# to %s!#LAST#", "#OLIVE_DRAB##Source#将来自#Target#的伤害转移到%s！#LAST#", "delayedLogMessage")
 t("#OLIVE_DRAB#(%d redirected)#LAST#", "#OLIVE_DRAB#(%d 伤害转移)#LAST#", "tformat")
@@ -883,7 +883,7 @@ t("Vim when hit: ", "被击中回复活力值：", "_t")
 t("Vim when hitting in melee: ", "近战命中时回复活力：", "_t")
 t("Mana when firing critical spell: ", "法术暴击时回复法力：", "_t")
 t("Vim when firing critical spell: ", "法术暴击时回复活力：", "_t")
-t("Spellpower on spell critical (stacks up to 3 times): ", "法术暴击时增加法术强度(最大叠加3次)：", "_t")
+t("Spellpower on spell critical (stacks up to 3 times): ", "法术暴击时增加法术强度(最多叠加3次)：", "_t")
 t("Hate when firing a critical mind attack: ", "精神暴击时回复仇恨值：", "_t")
 t("Psi when firing a critical mind attack: ", "精神暴击时回复灵能值：", "_t")
 t("Equilibrium when firing a critical mind attack: ", "精神暴击时回复失衡值：", "_t")
@@ -1381,7 +1381,7 @@ t("#ORCHID#%s cleverly deflects the attack with %s shield!#LAST#", "#ORCHID#%s�
 t("#ORCHID#%s parries the attack with %s dual weapons!#LAST#", "#ORCHID#%s用%s双持武器使这次攻击发生偏斜!#LAST#", "logSeen")
 t("#ORCHID#%s instinctively hardens %s skin and ignores the attack!#LAST#", "#ORCHID#%s本能地硬化%s皮肤，无视了这次攻击！#LAST#", "logSeen")
 t("#Target# repels an attack from #Source#.", "#Target#击退了#Source#的进攻.", "logCombat")
-t("#Target# evades #Source#.", "#Target#闪避了#Source#。", "logCombat")
+t("#Target# evades #Source#.", "#Target#躲闪了#Source#。", "logCombat")
 t("%s(%d parried#LAST#)", "%s(%d 匕首格挡#LAST#)", "tformat")
 t("%s(%d gestured#LAST#)", "%s(%d 手势格挡#LAST#)", "tformat")
 t("#{bold}##Source# performs a melee critical strike against #Target#!#{normal}#", "#{bold}##Source#向#Target#发起一次近战暴击!#{normal}#", "logCombat")
@@ -9787,7 +9787,7 @@ t("extending", "延长", "entity keyword")
 t("increase the duration of %d beneficial effects by %d", "延长%d项正面状态%d回合持续时间", "tformat")
 t("evasive ", "闪避的", "entity name")
 t("evasive", "闪避", "entity keyword")
-t("gain a %d%% chance to evade weapon attacks for 2 turns", "获得%d%%几率闪避武器攻击，持续2回合", "tformat")
+t("gain a %d%% chance to evade weapon attacks for 2 turns", "获得%d%%几率躲闪武器攻击，持续2回合", "tformat")
 t("soothing ", "抚慰的", "entity name")
 t("soothing", "抚慰", "entity keyword")
 t("heal for %d", "治疗%d生命值", "tformat")
@@ -25347,7 +25347,7 @@ t([[Destroys one of your summons, making it detonate in radius of %d.
 t("Resilience", "体质强化", "talent name")
 t("Increases all your summons' max life by %0.1f%% and extends your summons' maximum lifetime by %d turns.", "提升你所有召唤物的生命值 %0.1f%% ，并延长所有召唤物的存活时间 %d 回合。", "tformat")
 t("Phase Summon", "次元召唤", "talent name")
-t("Switches places with one of your summons. This disorients your foes, granting both you and your summon 50%% evasion for %d turns.", "与一只召唤兽调换位置。这会干扰你的敌人，使你和该召唤兽获得 50%% 闪避状态，持续 %d 回合。", "tformat")
+t("Switches places with one of your summons. This disorients your foes, granting both you and your summon 50%% evasion for %d turns.", "与一只召唤兽调换位置。这会干扰你的敌人，使你和该召唤兽获得 50%% 躲闪状态，持续 %d 回合。", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/summon-distance.lua"
@@ -26313,7 +26313,7 @@ t("Terrain prevents #Source# from switching places with #Target#.", "地形阻�
 t([[Using a series of tricks and maneuvers, you switch places with your target.
 		Switching places will confuse your foes, granting you Evasion (50%%) for %d turns.
 		While switching places, your weapon(s) will connect with the target; this will not do weapon damage, but on hit effects of the weapons can trigger.]], [[通过一系列的技巧和动作，你可以和你的目标交换位置。
-		这个换位动作会迷惑你的敌人，让你获得 50%% 闪避率，持续 %d 回合。
+		这个换位动作会迷惑你的敌人，让你获得持续 %d 回合的 50%% 概率躲闪效果。
 		切换位置时，你的武器将会与目标连接；这不会造成武器伤害，但武器的命中效果会触发。]], "tformat")
 t("Cripple", "致残", "talent name")
 t([[You hit your target, doing %d%% damage. If your attack connects, the target is crippled for %d turns, losing %d%% melee, spellcasting and mind speed.
@@ -26641,7 +26641,7 @@ t([[Call upon the luck and cunning of the Little Folk to increase your critical 
 t("Duck and Dodge", "闪避", "talent name")
 t([[Halfling's incredible luck always kicks in at just the right moment to save their skin.
 		Whenever you take %d%% or more of your life from a single attack, you gain %d%% Evasion and %d additional defense for the next %d turns. The defense increases based on your luck and other defensive stats.]], [[半身人强大的人品在关键时刻总能保他们一命。 
-		每当一次攻击对你造成 %d%% 生命值或更多伤害时，你可以获得额外 %d%% 闪避率和 %d 点闪避（基于幸运和其他闪避相关数值），持续 %d 回合。]], "tformat")
+		每当你受到超过 %d%% 生命值的单次伤害时，你在接下来的 %d 回合内获得 %d%% 躲闪概率和 %d 点闪避值（基于幸运和其他闪避相关数值）。]], "tformat" , {1, 4, 2, 3})
 t("Militant Mind", "好斗精神", "talent name")
 t([[Halflings have always been a very organised and methodical race; the more foes they face, the more organised they are.
 		If two or more foes are in sight your Physical Power, Physical Save, Spellpower, Spell Save, Mental Save, and Mindpower are increased by %0.1f per foe (up to 5 foes).]], [[半身人曾是一个有组织纪律的种族，敌人越多他们越团结。 
@@ -30335,7 +30335,7 @@ t([[Jump back up to %d grids from your target, springing over any creatures in y
 		移动速度和跳跃距离会受疲劳值影响。]], "tformat")
 t("Evasion", "闪避", "talent name")
 t([[Your quick wit and reflexes allow you to anticipate attacks against you, granting you a %d%% chance to evade melee and ranged attacks and %d increased defense for %d turns.
-		The chance to evade and defense bonus increase with your Dexterity.]], [[你的战斗技巧和反射神经让你能迅速躲闪攻击，获得 %d%% 几率躲闪近战与远程攻击，闪避增加 %d ，持续 %d 回合。
+		The chance to evade and defense bonus increase with your Dexterity.]], [[你的战斗技巧和反射神经让你能迅速躲闪攻击，获得 %d%% 几率躲闪近战与远程攻击，闪避值增加 %d ，持续 %d 回合。
 		躲闪几率和闪避加成受敏捷加成。]], "tformat")
 t("Tumble", "翻筋斗", "talent name")
 t("You must have an empty space to roll to.", "你需要有空位来滚动。", "logPlayer")
@@ -30829,9 +30829,9 @@ t("@Source@ strikes a deadly pressure point on the target.", "@Source@击中了�
 t("#Source# strikes at a vital spot on #target#!", "#Source#攻向#target#的要害!", "logCombat")
 t([[Using your deep knowledge of anatomy, you strike a target in a vital pressure point for %d%% weapon damage, bypassing their defense and evasion.
 		This strike inflicts terrible wounds inside the target's body, causing them to take physical damage equal to 100%% of any damage dealt during the attack each turn for 4 turns, increasing by %d%% each turn (so after 4 turns, they would have taken a total of %d%% damage).
-		If the target dies while under or from this effect their body will explode in a radius %d shower of bone and gore, inflicting physical damage equal to the current tick to all enemies and granting you 4 combo points.]], [[使用你深刻的解剖学知识，击中敌人的穴道造成 %d%% 武器伤害, 无视防御和闪避.
-		这次攻击在敌人身上造成可怕的内伤，在四回合内造成相当于攻击伤害的 100%% 的物理伤害 , 每回合增加 %d%% (4 回合后, 总共造成 %d%% 伤害).
-		如果目标死在该效果下, 他们身体会爆炸，并让半径 %d 内的敌人受到等于他们当前回合的点穴伤害的物理伤害，并给你 4 点连击点.]], "tformat")
+		If the target dies while under or from this effect their body will explode in a radius %d shower of bone and gore, inflicting physical damage equal to the current tick to all enemies and granting you 4 combo points.]], [[使用你深刻的解剖学知识，击中敌人的穴道造成 %d%% 武器伤害, 无视闪避和躲闪效果。
+		这次攻击在敌人身上造成可怕的内伤，在四回合内造成相当于攻击伤害的 100%% 的物理伤害 , 每回合增加 %d%% (4 回合后, 总共造成 %d%% 伤害)。
+		如果目标死在该效果下, 他们身体会爆炸，并让半径 %d 内的敌人受到等于他们当前回合的点穴伤害的物理伤害，并给你 4 点连击点。]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/techniques/unarmed-training.lua"
@@ -30873,7 +30873,7 @@ t("Battle Cry", "战斗怒喝", "talent name")
 t([[Your battle cry shatters the will of your foes within a radius of %d, lowering their Defense by %d for 7 turns, making them easier to hit.
 		All evasion and concealment bonuses are also disabled.
 		The chance to hit increases with your Physical Power.]], [[你的怒喝会减少 %d 码半径范围内敌人的意志，减少它们 %d 闪避，持续 7 回合。 
-		同时，所有的闪避加成会被取消。
+		同时，躲闪效果和不可见带来的闪避效果会被取消。
 		命中率受物理强度加成。]], "tformat")
 
 ------------------------------------------------
@@ -30963,7 +30963,7 @@ t("Have dealt over 50000 darkness damage", "曾造成超过50000点暗影伤害"
 t([[You know how to protect yourself with the deepest shadows. As long as you stand on an unlit tile you gain %d armour, 50%% armour hardiness, and 20%% evasion.
 		Any time you deal darkness damage, you will unlight both the target tile and yours.
 		Passively increases your stealth rating by %d.
-		The armor bonus scales with your Constitution.]], [[你懂得如何融入阴影，当你站在黑暗地形上时将增加 %d 点护甲、 50%%护甲强度和 20%% 闪避。
+		The armor bonus scales with your Constitution.]], [[你懂得如何融入阴影，当你站在黑暗地形上时将增加 %d 点护甲、 50%%护甲强度和 20%% 躲闪概率。
 		同时，你造成的暗影伤害会使你当前所在区域和目标区域陷入黑暗。 
 		被动增加 %d 潜行强度。
 		受体质影响, 护甲加值有额外加成。]], "tformat")
@@ -36273,7 +36273,7 @@ t([[Mayhem and destruction seem to follow you.
 #CRIMSON# 惩罚 ：#WHITE# 霉运：在你的旅途中找到的金币减少。
 #CRIMSON# 强度 1+：%s 失败的努力：围绕你的努力都会失败  (+%d%% 检测陷阱的几率 )。
 #CRIMSON# 强度 2+：%s%+d 幸运， %+d 灵巧
-#CRIMSON# 强度 3+：%s 错失良机：机会转瞬即逝，你身边的人会错失良机 (+%d%% 闪避攻击概率)。
+#CRIMSON# 强度 3+：%s 错失良机：机会转瞬即逝，你身边的人会错失良机 (+%d%% 躲闪概率)。
 #CRIMSON# 强度 4+：%s 厄运终结：如果提高后的伤害足够杀死对手的话，你将可以提高 %d%% 的伤害]], "tformat")
 t("#F53CBE#%s suffers an unfortunate end.", "#F53CBE#%s遭受厄运。", "logSeen")
 t("#F53CBE#%s suffers an unfortunate blow.", "#F53CBE#%s遭受了厄运的打击。", "logSeen")
@@ -36713,13 +36713,13 @@ t("+Dazed", "+眩晕", "_t")
 t("#Target# is not dazed anymore.", "#Target#从眩晕中恢复。", "_t")
 t("-Dazed", "-眩晕", "_t")
 t("evade", "闪避", "effect subtype")
-t("Evasion", "闪避", "_t")
-t("The target has %d%% chance to evade melee and ranged attacks", "目标有 %d%% 概率躲避近战和远程攻击 ", "tformat")
-t(" and gains %d defense", " 并增加 %d 点闪避。", "tformat")
-t("#Target# tries to evade attacks.", "#Target#闪避攻击。", "_t")
-t("+Evasion", "+闪避", "_t")
-t("#Target# is no longer evading attacks.", "#Target#不再闪避攻击。", "_t")
-t("-Evasion", "-闪避", "_t")
+t("Evasion", "躲闪", "_t")
+t("The target has %d%% chance to evade melee and ranged attacks", "目标有 %d%% 概率躲闪近战和远程攻击 ", "tformat")
+t(" and gains %d defense", " 并增加 %d 点闪避值。", "tformat")
+t("#Target# tries to evade attacks.", "#Target#尝试躲闪攻击。", "_t")
+t("+Evasion", "+躲闪", "_t")
+t("#Target# is no longer evading attacks.", "#Target#不再躲闪攻击。", "_t")
+t("-Evasion", "-躲闪", "_t")
 t("speed", "速度", "effect subtype")
 t("Speed", "加速", "_t")
 t("Increases global action speed by %d%%.", "整体速度提升 %d%% 。", "tformat")
@@ -37356,7 +37356,7 @@ t("+Snipe", "+狙击", "_t")
 t("#Target# is no longer aiming.", "#Target#停止瞄准。", "_t")
 t("-Snipe", "-狙击", "_t")
 t("Concealment", "隐匿", "_t")
-t("The target is concealed, increasing sight and attack range by %d and chance to avoid damage by %d%%.", "目标处于隐匿状态，增加攻击范围和视野 %d格，有%d%% 几率闪避攻击。", "tformat")
+t("The target is concealed, increasing sight and attack range by %d and chance to avoid damage by %d%%.", "目标处于隐匿状态，增加攻击范围和视野 %d格，有%d%% 几率躲闪攻击。", "tformat")
 t("Shadow Smoke", "影之烟雾", "_t")
 t("The target is wrapped in disorientating smoke, reducing vision range by %d.", "目标被烟雾包围，处于混乱状态，视野减少 %d 。", "tformat")
 t("+Shadow Smoke", "+影之烟雾", "_t")
@@ -37391,8 +37391,8 @@ t("-Silent stealth", "-隐秘潜行", "_t")
 t("Gift of the Woods", "森林的恩赐", "_t")
 t("Increases the effectiveness of all healing the target receives by %d%%.", "提升目标受到的所有治疗效果 %d%% 。", "tformat")
 t("Intangible", "无形无体", "_t")
-t("%d%% chance to fully evade any damaging actions or negative effects.", "%d%%几率回避任何伤害或负面效果。", "tformat")
-t("#LIGHT_BLUE#%s evades the effect '%s'!", "#LIGHT_BLUE#%s回避了效果“%s”！", "logSeen")
+t("%d%% chance to fully evade any damaging actions or negative effects.", "%d%%几率躲闪任何伤害或负面效果。", "tformat")
+t("#LIGHT_BLUE#%s evades the effect '%s'!", "#LIGHT_BLUE#%s躲闪了效果“%s”！", "logSeen")
 t("Brutalized", "暴行", "_t")
 t("The target is brutally stunned, reducing damage by 50%%, movement speed by 50%%, bleed resist by 50%%, and halving talent cooldown.", "目标被震慑，减少造成伤害 50%%, 减少50%% 流血抗性， 随机 3 个技能进入冷却并降低移动速度 50%% 。  震慑时技能冷却速度减半。", "tformat")
 t("#Target# is stunned by the brutal strike!", "#Target# 被暴力攻击震慑!", "_t")

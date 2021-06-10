@@ -2830,15 +2830,12 @@ t("Oozemancer", "软泥使", "achievement name")
 t("Destroyed the corrupted oozemancer.", "杀死堕落的粘液使者。", "_t")
 t("Lucky Girl", "幸运女孩", "achievement name")
 t("Saved Melinda again and invited her to the Fortress to cure her.", "再次拯救梅琳达并邀请她到堡垒去。", "_t")
--- new text
---[==[
-t("This is how the world ends: swallowed in fire, but not in darkness.", "This is how the world ends: swallowed in fire, but not in darkness.", "achievement name")
-t("\"Won\" ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.", "\"Won\" ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.", "_t")
-t("Last Instant of Sanity", "Last Instant of Sanity", "achievement name")
-t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent your mad patron sun from burning the world in a searing flash.", "Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent your mad patron sun from burning the world in a searing flash.", "_t")
-t("They Came Back For Eyal", "They Came Back For Eyal", "achievement name")
-t("Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.", "Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.", "_t")
---]==]
+t("This is how the world ends: swallowed in fire, but not in darkness.", "这就是世界终结的方式：并非被黑暗，而是被火焰吞噬。", "achievement name")
+t("\"Won\" ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.", "以牺牲自己，为遥远的太阳打开传送门，灼烧并毁灭整个世界的方式，\"胜利通关\"ToME。", "_t")
+t("Last Instant of Sanity", "理智，在最后一刻", "achievement name")
+t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent your mad patron sun from burning the world in a searing flash.", "关闭虚空传送门并让自己被亚伦杀死，以防止疯狂的太阳烧毁整个世界，通关ToME。", "_t")
+t("They Came Back For Eyal", "他们为埃亚尔而归", "achievement name")
+t("Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.", "感谢夏图尔人在最后一刻阻止了你为疯狂的太阳开启传送门，通关ToME。", "_t")
 
 
 ------------------------------------------------
@@ -2865,18 +2862,15 @@ t("#LIGHT_BLUE# * +2 Strength, +2 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +
 t("#LIGHT_BLUE# * +2 Magic, +2 Willpower, +2 Cunning", "#LIGHT_BLUE# * +2 魔力, +2 意志, +2 灵巧", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD# 每等级生命加值： #LIGHT_BLUE# +0", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD# 每等级生命加值： #LIGHT_BLUE# +2", "_t")
--- new text
---[==[
-t("Wanderer seed", "Wanderer seed", "birth facial category")
-t("Wanderer", "Wanderer", "birth descriptor name")
-t("Wanderers are adventurers who embrace the chaotic nature of the world. They start the game with the Combat Training talent tree, 3 random class trees and 1 random generic tree.", "Wanderers are adventurers who embrace the chaotic nature of the world. They start the game with the Combat Training talent tree, 3 random class trees and 1 random generic tree.", "_t")
-t("#{bold}##PURPLE#Every 5 levels they gain a new unlocked class tree, at random.#{normal}##LAST#", "#{bold}##PURPLE#Every 5 levels they gain a new unlocked class tree, at random.#{normal}##LAST#", "_t")
-t("#{bold}##PURPLE#Every 10 levels starting at level 2 they gain a new unlocked generic tree, at random.#{normal}##LAST#", "#{bold}##PURPLE#Every 10 levels starting at level 2 they gain a new unlocked generic tree, at random.#{normal}##LAST#", "_t")
-t("#{bold}##GOLD#This is a bonus class for the chaotically inclined. It is by no means balanced, fun or winnable, it is most of all #{italic}#RANDOM#{bold}#.#WHITE##{normal}#", "#{bold}##GOLD#This is a bonus class for the chaotically inclined. It is by no means balanced, fun or winnable, it is most of all #{italic}#RANDOM#{bold}#.#WHITE##{normal}#", "_t")
-t("Their most important stats depend on what they get to do.", "Their most important stats depend on what they get to do.", "_t")
-t("#GOLD#As you level up you learn the talent tree: #LIGHT_BLUE#%s", "#GOLD#As you level up you learn the talent tree: #LIGHT_BLUE#%s", "say")
-t("Wanderer Seed", "Wanderer Seed", "_t")
---]==]
+t("Wanderer seed", "流浪者随机种子", "birth facial category")
+t("Wanderer", "流浪者", "birth descriptor name")
+t("Wanderers are adventurers who embrace the chaotic nature of the world. They start the game with the Combat Training talent tree, 3 random class trees and 1 random generic tree.", "流浪者是拥抱世界混乱本质的冒险家。进入游戏时，他们初始拥有战斗训练系，3个随机职业技能系以及1个随机通用技能系。", "_t")
+t("#{bold}##PURPLE#Every 5 levels they gain a new unlocked class tree, at random.#{normal}##LAST#", "#{bold}##PURPLE#每升5级，获得一系解锁的随机职业技能树。#{normal}##LAST#", "_t")
+t("#{bold}##PURPLE#Every 10 levels starting at level 2 they gain a new unlocked generic tree, at random.#{normal}##LAST#", "#{bold}##PURPLE#从2级开始，每升10级获得一系解锁的随机通用技能树。#{normal}##LAST#", "_t")
+t("#{bold}##GOLD#This is a bonus class for the chaotically inclined. It is by no means balanced, fun or winnable, it is most of all #{italic}#RANDOM#{bold}#.#WHITE##{normal}#", "#{bold}##GOLD#这是倾向混乱的奖励职业。显然，他并不平衡，也不保证有趣或者能通关。一切为了 #{italic}#随机#{bold}#.#WHITE##{normal}#", "_t")
+t("Their most important stats depend on what they get to do.", "他们的随机技能决定了他们的主属性。", "_t")
+t("#GOLD#As you level up you learn the talent tree: #LIGHT_BLUE#%s", "#GOLD#在你升级的同时，你学会了新的技能树： #LIGHT_BLUE#%s", "say")
+t("Wanderer Seed", "流浪者随机种子", "_t")
 
 
 ------------------------------------------------
@@ -4693,56 +4687,50 @@ t("Just let me and the merchant get out of here and you may live!", "放走那�
 section "mod-tome/data/chats/avatar-distant-sun-unlock.chat"
 
 
--- new text
---[==[
-t("Uhh, okay. Sure. Mind showing me?", "Uhh, okay. Sure. Mind showing me?", "chat")
+t("Uhh, okay. Sure. Mind showing me?", "啊，好的，行啊，不介意的话就展示给我看吧？", "chat")
 t([[<<<You feel a gentle warmth in your mind. Something speaks directly to your mind!>>>
-#YELLOW#HELLO FRIEND. I AM A STAR FROM FAR AWAY. I HAVE HEARD YOU PRAISING YOUR SUN. WHY NOT PRAISE ME INSTEAD? I AM A MUCH BETTER SUN THAN THAT DULL, LIFELESS GAS ORB IN YOUR VICINITY. PLEASE, ALLOW ME TO DEMONSTRATE MY GOOD INTENTIONS.]], [[<<<You feel a gentle warmth in your mind. Something speaks directly to your mind!>>>
-#YELLOW#HELLO FRIEND. I AM A STAR FROM FAR AWAY. I HAVE HEARD YOU PRAISING YOUR SUN. WHY NOT PRAISE ME INSTEAD? I AM A MUCH BETTER SUN THAN THAT DULL, LIFELESS GAS ORB IN YOUR VICINITY. PLEASE, ALLOW ME TO DEMONSTRATE MY GOOD INTENTIONS.]], "chat")
-t("I don't take unsolicited messages from... stars.", "I don't take unsolicited messages from... stars.", "chat")
-t("#YELLOW#YOU ONLY HAD TO ASK, MY FRIEND.", "#YELLOW#YOU ONLY HAD TO ASK, MY FRIEND.", "chat")
-t("#CRIMSON#[The area around you erupts in flames, burning your foes]", "#CRIMSON#[The area around you erupts in flames, burning your foes]", "chat")
-t("If you say so.", "If you say so.", "chat")
-t("Look, I appreciate the offer, but I don't know you.", "Look, I appreciate the offer, but I don't know you.", "chat")
-t("#YELLOW#DON'T BE LIKE THAT. I KNOW YOU ARE ON A NOBLE QUEST.", "#YELLOW#DON'T BE LIKE THAT. I KNOW YOU ARE ON A NOBLE QUEST.", "chat")
-t("I'm busy at the moment, so maybe call back another time?", "I'm busy at the moment, so maybe call back another time?", "chat")
-t("#YELLOW#I AM YOUR FRIEND. NOW YOU KNOW ME. LET US BEGIN A LONG AND FRUITFUL FRIENDSHIP.", "#YELLOW#I AM YOUR FRIEND. NOW YOU KNOW ME. LET US BEGIN A LONG AND FRUITFUL FRIENDSHIP.", "chat")
-t("#YELLOW#BUSY, YOU SAY? I CAN FIX THAT, LIKE ANY GOOD FRIEND WOULD.", "#YELLOW#BUSY, YOU SAY? I CAN FIX THAT, LIKE ANY GOOD FRIEND WOULD.", "chat")
-t("#YELLOW#YOU DON'T BELIEVE ME? THEN PLEASE, ALLOW ME TO SHOW YOU A MERE FRACTION OF MY POWER.", "#YELLOW#YOU DON'T BELIEVE ME? THEN PLEASE, ALLOW ME TO SHOW YOU A MERE FRACTION OF MY POWER.", "chat")
---]==]
+#YELLOW#HELLO FRIEND. I AM A STAR FROM FAR AWAY. I HAVE HEARD YOU PRAISING YOUR SUN. WHY NOT PRAISE ME INSTEAD? I AM A MUCH BETTER SUN THAN THAT DULL, LIFELESS GAS ORB IN YOUR VICINITY. PLEASE, ALLOW ME TO DEMONSTRATE MY GOOD INTENTIONS.]], [[<<<你在脑海中感受到温暖，有什么东西直接在你脑海中对话！>>>
+#YELLOW#你好啊朋友。我是一颗遥远的星球。我听到了你赞美太阳的声音。为什么不赞美我呢？ 相比于你附近那颗了无生趣的气态球体，我作为太阳要好得啊。可以的话，请允许我向你展示我的善意。]], "chat")
+t("I don't take unsolicited messages from... stars.", "我不接受来自……星星的自荐消息。", "chat")
+t("#YELLOW#YOU ONLY HAD TO ASK, MY FRIEND.", "#YELLOW#如你所愿，我的朋友。", "chat")
+t("#CRIMSON#[The area around you erupts in flames, burning your foes]", "#CRIMSON#[火焰在你周围爆发，灼烧你的敌人。]", "chat")
+t("If you say so.", "如果你这么说的话。", "chat")
+t("Look, I appreciate the offer, but I don't know you.", "这些听起来挺不错，但我并不认识你啊。", "chat")
+t("#YELLOW#DON'T BE LIKE THAT. I KNOW YOU ARE ON A NOBLE QUEST.", "#YELLOW#不要这样。我知道你正在进行一项崇高的使命。", "chat")
+t("I'm busy at the moment, so maybe call back another time?", "我现在很忙，能下次再谈吗？", "chat")
+t("#YELLOW#I AM YOUR FRIEND. NOW YOU KNOW ME. LET US BEGIN A LONG AND FRUITFUL FRIENDSHIP.", "#YELLOW#我是你的朋友。现在你认识我了。愿我们的友谊天长地久，硕果累累。", "chat")
+t("#YELLOW#BUSY, YOU SAY? I CAN FIX THAT, LIKE ANY GOOD FRIEND WOULD.", "#YELLOW#你现在很忙吗？我可以帮你解决手头的问题，就像好朋友一样。", "chat")
+t("#YELLOW#YOU DON'T BELIEVE ME? THEN PLEASE, ALLOW ME TO SHOW YOU A MERE FRACTION OF MY POWER.", "#YELLOW#你不相信我？那么，请允许我向你展示我的部分力量。", "chat")
 
 
 ------------------------------------------------
 section "mod-tome/data/chats/avatar-distant-sun.chat"
 
 
--- new text
---[==[
-t("#YELLOW#YOU ARE A CURIOUS ONE.", "#YELLOW#YOU ARE A CURIOUS ONE.", "chat")
+t("#YELLOW#YOU ARE A CURIOUS ONE.", "#YELLOW#你很有趣。", "chat")
 t("[...]", "[...]", "chat")
-t("#YELLOW#YOU HAVE MADE THE RIGHT CHOICE. TOGETHER, WE SHALL BRING ABOUT THE DESTRUCTION OF OUR ENEMIES.", "#YELLOW#YOU HAVE MADE THE RIGHT CHOICE. TOGETHER, WE SHALL BRING ABOUT THE DESTRUCTION OF OUR ENEMIES.", "chat")
-t("#GOLD#[you are now an Avatar of a Distant Sun]", "#GOLD#[you are now an Avatar of a Distant Sun]", "chat")
-t("Yes, give me your power!", "Yes, give me your power!", "chat")
+t("#YELLOW#YOU HAVE MADE THE RIGHT CHOICE. TOGETHER, WE SHALL BRING ABOUT THE DESTRUCTION OF OUR ENEMIES.", "#YELLOW#你做出了正确的选择。让我们一起，为敌人带来毁灭。", "chat")
+t("#GOLD#[you are now an Avatar of a Distant Sun]", "#GOLD#[你成为了遥远太阳的化身。]", "chat")
+t("Yes, give me your power!", "是的，请赐予我你的力量！", "chat")
 t([[<<<You feel the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
 #YELLOW#I AM HERE. DO YOU DESIRE TO SMITE EVIL, DESTROY THE DARKNESS AND SCOUR THE EARTH? I SHALL AID YOU IN THIS QUEST. TOGETHER, WE WILL BE UNSTOPPABLE. ALL DARKNESS SHALL BE CONSUMED BY OUR LIGHT.
-#LAST#]], [[<<<You feel the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
-#YELLOW#I AM HERE. DO YOU DESIRE TO SMITE EVIL, DESTROY THE DARKNESS AND SCOUR THE EARTH? I SHALL AID YOU IN THIS QUEST. TOGETHER, WE WILL BE UNSTOPPABLE. ALL DARKNESS SHALL BE CONSUMED BY OUR LIGHT.
+#LAST#]], [[<<<你感受到遥远太阳的温暖。它直接在你的脑海中对话!>>>
+#YELLOW#我就在这里。你希望惩戒邪恶，毁灭黑暗，净化陆地吗？我会帮助你完成这项使命。我们联合，将无可阻挡。我们的光芒，将消灭一切黑暗。
 #LAST#]], "chat")
-t("Who... Who are you?", "Who... Who are you?", "chat")
-t("But what are you getting out of this?", "But what are you getting out of this?", "chat")
-t("That doesn't tell me anything.", "That doesn't tell me anything.", "chat")
-t("But how are you speaking to me?", "But how are you speaking to me?", "chat")
-t("#YELLOW#I AM YOUR FRIEND. IT IS GOOD TO HAVE FRIENDS, ISN'T IT?", "#YELLOW#I AM YOUR FRIEND. IT IS GOOD TO HAVE FRIENDS, ISN'T IT?", "chat")
-t("You still haven't told me who or what you are.", "You still haven't told me who or what you are.", "chat")
+t("Who... Who are you?", "你……你是谁？", "chat")
+t("But what are you getting out of this?", "但这样的话，你能得到什么呢？", "chat")
+t("That doesn't tell me anything.", "这相当于什么也没说。", "chat")
+t("But how are you speaking to me?", "你是怎么和我对话的？", "chat")
+t("#YELLOW#I AM YOUR FRIEND. IT IS GOOD TO HAVE FRIENDS, ISN'T IT?", "#YELLOW#我是你的朋友。有朋友总是好事，对吧？", "chat")
+t("You still haven't told me who or what you are.", "你还是没有告诉我你是什么。", "chat")
 t([[#YELLOW#YOU NEED NOT CONCERN YOURSELF WITH SUCH THINGS. I KNOW YOU CRAVE POWER. I KNOW THE WEIGHT OF THE WORLD IS ON YOUR SHOULDERS. SO, ACCEPT MY BOONS. ALLOW ME TO HELP YOU.
-]], [[#YELLOW#YOU NEED NOT CONCERN YOURSELF WITH SUCH THINGS. I KNOW YOU CRAVE POWER. I KNOW THE WEIGHT OF THE WORLD IS ON YOUR SHOULDERS. SO, ACCEPT MY BOONS. ALLOW ME TO HELP YOU.
+]], [[#YELLOW#你不需要关心这些小事。我知道你渴望力量。我知道你肩负着整个世界的重任。所以，接受我的恩惠吧。让我帮助你。
 ]], "chat")
-t("#YELLOW#I AM GETTING PLENTY OUT OF THIS.", "#YELLOW#I AM GETTING PLENTY OUT OF THIS.", "chat")
-t("#YELLOW#I TIRE OF YOUR NAGGING QUESTIONS. TALK, TALK, TALK. YOU HAVE A SIMPLE CHOICE BEFORE YOU. WILL YOU BECOME POWERFUL? OR WILL YOU BE WEAK AND ALONE?", "#YELLOW#I TIRE OF YOUR NAGGING QUESTIONS. TALK, TALK, TALK. YOU HAVE A SIMPLE CHOICE BEFORE YOU. WILL YOU BECOME POWERFUL? OR WILL YOU BE WEAK AND ALONE?", "chat")
-t("I don't trust you. Please go away.", "I don't trust you. Please go away.", "chat")
-t("#YELLOW#I HAVE LITTLE PATIENCE FOR TIME WASTERS. THIS SHALL BE THE LAST TIME WE SPEAK.", "#YELLOW#I HAVE LITTLE PATIENCE FOR TIME WASTERS. THIS SHALL BE THE LAST TIME WE SPEAK.", "chat")
-t("#GRAY#[prodigy point refunded]", "#GRAY#[prodigy point refunded]", "chat")
---]==]
+t("#YELLOW#I AM GETTING PLENTY OUT OF THIS.", "#YELLOW#我受够了。", "chat")
+t("#YELLOW#I TIRE OF YOUR NAGGING QUESTIONS. TALK, TALK, TALK. YOU HAVE A SIMPLE CHOICE BEFORE YOU. WILL YOU BECOME POWERFUL? OR WILL YOU BE WEAK AND ALONE?", "#YELLOW#你总是提出琐碎的问题。不断地说，说，说。在你面前有一个简单的选择。你要变强吗？还是要独自弱小？", "chat")
+t("I don't trust you. Please go away.", "我不相信你。请离开。", "chat")
+t("#YELLOW#I HAVE LITTLE PATIENCE FOR TIME WASTERS. THIS SHALL BE THE LAST TIME WE SPEAK.", "#YELLOW#浪费时间。我不会再来找你了。", "chat")
+t("#GRAY#[prodigy point refunded]", "#GRAY#[觉醒点返还。]", "chat")
 
 
 ------------------------------------------------
@@ -6142,7 +6130,7 @@ You will do as asked, for the good of all Yeeks! The Way is always right.
 ]], [[#LIGHT_GREEN#*你感到维网充斥了你的身心*#WHITE#
 你会按照所要求的去做，为了整个夺心魔族！维网总是正确的。
 ]], "_t")
-t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Way for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "#LIGHT_GREEN#[在最后关头你用意志抵抗了维网几秒钟，向艾琳传递了信息。]#WHITE# 艾琳女士，快杀了我！#{bold}#现在！#{normal}#", "_t")
+t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Way for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "#LIGHT_GREEN#[在最后关头你用意志抵抗了维网几秒钟，向艾琳传递了信息。]#WHITE# 艾琳女士，快杀了我！#{bold}#快！#{normal}#", "_t")
 t([[#LIGHT_GREEN#*Through your mind Aeryn sees what the Way is planning.*#WHITE#
 You were a precious ally and a friend. The world will remember your last act of selfless sacrifice. I swear it.
 #LIGHT_GREEN#*As she says this she pierces your body with a mighty thrust of her sword, ending the plans of the Way.*#WHITE#
@@ -6178,8 +6166,6 @@ t([[I cannot believe we succeeded. I was prepared to die and yet I live.
 I might have underestimated you. You did more than we could have hoped for!]], [[真不敢相信我们成功了！我准备好去死了但我还活着。
 我可能低估你了，你做了比我们预想的多的多的事情。]], "_t")
 t("We both did.", "我们俩都是。", "_t")
--- new text
---[==[
 t([[<<<The two Sorcerers lie dead before you.
 Their bodies vanish in a small cloud of mist, quickly fading away.
 You feel you the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
@@ -6189,42 +6175,41 @@ You feel you the gentle warmth of your Distant Sun patron. It speaks directly to
 <<<The warmth in your head is getting intense, too intense. You feel your sanity burning away!>>>
 #YELLOW#THROW YOURSELF INTO THE PORTAL! OPEN THE WAY FOR MY POWER TO RADIATE OVER YOUR WORLD! #CRIMSON#DO IT!#LAST#
 <<<Those last words are compelling. You can not resist!>>>
-]], [[<<<The two Sorcerers lie dead before you.
-Their bodies vanish in a small cloud of mist, quickly fading away.
-You feel you the gentle warmth of your Distant Sun patron. It speaks directly to your mind!>>>
-#YELLOW#YOU HAVE DONE WELL %s! YOU DESERVE A REWARD!#LAST#
-<<<You can feel your mind filling with warmth and desire to serve your patron>>>
-#YELLOW#BUT YOU MUST DO ONE MORE TASK!#LAST#
-<<<The warmth in your head is getting intense, too intense. You feel your sanity burning away!>>>
-#YELLOW#THROW YOURSELF INTO THE PORTAL! OPEN THE WAY FOR MY POWER TO RADIATE OVER YOUR WORLD! #CRIMSON#DO IT!#LAST#
-<<<Those last words are compelling. You can not resist!>>>
+]], [[<<<两个魔法师死在你面前。
+他们的尸体化成了一缕青烟消失了。
+你感受到遥远太阳的温暖。它直接在你的脑海中对话!>>>
+#YELLOW#你做的很好 %s！ 你值得奖励！#LAST#
+<<<你感觉你的脑海充满了温暖，以及对服从太阳的渴望。>>>
+#YELLOW#但你还有一项任务!#LAST#
+<<<你脑海里的温暖变得剧烈，过于剧烈。你感觉你的理智快要燃烧殆尽！>>>
+#YELLOW#进入传送门！打开通道，让我的力量辐射到你的世界！ #CRIMSON#快！#LAST#
+<<<这些话语如此有人，你无法抗拒！>>>
 ]], "tformat")
-t("#YELLOW#[sacrifice yourself to bring forth your patron to Eyal!]", "#YELLOW#[sacrifice yourself to bring forth your patron to Eyal!]", "_t")
-t("sacrificing %s to bring the fiery wrath of the Distant Sun", "sacrificing %s to bring the fiery wrath of the Distant Sun", "tformat")
-t("Nnnnnooo! Get.. get out of my head!", "Nnnnnooo! Get.. get out of my head!", "_t")
+t("#YELLOW#[sacrifice yourself to bring forth your patron to Eyal!]", "#YELLOW#[牺牲自己，让遥远的太阳降临埃亚尔世界！]", "_t")
+t("sacrificing %s to bring the fiery wrath of the Distant Sun", "牺牲 %s 以带来遥远太阳的愤怒", "tformat")
+t("Nnnnnooo! Get.. get out of my head!", "不……滚出我的大脑！", "_t")
 t([[<<<The warmth in your mind turns into searing pain!>>>
 #CRIMSON#YOU WILL DO AS YOU ARE TOLD! YOU ARE MY TOOL AND I INTEND TO USE IT!
-]], [[<<<The warmth in your mind turns into searing pain!>>>
-#CRIMSON#YOU WILL DO AS YOU ARE TOLD! YOU ARE MY TOOL AND I INTEND TO USE IT!
+]], [[<<<你脑海里的温暖化作灼热的疼痛！>>>
+#CRIMSON#你会照我说的做！你只是我的工具，遵循我的意志行动！
 ]], "_t")
-t("#LIGHT_GREEN#[sacrifice yourself to bring forth your patron to Eyal!]", "#LIGHT_GREEN#[sacrifice yourself to bring forth your patron to Eyal!]", "_t")
-t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "_t")
-t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, unsure how to stop it.]#WHITE##{bold}#NO!#{normal}#", "#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, unsure how to stop it.]#WHITE##{bold}#NO!#{normal}#", "_t")
+t("#LIGHT_GREEN#[sacrifice yourself to bring forth your patron to Eyal!]", "#LIGHT_GREEN#[牺牲自己，让遥远的太阳降临埃亚尔世界！]", "_t")
+t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "#LIGHT_GREEN#[在最后关头你用意志抵抗了远古太阳几秒钟，向艾琳传递了信息。]#WHITE# 艾琳女士，快杀了我！#{bold}#快！#{normal}#", "_t")
+t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, unsure how to stop it.]#WHITE##{bold}#NO!#{normal}#", "#LIGHT_GREEN#[在最后关头你用意志抵抗了远古太阳几秒钟，但不知道如何阻止它。]#WHITE##{bold}#不！#{normal}#", "_t")
 t([[<<<Through your mind Aeryn sees what the Distant Sun is planning.>>>
 You were a precious ally and a friend. The world will remember your last act of selfless sacrifice. I swear it.
 <<<As she says this she pierces your body with a mighty thrust of her sword, ending the plans of your mad patron.>>>
-]], [[<<<Through your mind Aeryn sees what the Distant Sun is planning.>>>
-You were a precious ally and a friend. The world will remember your last act of selfless sacrifice. I swear it.
-<<<As she says this she pierces your body with a mighty thrust of her sword, ending the plans of your mad patron.>>>
+]], [[<<<通过你的精神力量，艾琳明白了远古太阳的计划。>>>
+你是一位伟大的盟友和罕见的伙伴。我发誓，整个世界都会铭记你的牺牲。
+#LIGHT_GREEN#*一边说，她一边用剑刺入你的身体，终结了疯狂太阳的计划。*#WHITE#
 ]], "_t")
-t("sacrificing %s to stop the mad sun's plans", "sacrificing %s to stop the mad sun's plans", "tformat")
+t("sacrificing %s to stop the mad sun's plans", "牺牲 %s 以阻止疯狂太阳的计划", "tformat")
 t([[<<<The precious seconds fly by, but as you feel your mind breaking and burning you see a strange figure appearing in front of you, it radiates of immense power.>>>
 <<<The strange, amorphous figure in front of you remains completely silent. With a gesture of one of its tendrils, the staff is ripped from your hands. A surge of energy goes through the room as it grips the staff. Then you remember the old myth of the Godslayers. This is none other than a ***Sher'Tul***#{italic}#, and it knows you have been colluding with a god. That alone tells you everything you need to know.>>>
-]], [[<<<The precious seconds fly by, but as you feel your mind breaking and burning you see a strange figure appearing in front of you, it radiates of immense power.>>>
-<<<The strange, amorphous figure in front of you remains completely silent. With a gesture of one of its tendrils, the staff is ripped from your hands. A surge of energy goes through the room as it grips the staff. Then you remember the old myth of the Godslayers. This is none other than a ***Sher'Tul***#{italic}#, and it knows you have been colluding with a god. That alone tells you everything you need to know.>>>
+]], [[<<<珍贵的数秒种飞快地过去，你头痛欲裂燃烧不止的同时，看到前面出现了奇怪的身影，它充满了能量。>>>
+<<<站在你面前的怪异无定形生物保持着沉默。它伸出触手，法杖从你手中脱落。当它握住法杖时，一股能量充满了房间。这时，你想起了关于弑神者的古代传说。这是一个 ***夏图尔人***#{italic}#，它知道你和神明的密谋。这就是你现在需要知道的一切。>>>
 ]], "_t")
-t("#CRIMSON#[Your mind is burnt by your patron sun! Fight for your sun god now!]", "#CRIMSON#[Your mind is burnt by your patron sun! Fight for your sun god now!]", "_t")
---]==]
+t("#CRIMSON#[Your mind is burnt by your patron sun! Fight for your sun god now!]", "#CRIMSON#[你的思维已被遥远太阳灼烧！为太阳神而战！]", "_t")
 
 
 ------------------------------------------------
@@ -20204,15 +20189,13 @@ t("The Gates of Morning have been destroyed and the Sunwall has fallen. The last
 t("The orc presence in the Far East has greatly been diminished by the loss of their leaders and the destruction of the Sorcerers. The free people of the Sunwall will be able to prosper and thrive on this land.", " 失去了恶魔法师和兽人首领的兽人部落人口急剧减少，太阳堡垒的人们得以这片大陆上继续发展、繁荣。", "_t")
 t("Maj'Eyal will once more know peace. Most of its inhabitants will never know they even were on the verge of destruction, but then this is what being a true hero means: to do the right thing even though nobody will know about it.", " 马基埃亚尔再一次回复了和平和宁静，大多数居民也许并不知道他们到了差点毁灭的边缘，不过这正是称之为一个真正的英雄：就算不会被人所知也要去维护正义。", "_t")
 t("You may continue playing and enjoy the rest of the world.", " 你可以继续在这个世界上探险。", "_t")
--- new text
---[==[
-t("Your patron's plan worked. As your body was crushed by the raw forces of the void portal it opened wide. In an instant the connection was made and waves of heat came through.", "Your patron's plan worked. As your body was crushed by the raw forces of the void portal it opened wide. In an instant the connection was made and waves of heat came through.", "_t")
-t("The mad sun brought forth all its power through the portal, turning the High Peak into a giant searing needle!", "The mad sun brought forth all its power through the portal, turning the High Peak into a giant searing needle!", "_t")
-t("A few minutes later the whole world was set ablaze, nothing survived except Faeros elementals.", "A few minutes later the whole world was set ablaze, nothing survived except Faeros elementals.", "_t")
-t("In the aftermath of the battle the Distant Sun tried to force you to open the portal to bring it forth onto Eyal.", "In the aftermath of the battle the Distant Sun tried to force you to open the portal to bring it forth onto Eyal.", "_t")
-t("Through an incredible display of willpower you resisted for a few decisive seconds. During this time a Sher'tul appeared, took the Staff and killed you.", "Through an incredible display of willpower you resisted for a few decisive seconds. During this time a Sher'tul appeared, took the Staff and killed you.", "_t")
-t("Though you succumbed to the fight, your mind was already gone, burnt to ashes by your mad patron sun. But the world was saved.", "Though you succumbed to the fight, your mind was already gone, burnt to ashes by your mad patron sun. But the world was saved.", "_t")
---]==]
+
+t("Your patron's plan worked. As your body was crushed by the raw forces of the void portal it opened wide. In an instant the connection was made and waves of heat came through.", "你的同伴的计划成功了。当你的身体被虚空传送门的原始力量撕裂时，它开始扩张。连接立刻建立，他携着热浪滚滚而来。", "_t")
+t("The mad sun brought forth all its power through the portal, turning the High Peak into a giant searing needle!", "疯狂的太阳带着所有力量穿越了传送门，将巅峰化为一根灼烧的巨针！", "_t")
+t("A few minutes later the whole world was set ablaze, nothing survived except Faeros elementals.", "几分钟后，整个世界都被点燃，除了法罗元素，没有任何幸存者。", "_t")
+t("In the aftermath of the battle the Distant Sun tried to force you to open the portal to bring it forth onto Eyal.", "遥远的太阳尝试逼迫你开启传送门，以降临埃亚尔大陆，而你奋力反抗，受到重创。", "_t")
+t("Through an incredible display of willpower you resisted for a few decisive seconds. During this time a Sher'tul appeared, took the Staff and killed you.", "你以惊人的意志力抵抗了关键的数秒，夏图尔人出现了，取走了法杖并杀死了你。", "_t")
+t("Though you succumbed to the fight, your mind was already gone, burnt to ashes by your mad patron sun. But the world was saved.", "虽然你最终屈服了，思维消散，被疯狂的太阳烧成灰烬。但世界被拯救了。", "_t")
 
 -- untranslated text
 --[==[
@@ -21014,11 +20997,8 @@ t([[Your weapon attacks burn with righteous fury, dealing %d%% of your lost HP a
 		每回合最多触发一次额外伤害。]], "tformat")
 t("Second Life", "第二生命", "talent name")
 t("Any attack that would drop you below 1 hit point instead triggers Second Life, deactivating the talent, setting your hit points to 1, then healing you for %d.", "任何使你生命值降到 1 点以下的攻击都会激活第二生命，自动中断此技能并将你的生命值恢复到 1 点,然后受到 %d 点治疗。", "tformat")
--- new text
---[==[
-t("Gravitic Effulgence", "Gravitic Effulgence", "talent name")
-t("Your Weapon of Light nows pulls in all foes in radius 5.", "Your Weapon of Light nows pulls in all foes in radius 5.", "tformat")
---]==]
+t("Gravitic Effulgence", "光辉引力", "talent name")
+t("Your Weapon of Light nows pulls in all foes in radius 5.", "你的光明之刃现在将5格范围内的敌人拉过来。", "tformat")
 
 
 ------------------------------------------------
@@ -21265,11 +21245,8 @@ t([[You demonstrate your dedication to the light with a measured attack striking
 			If the second strike connects you are cleansed of %d debuffs.]], [[你用武器攻击造成 %d%% 光系伤害，再用盾牌攻击造成 %d%% 光系伤害。
 			如果第一次攻击命中，随机 %d 个技能冷却时间减少1回合 。
 			如果第二次攻击命中，除去你身上至多 %d 个 debuff。]], "tformat")
--- new text
---[==[
-t("Avatar Distant Sun Unlock Checker", "Avatar Distant Sun Unlock Checker", "talent name")
-t("#CRIMSON#As your \"talk\" with the star ends, you feel its power, the whole area around you erupts in flames, burning your foes to cinders!", "#CRIMSON#As your \"talk\" with the star ends, you feel its power, the whole area around you erupts in flames, burning your foes to cinders!", "log")
---]==]
+t("Avatar Distant Sun Unlock Checker", "远日化身解锁检查", "talent name")
+t("#CRIMSON#As your \"talk\" with the star ends, you feel its power, the whole area around you erupts in flames, burning your foes to cinders!", "#CRIMSON#当你和星星的\"交谈\"结束后，你感受到了它的力量，火焰在你周围爆发，将敌人烧成灰烬！", "log")
 
 
 ------------------------------------------------
@@ -31564,13 +31541,11 @@ t([[A strong body is key to a strong mind, and a strong mind can be powerful eno
 		Additionally, you treat all weapons as having an additional 40%% Willpower modifier.]], [[强壮的身体才能承载强大的灵魂。而强大的灵魂却可以创造一个强壮的身体。
 		获得相当于你 60%% 力量值的精神强度增益。
 		此外，你的所有武器都会有额外的 40%% 意志修正加成。]], "tformat")
--- new text
---[==[
-t("Avatar of a Distant Sun", "Avatar of a Distant Sun", "talent name")
-t("Unlocked the evolution", "Unlocked the evolution", "_t")
-t("Found a distant patron", "Found a distant patron", "_t")
-t("Avatar of a Distant Sun", "Avatar of a Distant Sun", "_t")
-t("Distant Sun", "Distant Sun", "_t")
+t("Avatar of a Distant Sun", "远日化身", "talent name")
+t("Unlocked the evolution", "解锁进阶", "_t")
+t("Found a distant patron", "找到一个遥远的支持者", "_t")
+t("Avatar of a Distant Sun", "远日化身", "_t")
+t("Distant Sun", "遥远的太阳", "_t")
 t([[During your studies of celestial forces you came in contact with an entity far beyond Eyal: the living incarnation of a Star!
 		By allying yourself with it you can gain its power!
 
@@ -31583,20 +31558,19 @@ t([[During your studies of celestial forces you came in contact with an entity f
 		- If you also know #GOLD#Irresistible Sun#LAST#, it will set the fire and light resistances of those affected to 0%%
 
 		#{italic}##GOLD#Will you bind yourself to the Distant Sun?#{normal}#
-		]], [[During your studies of celestial forces you came in contact with an entity far beyond Eyal: the living incarnation of a Star!
-		By allying yourself with it you can gain its power!
+		]], [[在学习太阳的力量时，你接触到了距离埃亚尔大陆极其遥远的存在：一个活着的星星化身！
+        和它同盟，你将获得它的力量。
 
-		Grants multiple benefits:
-		- The strength of your bond is so strong that you can now #GOLD#wield a two-handed weapon and a shield together#LAST#
-		- 50%% of all damage you deal is converted to #GOLD#light damage#LAST#
-		- #GOLD#Gravitic Effulgence#LAST#: whenever your Weapon of Light hits the damage is now a radius 2 sphere and all foes in range 5 are drawn to it. (You can toggle this effect)
-		- The damage and chance to trigger of #GOLD#Searing Sight#LAST# is doubled
-		- Whenever #GOLD#Sun's Vengeance#LAST# triggers the remaining cooldown of Judgement is reduced by 6.
-		- If you also know #GOLD#Irresistible Sun#LAST#, it will set the fire and light resistances of those affected to 0%%
+        增益：
+        - 你的力量如此强大，你可以#GOLD#同时装备双手武器和盾牌#LAST#
+        - 50% 伤害转化为 #GOLD#光系伤害#LAST#
+        - #GOLD#光辉引力#LAST#： 光明之刃变成半径2的球形伤害，且可以将5格范围内的敌人拉过来。
+        - #GOLD#灼烧#LAST# 的伤害和触发概率翻倍
+        - #GOLD#阳光之怒#LAST# 触发时，审判的剩余冷却时间减少6回合。
+        - #GOLD#无御之日#LAST# 将使光系和火焰伤害抗性降低为0%
 
-		#{italic}##GOLD#Will you bind yourself to the Distant Sun?#{normal}#
+		#{italic}##GOLD#你会同遥远的太阳联合吗？#{normal}#
 		]], "tformat")
---]==]
 
 
 ------------------------------------------------
@@ -34271,9 +34245,7 @@ Class evolutions are selected as prodigies and grant new ways to build and expan
 section "mod-tome/data/texts/unlock-paladin_avatar.lua"
 
 
--- new text
---[==[
-t("New Class Evolution: #LIGHT_GREEN#Avatar of a Distant Sun (Sun Paladin)", "New Class Evolution: #LIGHT_GREEN#Avatar of a Distant Sun (Sun Paladin)", "_t")
+t("New Class Evolution: #LIGHT_GREEN#Avatar of a Distant Sun (Sun Paladin)", "新职业进阶： #LIGHT_GREEN#远日化身（太阳骑士）", "_t")
 t([[You have been contacted by a sentient star, far away from Eyal. It wants to help you on your journey!
 
 You have unlocked the #LIGHT_GREEN#Avatar of a Distant Sun class evolution#WHITE# for Sun Paladins.
@@ -34287,21 +34259,20 @@ Features:
 - Interacts with #GOLD#Irresistible Sun#LAST#
 
 Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
-]], [[You have been contacted by a sentient star, far away from Eyal. It wants to help you on your journey!
+]],[[你曾经联系过一颗距离埃亚尔大陆极其遥远的星球。它希望能在你的旅途中帮到你！
 
-You have unlocked the #LIGHT_GREEN#Avatar of a Distant Sun class evolution#WHITE# for Sun Paladins.
+你现在解锁了太阳骑士的 #LIGHT_GREEN#远日化身职业进阶#WHITE#。
 
-Features:
-- #GOLD#Wield a two-handed weapon and a shield together#LAST#
-- 50% of all damage dealt is converted to #GOLD#light damage#LAST#
-- #GOLD#Gravitic Effulgence#LAST#: whenever Weapon of Light hits the damage is now a radius 2 sphere and all foes in range 5 are drawn to it
-- The damage and chance to trigger of #GOLD#Searing Sight#LAST# is doubled
-- Whenever #GOLD#Sun's Vengeance#LAST# triggers the remaining cooldown of Judgement is reduced by 6
-- Interacts with #GOLD#Irresistible Sun#LAST#
+特性：
+- #GOLD#可以同时装备双手武器和盾牌#LAST#
+- 50% 伤害转化为 #GOLD#光系伤害#LAST#
+- #GOLD#光辉引力#LAST#： 光明之刃变成半径2的球形伤害，且可以将5格范围内的敌人拉过来。
+- #GOLD#灼烧#LAST# 的伤害和触发概率翻倍
+- #GOLD#阳光之怒#LAST# 触发时，审判的剩余冷却时间减少6回合。
+- #GOLD#无御之日#LAST# 拥有额外效果。
 
-Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
+职业进阶是一种觉醒技，它们可以给予你新的方法来强化你的职业。只有相关的职业才能看到它们。
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
@@ -34585,23 +34556,20 @@ Race features:#YELLOW#
 section "mod-tome/data/texts/unlock-wanderer.lua"
 
 
--- new text
---[==[
-t("New Class: #LIGHT_GREEN#Wanderer", "New Class: #LIGHT_GREEN#Wanderer", "_t")
+t("New Class: #LIGHT_GREEN#Wanderer", "新职业： #LIGHT_GREEN#流浪者", "_t")
 t([[You have wanderer quite a lot since your birth!
 You can now create new characters with the #LIGHT_GREEN#Wanderer class#WHITE#.
 
 Wanderers start the game with 3 randomly selected class trees, 1 randomly selected generic tree and Combat Training.
 Every 5 levels the gain a new random class tree and every 10 levels they gain a new generic tree.
 They are a #{bold}#bonus#{normal}# class, in no way meant to be balanced or even working with all possible talent combos.
-Use at your own risk, and have fun.]], [[You have wanderer quite a lot since your birth!
-You can now create new characters with the #LIGHT_GREEN#Wanderer class#WHITE#.
+Use at your own risk, and have fun.]], [[从出生以来，你已旅行过许多地方！
+现在你在创建人物时可以选择新的职业： #LIGHT_GREEN# 流浪者 #WHITE#。
 
-Wanderers start the game with 3 randomly selected class trees, 1 randomly selected generic tree and Combat Training.
-Every 5 levels the gain a new random class tree and every 10 levels they gain a new generic tree.
-They are a #{bold}#bonus#{normal}# class, in no way meant to be balanced or even working with all possible talent combos.
-Use at your own risk, and have fun.]], "_t")
---]==]
+流浪者开始游戏时拥有三系随机职业技能，一系随机通用技能，以及战斗训练系。
+每升五级将获得额外一系随机职业技能，每升10级将获得额外一系随机通用技能。
+他们是一种 #{bold}# 奖励 #{normal}# 职业 ，没有经过任何的平衡测试，也不保证技能可用。
+风险自负，游戏愉快。]], "_t")
 
 
 ------------------------------------------------
@@ -35760,11 +35728,7 @@ t("gravity", "重力", "effect subtype")
 t("Devourer Stance", "势吞干戈", "_t")
 t("The target is storing up healing energy, currently %d", "目标正积蓄治疗能量，当前 %d 点", "tformat")
 t("The target is redirecting energy, adding %d gravity damage to their attacks.%s", "目标正在调度能量，每次攻击额外造成 %d 重力伤害。%s", "tformat")
--- new text
---[==[
-t(" Due to facing an Avatar of a Distant Sun, fire and light resistances are reduced to 0%.", " Due to facing an Avatar of a Distant Sun, fire and light resistances are reduced to 0%.", "_t")
-t("plop", "plop", "log")
---]==]
+t(" Due to facing an Avatar of a Distant Sun, fire and light resistances are reduced to 0%.", " 面对远日化身，火焰和光系伤害抗性降为0%。", "_t")
 
 -- untranslated text
 --[==[
@@ -36821,14 +36785,11 @@ t("#CRIMSON##Target#'s wound has closed.", "#CRIMSON##Target#的伤口闭合了�
 t("-Self-Judgement", "-自裁", "_t")
 t("died a well-deserved death by exsanguination", "因失血过多而死", "_t")
 t("#CRIMSON#%d Bleed #LAST#", "#CRIMSON#%d 流血 #LAST#", "tformat")
--- new text
---[==[
-t("Weakdamage Mode", "Weakdamage Mode", "_t")
-t("All damage reduced to -90%%.", "All damage reduced to -90%%.", "tformat")
-t("dirge", "dirge", "effect subtype")
-t("Pestilence Saturation", "Pestilence Saturation", "_t")
-t("The target recently benefited from Dirge of Pestilence", "The target recently benefited from Dirge of Pestilence", "_t")
---]==]
+t("Weakdamage Mode", "低伤害模式", "_t")
+t("All damage reduced to -90%%.", "所有伤害加成减少至-90%%。", "tformat")
+t("dirge", "挽歌", "effect subtype")
+t("Pestilence Saturation", "瘟疫饱和", "_t")
+t("The target recently benefited from Dirge of Pestilence", "目标最近受到了瘟疫挽歌的增益效果。", "_t")
 
 -- untranslated text
 --[==[
@@ -37656,12 +37617,9 @@ t("#LIGHT_BLUE#%s evades the effect '%s'!", "#LIGHT_BLUE#%s躲闪了效果“%s�
 t("Brutalized", "暴行", "_t")
 t("+Brutalized", "+暴行", "_t")
 t("-Brutalized", "-暴行", "_t")
--- new text
---[==[
-t("The target is brutalized, reducing bleed resist by 50%%.", "The target is brutalized, reducing bleed resist by 50%%.", "tformat")
-t("#Target# is brutalized!", "#Target# is brutalized!", "_t")
-t("#Target# is not brutalized anymore.", "#Target# is not brutalized anymore.", "_t")
---]==]
+t("The target is brutalized, reducing bleed resist by 50%%.", "目标承受了暴行，流血免疫减少 50%%。", "tformat")
+t("#Target# is brutalized!", "#Target#承受了暴行!", "_t")
+t("#Target# is not brutalized anymore.", "#Target# 不再承受暴行。", "_t")
 
 -- untranslated text
 --[==[
@@ -41428,11 +41386,8 @@ t("Sustained", "持续技能", "_t")
 t("Passive", "被动技能", "_t")
 t("Character dump complete", "玩家数据导出完成", "_t")
 t("File: %s", "文件：%s", "tformat")
--- new text
---[==[
-t("- Seed: #LIGHT_STEEL_BLUE#%s", "- Seed: #LIGHT_STEEL_BLUE#%s", "tformat")
-t("Click to copy to clipboard. You can share the wanderer seed with your friends, this way they can play with the same set of talents.", "Click to copy to clipboard. You can share the wanderer seed with your friends, this way they can play with the same set of talents.", "_t")
---]==]
+t("- Seed: #LIGHT_STEEL_BLUE#%s", "- 种子： #LIGHT_STEEL_BLUE#%s", "tformat")
+t("Click to copy to clipboard. You can share the wanderer seed with your friends, this way they can play with the same set of talents.", "点击复制。你可以将流浪者随机种子分享给朋友，这样你们可以用同一套技能组合进行游玩。", "_t")
 
 -- untranslated text
 --[==[
@@ -42382,20 +42337,17 @@ t("", "", "_t")
 section "mod-tome/dialogs/WandererSeed.lua"
 
 
--- new text
---[==[
-t("Wanderer Options", "Wanderer Options", "_t")
+t("Wanderer Options", "流浪者选项", "_t")
 t([[Welcome, wandering one! The Wanderer class uses a randomly selected set of talent trees.
-You can now choose how this set is selected:]], [[Welcome, wandering one! The Wanderer class uses a randomly selected set of talent trees.
-You can now choose how this set is selected:]], "_t")
-t("Simply make a random set of trees, this is the default option. If you want to share it with friends, you will find the seed in the character's sheet later on.", "Simply make a random set of trees, this is the default option. If you want to share it with friends, you will find the seed in the character's sheet later on.", "_t")
-t("If an other player gave you a seed to play, you can enter it here. Do note that while a seed will always work, you will only get the same talents set if you use the same DLC/addons.", "If an other player gave you a seed to play, you can enter it here. Do note that while a seed will always work, you will only get the same talents set if you use the same DLC/addons.", "_t")
-t("Play!", "Play!", "_t")
-t("#{bold}##ANTIQUE_WHITE#Random#{normal}##LAST#", "#{bold}##ANTIQUE_WHITE#Random#{normal}##LAST#", "_t")
-t("#{bold}##ANTIQUE_WHITE#Seed#{normal}##LAST#", "#{bold}##ANTIQUE_WHITE#Seed#{normal}##LAST#", "_t")
-t("Wanderer Seed", "Wanderer Seed", "_t")
-t("The wanderer seed you used was generated for a different set of DLC/addons. Your character will still work fine but you may not have the same talent set as the person that shared the seed with you.", "The wanderer seed you used was generated for a different set of DLC/addons. Your character will still work fine but you may not have the same talent set as the person that shared the seed with you.", "_t")
---]==]
+You can now choose how this set is selected:]], [[欢迎，流浪者! 流浪者职业具有随机的技能树。
+现在你将选择随机模式：]], "_t")
+t("Simply make a random set of trees, this is the default option. If you want to share it with friends, you will find the seed in the character's sheet later on.", "完全随机，这也是默认选项。稍后你可以在角色面板中找到随机种子以分享给朋友。", "_t")
+t("If an other player gave you a seed to play, you can enter it here. Do note that while a seed will always work, you will only get the same talents set if you use the same DLC/addons.", "如果其他玩家给你随机种子，可以在此输入。注意，虽然种子通常都可以生效，但你需要开启和他一样的DLC/插件才能保证具有相同的技能树组合。", "_t")
+t("Play!", "开始游戏！", "_t")
+t("#{bold}##ANTIQUE_WHITE#Random#{normal}##LAST#", "#{bold}##ANTIQUE_WHITE#随机模式#{normal}##LAST#", "_t")
+t("#{bold}##ANTIQUE_WHITE#Seed#{normal}##LAST#", "#{bold}##ANTIQUE_WHITE#种子模式#{normal}##LAST#", "_t")
+t("Wanderer Seed", "流浪者随机种子", "_t")
+t("The wanderer seed you used was generated for a different set of DLC/addons. Your character will still work fine but you may not have the same talent set as the person that shared the seed with you.", "你使用的随机种子和你开启的DLC/插件不匹配。你的角色仍然可以游玩，但可能不会拥有和分享种子的玩家相同的技能树组合。", "_t")
 
 
 ------------------------------------------------
@@ -42569,11 +42521,8 @@ t("Spawn Event", "触发事件", "_t")
 t("Endgamify", "游戏后期", "_t")
 t("Reload/regenerate Zone and level", "重新加载/重新生成地图和楼层", "_t")
 t("Automatically Clear Zones", "自动清图", "_t")
--- new text
---[==[
-t("#LIGHT_BLUE#Weakdamage mode OFF", "#LIGHT_BLUE#Weakdamage mode OFF", "log")
-t("#LIGHT_BLUE#Weakdamage mode ON", "#LIGHT_BLUE#Weakdamage mode ON", "log")
---]==]
+t("#LIGHT_BLUE#Weakdamage mode OFF", "#LIGHT_BLUE#伤害减弱模式关闭", "log")
+t("#LIGHT_BLUE#Weakdamage mode ON", "#LIGHT_BLUE#伤害模式减弱开启", "log")
 
 
 ------------------------------------------------

@@ -324,6 +324,7 @@ t("Lead the way.", "带路吧。", "_t")
 ------------------------------------------------
 section "tome-orcs/data/chats/destructicus.lua"
 
+t("DESTRUCTICUS!", "“毁天灭地！”", "_t")
 t("Fire Imp", "火焰小鬼", "_t")
 t("Steam Giant Airship", "蒸汽巨人飞船", "_t")
 t("#LIGHT_GREEN#*#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# stands before you, and as much as it pains you to admit it, Kaltor's advertisement wasn't flattering enough.  This may be the most unreasonably lethal device you've ever seen.  The sunlight, gleaming off its voratun body, seems dull compared to the intensely glowing mass of unstable runes on its tip; its surface has the ornate grooves of a metal that has been psionically reforged through hours of migraine-inducing concentration.  The bayonet mounted on the launching tube just seems like gloating.  This particular model appears to be equipped with an enclosed, fireproof booth around its control panel, and a built-in tea dispenser in said booth, which your fellow orcs have already taken the liberty of filling with looted Dwarven ale.  It is truly a thing of beauty.*#WHITE#", "#LIGHT_GREEN#*#{bold}#裂天者 毁灭号#{normal}# 站在你面前，让你痛苦地承认，卡托尔的广告并不全是垃圾。这是你见过的最无端致命的设备。阳光照耀在它的沃瑞钽躯壳上，在它边缘上镶嵌的强大而不稳定的符文面前黯然失色;它的表面有着金属历经数个小时精心打磨而成的华丽沟槽，在发射管上搭载的刺刀能轻盈地上下游走。控制组件上环绕着一层密封的防火隔间，操作室内建的自动饮水机还能提供矮人的佳酿。这简直就是美的化身。*#WHITE#", "_t")
@@ -7708,6 +7709,7 @@ t("Entrance to the Steam Quarry", "蒸汽采石场入口", "entity name")
 t("Entrance to the Palace of Fumes", "烟雾宫殿入口", "entity name")
 t("Way into a primal forest", "通往原始森林的路", "entity name")
 t("DESTRUCTICUS!", "“毁天灭地！”", "entity name")
+t("DESTRUCTICUS!", "“毁天灭地！”", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/yeti-caves/grids.lua"

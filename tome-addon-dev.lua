@@ -61,6 +61,11 @@ t("Extracting text", "提取游戏文本", "_t")
 t("Processing source code of %s", "正在处理 %s 的源代码", "tformat")
 t("Success", "成功", "_t")
 t("Translation text extracted.", "已提取游戏文本。", "_t")
+-- untranslated text
+--[==[
+t("error reading file %s", "error reading file %s", "log")
+--]==]
+
 
 ------------------------------------------------
 section "tome-addon-dev/overload/engine/i18nhelper/FSHelper.lua"

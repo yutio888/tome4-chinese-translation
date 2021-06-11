@@ -2743,13 +2743,13 @@ t("Won ToME by preventing the Void portal from opening.", "成功阻止虚空传
 t("The High Lady's destiny", "至高女士的命运", "achievement name")
 t("Won ToME by closing the Void portal using Aeryn as a sacrifice.", "以艾琳的牺牲来阻止虚空传送门，通关ToME。", "_t")
 t("The Sun Still Shines", "阳光依旧灿烂", "achievement name")
-t("Aeryn survived the last battle.", "太阳骑士亚伦在最后一战存活。", "_t")
+t("Aeryn survived the last battle.", "太阳骑士艾琳在最后一战存活。", "_t")
 t("Selfless", "无私奉献", "achievement name")
 t("Won ToME by closing the Void portal using yourself as a sacrifice.", "以自己的牺牲来阻止虚空传送门，通关ToME。", "_t")
 t("Triumph of the Way", "维网的凯歌", "achievement name")
 t("Won ToME by sacrificing yourself to forcefully spread the Way to every other sentient being on Eyal.", "以自己的牺牲来换取维网在埃亚尔的传递，通关ToME。", "_t")
 t("No Way!", "我拒绝！", "achievement name")
-t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the Way to enslave every sentient being on Eyal.", "关闭虚空传送门并让自己被亚伦杀死以防止维网控制埃亚尔所有生物，通关ToME。", "_t")
+t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the Way to enslave every sentient being on Eyal.", "关闭虚空传送门并让自己被艾琳杀死以防止维网控制埃亚尔所有生物，通关ToME。", "_t")
 t("Tactical master", "战术大师", "achievement name")
 t("Fought the two Sorcerers without closing any invocation portals.", "在不关闭传送门的情况下，杀死2名巫师。", "_t")
 t("Portal destroyer", "传送门毁灭者", "achievement name")
@@ -2831,9 +2831,9 @@ t("Destroyed the corrupted oozemancer.", "杀死堕落的粘液使者。", "_t")
 t("Lucky Girl", "幸运女孩", "achievement name")
 t("Saved Melinda again and invited her to the Fortress to cure her.", "再次拯救梅琳达并邀请她到堡垒去。", "_t")
 t("This is how the world ends: swallowed in fire, but not in darkness.", "这就是世界终结的方式：并非被黑暗，而是被火焰吞噬。", "achievement name")
-t("\"Won\" ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.", "以牺牲自己，为遥远的太阳打开传送门，灼烧并毁灭整个世界的方式，\"胜利通关\"ToME。", "_t")
+t("\"Won\" ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.", "以牺牲自己，为遥远的太阳打开传送门，灼烧并毁灭整个世界的方式，\"通关\"ToME。", "_t")
 t("Last Instant of Sanity", "理智，在最后一刻", "achievement name")
-t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent your mad patron sun from burning the world in a searing flash.", "关闭虚空传送门并让自己被亚伦杀死，以防止疯狂的太阳烧毁整个世界，通关ToME。", "_t")
+t("Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent your mad patron sun from burning the world in a searing flash.", "关闭虚空传送门并让自己被艾琳杀死，以防止疯狂的太阳烧毁整个世界，通关ToME。", "_t")
 t("They Came Back For Eyal", "他们为埃亚尔而归", "achievement name")
 t("Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.", "感谢夏图尔人在最后一刻阻止了你为疯狂的太阳开启传送门，通关ToME。", "_t")
 
@@ -4690,7 +4690,7 @@ section "mod-tome/data/chats/avatar-distant-sun-unlock.chat"
 t("Uhh, okay. Sure. Mind showing me?", "啊，好的，行啊，不介意的话就展示给我看吧？", "chat")
 t([[<<<You feel a gentle warmth in your mind. Something speaks directly to your mind!>>>
 #YELLOW#HELLO FRIEND. I AM A STAR FROM FAR AWAY. I HAVE HEARD YOU PRAISING YOUR SUN. WHY NOT PRAISE ME INSTEAD? I AM A MUCH BETTER SUN THAN THAT DULL, LIFELESS GAS ORB IN YOUR VICINITY. PLEASE, ALLOW ME TO DEMONSTRATE MY GOOD INTENTIONS.]], [[<<<你在脑海中感受到温暖，有什么东西直接在你脑海中对话！>>>
-#YELLOW#你好啊朋友。我是一颗遥远的星球。我听到了你赞美太阳的声音。为什么不赞美我呢？ 相比于你附近那颗了无生趣的气态球体，我作为太阳要好得啊。可以的话，请允许我向你展示我的善意。]], "chat")
+#YELLOW#你好啊朋友。我是一颗遥远的恒星。我听到了你赞美太阳的声音。为什么不赞美我呢？ 相比于你附近那颗了无生趣的气态球体，我作为太阳要好得啊。可以的话，请允许我向你展示我的善意。]], "chat")
 t("I don't take unsolicited messages from... stars.", "我不接受来自……星星的自荐消息。", "chat")
 t("#YELLOW#YOU ONLY HAD TO ASK, MY FRIEND.", "#YELLOW#如你所愿，我的朋友。", "chat")
 t("#CRIMSON#[The area around you erupts in flames, burning your foes]", "#CRIMSON#[火焰在你周围爆发，灼烧你的敌人。]", "chat")
@@ -6183,7 +6183,7 @@ You feel you the gentle warmth of your Distant Sun patron. It speaks directly to
 #YELLOW#但你还有一项任务!#LAST#
 <<<你脑海里的温暖变得剧烈，过于剧烈。你感觉你的理智快要燃烧殆尽！>>>
 #YELLOW#进入传送门！打开通道，让我的力量辐射到你的世界！ #CRIMSON#快！#LAST#
-<<<这些话语如此有人，你无法抗拒！>>>
+<<<这些话语如此诱人，你无法抗拒！>>>
 ]], "tformat")
 t("#YELLOW#[sacrifice yourself to bring forth your patron to Eyal!]", "#YELLOW#[牺牲自己，让遥远的太阳降临埃亚尔世界！]", "_t")
 t("sacrificing %s to bring the fiery wrath of the Distant Sun", "牺牲 %s 以带来遥远太阳的愤怒", "tformat")
@@ -6194,12 +6194,12 @@ t([[<<<The warmth in your mind turns into searing pain!>>>
 #CRIMSON#你会照我说的做！你只是我的工具，遵循我的意志行动！
 ]], "_t")
 t("#LIGHT_GREEN#[sacrifice yourself to bring forth your patron to Eyal!]", "#LIGHT_GREEN#[牺牲自己，让遥远的太阳降临埃亚尔世界！]", "_t")
-t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "#LIGHT_GREEN#[在最后关头你用意志抵抗了远古太阳几秒钟，向艾琳传递了信息。]#WHITE# 艾琳女士，快杀了我！#{bold}#快！#{normal}#", "_t")
-t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, unsure how to stop it.]#WHITE##{bold}#NO!#{normal}#", "#LIGHT_GREEN#[在最后关头你用意志抵抗了远古太阳几秒钟，但不知道如何阻止它。]#WHITE##{bold}#不！#{normal}#", "_t")
+t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, letting you project your thoughts to Aeryn.]#WHITE# High Lady! Kill me #{bold}#NOW#{normal}#", "#LIGHT_GREEN#[在最后关头你用意志抵抗了遥远太阳几秒钟，向艾琳传递了信息。]#WHITE# 艾琳女士，快杀了我！#{bold}#快！#{normal}#", "_t")
+t("#LIGHT_GREEN#[In a last incredible display of willpower you fight the Distant Sun for a few seconds, unsure how to stop it.]#WHITE##{bold}#NO!#{normal}#", "#LIGHT_GREEN#[在最后关头你用意志抵抗了遥远太阳几秒钟，但不知道如何阻止它。]#WHITE##{bold}#不！#{normal}#", "_t")
 t([[<<<Through your mind Aeryn sees what the Distant Sun is planning.>>>
 You were a precious ally and a friend. The world will remember your last act of selfless sacrifice. I swear it.
 <<<As she says this she pierces your body with a mighty thrust of her sword, ending the plans of your mad patron.>>>
-]], [[<<<通过你的精神力量，艾琳明白了远古太阳的计划。>>>
+]], [[<<<通过你的精神力量，艾琳明白了遥远太阳的计划。>>>
 你是一位伟大的盟友和罕见的伙伴。我发誓，整个世界都会铭记你的牺牲。
 #LIGHT_GREEN#*一边说，她一边用剑刺入你的身体，终结了疯狂太阳的计划。*#WHITE#
 ]], "_t")
@@ -20190,7 +20190,7 @@ t("The orc presence in the Far East has greatly been diminished by the loss of t
 t("Maj'Eyal will once more know peace. Most of its inhabitants will never know they even were on the verge of destruction, but then this is what being a true hero means: to do the right thing even though nobody will know about it.", " 马基埃亚尔再一次回复了和平和宁静，大多数居民也许并不知道他们到了差点毁灭的边缘，不过这正是称之为一个真正的英雄：就算不会被人所知也要去维护正义。", "_t")
 t("You may continue playing and enjoy the rest of the world.", " 你可以继续在这个世界上探险。", "_t")
 
-t("Your patron's plan worked. As your body was crushed by the raw forces of the void portal it opened wide. In an instant the connection was made and waves of heat came through.", "你的同伴的计划成功了。当你的身体被虚空传送门的原始力量撕裂时，它开始扩张。连接立刻建立，他携着热浪滚滚而来。", "_t")
+t("Your patron's plan worked. As your body was crushed by the raw forces of the void portal it opened wide. In an instant the connection was made and waves of heat came through.", "你主人的计划成功了。当你的身体被虚空传送门的原始力量撕裂时，它开始扩张。连接立刻建立，他携着热浪滚滚而来。", "_t")
 t("The mad sun brought forth all its power through the portal, turning the High Peak into a giant searing needle!", "疯狂的太阳带着所有力量穿越了传送门，将巅峰化为一根灼烧的巨针！", "_t")
 t("A few minutes later the whole world was set ablaze, nothing survived except Faeros elementals.", "几分钟后，整个世界都被点燃，除了法罗元素，没有任何幸存者。", "_t")
 t("In the aftermath of the battle the Distant Sun tried to force you to open the portal to bring it forth onto Eyal.", "遥远的太阳尝试逼迫你开启传送门，以降临埃亚尔大陆，而你奋力反抗，受到重创。", "_t")
@@ -21245,8 +21245,8 @@ t([[You demonstrate your dedication to the light with a measured attack striking
 			If the second strike connects you are cleansed of %d debuffs.]], [[你用武器攻击造成 %d%% 光系伤害，再用盾牌攻击造成 %d%% 光系伤害。
 			如果第一次攻击命中，随机 %d 个技能冷却时间减少1回合 。
 			如果第二次攻击命中，除去你身上至多 %d 个 debuff。]], "tformat")
-t("Avatar Distant Sun Unlock Checker", "远日化身解锁检查", "talent name")
-t("#CRIMSON#As your \"talk\" with the star ends, you feel its power, the whole area around you erupts in flames, burning your foes to cinders!", "#CRIMSON#当你和星星的\"交谈\"结束后，你感受到了它的力量，火焰在你周围爆发，将敌人烧成灰烬！", "log")
+t("Avatar Distant Sun Unlock Checker", "日耀神使解锁检查", "talent name")
+t("#CRIMSON#As your \"talk\" with the star ends, you feel its power, the whole area around you erupts in flames, burning your foes to cinders!", "#CRIMSON#当你和遥远恒星的\"交谈\"结束后，你感受到了它的力量，火焰在你周围爆发，将敌人烧成灰烬！", "log")
 
 
 ------------------------------------------------
@@ -31541,10 +31541,10 @@ t([[A strong body is key to a strong mind, and a strong mind can be powerful eno
 		Additionally, you treat all weapons as having an additional 40%% Willpower modifier.]], [[强壮的身体才能承载强大的灵魂。而强大的灵魂却可以创造一个强壮的身体。
 		获得相当于你 60%% 力量值的精神强度增益。
 		此外，你的所有武器都会有额外的 40%% 意志修正加成。]], "tformat")
-t("Avatar of a Distant Sun", "远日化身", "talent name")
+t("Avatar of a Distant Sun", "日耀神使", "talent name")
 t("Unlocked the evolution", "解锁进阶", "_t")
 t("Found a distant patron", "找到一个遥远的支持者", "_t")
-t("Avatar of a Distant Sun", "远日化身", "_t")
+t("Avatar of a Distant Sun", "日耀神使", "_t")
 t("Distant Sun", "遥远的太阳", "_t")
 t([[During your studies of celestial forces you came in contact with an entity far beyond Eyal: the living incarnation of a Star!
 		By allying yourself with it you can gain its power!
@@ -31558,7 +31558,7 @@ t([[During your studies of celestial forces you came in contact with an entity f
 		- If you also know #GOLD#Irresistible Sun#LAST#, it will set the fire and light resistances of those affected to 0%%
 
 		#{italic}##GOLD#Will you bind yourself to the Distant Sun?#{normal}#
-		]], [[在学习太阳的力量时，你接触到了距离埃亚尔大陆极其遥远的存在：一个活着的星星化身！
+		]], [[在学习太阳的力量时，你接触到了距离埃亚尔大陆极其遥远的存在：一颗恒星的化身！
         和它同盟，你将获得它的力量。
 
         增益：
@@ -34245,7 +34245,7 @@ Class evolutions are selected as prodigies and grant new ways to build and expan
 section "mod-tome/data/texts/unlock-paladin_avatar.lua"
 
 
-t("New Class Evolution: #LIGHT_GREEN#Avatar of a Distant Sun (Sun Paladin)", "新职业进阶： #LIGHT_GREEN#远日化身（太阳骑士）", "_t")
+t("New Class Evolution: #LIGHT_GREEN#Avatar of a Distant Sun (Sun Paladin)", "新职业进阶： #LIGHT_GREEN#日耀神使（太阳骑士）", "_t")
 t([[You have been contacted by a sentient star, far away from Eyal. It wants to help you on your journey!
 
 You have unlocked the #LIGHT_GREEN#Avatar of a Distant Sun class evolution#WHITE# for Sun Paladins.
@@ -34261,7 +34261,7 @@ Features:
 Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
 ]],[[你曾经联系过一颗距离埃亚尔大陆极其遥远的星球。它希望能在你的旅途中帮到你！
 
-你现在解锁了太阳骑士的 #LIGHT_GREEN#远日化身职业进阶#WHITE#。
+你现在解锁了太阳骑士的 #LIGHT_GREEN#日耀神使职业进阶#WHITE#。
 
 特性：
 - #GOLD#可以同时装备双手武器和盾牌#LAST#
@@ -35728,7 +35728,7 @@ t("gravity", "重力", "effect subtype")
 t("Devourer Stance", "势吞干戈", "_t")
 t("The target is storing up healing energy, currently %d", "目标正积蓄治疗能量，当前 %d 点", "tformat")
 t("The target is redirecting energy, adding %d gravity damage to their attacks.%s", "目标正在调度能量，每次攻击额外造成 %d 重力伤害。%s", "tformat")
-t(" Due to facing an Avatar of a Distant Sun, fire and light resistances are reduced to 0%.", " 面对远日化身，火焰和光系伤害抗性降为0%。", "_t")
+t(" Due to facing an Avatar of a Distant Sun, fire and light resistances are reduced to 0%.", " 面对日耀神使，火焰和光系伤害抗性降为0%。", "_t")
 
 -- untranslated text
 --[==[

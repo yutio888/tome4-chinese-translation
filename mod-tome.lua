@@ -6325,7 +6325,7 @@ You seem like the adventuring fare, up to all sorts of doo-daddle in the outside
 你看上去像一个冒险者之类的，大不了算是一个在外面世界闯荡的小子。好吧，别忘了为这个城里最好的图书馆捐点钱。这个世界的有钱人大多数是好人，但是要是我们没有知识赐予力量怎么办？所有搜集的资金都会直接用于进一步研究。没有其他理由了，对么？]], "_t")
 t("Uh, yes, of course... I'll be moving on now.", "啊，是的，当然……我得继续赶路了。", "_t")
 t("Hold on! You... You're that apprentice mage I met in the wilds!", "打住！你……你不就是那个荒野之中的法师学徒么？", "_t")
-t("Why, well-spotted, whippersnapper! Indeed, when the mood takes me I sometimes travel under the guise of an apprentice. It permits me to traverse the land unnoticed in my research, and if I meet any I deem worthy and sympathetic to Angolwen's cause, then so much the better. And it does provide the odd chortle, I tell you!", "你说什么？你这个傲慢的家伙！的确我有时会心血来潮假扮成一个学徒到处旅行，这样在我的研修旅行中就不会引人注意。我会搜集一切对安格利文有价值的东西，多多益善。不过我告诉你，确实有人借此来嘲笑我！", "_t")
+t("Why, well-spotted, whippersnapper! Indeed, when the mood takes me I sometimes travel under the guise of an apprentice. It permits me to traverse the land unnoticed in my research, and if I meet any I deem worthy and sympathetic to Angolwen's cause, then so much the better. And it does provide the odd chortle, I tell you!", "眼力不错嘛，小家伙！的确我有时会心血来潮假扮成一个学徒到处旅行，这样在我的研修旅行中就不会引人注意。我会搜集一切对安格利文有价值的东西，多多益善。不过我告诉你，确实有人借此来嘲笑我！", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/temporal-rift-end.lua"
@@ -6465,7 +6465,7 @@ section "mod-tome/data/chats/undead-start-game.lua"
 
 t([[#LIGHT_GREEN#*Before you stands a Human clothed in black robes. He seems to be ignoring you.*#WHITE#
 #LIGHT_GREEN#*You stand inside some kind of summoning circle, which prevents you from moving.*#WHITE#
-Oh yes! YES, one more for my collection. My collection, yes. A powerful one indeed!]], [[#LIGHT_GREEN#*在你面前站着一个穿着黑色长袍的人类，他好像没有注意到你。*#WHITE#
+Oh yes! YES, one more for my collection. My collection, yes. A powerful one indeed!]], [[#LIGHT_GREEN#*在你面前站着一个穿着黑色长袍的人类，他目前似乎无视了你。*#WHITE#
 #LIGHT_GREEN#*你站在一个召唤法阵里，没法移动。*#WHITE#
 啊，对！好！又一件我的收藏品，没错，的确是很强力的一个！]], "_t")
 t("[listen]", "[听他说话]", "_t")
@@ -6512,39 +6512,39 @@ Fillarel: "Abandon this fight, orc! You cannot win: I stand with the power of th
 Krogar: "Ha! It's only been one hour and you already look tired, my 'lady'."
 #LIGHT_GREEN#*As you enter the room they notice you.*#WHITE#
 Fillarel: "You! @playerdescriptor.race@! Help me defeat this monster or begone!"
-Krogar: "Ah, looking for help? Bah. @playerdescriptor.race@, kill this wench for me and I shall reward you!"]], [[#LIGHT_GREEN#*一个穿着金色长袍的美丽精灵女子站在你面前，看着穿锁甲的兽人。*#WHITE#
-菲拉瑞尔：“投降吧，兽人！你不会赢的，我拥有太阳和月亮的神力。”
-克罗格： "哈！才过了一个小时了，而你看上去已经很疲惫了，我的女士。"
+Krogar: "Ah, looking for help? Bah. @playerdescriptor.race@, kill this wench for me and I shall reward you!"]], [[#LIGHT_GREEN#*一个穿着金色长袍的美丽精灵女子站在你面前，另一边是穿着锁甲的兽人。*#WHITE#
+菲拉瑞尔：“投降吧，兽人！你不会赢的，太阳的伟力、月亮的暗影与我同在。”
+克罗格： “哈！才过了一个小时而已，你看上去都很疲惫了，‘女士’。”
 #LIGHT_GREEN#*当你进入房间时他们注意到了你*#WHITE#
-菲拉瑞尔： "你！ @playerdescriptor.race@!帮我干掉这只怪物，要不然给我滚开！"
-克罗格： "哦？找人帮忙了？呸，@playerdescriptor.race@，给我干掉这个臭婊子，我会报答你的！]], "_t")
+菲拉瑞尔： “你！ @playerdescriptor.race@!帮我干掉这只怪物，不然就快离开！”
+克罗格： “哦？想找人帮忙？呸，@playerdescriptor.race@，给我干掉这个臭婊子，我会报答你的！”]], "_t")
 t("[attack Krogar]", "[攻击克罗格]", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/unremarkable-cave-fillarel.lua"
 
 t("Thank you, @playername@. I hate to admit it, but you saved my life.", "谢谢你，@playername@。不得不承认，你救了我的命。", "_t")
-t("At your service. But may I ask what you were doing in this dark place?", "很荣幸，但你是否可以告诉我你在这个黑暗的地方干什么？", "_t")
-t("At your service. I have been gone for months, but I can feel it, at last this is my homeland!", "很荣幸，我已经流浪几个月了，不过我能够感觉到，这里就是我的故乡！", "_t")
+t("At your service. But may I ask what you were doing in this dark place?", "我乐意效劳，但你能告诉我你在这个黑暗的地方干什么吗？", "_t")
+t("At your service. I have been gone for months, but I can feel it, at last this is my homeland!", "我乐意效劳。我已经离开几个月了，不过我能够感觉到，这里就是我的故乡！", "_t")
 t([[I am an Anorithil, a mage of the Sun and Moons; we fight all that is evil. I was with a group of Sun Paladins; we came from the Gates of Morning to the east.
-My companions were... were slaughtered by orcs, and I nearly died as well. Thank you again for your help.]], [[我是一位星月术士，操纵太阳和月亮的神力的法师。我和一群太阳骑士一起对抗邪恶。我们来自东部的晨曦之门。
+My companions were... were slaughtered by orcs, and I nearly died as well. Thank you again for your help.]], [[我是借用太阳和月亮力量的星月术士，来自东面的晨曦之门，同太阳骑士一起对抗邪恶。
 我的伙伴们…都被兽人杀死了，我也差点丧命，再次感谢你的帮助。]], "_t")
-t("It was my pleasure. But may I ask a favor myself? I am not from these lands. I used a farportal guarded by orcs deep below the Iron Throne and was brought here.", "我的荣幸，不过我有个请求？我不是这个大陆的人，我使用了钢铁王座地下深处兽人保护的远古传送门，然后就到了这里。", "_t")
+t("It was my pleasure. But may I ask a favor myself? I am not from these lands. I used a farportal guarded by orcs deep below the Iron Throne and was brought here.", "我的荣幸，不过我有个请求。我其实不是这个大陆的人，使用了钢铁王座地下深处，被兽人保护的远古传送门，然后就到了这里。", "_t")
 t([[Yes, I noticed you were not from here. Your only hope is the Gates of Morning, the last bastion of freedom in this orc territory. When you leave the caves, head southeast; you cannot miss it.
-Tell High Sun Paladin Aeryn that you met me. I'll send word to let you pass.]], [[是的，我也注意到了你不是这里的人，晨曦之门，这座兽人领地中仅存的自由基地，将是你的唯一希望，当你离开洞穴，往东南方走就可以到达那里。
+Tell High Sun Paladin Aeryn that you met me. I'll send word to let you pass.]], [[是的，我也注意到了你不是这里的人，晨曦之门，这座兽人领地中仅存的自由基地，将是你的唯一希望。你离开洞穴，往东南方走就可以到达那里。
 告诉高阶太阳骑士艾琳你碰到我的事，我会留下口信让他们给你放行。]], "_t")
 t("Thank you, I will talk with Aeryn.", "谢谢你，我会找艾琳谈谈的。", "_t")
 t([[Gone? Wait, this face.. you are @playername@! We thought you died in the naga portal explosion!
 Thanks to your courage the Gates of Morning still stand.
 You should go there at once.]], [[流浪？等一下，你是……你是 @playername@！我们都以为你在娜迦传送门爆炸的时候死了！
-感谢你的勇气，晨曦之门能够保存完好。
+因你的壮举，晨曦之门依然屹立不倒。
 你应该马上去那里。]], "_t")
-t("Sadly I am the bringer of bad news, the orcs are planning something. Good luck, my lady.", "恐怕我得告诉你一些坏消息，兽人正筹划着什么阴谋，祝你好运，我的女士。", "_t")
+t("Sadly I am the bringer of bad news, the orcs are planning something. Good luck, my lady.", "恐怕我带来了一些坏消息，兽人正筹划着什么阴谋，祝你好运，女士。", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/chats/unremarkable-cave-krogar.lua"
 
-t("@playerdescriptor.race@, you have helped me kill the Elf-wench. The Orc Pride thanks you... for now", "@playerdescriptor.race@，你帮我干掉了那个精灵臭婊子，兽人部落感谢你的帮助。", "_t")
+t("@playerdescriptor.race@, you have helped me kill the Elf-wench. The Orc Pride thanks you... for now", "@playerdescriptor.race@，你帮我干掉了那个精灵臭婊子，现在兽人部落很感谢你。", "_t")
 t("I hate Elves anyway...", "我讨厌精灵……", "_t")
 
 ------------------------------------------------
@@ -6579,25 +6579,25 @@ section "mod-tome/data/chats/yeek-wayist.lua"
 
 t([[#LIGHT_GREEN#*Before you stands a creature about as tall as a Halfling, covered in small white fur and with a disproportionate head.
 You also notice he does not wield his greatsword. It seems to float in the air, bound to his will.*#WHITE#
-Why did you save me, stranger? You are not of the Way.]], [[#LIGHT_GREEN#*在你面前站着一个和半身人一样高的生物，拥有白色的毛发和不成比例的脑袋。
-你同时注意到他不是用手在握持一把长剑，而是把剑漂浮在空中，像是受他的意志控制一样。*#WHITE#
-你为什么救我，陌生人？你不是维网的人。]], "_t")
-t("Well, you seemed to need help.", "好吧，你看上去似乎需要帮助。", "_t")
+Why did you save me, stranger? You are not of the Way.]], [[#LIGHT_GREEN#*在你面前站着一个和半身人一样高的生物，拥有白色的毛发和大小不协调的脑袋。
+你同时注意到他并没有用手握持大剑，剑正漂浮在空中，仿佛受他的意志控制。*#WHITE#
+你为什么救我，陌生人？你不属于维网。]], "_t")
+t("Well, you seemed to need help.", "你看上去似乎需要帮助。", "_t")
 t("So I could rip your throat myself!", "这样我可以亲自割破你的喉咙！", "_t")
 t([[#LIGHT_GREEN#*The greatsword floats to a less aggressive stance. He seems surprised.*#WHITE#
 Then, on behalf of the Way, I thank you.]], [[#LIGHT_GREEN#*大剑在空中后退了些，显得不那么有敌意。他好像很吃惊。*#WHITE#
-那么我代表维网感谢你。]], "_t")
-t("What is the Way, and what are you?", "维网是什么东西，你是谁？", "_t")
-t("The Way is enlightenment, peace and protection. I am a Yeek. I came through this tunnel to explore this part of the world that was closed to us for centuries.", "维网是启迪、和平和守护，我是一个夺心魔。我穿过隧道来到这个和我们的世界隔绝了几千年的世界来探险。", "_t")
+那么，我代表维网感谢你。]], "_t")
+t("What is the Way, and what are you?", "维网是什么，你是谁？", "_t")
+t("The Way is enlightenment, peace and protection. I am a Yeek. I came through this tunnel to explore this part of the world that was closed to us for centuries.", "维网是启迪、和平和守护，我是一个夺心魔。我穿过隧道，希望探索这个和我们已经隔绝了好几千年的地方。", "_t")
 t("Can you tell me more about the Way?", "你能告诉我更多有关维网的事么？", "_t")
-t("Select the party member to receive the mental shield:", "选择接受精神豁免的队伍成员：", "_t")
+t("Select the party member to receive the mental shield:", "选择接受精神防护的队伍成员：", "_t")
 t("The contact with the Wayist mind has improved your mental shields. (+15 mental save, +10%% confusion resistance)", "与夺心魔的接触提高了你的精神防御。（+15精神豁免，+10%%混乱抵抗）", "logPlayer")
-t("I am never alone. I have the Way.", "我不是一个人，我拥有维网。", "_t")
+t("I am never alone. I have the Way.", "我并不孤单，我拥有维网。", "_t")
 t("Farewell, then.", "那么，再见。", "_t")
 t([[I cannot, but I may show you a glimpse.
 #LIGHT_GREEN#*He leans toward you. Your mind is suddenly filled with feelings of peace and happiness.*#WHITE#
 This is the Way.]], [[不行，不过我可以让你看一下。
-#LIGHT_GREEN#*他靠向你，你的精神突然充满和平和幸福的感觉。*#WHITE#
+#LIGHT_GREEN#*他靠向你，你的脑海里突然充满了和平和幸福。*#WHITE#
 这就是维网。]], "_t")
 t("Thank you for this vision. Farewell, my friend.", "谢谢你让我看到这些，再见吧，我的朋友。", "_t")
 t("Thank the Way. This... thing... would have killed me.", "感谢维网，这个……东西……差点杀了我。", "_t")
@@ -6643,7 +6643,7 @@ Orb, you say? That you used to travel here from Maj'Eyal? Surely you don't posse
 t("[Hold up the orb]", "[拿出水晶球]", "_t")
 t([[#LIGHT_GREEN#*His eyes widen.*#WHITE#
 Great Socks of Aeryn! It IS the Orb! Maybe we can get you home after all. Or maybe we can get you embedded in magma a thousand leagues straight down.]], [[#LIGHT_GREEN#*他瞪大了眼睛*#WHITE#
-艾琳的臭脚丫！真是那个水晶球！在这之后我们可以让你回家，如果……我们也可以给你在熔岩深渊中给你安个家。]], "_t")
+艾琳的袜子啊！真是那个水晶球！说不定我们可以让你回家，说不准也可以给你在熔岩深渊中安个家。]], "_t")
 t("May I come in?", "我能进来了么？", "_t")
 t([[You think I'm letting some filthy @playerdescriptor.race@ in my house with the Orb of Many Ways?
 I blow myself up quite enough already without that thing in the house, thank you.
@@ -6657,7 +6657,7 @@ It'll require a Resonating Diamond to get it properly prepared. Oh, and I want 1
 晨曦之门原来有这么一块共鸣石头可以起作用，不过现在，有一群……嗯……东西占据了那儿。
 另外还有一块共鸣宝石，哦，我还要收取100金币费用。]], "_t")
 t("Where can I find all that?", "我上哪儿去找那些东西？", "_t")
-t("Try your purse for the 100 gold. As for an Athame and a Resonating Diamond, I assume the orcs have some if they're cooking up portals to use that Orb on. Try the Vor Armory. It so happens that I know a back way in. Never mind why.", "100金币么……你摸摸口袋就有了，血符祭剑和共鸣宝石，我猜那些兽人既然开启过传送门就应该在他们那里能找到，去找找沃尔部落，碰巧我知道一个隐蔽入口去那里，别问我为什么会知道。", "_t")
+t("Try your purse for the 100 gold. As for an Athame and a Resonating Diamond, I assume the orcs have some if they're cooking up portals to use that Orb on. Try the Vor Armory. It so happens that I know a back way in. Never mind why.", "100金币么……你摸摸口袋就有了，血符祭剑和共鸣宝石，我猜那些兽人既然开启过传送门就应该在他们那里能找到，去找找沃尔军械库，碰巧我知道一个隐蔽入口去那里，别问我为什么会知道。", "_t")
 t("Thank you.", "谢谢。", "_t")
 t("Of course there was no Resonating Diamond. What makes you think Briagh would let one loose for even a second?", "你当然找不到共鸣宝石，你想想布莱亚弗怎么会放松一秒钟警惕？", "_t")
 t("Briagh?", "布莱亚弗？", "_t")
@@ -6706,11 +6706,11 @@ We see that the hermetic arts have always been at the root of each and every tri
 We can train you, but you need to prove you are pure, untouched by the eldritch forces, and ready to fight them to the end.
 You will be challenged against magical foes. Should you defeat them, we will teach you our ways, and never again will you be able to be tainted by magic, or use it.
 
-#LIGHT_RED#Note:  Completing this quest will forever prevent this character from using spells or items powered by arcane forces.  In exchange you'll be given access to a mindpower based generic talent tree, Anti-magic, and be able to unlock hidden properties in many arcane-disrupting items.]], [[#LIGHT_GREEN#*一个冷酷的战士站在那里，穿着锁甲和橄榄色的大斗篷，他看上去不那么友善——身上有把带鞘的宝剑。*#WHITE#
-%s，我们观察了你很久，我们觉得你很有潜力。
-我们都知道，禁忌的奥术力量是我们这片大地上所有痛苦和灾难的根源。如果继续放任不管，它们最终会毁灭这个世界。因此，我们决定召唤自然的力量，采取行动战胜那些奥术力量的使用者。
-我们可以训练你，不过你得保证你的忠诚，不再使用魔法力量，并且准备和魔法战斗到底。
-你会挑战几个魔法对手，要是你打败他们，我们就会将我们的技能教给你，今后你也不能再使用魔法和魔法物品。
+#LIGHT_RED#Note:  Completing this quest will forever prevent this character from using spells or items powered by arcane forces.  In exchange you'll be given access to a mindpower based generic talent tree, Anti-magic, and be able to unlock hidden properties in many arcane-disrupting items.]], [[#LIGHT_GREEN#*一个冷酷的战士站在那里，穿着锁甲和橄榄色的大斗篷，他没有敌意——他的宝剑并没有出鞘。*#WHITE#
+%s，我们观察了你很久，你很有潜力。
+我们都知道，禁忌的奥术力量是我们这片大地上每一场痛苦和灾难的根源。如果继续放任不管，它们最终会毁灭这个世界。因此，我们决定召唤自然的力量，战胜那些奥术力量使用者。
+我们可以训练你，不过你得保证你的纯粹，没有接触奥术力量，并且准备和魔法战斗到底。
+你会挑战几个魔法对手，要是你打败他们，我们就会将我们的技能教给你，今后你再也不会被魔法污染了。
 
 #LIGHT_RED#注：完成此任务会使该角色永久无法使用由奥术之力灌输而成的物品。取而代之的，是你可以获得一支精神力量的通用技能树——反魔法，同时你可以开启由反魔法力量灌输而成物品的隐藏属性。]], "tformat")
 t("I will face your challenge!", "我接受挑战！", "_t")
@@ -6721,10 +6721,10 @@ t("I shall.", "好的。", "_t")
 t("\
 Worry not, though, Ogre - we can replace your unclean runes with a newly-discovered mixture of infusions, eliminating your dependence on them.  The process will feel...  unpleasant, and will dramatically shorten your lifespan, but you will finally be free from the addictive grip of the arcane!\
 ", "\
-请不要担心，虽然你是个食人魔，我们可以用我们最新研究出的新型复方纹身来取代你身上的不洁符文，从而永久消除了你对他们的依赖。这个过程可能有些……不快，并且可能会缩短你的寿命，但是在此之后，你终于能够不再沉溺于奥术力量的深渊，达到真正的洁净！\
+请不要担心，虽然你是个食人魔，我们可以用我们最新研究出的新型复合纹身来取代你身上的不洁符文，从而永久消除了你对他们的依赖。这个过程可能有些……不适，并且会大幅缩短你的寿命，但是在此之后，你终于能够从奥术力量的依赖中得到解脱！\
 ", "_t")
 t([[We'll also reinforce the infusions you've been granted to replace your runes - the newest mixture should give you about five years of your life that the initial mixture took from you.
-]], [[我们还会加强那些你身上的纹身——这些最新的复方纹身比你原来用的那种相比可以至少增加五年以上的寿命。
+]], [[我们还会加强那些你身上的纹身——这些最新的复合纹身比你原来用的那种相比可以至少增加五年以上的寿命。
 ]], "_t")
 t([[Very well. Before you start, we will make sure no magic can help you:
 - You will not be able to use any spells or magical devices
@@ -6766,13 +6766,13 @@ t("%s(%d warded)#LAST#", "%s(%d 被守护)#LAST#", "tformat")
 t("#Source# strikes #Target# in the darkness (%+d%%%%%%%% damage).", "#Source#在黑暗中打击了#Target#(%+d%%%%%%%% 伤害)!", "delayedLogMessage")
 t("Something", "某物", "_t")
 t("%s forces the iceblock to shatter.", "%s 将冰块打破。", "logSeen")
-t("%s(%d to psi shield)#LAST#", "%s(%d 灵能盾吸收)#LAST#", "tformat")
-t("%s(%d blocked)#LAST#", "%s(%d 被格挡)#LAST#", "tformat")
+t("%s(%d to psi shield)#LAST#", "%s(%d 灵能盾)#LAST#", "tformat")
+t("%s(%d blocked)#LAST#", "%s(%d 格挡)#LAST#", "tformat")
 t("%s(%d abyssal shield)#LAST#", "%s(%d 深渊护盾)#LAST#", "tformat")
-t("%s(%d antimagic)#LAST#", "%s(%d 反魔盾吸收)#LAST#", "tformat")
-t("%s(%d flat reduction)#LAST#", "%s(%d 固定减伤吸收)#LAST#", "tformat")
+t("%s(%d antimagic)#LAST#", "%s(%d 反魔盾)#LAST#", "tformat")
+t("%s(%d flat reduction)#LAST#", "%s(%d 固定减伤)#LAST#", "tformat")
 t("You end your target with a crushing blow!", "你的毁灭一击终结了对手！", "logPlayer")
-t("#LIGHT_GREY#(%d resilience)#LAST#", "#LIGHT_GREY#(%d 弹性体质吸收)#LAST#", "tformat")
+t("#LIGHT_GREY#(%d resilience)#LAST#", "#LIGHT_GREY#(%d 弹性体质)#LAST#", "tformat")
 t("#CRIMSON##Source# damages %s through Martyrdom!", "#CRIMSON##Source#通过殉难伤害了 %s !", "delayedLogMessage")
 t("#CRIMSON##Source# reflects damage back to #Target#!", "#CRIMSON##Source#将伤害反射回 #Target#!", "delayedLogMessage")
 t("#Source##LIGHT_GREEN# HEALS#LAST# from %s %s #LAST# damage!", "#Source#因%s%s#LAST#伤害受到了#LIGHT_GREEN#治疗#LAST#！", "tformat")
@@ -6811,7 +6811,7 @@ t("punctured", "被异物捅破菊花", "_t")
 t("hacked apart", "被腰斩", "_t")
 t("eviscerated", "被掏心", "_t")
 t("arcane", "奥术", "damage type")
-t("blasted", "被诅咒", "_t")
+t("blasted", "被能量引爆", "_t")
 t("energised", "被能量冲击", "_t")
 t("mana-torn", "被法术折磨", "_t")
 t("dweomered", "被咒术伤害", "_t")
@@ -7144,7 +7144,7 @@ t("adventurers party", "冒险家分队", "entity name")
 t("hostile", "敌对", "entity type")
 t("humanoid", "人形生物", "entity subtype")
 t("ziguranth patrol", "伊格巡逻队", "entity name")
-t("You have got nothing to fear if you are not using filthy arcane magic. Otherwise: DIE!", "如果你不是肮脏的奥术魔法使用者，你不用害怕他们。否则的话：去死吧！", "_t")
+t("You have got nothing to fear if you are not using filthy arcane magic. Otherwise: DIE!", "如果你没有使用肮脏的魔法，那不用害怕他们。否则的话：去死吧！", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/encounters/maj-eyal.lua"
@@ -7164,14 +7164,14 @@ t("Enter the tunnels", "进入通道", "_t")
 t("Leave carefully", "悄悄离开", "_t")
 t("Sect of Kryl-Faijan", "卡洛·斐济教派", "entity name")
 t([[You find an entrance to an old crypt. An aura of terrible evil emanates from this place. You feel threatened just standing there.
-You hear the muffled cries of a woman coming from inside.]], [[你发现了一个古老地窖的入口，里面笼罩着恐怖的恶魔气息，仅仅站在门口你就已经感受到了它的威胁。
+You hear the muffled cries of a woman coming from inside.]], [[你发现了一个古老地窖的入口，里面笼罩着恐怖的邪恶气息，仅仅站在门口你就已经感受到了它的威胁。
 你听到了里面传来了陌生女人的哭声。]], "_t")
 t("#LIGHT_RED#You carefully open the door and enter the underground crypt...", "#LIGHT_RED#你打开了活门，小心翼翼地进入了地窖...", "logPlayer")
 t("#LIGHT_RED#As you enter you notice the door has no visible handle on the inside. You are stuck here!", "#LIGHT_RED#当你进入后，你发现这扇门的里侧没有门把，你被困在这了！", "logPlayer")
 t("Enter the crypt", "进入地窖", "_t")
 t("Lost kitten", "迷路的猫咪", "entity name")
 t("Lost Kitty", "迷路的猫咪", "_t")
-t("Ancient Elven Ruins", "古代精灵遗迹", "entity name")
+t("Ancient Elven Ruins", "远古精灵遗迹", "entity name")
 t("Entrance to some ancient elven ruins", "远古精灵遗迹入口", "_t")
 t("Cursed Village", "被诅咒的村庄", "entity name")
 t("Half-dead lumberjack", "濒死的伐木工人", "_t")
@@ -7228,7 +7228,7 @@ t("This demon would be very attractive if not for the hovering crown of flames, 
 t("and used for her perverted desires", "并被用于她的变态欲望", "_t")
 t("Crown of Burning Pain", "痛苦之焱", "_t")
 t("burning crown", "燃烧王冠", "_t")
-t("This crown of pure flames possesses a myriad of small molten rocks floating wildly above it. Each can be removed to throw as a true meteor.", "这顶由纯粹火焰所打造的王冠上漂浮着许多小小的石块，每个都可以用意念扔出，化作一块真实的陨石砸向大地。", "_t")
+t("This crown of pure flames possesses a myriad of small molten rocks floating wildly above it. Each can be removed to throw as a true meteor.", "这顶由纯粹火焰所打造的王冠上漂浮着许多小小的熔融石块，每个都可以用意念扔出，化作一块真实的陨石砸向大地。", "_t")
 t([[A terrible shout thunders across the level: 'Come my darling, come, I will be ssssooo *nice* to you!'
 You should flee from this level!]], [[一个恐怖的声音突然自空中传来：“来吧，亲爱的，来吧，我将会好好的“疼”你的。”
 你必须逃离此地！]], "_t")
@@ -7959,9 +7959,9 @@ t("A huge, elongated sea-green reptile.", "一只巨大、细长且泛着海蓝�
 t("ancient dragon turtle", "远古龙龟", "entity name")
 t("A huge, elongated sea-green reptile, it looks old and impenetrable.", "一只巨大、细长泛着海蓝色的爬行动物。看上去苍老而结实。", "_t")
 t("squid", "乌贼", "entity name")
-t("Darting its many tentacles toward you, it tries to lock you down.", "它向你伸出能变形的魔爪，试图把你困住。", "_t")
+t("Darting its many tentacles toward you, it tries to lock you down.", "它向你伸出触手，试图把你困住。", "_t")
 t("ink squid", "喷墨乌贼", "entity name")
-t("Darting its many tentacles toward you, it tries to blind you with its murky ink.", "它向你伸出能变形的魔爪，并使用黑色的墨汁喷向你，使你失明。", "_t")
+t("Darting its many tentacles toward you, it tries to blind you with its murky ink.", "它向你伸出触手，试图喷射黑色的墨汁，使你失明。", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/aquatic_demon.lua"
@@ -7969,9 +7969,9 @@ section "mod-tome/data/general/npcs/aquatic_demon.lua"
 t("aquatic", "水栖生物", "entity type")
 t("demon", "恶魔", "entity subtype")
 t("water imp", "小水怪", "entity name")
-t("A small water demon, lobbing spells at you.", "水中的小恶魔，向你缓慢投射法术。", "_t")
+t("A small water demon, lobbing spells at you.", "水中的小恶魔，向你投出法术。", "_t")
 t("Walrog", "乌尔罗格", "entity name")
-t("Walrog, the lord of Water, is fearsome to behold. The water writhes around him as if trying to escape, making his form indistinct. He does not seem surprised to see you.", "乌尔罗格，水之主，是水中的恐怖恶魔。水如同想要逃离一般在他的周围沸腾，使他的影子若隐若现。他面对你的表情似乎并不惊讶。", "_t")
+t("Walrog, the lord of Water, is fearsome to behold. The water writhes around him as if trying to escape, making his form indistinct. He does not seem surprised to see you.", "乌尔罗格，水之主，是水中的恐怖恶魔。水在他周围蠕动，仿佛想要逃离，使他的身形模糊不清。他看到你似乎并不惊讶。", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/bear.lua"
@@ -7981,13 +7981,13 @@ t("bear", "熊", "entity subtype")
 t("brown bear", "棕熊", "entity name")
 t("The weakest of bears, covered in brown shaggy fur.", "有着棕色蓬松皮毛的熊。", "_t")
 t("black bear", "黑熊", "entity name")
-t("Do you smell like honey? 'Cause this bear wants honey.", "你闻起来有蜂蜜味吗？这只熊喜欢蜂蜜哦～", "_t")
+t("Do you smell like honey? 'Cause this bear wants honey.", "你闻起来像蜂蜜吗？这只熊喜欢蜂蜜哦～", "_t")
 t("cave bear", "穴居熊", "entity name")
 t("It has come down from its cave foraging for food. Unfortunately, it found you.", "它已经离开洞穴觅食了许久。不幸的是，它找到了你。", "_t")
 t("war bear", "战熊", "entity name")
-t("Bears with tusks, trained to kill.", "被训练过杀人技巧的獠牙巨熊。", "_t")
+t("Bears with tusks, trained to kill.", "带着獠牙的巨熊，被训练过杀人的技巧。", "_t")
 t("grizzly bear", "灰熊", "entity name")
-t("A huge, beastly bear, more savage than most of its kind.", "一头巨大野蛮的熊，它比同类们更加凶残。", "_t")
+t("A huge, beastly bear, more savage than most of its kind.", "一头巨大的野兽，比同类更加凶残。", "_t")
 t("polar bear", "北极熊", "entity name")
 t("This huge white bear has wandered south in search of food.", "这只巨大的白熊正在向南寻找食物。", "_t")
 
@@ -7996,8 +7996,8 @@ section "mod-tome/data/general/npcs/bird.lua"
 
 t("animal", "动物", "entity type")
 t("bird", "飞禽", "entity subtype")
-t("Phoenix", "凤凰", "entity name")
-t("Ever burning, ever dying, ever reviving, the Phoenix swoops down upon you, seeking to share its fiery fate with you.", "无尽的燃烧，无尽的死亡，无尽的重生，这只凤凰试图将它燃烧的命运带给你。", "_t")
+t("Phoenix", "不死鸟", "entity name")
+t("Ever burning, ever dying, ever reviving, the Phoenix swoops down upon you, seeking to share its fiery fate with you.", "燃烧，死亡，重生。这只不死鸟试图将它燃烧的命运带给你。", "_t")
 t("#LIGHT_RED#%s raises from the dead!", "#LIGHT_RED#%s 从尸体中站了起来！", "logSeen")
 t("RESURRECT!", "复活!", "_t")
 
@@ -8007,12 +8007,12 @@ section "mod-tome/data/general/npcs/bone-giant.lua"
 t("undead", "亡灵", "entity type")
 t("giant", "巨人", "entity subtype")
 t("bone giant", "骨巨人", "entity name")
-t("A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "像铁塔一样的生物，由数不清的骨头构成。它全身围绕着邪恶的气息。", "_t")
+t("A towering creature, made from the bones of dozens of dead bodies. It is covered by an unholy aura.", "一个高大的生物，由数不清的骨头构成。它全身围绕着邪恶的气息。", "_t")
 t("eternal bone giant", "永恒骨巨人", "entity name")
-t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "像铁塔一样的生物，由数不清的骨头构成。它全身围绕着邪恶的气息。", "_t")
+t("A towering creature, made from the bones of hundreds of dead bodies. It is covered by an unholy aura.", "一个高大的生物，由数不清的骨头构成。它全身围绕着邪恶的气息。", "_t")
 t("heavy bone giant", "重型骨巨人", "entity name")
 t("runed bone giant", "符文骨巨人", "entity name")
-t("A towering creature, made from the bones of hundreds of dead bodies, rune-etched and infused with hateful sorceries.", "像铁塔一样的生物，由数不清的骨头构成，它的骨头上布满符文和充斥着憎恨的魔法印记。", "_t")
+t("A towering creature, made from the bones of hundreds of dead bodies, rune-etched and infused with hateful sorceries.", "一个高大的生物，由数不清的骨头构成，它的骨头上布满符文和充斥着憎恨的魔法印记。", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/canine.lua"
@@ -8020,19 +8020,19 @@ section "mod-tome/data/general/npcs/canine.lua"
 t("animal", "动物", "entity type")
 t("canine", "犬类", "entity subtype")
 t("wolf", "狼", "entity name")
-t("Lean, mean, and shaggy, it stares at you with hungry eyes.", "一头瘦弱的、狡猾的皮毛蓬松的饿狼，它正用贪婪的眼神看着你。", "_t")
+t("Lean, mean, and shaggy, it stares at you with hungry eyes.", "瘦弱，狡猾，蓬头垢面，它正用贪婪的眼神盯着你。", "_t")
 t("great wolf", "巨狼", "entity name")
-t("Larger than a normal wolf, it prowls and snaps at you.", "当你行走在路上时，这只巨狼突然从草丛里跳出来扑向了你。", "_t")
+t("Larger than a normal wolf, it prowls and snaps at you.", "它比普通的狼更大，在你面前徘徊咆哮。", "_t")
 t("dire wolf", "狂狼", "entity name")
-t("Easily as big as a horse, this wolf menaces you with its claws and fangs.", "这头狼几乎和一匹马一样大，它的尖牙利齿令人望而生畏。", "_t")
+t("Easily as big as a horse, this wolf menaces you with its claws and fangs.", "这只狼像马一样大，用它的爪子和獠牙来威胁你。", "_t")
 t("white wolf", "白狼", "entity name")
-t("A large and muscled wolf from the northern wastes. Its breath is cold and icy, and its fur coated in frost.", "一头来自北部荒野的狼，它膘肥身健，体型匀称。它的呼吸冰冷而急促且全身都凝结着冰霜。", "_t")
+t("A large and muscled wolf from the northern wastes. Its breath is cold and icy, and its fur coated in frost.", "一头来自北部荒野的狼，它膘肥身健，体型匀称。它呼吸冰冷，毛覆寒霜。", "_t")
 t("warg", "座狼", "entity name")
-t("It is a large wolf with eyes full of cunning.", "这是一只狡猾且体型巨大的狼。", "_t")
+t("It is a large wolf with eyes full of cunning.", "一只大狼，眼睛里充满了狡猾。", "_t")
 t("fox", "狐狸", "entity name")
-t("The quick brown fox jumps over the lazy dog.", "这只灵巧的棕色狐狸从一只懒狗身上跳了过去。", "_t")
+t("The quick brown fox jumps over the lazy dog.", "这只伶俐的棕色狐狸跳过一只懒惰的狗。", "_t")
 t("Rungof the Warg Titan", "泰坦座狼郎格夫", "entity name")
-t("It is a large wolf with eyes full of cunning, thrice the size of a normal warg.", "这只狼比普通座狼大三倍，它正用狡猾的眼神看着你。", "_t")
+t("It is a large wolf with eyes full of cunning, thrice the size of a normal warg.", "一只超级大狼，眼睛里充满了狡猾，比普通座狼大两倍。", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/cold-drake.lua"
@@ -8062,17 +8062,17 @@ section "mod-tome/data/general/npcs/crystal.lua"
 
 t("immovable", "静态类", "entity type")
 t("crystal", "水晶", "entity subtype")
-t("A shining crystal formation charged with magical energies.", "一个由闪光水晶构成的生物，它通体围绕着球状的光芒。", "_t")
+t("A shining crystal formation charged with magical energies.", "一个由闪光水晶构成的生物，它通体围绕着魔法光芒。", "_t")
 t("wisp", "鬼火", "entity name")
 t("elemental", "元素", "entity type")
 t("light", "轻甲", "entity subtype")
-t("A floating orb of magical energy. It shines with a radiant light. They explode upon contact.", "一个充满了魔法能量的球体。它散发着耀眼的光芒，当它们接触其他物体时会发生爆炸。", "_t")
+t("A floating orb of magical energy. It shines with a radiant light. They explode upon contact.", "一个充满魔法能量的球体，散发着耀眼的光芒，接触其他物体时会爆炸。", "_t")
 t("red crystal", "红色水晶体", "entity name")
 t("A formation of red crystal. It emits bright red, scorching light.", "一个由红色水晶构成的生物，它散发着耀眼的红色光芒。", "_t")
 t("white crystal", "白色水晶体", "entity name")
-t("A formation of white crystal. It emits bright white, chilling light.", "一个由白色水晶构成的生物，它散发着冰冷的黑色气息。", "_t")
+t("A formation of white crystal. It emits bright white, chilling light.", "一个由白色水晶构成的生物，它散发着冰冷的白色气息。", "_t")
 t("black crystal", "黑色水晶体", "entity name")
-t("A formation of black crystal. It absorbs all light around it.", "一个由黑色水晶构成的生物，它可以吸收周围的光芒，黑暗笼着着它。", "_t")
+t("A formation of black crystal. It absorbs all light around it.", "一个由黑色水晶构成的生物，它可以吸收周围的光芒。", "_t")
 t("crimson crystal", "深红水晶体", "entity name")
 t("A formation of crimson crystal. It emits a crimson light reminiscent of blood.", "一个通体由深红色水晶构成的生物，它通体散发着血红色的光芒。", "_t")
 t("blue crystal", "海蓝水晶体", "entity name")
@@ -8088,15 +8088,15 @@ section "mod-tome/data/general/npcs/elven-caster.lua"
 t("humanoid", "人形生物", "entity type")
 t("shalore", "永恒精灵", "entity subtype")
 t("elven mage", "精灵法师", "entity name")
-t("An elven mage, dressed in dark robes.", "一位身穿黑色长袍的精灵法师。", "_t")
+t("An elven mage, dressed in dark robes.", "一位精灵法师，身着黑色长袍。", "_t")
 t("elven tempest", "精灵风暴术士", "entity name")
-t("An elven mage, dressed in crackling blue robes, and smelling of ozone.", "一位身穿散发着死鱼味蓝色长袍的精灵法师。", "_t")
-t("elven cultist", "精灵信徒", "entity name")
-t("An elven cultist, dressed in sickening green robes.", "一位身穿墨绿色长袍的精灵信徒。", "_t")
+t("An elven mage, dressed in crackling blue robes, and smelling of ozone.", "一位精灵法师，穿着噼里啪啦的蓝色长袍，身上散发着臭氧的味道", "_t")
+t("elven cultist", "精灵邪教徒", "entity name")
+t("An elven cultist, dressed in sickening green robes.", "一位精灵邪教徒，身着令人作呕的绿色长袍。", "_t")
 t("elven blood mage", "精灵血法师", "entity name")
-t("An elven blood mage, dressing in dark, bloodied robes.", "一位身穿黑色且鲜血斑斑长袍的精灵血法师。", "_t")
+t("An elven blood mage, dressing in dark, bloodied robes.", "一位精灵血法师，身着黑暗且鲜血斑斑的长袍。", "_t")
 t("elven corruptor", "精灵堕落者", "entity name")
-t("An elven corruptor, drawn to these blighted lands.", "一位精灵堕落者，生存于不毛之地上。", "_t")
+t("An elven corruptor, drawn to these blighted lands.", "一位精灵堕落者，被吸引到这些枯萎的土地上。", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/elven-warrior.lua"
@@ -8117,8 +8117,8 @@ section "mod-tome/data/general/npcs/faeros.lua"
 t("elemental", "元素", "entity type")
 t("fire", "火焰", "entity subtype")
 t("faeros", "法罗", "entity name")
-t("Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.", "法罗是高智商的火元素，大家很少能在火山以外的地方看到它们。也许，它们根本不属于这个世界。", "_t")
-t("greater faeros", "强化法罗", "entity name")
+t("Faeros are highly intelligent fire elementals, rarely seen outside volcanoes. They are probably not native to this world.", "法罗是高智力的火元素，在火山以外的地方很少看到它们。也许，它们根本不属于这个世界。", "_t")
+t("greater faeros", "高级法罗", "entity name")
 t("ultimate faeros", "究极法罗", "entity name")
 
 ------------------------------------------------
@@ -8229,30 +8229,30 @@ t("horror", "恐魔", "entity type")
 t("eldritch", "艾尔德里奇", "entity subtype")
 t("worm that walks", "蠕虫合体", "entity name")
 t([[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucous-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
-Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], "一件鼓鼓囊囊的长袍，长袍的缝隙里不断蠕动着浮肿的蠕虫。它有着两只臂膀一样的附属物，每只手都由重叠的蠕虫组成，各握着一柄覆有胆汁的斧子。每次挥舞武器的时，它都会溅出尸僵毒液，每滴毒液在落到地面前都在沸腾和翻滚着。", "_t")
-t("#LIGHT_RED#A carrion worm mass has spawned from %s' wounds!", "#LIGHT_RED#一团腐肉虫从%s的伤口了孵化了出来。", "logSeen")
+Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], "一件鼓鼓囊囊的腐烂长袍，长袍的缝隙里不断蠕动着浮肿的蠕虫。它有着两只臂膀一样的附属物，每只手都由重叠的蠕虫组成，各握着一柄覆有胆汁的斧子。每次挥舞武器的时候，它都会溅出尸僵毒液，每滴毒液在落到地面前都在沸腾和翻滚着。", "_t")
+t("#LIGHT_RED#A carrion worm mass has spawned from %s' wounds!", "#LIGHT_RED#一团腐肉虫从%s的伤口孵化了出来。", "logSeen")
 t("bloated horror", "浮肿恐魔", "entity name")
-t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "这是一只有着人头的漂浮物。它的孩子似的光头大的不成比例，并且它还有着满身恶臭的脓疮。", "_t")
+t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "一个球状的人形存在漂浮在这里，孩子似的光头大得不成比例，并且还有着满身恶臭的脓疮。", "_t")
 t("nightmare horror", "梦魇恐魔", "entity name")
-t("A shifting form of darkest night that seems to reflect your deepest fears.", "一只漆黑的生物，它深邃的黑色身体反射出了你深深的恐惧。", "_t")
+t("A shifting form of darkest night that seems to reflect your deepest fears.", "在漆黑的深夜中不断变幻的存在，映照出你内心深处的恐惧。", "_t")
 t("headless horror", "无头恐魔", "entity name")
-t("A headless, gangly humanoid with a large distended stomach.", "一个由闪光水晶构成的生物，它通体围绕着球状的光芒。", "_t")
+t("A headless, gangly humanoid with a large distended stomach.", "一个无头的人形存在，有一个巨大的膨胀的胃。", "_t")
 t("#AQUAMARINE#As %s falls all its eyes fall to the ground!", "#AQUAMARINE#当%s倒下时它的眼睛掉落在了地上。", "logSeen")
 t("eldritch eye", "艾尔德里奇之眼", "entity name")
-t("A small bloodshot eye floats here.", "一只小小的充血眼球，它游荡在这里。", "_t")
+t("A small bloodshot eye floats here.", "一只带血的小眼睛漂浮在这里。", "_t")
 t("#AQUAMARINE#As #Source# falls #Target# seems to weaken!", "#AQUAMARINE#当#Source#倒下时，#Target#似乎被削弱了！", "logCombat")
 t("+Blind", "+致盲", "_t")
 t("%s is blinded by the loss of all its eyes.", "%s 失去了它所有的眼睛，无法看见东西。", "logSeen")
 t("luminous horror", "金色恐魔", "entity name")
-t("A lanky humanoid shape composed of yellow light.", "一只身材瘦长的怪物，它的身体由金色的光芒组成。", "_t")
+t("A lanky humanoid shape composed of yellow light.", "一个身材瘦长的人形，由金色的光芒组成。", "_t")
 t("radiant horror", "灼眼恐魔", "entity name")
-t("A lanky four-armed humanoid shape composed of bright golden light.  It's so bright it's hard to look at, and you can feel heat radiating outward from it.", "一只身材瘦长的四臂人形怪物，它的身体由金色的光芒组成。它的光芒令人无法直视，你可以感受到高温从它身上不断的向外辐射。", "_t")
+t("A lanky four-armed humanoid shape composed of bright golden light.  It's so bright it's hard to look at, and you can feel heat radiating outward from it.", "一个身材瘦长的四臂人形，由金色的光芒组成，令人无法直视，甚至感受到高温从它身上不断的向外辐射。", "_t")
 t("devourer", "吞噬者", "entity name")
-t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "一只无头怪物，它有着圆润的体型和又粗又短的四肢。它的牙齿似乎占据了整个身体。", "_t")
+t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "一个无头的圆形生物，有粗壮的腿和胳膊。 它的身体似乎都是牙齿。", "_t")
 t("blade horror", "刀锋恐魔", "entity name")
-t("Blades whirl in the air around this thin, floating figure. The air around it swirls with force, threatening to tear apart anything that approches, if the blades don't do it first.", "刀锋环绕在这只薄薄的漂浮着的恐魔周围。它周围的空气中环绕着锋利的能量，撕裂着靠近的任何东西。", "_t")
+t("Blades whirl in the air around this thin, floating figure. The air around it swirls with force, threatening to tear apart anything that approches, if the blades don't do it first.", "刀锋环绕这只瘦弱的漂浮生物。周围的空气中猛烈旋转，和刀片一同撕裂任何靠近的物体。", "_t")
 t("oozing horror", "黏液恐魔", "entity name")
-t("A massive, amorphous blob of green slime crawls on the ground towards you. Eyes drift through the viscous mass, scanning for potential prey.", "一个巨大的有着绿色斑点的黏糊糊的物体从地上爬过来。在一堆黏糊糊中隐藏着的眼睛，寻找着潜藏的猎物。", "_t")
+t("A massive, amorphous blob of green slime crawls on the ground towards you. Eyes drift through the viscous mass, scanning for potential prey.", "一团巨大的、无定形的绿色粘液在地面上向你爬来。眼睛飘过粘稠的物质，扫描着潜在的猎物。", "_t")
 t("umbral horror", "暗影恐魔", "entity name")
 t("A dark shifting shape stalks through the shadows, blending in seamlessly.", "一个闪过黑暗的阴影，迅速遁入了无尽的黑暗。", "_t")
 t("dreaming horror", "梦境恐魔", "entity name")
@@ -8263,12 +8263,12 @@ t("It looks asleep and dreamy.", "它看上去沉浸在睡梦之中。", "_t")
 t("It looks awake, beware!", "它醒来了，小心！", "_t")
 t("#LIGHT_BLUE#A dream seed escapes %s's sleeping mind.", "#LIGHT_BLUE#一个梦境之种从%s的沉眠中释放", "logSeen")
 t([[A vaguely tentacled yet rapidly changing shape floats here.  With each breath you can feel reality twist, shatter, and break. 
-Blue burns into red, green bursts into yellow, and the air crackles and hisses before exploding into a thousand fragments of sharp shapes and colors.]], "这是一只混沌状的触手生物，它在这里惬意的休息并不断的变幻着颜色，显然无视了你的存在。它的每次呼吸都会使周围的空间发生轻微的扭曲。在它身上氤氲着的光芒由蓝转红、由绿转黄，交织成一片五彩缤纷的和谐幻景。", "_t")
+Blue burns into red, green bursts into yellow, and the air crackles and hisses before exploding into a thousand fragments of sharp shapes and colors.]], "一只不断变幻形态的触手生物漂浮在这里，它的每次呼吸都会使周围的空间发生轻微的扭曲。在它身上氤氲着的光芒由蓝转红、由绿转黄，交织成一片五彩缤纷的和谐幻景。", "_t")
 t("#LIGHT_BLUE#The sleeper stirs...", "#LIGHT_BLUE#有人打扰了沉睡者的沉眠...", "logSeen")
 t("dream seed", "梦境之种", "entity name")
-t("A pinkish bubble floats here, reflecting the world not as it is, but as it would be in that surreal place that exists only in our dreams.", "这是一个漂浮着的粉红色泡沫，它似乎能够反映出世界的另一面，但是由于这虚幻的空间，它所反映的事物只可能存在于我们的梦境中。", "_t")
+t("A pinkish bubble floats here, reflecting the world not as it is, but as it would be in that surreal place that exists only in our dreams.", "一个粉红色的气泡漂浮在这里，反映的不是世界的本来面目，而是那个只存在于我们梦中的超现实。", "_t")
 t("maelstrom", "灵能漩涡", "entity name")
-t("This powerful vortex of ice and lightning somehow gives you the impression of claws, teeth and intense hunger...", "这个强大的灵能漩涡莫名其妙地给你一种利齿尖牙和饥饿的印象...", "_t")
+t("This powerful vortex of ice and lightning somehow gives you the impression of claws, teeth and intense hunger...", "这个由冰和闪电组成的强大漩涡不知为何给你一种利齿尖牙和强烈饥饿的印象...", "_t")
 t("parasitic horror", "寄生恐魔", "entity name")
 t("You don't want to think about what sort of creature this lamprey-like horror was feeding on to grow so large.  Its skin pulsates and writhes, like things are moving underneath...", "你不想知道这个像七鳃鳗一样的恐魔是吃什么才能长这么大的。它的皮肤不停的扭动，就像有东西在下面移动一样...", "_t")
 t("%s's severed flesh starts crawling!", "%s被切割的血肉开始爬行！", "logSeen")
@@ -8304,9 +8304,9 @@ t("This massive stony structure shifts and pulsates, its many long, thin tentacl
 t("swarming horror", "群生恐魔", "entity name")
 t("This tiny fish-like creature moves erratically, but is constantly surrounded by others of its kind.", "体型小的、象鱼一样的怪物，总是成群出现。", "_t")
 t("ravenous horror", "贪婪恐魔", "entity name")
-t("A vile looking liquid flows from the teeth of this agile monster. It glides through the water towards you, spined fins jutting outwards.", "这个丑陋怪物的牙齿中不断滴落邪恶的液体。", "_t")
+t("A vile looking liquid flows from the teeth of this agile monster. It glides through the water towards you, spined fins jutting outwards.", "这个敏捷怪物的牙齿中不断滴落邪恶的液体，它穿过水面向你滑行，带刺的鳍向外凸出。", "_t")
 t("boiling horror", "沸腾恐魔", "entity name")
-t("This frothing ball of water rages with an intense heat.", "这个充满泡沫的水球有着极高的温度。", "_t")
+t("This frothing ball of water rages with an intense heat.", "这个冒着泡沫的水球带着强烈的热度汹涌而来。", "_t")
 t("swarm hive", "育种恐魔", "entity name")
 t("This titanic mass of flesh pulsates and churns as tiny monsters burst from its orifices.", "巨大的肉块在不断振动、摇晃，从孔口处不断涌现生物。", "_t")
 t("abyssal horror", "深渊恐魔", "entity name")
@@ -8320,9 +8320,9 @@ t("temporal", "时空", "entity subtype")
 t("dredgling", "坠灵恐魔", "entity name")
 t("A small pink-skinned humanoid with large bulbous eyes.", "一只小小的红皮人型生物，它有着巨大的眼睛。", "_t")
 t("dredge", "挖掘魔", "entity name")
-t("A hulking pink-skinned creature with long arms as thick as tree trunks.  It drags its knuckles on the ground as it lumbers toward you.", "一只灰色皮肤的生物，它的手臂像树干一样粗壮有力。它拖动着膝关节，缓慢的向你爬过来。", "_t")
+t("A hulking pink-skinned creature with long arms as thick as tree trunks.  It drags its knuckles on the ground as it lumbers toward you.", "一只粉色皮肤的生物，它的手臂像树干一样粗壮有力。它拖动着膝关节，缓慢的向你爬过来。", "_t")
 t("dredge captain", "挖掘魔首领", "entity name")
-t("A thin pink-skinned creature with long spindly arms.  Half its body is old and wrinkly, and the other half appears quite young.", "一只灰色皮肤的生物，它的手臂像树干一样粗壮有力。它的半边身体又老又皱，另外半边身体则显得格外年轻。", "_t")
+t("A thin pink-skinned creature with long spindly arms.  Half its body is old and wrinkly, and the other half appears quite young.", "一只粉色皮肤的生物，它的手臂像树干一样粗壮有力。它的半边身体又老又皱，另外半边身体则显得格外年轻。", "_t")
 t("temporal stalker", "时空猎手", "entity name")
 t("A slender metallic monstrosity with long claws in place of fingers, and razor-sharp teeth.", "瘦长的金属怪物，它有着金属的爪子和锋利的牙齿。", "_t")
 t("void horror", "虚空靥魔", "entity name")
@@ -8706,7 +8706,7 @@ t("A frail skeleton; just about the only bones that aren't cracked are its arms.
 t("skeleton mage", "骷髅法师", "entity name")
 t("Given its condition, you're less inclined to think this skeleton knows proper spells, rather than simply disgorging its magical energy as it breaks down.  This doesn't make it much less dangerous to be around, mind you.", "看着它残破的样子，你与其相信这只骷髅会释放魔法，不如相信是在它身躯逐渐破碎的同时将奥术能量胡乱喷射出来。不过，这一点也没有降低它的危险性，小心。", "_t")
 t("skeleton warrior", "骷髅战士", "entity name")
-t("The forces binding this skeleton together are resilient enough to let it hold a shield and swing a weapon as well as it could have in life.  It's still wearing its old armor, in rusty but servicable condition.", "施展在这只骷髅身上的魔法已经足够灵活，足以让它像还活着的时候那样严阵以待，挥动武器。它仍然穿着它原来的那件老盔甲，锈迹斑斑却值得信赖。", "_t")
+t("The forces binding this skeleton together are resilient enough to let it hold a shield and swing a weapon as well as it could have in life.  It's still wearing its old armor, in rusty but servicable condition.", "施展在这只骷髅身上的魔法已经足够强大，足以让它像还活着的时候那样严阵以待，挥动武器。它仍然穿着它原来的那件老盔甲，锈迹斑斑却值得信赖。", "_t")
 t("skeleton archer", "骷髅弓箭手", "entity name")
 t("Nobody scavenged the high-quality bow from this archer before it was raised from the dead.  You're about to wish the world had more grave-robbers.", "在被复活之前，这位弓箭手的遗体上居然还保留着一张还不错的弓。你开始觉得，世界上如果有更多的盗墓贼就好了。", "_t")
 t("skeleton magus", "骷髅魔导师", "entity name")
@@ -8833,7 +8833,7 @@ t("elemental", "元素", "entity type")
 t("temporal", "时空", "entity subtype")
 t("and lost outside time", "并在时空中迷失", "_t")
 t("telugoroth", "泰鲁戈洛斯", "entity name")
-t("A temporal elemental, rarely encountered except by those who travel through time itself.  Its blurred form constantly shifts before your eyes.", "一只时间元素，很少被世人所知。它模糊的形态不断在你眼前闪过。", "_t")
+t("A temporal elemental, rarely encountered except by those who travel through time itself.  Its blurred form constantly shifts before your eyes.", "一只时间元素，很少被世人所知。它模糊的形态在你眼前不断变幻。", "_t")
 t("greater telugoroth", "强化泰鲁戈洛斯", "entity name")
 t("ultimate telugoroth", "究极泰鲁戈洛斯", "entity name")
 t("teluvorta", "泰鲁沃塔", "entity name")

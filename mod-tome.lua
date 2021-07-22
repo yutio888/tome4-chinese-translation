@@ -1806,7 +1806,7 @@ Many weapon types will have an additional "accuracy bonus" scaling per point of 
 ]], [[#GOLD#命中#LAST#
 命中值表示经目标闪避值校正后你击中目标和使目标失去平衡的几率。
 当造成基于命中的持续性物理效果的时候，敌人的相关豁免每超过命中一点减少5%持续时间。
-不同的武器还具有不同的命中加值，这是取决于你的命中比目标的防御高多少点产生的额外效果。
+不同的武器还具有不同的命中加值，这是取决于你的命中比目标的闪避高多少点产生的额外效果。
 ]], "_t")
 t([[#GOLD#Physical Power#LAST#
 Measures your ability to deal physical damage in combat.
@@ -27030,7 +27030,7 @@ t("Thought Sense", "思维感知", "talent name")
 t([[Detect the mental activity of creatures in a radius of %d for %d turns.
 		This reveals their location and boosts your defense by %d.
 		The defense scales with you Mindpower and the range with your Willpower.]], [[感知半径 %d 范围内生物的精神活动，效果持续 %d 回合。
-		这个技能暴露他们的位置，并增加你的防御 %d 。
+		这个技能暴露他们的位置，并增加你的闪避 %d 。
 		持续时间、闪避、和半径受精神强度加成。]], "tformat")
 t("Static Net", "静电网络", "talent name")
 t([[Cast a net of static electricity in a radius of %d for %d turns.

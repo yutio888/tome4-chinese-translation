@@ -3530,7 +3530,7 @@ t([[You unleash the wrath of the wilds for 5 turns.
 		This effect can only stun a creature once per turn.
 		Chance scales with your Constitution and apply power is the highest or your physical or mind power.]], [[你释放持续 5 回合的自然的愤怒。
 		愤怒状态下，每当你造成伤害时有 %d%% （每回合攻击的第一个生物 100%% ）几率震慑 3 回合。
-		该效果每回合只能震慑一个敌人。
+		每个敌人每回合只能被该技能震慑一次。
 		震慑几率受体质影响，强度由物理或精神强度中较高一项决定。]], "tformat")
 t("Drake-Infused Blood", "灌输龙血", "talent name")
 t("You must kill more enemies before you can use this talent!", "你需要杀死更多敌人才能使用该技能！", "logPlayer")

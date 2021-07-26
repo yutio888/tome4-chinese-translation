@@ -30591,7 +30591,7 @@ t([[Your reflexes are lightning-fast, if you spot a projectile (arrow, shot, spe
 t("Intuitive Shots", "直觉射击", "talent name")
 t([[Activating this talent enhances your reflexes to incredible levels.  Each time you are attacked in melee, you have a %d%% chance to fire off a defensive shot off in time to intercept the attack, evading it and dealing %d%% archery damage.
 		This cannot damage the same target more than once per turn.]], [[激活这个技能将你的反应提升到令人难以置信的水平. 每当你被近身攻击, 你有 %d%% 几率射出一箭拦截攻击, 躲闪攻击并造成 %d%% 伤害.
-		该技能每回合触发最多一次.]], "tformat")
+		该技能每回合对同一目标触发最多一次.]], "tformat")
 t("Sentinel", "哨兵", "talent name")
 t("%s's %s is disrupted by the shot!", "%s的%s被射击干扰了！", "logSeen")
 t([[You take close notice of the target for the next 5 turns. If they attempt to use a non-instant talent you react with incredible speed, firing a shot dealing 25%% damage that causes the talent to fail and go on cooldown.

@@ -31555,7 +31555,7 @@ t([[During your studies of celestial forces you came in contact with an entity f
         - 50%% 伤害转化为 #GOLD#光系伤害#LAST#
         - #GOLD#光辉引力#LAST#： 光明之刃变成半径2的球形伤害，且可以将5格范围内的敌人拉过来。
         - #GOLD#灼烧#LAST# 的伤害和触发概率翻倍
-        - #GOLD#阳光之怒#LAST# 触发时，审判的剩余冷却时间减少6回合。
+        - #GOLD#阳光之怒#LAST# 触发时，裁决的剩余冷却时间减少6回合。
         - #GOLD#无御之日#LAST# 将使光系和火焰伤害抗性降低为0%%
 
 		#{italic}##GOLD#你会同遥远的太阳联合吗？#{normal}#

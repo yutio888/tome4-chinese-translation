@@ -5189,7 +5189,7 @@ t([[Push your heavy weapon beyond its normal limits to trigger a powerful effect
 #AQUAMARINE#Shockstaff#LAST#: Drive your staff into the ground, discharging all remaining power to deal %d%% shockstaff damage as lightning in radius %d. Those struck will be knocked back %d tiles, and if they strike a wall they will emit a static pulse dealing %0.2f lightning damage in radius 1 and stunning them for 5 turns.
 #AQUAMARINE#Boltgun#LAST#: Overcharge your boltgun, firing a single deadly bolt dealing %d%% steamgun damage as acid in a piercing line. For each negative physical, magical, or mental effect on the target, they take an additional %d%% damage (to a maximum of %d%%) and the duration of each negative effect is increased by %d turns.]], [[突破你重装武器的潜能，触发一个强大的效果。这会立刻使你停止使用重装武器，并消耗掉所有的弹药。
 #AQUAMARINE#喷火器#LAST#: 引爆你的油箱，产生一场半径为 4 的爆炸，将你推到指定 %d 码内的某格内。被爆炸击中的敌人将会受到 %0.2f 火焰伤害，并且在不稳定的油料的助燃下，额外受到相当于当前燃烧伤害 %d%% 的伤害。
-#AQUAMARINE#电击棒#LAST#: 用电击棒重击地面，释放所有的电力，在 %d 码范围内造成 %d%% 闪电电击棒伤害。被击中的目标会被击退 %d 码，如果他们被击退到墙上，这会产生一个静电脉冲，在半径 1 码范围内造成 %0.2f 闪电伤害，并被震慑 5 回合。
+#AQUAMARINE#电击棒#LAST#: 用电击棒重击地面，释放所有的电力，造成 %d%% 闪电电击棒伤害，伤害范围 %d 。被击中的目标会被击退 %d 码，如果他们被击退到墙上，这会产生一个静电脉冲，在半径 1 码范围内造成 %0.2f 闪电伤害，并被震慑 5 回合。
 #AQUAMARINE#爆矢枪#LAST#: 超载你的爆矢枪，发射一枚致命的弹药，穿透一条直线造成 %d%% 蒸汽枪伤害。被击中的目标身上每有一个物理、魔法或精神负面效果，就会额外受到 %d%% 伤害（最多 %d%% ），并且它们身上的负面效果的持续时间会增加 %d 回合。]], "tformat")
 
 ------------------------------------------------

@@ -716,10 +716,10 @@ section "tome-ashes-urhrok/data/talents/corruptions/black-magic.lua"
 
 t("Bleak Outcome", "悲惨结局", "talent name")
 t([[Your actions foreshadow a bleak outcome for your foes.
-		Each time you deal darkness, fire, blight or acid damage you curse your foe with an effect that stacks up to %d times (this can happen only once per creature per turn).
+		Each time you deal darkness, fire, blight or acid damage you curse %s your foe with an effect that stacks up to %d times (this can happen only once per creature per turn).
 		The vim you get for killing the creature is increased by 100%% for every stack of Bleak Outcome.
 		The vim's worth of a creature depends on your Willpower.]], [[你的一举一动都是敌人悲惨结局的预兆。
-		每次你造成暗影、火焰、枯萎或酸性伤害时，你诅咒你的目标，最多叠加至 %d 次（每个敌人每回合最多触发一次）。
+		每次你造成暗影、火焰、枯萎或酸性伤害时，你诅咒你的目标%s，最多叠加至 %d 次（每个敌人每回合最多触发一次）。
 		每有一层诅咒，你杀死被诅咒目标时获得的活力值增加 100%% 。
 		获得活力值基础值取决于意志。]], "tformat")
 t("Weakened Soul", "灵魂弱化", "talent name")
@@ -748,9 +748,9 @@ t("Hits the target twice, doing %d%% weapon damage each hit. You gain life equal
 t("Fiery Grasp", "炙炎之牢", "talent name")
 t("%s resists the silence!", "%s抵抗了沉默！", "logSeen")
 t("%s resists the grasp!", "%s 抵抗了抓取!", "logSeen")
-t([[Send out a claw of fire, striking in a line doing %0.2f damage leading to a target. The target is caught in the claw's grasp, taking %d%% weapon damage as fire damage and becoming unable to move for %d turns, while also taking %0.2f damage per turn.
+t([[Send out a claw of fire, striking in a line doing %0.2f damage leading to a target. The target is caught in the claw's grasp, taking %d%% weapon damage as fire damage and becoming unable to move for %d turns %s, while also taking %0.2f damage per turn.
 		Starting from talent level 4, it will also silence.
-		The beam damage and damage over time will increase with your Spellpower.]], [[对目标伸出一只火炎之爪，对直线上的生物造成 %0.2f 点火焰伤害。目标被火炎之爪抓住后，受到 %d%% 火焰武器伤害，并在 %d 回合不能移动，同时每回合受到 %0.2f 点火焰伤害。
+		The beam damage and damage over time will increase with your Spellpower.]], [[对目标伸出一只火炎之爪，对直线上的生物造成 %0.2f 点火焰伤害。目标被火炎之爪抓住后，受到 %d%% 火焰武器伤害，并在 %d 回合不能移动 %s，同时每回合受到 %0.2f 点火焰伤害。
 	技能等级 4 级以后，目标同时会被沉默。
 	射线伤害和持续伤害受法术强度加成。]], "tformat")
 t("Reckless Strike", "舍身一击", "talent name")
@@ -855,7 +855,7 @@ t([[By channeling doom forces in your shield you constantly apply 15%% of its bl
 		Whenever you are hit in melee your shield retaliates automatically for %d%% of its block value as fire and darkness damage.]], [[在盾牌中引导毁灭之力，使你受到的全体伤害减少 15%% 格挡值。
 		每次你被近战攻击命中时，你的盾牌会自动反击，造成 %d%% 格挡值的火焰暗影混合伤害。]], "tformat")
 t("Silence", "沉默", "talent name")
-t("Corrupt the target, silencing it for %d turns.", "腐化目标，使之沉默 %d 回合。", "tformat")
+t("Corrupt the target, silencing it for %d turns %s.", "腐化目标，使之沉默 %d 回合%s。", "tformat")
 t("Fiery Portal", "火焰传送门", "talent name")
 t("fiery portal", "火焰传送门", "_t")
 t([[Create two interlinked portals for %d turns.
@@ -866,13 +866,13 @@ t([[Create two interlinked portals for %d turns.
 t("Doom Tendrils", "末日触须", "talent name")
 t([[You turn into a pillar of doom, sprouting flame tendrils in radius 2 around you.
 		All foes hit by the tendrils take %0.2f fire damage per turn.
-		If the creature suffers damage from the fire it is pinned to the ground.]], [[你化身为末日之柱，在周围 2 码的范围内产生火焰触须。
+		If the creature suffers damage from the fire it is pinned to the ground %s.]], [[你化身为末日之柱，在周围 2 码的范围内产生火焰触须。
 		被火焰触须击中的敌人每回合受到 %0.2f 火焰伤害。
-		受到伤害的生物同时会被定身。]], "tformat")
+		受到伤害的生物同时会被定身%s。]], "tformat")
 t("Doomed Nature", "自然末日", "talent name")
-t([[You curse a target for 5 turns to sever its connection to Nature.
+t([[You curse a target for 5 turns to sever its connection to Nature %s.
 		Each time it tries to use a natural or psionic power it has %d%% chances to fail and instead trigger a fireball of radius 1 doing %0.2f fire damage.
-		The damage increases with you Spellpower stat.]], [[你诅咒目标 5 回合，割裂其与自然的联系。
+		The damage increases with you Spellpower stat.]], [[你诅咒目标 5 回合，割裂其与自然的联系%s。
 		每次被诅咒的目标试图使用自然或灵能力量时，有 %d%% 几率失败并制造一个火球，对半径 1 内的生物造成 %0.2f 火焰伤害。
 		伤害受法术强度加成。]], "tformat")
 t("Acid Burst", "酸性爆发", "talent name")
@@ -890,8 +890,8 @@ t("Flash Block", "瞬间格挡", "talent name")
 t("In a fiery display of speed you raise your shield to block instantly.", "在闪电般的速度中，你瞬间举起盾牌格挡。", "tformat")
 t("Blackice", "黑冰", "talent name")
 t([[Each time your kill a creature with non-fire damage you gain a blackice charge for 20 turns (stacking to %d).
-		At any moment you can use a charge to infect a creature with blackice, reducing its fire and physical resistance by %d%% for 7 turns.]], [[每次你用非火焰伤害杀死生物时，你获得一次黑冰充能，持续 20 回合，最多累计 %d 次。
-		任何时候，你能消耗一次充能，用黑冰感染一个生物，降低其 %d%% 火焰和物理抗性 7 回合。]], "tformat")
+		At any moment you can use a charge to infect a creature with blackice, reducing its fire and physical resistance by %d%% for 7 turns %s.]], [[每次你用非火焰伤害杀死生物时，你获得一次黑冰充能，持续 20 回合，最多累计 %d 次。
+		任何时候，你能消耗一次充能，用黑冰感染一个生物，降低其 %d%% 火焰和物理抗性 7 回合%s。]], "tformat")
 t("Doomfire", "毁灭之火", "talent name")
 t([[Raging flames burn foes and allies alike, doing %0.2f fire damage in a radius of %d each turn for %d turns.
 		Demons standing in the doomfire will instead be healed.
@@ -903,12 +903,12 @@ t([[Whenever you take blight damage you bask in the sweet pain for 2 turns, incr
 		This can only happen every %d turns.]], [[每当你受到枯萎伤害，你沐浴痛苦的甜美，在 2 回合内获得 15%% 伤害吸收。
 		这一效果最多每 %d 回合触发一次。]], "tformat")
 t("Hexed Shield", "邪术护盾", "talent name")
-t([[Whenever you block an attack with your shield, you randomly hex the attacker with one of the hexes: Pacification, Domination, Burning or Empathic as if cast at talent level %d.
-		This may only happen once per turn.]], [[当你使用盾牌格挡一次攻击，你会朝攻击者释放一个随机邪术： 宁神邪术、支配邪术、燃烧邪术或是转移邪术，技能等级为 %d 。
+t([[Whenever you block an attack with your shield, you randomly hex the attacker with one of the hexes: Pacification, Domination, Burning or Empathic as if cast at talent level %d %s.
+		This may only happen once per turn.]], [[当你使用盾牌格挡一次攻击，你会朝攻击者释放一个随机邪术： 宁神邪术、支配邪术、燃烧邪术或是转移邪术，技能等级为 %d %s。
 		这一效果最多每回合触发一次。]], "tformat")
 t("Cursed Arm", "诅咒之手", "talent name")
-t([[Whenever make a melee attack, you have a %d%% chance to randomly curse the target with one of the curses: Defenselessness, Impotence, Death or Vulnerability as if cast at talent level %d.
-		This may only happen once per turn.]], [[每当你进行一次近战攻击，你有 %d%% 几率随机对目标释放一次诅咒：衰竭诅咒、虚弱诅咒、死亡诅咒或弱点诅咒，技能等级为 %d 。
+t([[Whenever make a melee attack, you have a %d%% chance to randomly curse the target with one of the curses: Defenselessness, Impotence, Death or Vulnerability as if cast at talent level %d %s.
+		This may only happen once per turn.]], [[每当你进行一次近战攻击，你有 %d%% 几率随机对目标释放一次诅咒：衰竭诅咒、虚弱诅咒、死亡诅咒或弱点诅咒，技能等级为 %d %s。
 		这一效果最多每回合触发一次。]], "tformat")
 t("Doom Storm", "毁灭风暴", "talent name")
 t("firestorm", "火焰风暴", "_t")
@@ -918,9 +918,9 @@ t([[A furious fire storm rages around the caster, doing %0.2f fire damage in a r
 		你精确的操控火焰风暴，阻止它伤害你的队友。 
 		伤害和持续时间受法术强度加成。]], "tformat")
 t("Frostfire Nova", "霜火爆炸", "talent name")
-t([[Fire a blast of frostfire in radius %d, doing %0.2f fire damage and freezing creatures in ice blocks for 4 turns.
+t([[Fire a blast of frostfire in radius %d, doing %0.2f fire damage and freezing creatures in ice blocks for 4 turns %s.
 		For each frozen creature you regenerate %d vim.
-		The damage will increase with your Spellpower.]], [[在半径 %d 码范围内发射一团霜火，造成 %0.2f 火焰伤害，并冻结敌人 4 回合。
+		The damage will increase with your Spellpower.]], [[在半径 %d 码范围内发射一团霜火，造成 %0.2f 火焰伤害，并冻结敌人 4 回合 %s。
 		你每冻结一个敌人，就恢复 %d 活力值。
 		伤害受法术强度加成。]], "tformat")
 t("Fetid Breath", "恶臭吐息", "talent name")
@@ -934,9 +934,9 @@ t([[You breathe a mix of darkness and flight in a frontal cone of radius %d. Any
 		]], "tformat")
 t("Blood Drinker", "饮血者", "talent name")
 t([[Deal a blight-enhanced melee blow, dealing %d%% blight damage.
-		If the attack hits and the creature dies in the next 2 turns you drink its essence which makes you regenerate 7 vim per turn and gain 40%% chance to evade attacks for the next %d turns.
+		If the attack hits and %s the creature dies in the next 2 turns you drink its essence which makes you regenerate 7 vim per turn and gain 40%% chance to evade attacks for the next %d turns.
 		]], [[你使用枯萎力量强化打击，造成 %d%% 枯萎武器伤害。
-		如果攻击命中目标，且目标在接下来 2 回合内死去，你会吸取它的精华，每回合恢复 7 活力值，并有 40%% 几率回避攻击，持续 %d 回合。
+		如果攻击命中目标，%s且目标在接下来 2 回合内死去，你会吸取它的精华，每回合恢复 7 活力值，并有 40%% 几率回避攻击，持续 %d 回合。
 		]], "tformat")
 t("Meteor Slam", "落星重击", "talent name")
 t("You cannot use Meteor Slam without a shield!", "你没有盾牌，无法使用落星重击！", "logPlayer")
@@ -952,16 +952,16 @@ t([[By seathing yourself in flames you phase to a distant location.
 		伤害受法术强度加成。
 		]], "tformat")
 t("Frost Grab", "冰霜飞爪", "talent name")
-t([[Grab a target and pull it next to you, covering it with frost while reducing its movement speed by 50%% for %d turns.
+t([[Grab a target and pull it next to you %s, covering it with frost while reducing its movement speed by 50%% for %d turns %s.
 		The ice will also deal %0.2f cold damage.
-		The damage and chance to slow will increase with your Spellpower.]], [[抓住目标并使其传送至你身边，冰冻目标使其移动速度 50%% 持续 %d 回合。
+		The damage and chance to slow will increase with your Spellpower.]], [[抓住目标并使其传送至你身边%s，冰冻目标使其移动速度 50%% 持续 %d 回合%s。
 		冰同时也会造成 %0.2f 冰冷伤害。
 		伤害受你的法术强度加成。]], "tformat")
 t("Diseased Body", "疫病躯体", "talent name")
-t([[Whenever you take direct damage, there is a %d%% chance that your your diseased body erupts in blight, diseasing your attacker with a random disease for %d turns.
+t([[Whenever you take direct damage, there is a %d%% chance that your your diseased body erupts in blight, diseasing your attacker with a random disease for %d turns %s.
 		Each turn the disease deals %0.2f blight damage and reduce one random attribute (strength, dexterity, constitution) by %d.
 		This may only happen once per turn.
-		The damage increases with your spellpower.]], [[每当你受到伤害时，你充满疫病的躯体有 %d%% 几率爆发出枯萎能量，使攻击者感染随机疾病，持续 %d 回合。
+		The damage increases with your spellpower.]], [[每当你受到伤害时，你充满疫病的躯体有 %d%% 几率爆发出枯萎能量，使攻击者感染随机疾病，持续 %d 回合%s。
 		疾病每回合造成 %0.2f 枯萎伤害，并会降低随机一项属性（力量、敏捷或体质） %d 。
 		这一效果最多每回合触发一次。
 		伤害受法术强度加成。]], "tformat")
@@ -1000,7 +1000,7 @@ t("#CRIMSON#You feed vim into your %s, increasing its level to %d and healing it
 t("Demon Seed", "恶魔之种", "talent name")
 t("You require a weapon and a shield to use this talent.", "你需要一把武器一个盾牌来施展这个技能。", "logPlayer")
 t([[Strike a blow with your weapon for %d%% blight damage.
-		If the attack hits a demonic seed tries to take hold inside your foe and you follow up with a shield strike dealing %d%% damage and dazing your target for %d turns.
+		If the attack hits a demonic seed tries to take hold inside your foe %s and you follow up with a shield strike dealing %d%% damage and dazing your target for %d turns %s.
 		
 		The seed requires a powerful host to nourish it and can only take hold in creatures that are worth experience and that are not summoned demons.
 		The chance for the seed to take hold is based on the creatures rank:
@@ -1013,7 +1013,7 @@ t([[Strike a blow with your weapon for %d%% blight damage.
 
 		Higher talent levels allow for more powerful demon types.
 		Implanting a seed into unique demons, if successful, will always try to grant a seed of that type, if available.]], [[对目标造成 %d%% 枯萎武器伤害。
-		如果攻击命中，你会将恶魔种子植入目标体内，然后用盾牌攻击目标，造成 %d%% 盾牌伤害并眩晕 敌人 %d 回合。
+		如果攻击命中，你会将恶魔种子植入目标体内%s，然后用盾牌攻击目标，造成 %d%% 盾牌伤害并眩晕敌人 %d 回合%s。
 
 		种子需要足够强大的宿主来成长，它只能寄生在有经验的生物里，不能寄生在召唤物中。
 		种子的存活几率基于宿主的级别：
@@ -1082,8 +1082,8 @@ t([[You use your demon seeds to the fullest of their potential.
 section "tome-ashes-urhrok/data/talents/corruptions/demonic-strength.lua"
 
 t("Dismember", "肢解", "talent name")
-t([[Your melee attacks cripple your targets when they critically strike, lowering their movement speed by %d%% and their accuracy by %d for %d turns.
-		Additionally, you gain %d%% chance to critically strike with your melee attacks.]], [[当近战攻击暴击时，致残你的目标，降低 %d%% 移动速度和 %d 命中，持续 %d 回合。
+t([[Your melee attacks cripple your targets when they critically strike, lowering their movement speed by %d%% and their accuracy by %d for %d turns %s.
+		Additionally, you gain %d%% chance to critically strike with your melee attacks.]], [[当近战攻击暴击时，致残你的目标，降低 %d%% 移动速度和 %d 命中，持续 %d 回合%s。
 	同时，增加 %d%% 近战暴击率。]], "tformat")
 t("Surge of Power", "力量之潮", "talent name")
 t([[Use your stored vim to supercharge your body, recovering %d stamina and %d life.
@@ -1166,13 +1166,13 @@ t([[Taking example from Mal'Rok, the demon's homeworld you harden yourself.
 		Increases total armour by %d%% + 10 and spellpower by %d.]], [[从恶魔家乡玛·洛克中学习，强化自身。
 		增加 10 + %d%% 总护甲值 ，获得 %d 法术强度。]], "tformat")
 t("Demonic Madness", "疯狂旋转", "talent name")
-t([[You spin around madly with your shield, bashing all those around you for %d%% shield damage as darkness, confusing your foes for %d turns.
-		At level 4 you also automatically block at the end.]], [[你疯狂旋转你的盾牌，攻击周围生物，造成 %d%% 暗影盾牌伤害并使其混乱 %d 回合。
+t([[You spin around madly with your shield, bashing all those around you for %d%% shield damage as darkness, confusing your foes for %d turns %s.
+		At level 4 you also automatically block at the end.]], [[你疯狂旋转你的盾牌，攻击周围生物，造成 %d%% 暗影盾牌伤害并使其混乱 %d 回合%s。
 		技能等级 4 时，你自动进入格挡状态。]], "tformat")
 t("Blighted Shield", "枯萎能量", "talent name")
-t([[Your shield is infused with a powerful blight. Anytime you block and apply a counterstrike effect the target is also afflicted by a curse of impotence.
+t([[Your shield is infused with a powerful blight. Anytime you block and apply a counterstrike effect the target is also afflicted by a curse of impotence %s.
 		Cursed creatures have all their damage decreased by %d%% for 5 turns.
-		The effects will improve with your Spellpower.]], [[你的盾牌充满强大的枯萎能量。每次你格挡并附加反击状态时，目标将被虚弱诅咒感染， 5 回合内降低 %d%% 伤害。
+		The effects will improve with your Spellpower.]], [[你的盾牌充满强大的枯萎能量。每次你格挡并附加反击状态时，目标将被虚弱诅咒感染 %s， 5 回合内降低 %d%% 伤害。
 		效果受法术强度加成。]], "tformat")
 
 ------------------------------------------------
@@ -1291,18 +1291,18 @@ t([[Any nearby allied creature that is not a summon will be bound to your will.
 section "tome-ashes-urhrok/data/talents/corruptions/oppression.lua"
 
 t("Horrifying Blows", "恐惧打击", "talent name")
-t([[Your successful melee hits apply a stacking effect that decreases damage done by %d%%.
+t([[Your successful melee hits apply a stacking effect %s that decreases damage done by %d%%.
 		You can have up to %d stacks per target and further attacks refresh the duration, but any turn you are farther than %d spaces from the victim the fear will wear off quickly.
 		At level 3 it also slows by %0.2f%% per stack.
 		At level 5 you can horrify enemies in a radius of %d.
 		This talent ignores saves and immunities.
-		]], [[你的攻击能够惊吓目标，降低目标 %d%% 的伤害。 
+		]], [[你的攻击能够惊吓目标%s，降低目标 %d%% 的伤害。 
 	此效果可以叠加 %d 次，每次攻击会刷新持续时间。但是当目标与你距离超过 %d 码，恐惧效果会迅速消退。
 	技能 3 级时，每次叠加会同时减少目标 %0.2f%% 的速度。
 	技能 5 级时，可以影响到 %d 码内的所有敌对生物。
 	此技能无视豁免和免疫。]], "tformat")
 t("Mass Hysteria", "恐惧之潮", "talent name")
-t("Amplifies the power of your fear on the target by %d%% per stack and sets its duration to %d.  The amplified fear spreads to all enemies in a radius of %d.", "增强目标的恐惧，目标身上每有一次恐惧叠加，效果增强 %d%% ，持续时间增大到 %d 回合。增强后的恐惧效果影响 %d 码内所有敌对生物。", "tformat")
+t("Amplifies the power of your fear on the target by %d%% per stack and sets its duration to %d.  The amplified fear spreads to all enemies in a radius of %d %s.", "增强目标的恐惧，目标身上每有一次恐惧叠加，效果增强 %d%% ，持续时间增大到 %d 回合。增强后的恐惧效果影响 %d 码内所有敌对生物%s。", "tformat")
 t("Fearfeast", "恐惧盛宴", "talent name")
 t("You gain %.1f turns!", "你获得了%.1f个回合！", "logPlayer")
 t("You consume the fear of enemies in radius %d, healing for %d life and gaining %0.1f%% of a turn for each stack up to a max of %.1f turns.", [[汲取 %d 码内敌对生物身上的恐惧，每汲取一层恐惧，恢复 %d 生命并获得 %0.1f%% 额外回合。
@@ -1332,15 +1332,15 @@ t([[Bringing about the darkest days of the Spellblaze you hasten the death of yo
 		受影响的敌人每回合将受到 %0.2f 暗影伤害，直到死亡或者离开你范围 %d 码范围。
 		伤害受法术强度加成。]], "tformat")
 t("Shattered Mind", "精神破碎", "talent name")
-t([[When you block an attack the shock ripples through your attacker, spreading the force of the Spellblaze in its mind for 5 turns.
-		While affected the creature will suffer %d%% chances to fail using talents and %d reduced physical, mental and spell saves.]], [[当你格挡攻击时，你能将魔法大爆炸的力量传导至攻击者的精神中，持续 5 回合。
+t([[When you block an attack the shock ripples through your attacker, spreading the force of the Spellblaze in its mind for 5 turns %s.
+		While affected the creature will suffer %d%% chances to fail using talents and %d reduced physical, mental and spell saves.]], [[当你格挡攻击时，你能将魔法大爆炸的力量传导至攻击者的精神中，持续 5 回合%s。
 		受影响的生物每次使用技能时有 %d%% 几率失败，同时全体豁免下降 %d 点。]], "tformat")
 t("Tale of Destruction", "毁灭传说", "talent name")
 t([[You chant the destruction of Mal'Rok, the demon's homeworld.
-		Each time you kill a creature you send out a magical ripple in radius %d that applies a bane of blindness or confusion for %d turns.
+		Each time you kill a creature you send out a magical ripple in radius %d that applies a bane of blindness or confusion for %d turns %s.
 		Baned creatures also suffer %0.2f darkness damage per turn.
 		Damage increases with your spellpower.]], [[你赞颂恶魔家乡玛·洛克的毁灭。
-		每次你杀死生物时，你将释放魔法波动，在半径 %d 范围内的生物将承受 %d 回合的混乱或目盲毒素。
+		每次你杀死生物时，你将释放魔法波动，在半径 %d 范围内的生物将承受 %d 回合的混乱或目盲毒素%s。
 		中毒的生物每回合将受到 %0.2f 暗影伤害。
 		伤害受法术强度加成。]], "tformat")
 
@@ -1350,28 +1350,28 @@ section "tome-ashes-urhrok/data/talents/corruptions/torture.lua"
 t("Incinerating Blows", "焚尽强击", "talent name")
 t([[The power of the Fearscape infuses your weapon: Your melee attacks will deal %0.2f fire damage, spread over 3 turns.
 		Additionally, every time you attack, there is a %d%% chance of releasing a burst of powerful fire that will deal %0.2f fire damage to all enemies in radius %d over %d turns.
-		If this talent is not on cooldown, the burst of fire will instead be radius %d, and stun all targets in addition to burning them.
+		If this talent is not on cooldown, the burst of fire will instead be radius %d, and stun all targets in addition to burning them %s.
 		For the purposes of applying the stun, you have %d bonus spellpower.
 		The damage will increase with your Spellpower.]], [[恶魔空间的力量注入你的武器：你的近战攻击在 3 回合内造成 %0.2f 点火焰伤害。
 	另外，每次攻击时有 %d%% 几率造成 %0.2f 火焰燃烧伤害， %d 码内的所有敌人都会受到此伤害，燃烧持续 %d 回合。
-	若该技能冷却完毕，则火焰爆发将聚集在 %d 码范围内，并产生火焰震慑效果。
+	若该技能冷却完毕，则火焰爆发将聚集在 %d 码范围内，并产生火焰震慑效果%s。
 	进行震慑判定时，额外增加 %d 点法术强度。
 	伤害受法术强度加成。]], "tformat")
 t("Abduction", "锁魂之链", "talent name")
 t("You require a two handed weapon to use this talent.", "你需要装备一把双手武器来施展这个技能。", "logPlayer")
-t("Hits the target doing %d%% weapon damage. If the attack hits, you pull the target in and strike them again, dealing another %d%% weapon damage.", [[对目标攻击，造成 %d%% 武器伤害。
-	如果命中，将目标抓到身边并再次攻击，造成 %d%% 武器伤害。]], "tformat")
+t("Hits the target doing %d%% weapon damage. If the attack hits, you pull the target in %s and strike them again, dealing another %d%% weapon damage.", [[对目标攻击，造成 %d%% 武器伤害。
+	如果命中，将目标抓到身边%s并再次攻击，造成 %d%% 武器伤害。]], "tformat")
 t("Fiery Torment", "灼魂之罚", "talent name")
-t([[Hits the target with your weapon doing %d%% weapon damage. If the attack hits, the target is afflicted with Fiery Torment for %d turns, reducing their fire resistance by %d%%.
+t([[Hits the target with your weapon doing %d%% weapon damage. If the attack hits, the target is afflicted with Fiery Torment for %d turns %s, reducing their fire resistance by %d%%.
 		When Fiery Torment ends the victim will take %d fire damage. This damage will increase by %d%% of all damage taken while under torment.
 		The damage dealt by the effect will increase with spellpower.
-		Demons under fiery torment will be burned by the flames of the Fearscape.]], [[用武器攻击敌人，造成 %d%% 武器伤害。如果命中，目标受到灼魂之罚的影响，持续 %d 回合 , 火焰抗性降低 %d%% 。
+		Demons under fiery torment will be burned by the flames of the Fearscape.]], [[用武器攻击敌人，造成 %d%% 武器伤害。如果命中，目标受到灼魂之罚的影响，持续 %d 回合%s , 火焰抗性降低 %d%% 。
 	当灼魂之罚结束，敌人会受到 %d 点火焰伤害。 
 	在灼魂之罚持续时间内目标受到的所有伤害，有 %d%% 会加成到火焰伤害中。
 	被灼魂之罚影响的恶魔会被恶魔空间中的火焰焚烧。]], "tformat")
 t("Eternal Suffering", "无尽苦痛", "talent name")
-t([[Your strikes are imbued with a vile power that extends your victim's suffering. When hitting in melee, you have a (%d%%) chance to extend the length of all negative effects and reduce the length of all positive effects on the target by %d turn(s).
-		This can only trigger on any particular target once every 6 turns.]], [[你的攻击充溢着恶毒的力量，能够延长敌人的苦痛。当近战命中时，有 %d%% 几率延长对方所有的负面状态持续时间并降低所有正面状态的持续时间，增减幅度为 %d 回合。
+t([[Your strikes are imbued with a vile power that extends your victim's suffering. When hitting in melee, you have a (%d%%) chance to extend the length of all negative effects and reduce the length of all positive effects on the target by %d turn(s) %s.
+		This can only trigger on any particular target once every 6 turns.]], [[你的攻击充溢着恶毒的力量，能够延长敌人的苦痛。当近战命中时，有 %d%% 几率延长对方所有的负面状态持续时间并降低所有正面状态的持续时间，增减幅度为 %d 回合。%s
 	该效果对同一目标每 6 回合才能生效一次。]], "tformat")
 
 ------------------------------------------------
@@ -1380,18 +1380,18 @@ section "tome-ashes-urhrok/data/talents/corruptions/wrath.lua"
 t("Obliterating Smash", "歼灭挥斩", "talent name")
 t("You require a two handed weapon to use this talent.", "你需要装备一把双手武器来施展这个技能。", "logPlayer")
 t([[Swing your weapon with incredible force, striking all enemies in a radius %d semicircle, dealing %d%% weapon damage to all targets.
-		Starting from talent level 5, all targets hit will have their armour and saves reduced by %d.
+		Starting from talent level 5, all targets hit will have their armour and saves reduced by %d %s.
 		This attack can not miss.]], [[用无与伦比的力量挥动武器，打击正面半圆 %d 码范围内所有敌对生物，对所有目标造成 %d%% 武器伤害。
-	技能 5 级时，被击中敌对生物的护甲和豁免会降低 %d 点。
+	技能 5 级时，被击中敌对生物的护甲和豁免会降低 %d 点 %s。
 	此攻击必中。]], "tformat")
 t("Detonating Charge", "爆裂冲锋", "talent name")
 t("You require a two handed weapon and being able to move to use this talent.", "你需要装备一把双手武器且可以移动，才能施展这个技能", "logPlayer")
 t("You can not do that currently.", "目前你不能这样做。", "logPlayer")
 t("You are too close to build up momentum!", "离开目标太近无法施展！", "logPlayer")
 t([[Launch yourself toward a target. If the target is reached you get a free attack doing %d%% weapon damage.
-		If the attack hits you release a massive burst of fire in radius %d, knocking away all enemies except your target and dealing %d damage.
+		If the attack hits you release a massive burst of fire in radius %d, knocking away %s all enemies except your target and dealing %d damage.
 		You must charge from at least 2 tiles away.]], [[向目标冲锋，如果到达目标位置，则攻击目标造成 %d%% 武器伤害。
-	若攻击命中，将释放强烈的火焰冲击，击退 %d 码之内目标之外的所有敌对生物，并造成 %d 伤害。
+	若攻击命中，将释放强烈的火焰冲击，击退 %d 码之内目标之外的所有敌对生物%s，并造成 %d 伤害。
 	至少要从 2 码外开始冲锋。]], "tformat")
 t("Voracious Blade", "饕餮之刃", "talent name")
 t([[Your blade drinks in death. Whenever you score a kill with this talent off cooldown, your next %d melee attacks within 6 turns will always critically strike, and you gain %d%% critical multiplier for the duration.
@@ -1456,8 +1456,8 @@ t([[Your original invisibility talent was corrupted and twisted.
 		- 变形时重置种族技能“加速”与种族技能“无情”
 		]], "tformat")
 t("Pitiless", "无情", "talent name")
-t([[You launch a mental assault on the target.
-		The assult increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], [[你对目标的精神进行冲击。
+t([[You launch a mental assault on the target %s.
+		The assult increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], [[你对目标的精神进行冲击%s。
 		他所有正在冷却中的技能冷却时间延长 %d 回合，所有负面魔法、物理、精神效果延长 %d 回合（最多延长 4 倍），所有正面魔法、物理、精神效果缩短 %d 回合。]], "tformat")
 
 ------------------------------------------------

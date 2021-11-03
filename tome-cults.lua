@@ -2926,7 +2926,7 @@ t("Black Hole", "黑洞", "talent name")
 t([[On casting Entropic Gift, a radius 1 rift in spacetime will be opened underneath the target for %d turns, increasing in radius by 1 each turn to a maximum of %d.
 		All caught within the rift are pulled towards the center and take %0.2f darkness and %0.2f temporal damage, plus %d%% of your total entropy each turn (currently %d).]], [[每次释放熵能天赋，会在目标处产生一个持续 %d 回合的一格小型黑洞，每回合半径增加 1 直到 %d 。 
 		所有范围内的生物每回合将被拉向黑洞中心并受到 %0.2f 暗影、 %0.2f 时空伤害以及你当前熵的 %d%% 的伤害（当前 %d ）。]], "tformat")
-t("Power Overwhelming", "势吞万里", "talent name")
+t("Power Overwhelming", "能量过载", "talent name")
 t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", [[ 你用危险的熵能大幅强化你的法术，增加 %d%% 黑暗和时空伤害与 %d%% 抗性穿透。
 			作为代价，每个非瞬间法术会带来 %0.2f 熵能反冲。]], "tformat")
 

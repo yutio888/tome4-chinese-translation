@@ -61,7 +61,7 @@ t("Special", "特殊", "birth facial category")
 t("Drem", "德瑞姆", "birth descriptor name")
 t("Faceless, but not mindless.", "无面，但不无心。", "_t")
 t("Drem are mindless mutants who live deep in the earth. It is only recently that thinking Drem have appeared among them. They still remain deep below Eyal's surface, believing that they would not be welcomed among the surface races.", "德瑞姆是生存于地底深处的异变种，直到最近才发现具有思维能力的个体。他们仍生存于地底，认为他们不会被地上种族欢迎。", "_t")
-t("They possess the #GOLD#Frenzy#WHITE# talent which allows them to ignore cooldowns once in a while.", "他们拥有 #GOLD#狂热#WHITE# 天赋，让他们能在短时间内无视冷却时间。", "_t")
+t("They possess the #GOLD#Frenzy#WHITE# talent which allows them to ignore cooldowns once in a while.", "他们拥有 #GOLD#狂热#WHITE# 技能，让他们能在短时间内无视冷却时间。", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD# 属性修正：", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +3 力量, +1 敏捷, +1 体质", "_t")
 t("#LIGHT_BLUE# * +2 Magic, -1 Willpower, +0 Cunning", "#LIGHT_BLUE# * +2 魔法, -1 意志, +0 灵巧", "_t")
@@ -2396,7 +2396,7 @@ The target dummies have been imbued with fake void energies; use your Fatebreake
 
 #{italic}#Go check your new spell for detailed information.#{normal}#]], [[这个法术将会是你从我身上学到的最重要的法术。命运是由无数世界线组成的力量。如果你能够理解世界线之间的复杂线索，你甚至可以操纵你自己的命运。这个法术将会让你可以从注定你的死亡中逃脱，将自己毁灭的世界线转移到其他人的身上。请记住，这个法术不应该被轻率使用，有些世界线不屈从于任何人的意志，你花再大的力气也永远无法操纵它们。
 
-这些训练假人身上灌注着虚假的虚空能量。在它们身上使用“打破宿命”，然后在你的血量很低的时候对自己使用虚空爆炸。这个练习有点困难，孩子们，一定要小心注意，如果你的操作错误，你就是在冒生命危险。
+这些训练假人身上灌注着虚假的虚空能量。在它们身上使用“打破宿命”，然后在你的血量很低的时候对自己使用彼世冲击。这个练习有点困难，孩子们，一定要小心注意，如果你的操作错误，你就是在冒生命危险。
 
 #{italic}#查看你的新法术，了解详情。#{normal}#]], "_t")
 t("Lessons of Inevitability - Unravel Existence", "有关必然性的课程——解构存在", "_t")
@@ -2924,7 +2924,7 @@ t([[Your knowledge of entropy allows you to defy the laws of physics, allowing y
 		你可以主动开启该技能，瞬间减少当前的熵。]], "tformat")
 t("Black Hole", "黑洞", "talent name")
 t([[On casting Entropic Gift, a radius 1 rift in spacetime will be opened underneath the target for %d turns, increasing in radius by 1 each turn to a maximum of %d.
-		All caught within the rift are pulled towards the center and take %0.2f darkness and %0.2f temporal damage, plus %d%% of your total entropy each turn (currently %d).]], [[每次释放熵能天赋，会在目标处产生一个持续 %d 回合的一格小型黑洞，每回合半径增加 1 直到 %d 。 
+		All caught within the rift are pulled towards the center and take %0.2f darkness and %0.2f temporal damage, plus %d%% of your total entropy each turn (currently %d).]], [[每次释放熵之礼物，会在目标处产生一个持续 %d 回合的一格小型黑洞，每回合半径增加 1 直到 %d 。 
 		所有范围内的生物每回合将被拉向黑洞中心并受到 %0.2f 暗影、 %0.2f 时空伤害以及你当前熵的 %d%% 的伤害（当前 %d ）。]], "tformat")
 t("Power Overwhelming", "能量过载", "talent name")
 t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", [[ 你用危险的熵能大幅强化你的法术，增加 %d%% 黑暗和时空伤害与 %d%% 抗性穿透。
@@ -3126,7 +3126,7 @@ t([[Your feet start to continuously produce carrion worms that are constantly cr
 		You can also activate this talent to instantly destroy more worms, letting you jump in range %d to visible terrain.
 		Upon landing you crush more worms, creating a radius 2 cone of gore; any creatures caught inside deals 70%% less damage for one turn.
 		If at least 1 enemy is effected by the cone you gain an additional 20 insanity.]], [[蠕虫在你脚下不断产生，它们在你行走的时候不断爆裂，被动增加你 %d%% 移动速度。
-		你也可以激活这个天赋来引爆更多的蠕虫，让你跳跃到 %d 码外的可见地形。
+		你也可以激活这个技能来引爆更多的蠕虫，让你跳跃到 %d 码外的可见地形。
 		着陆时会有更多的蠕虫爆裂，形成范围 2 码的脓液喷射；范围内的生物下回合造成的伤害降低 70%% 。
 		如果有敌人受到脓液喷射的影响，你会得到额外 20 点疯狂值。]], "tformat")
 t("Horrific Evolution", "恐怖进化", "talent name")
@@ -4055,10 +4055,10 @@ section "tome-cults/data/zones/ft-cultist/zone.lua"
 
 t("The Teacher's Abode", "导师的处所", "_t")
 t([[Lesson 1: Entropic Gift
-%d/3 entropic gifts used]], [[第一课：熵能天赋
+%d/3 entropic gifts used]], [[第一课：熵之礼物
 %d/3 熵之礼物已使用]], "tformat")
 t([[Lesson 2: Netherblast
-%d/4 netherblasts used]], [[第二课：虚空爆炸
+%d/4 netherblasts used]], [[第二课：彼世冲击
 %d/4 彼世冲击已使用]], "tformat")
 t([[Lesson 3: Fatebreaker
 %d/2 fatebreakers used]], [[第三课：打破命运

@@ -8175,7 +8175,7 @@ t("ultimate gwelgoroth", "究极格维格罗斯", "entity name")
 section "mod-tome/data/general/npcs/horror-corrupted.lua"
 
 t("horror", "恐魔", "entity type")
-t("corrupted", "堕落者", "entity subtype")
+t("corrupted", "腐化", "entity subtype")
 t("drem", "德瑞姆", "entity name")
 t("A small faceless humanoid with vaguely Dwarven features.  Its waraxe and shield look battered, rusted, and generally in ill repair.", "身材矮小且拥有部分矮人特征的人形怪物。它的战斧和盾牌看起来又锈又钝，几乎从未修理过。", "_t")
 t("dremling", "德瑞姆亚种", "entity name")
@@ -39044,7 +39044,7 @@ t("Stay", "呆在这里", "_t")
 section "mod-tome/data/zones/maze/npcs.lua"
 
 t("horror", "恐魔", "entity type")
-t("corrupted", "堕落者", "entity subtype")
+t("corrupted", "腐化", "entity subtype")
 t("Horned Horror", "长角恐魔", "entity name")
 t("Some horrible power has twisted this brutish minotaur into something altogether more terrifying. Huge tentacles undulate from its back as it clenches and unclenches its powerful fists.", "可怕的能量让这个米诺陶转变成更加恐怖的怪物，它的背上伸出触手，正在四处伸展游走，时而缠绕在它的拳头上。", "_t")
 t("and revived as a mindless horror", "并作为一只无思想的恐魔复活", "_t")

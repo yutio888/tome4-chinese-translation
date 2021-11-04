@@ -2701,7 +2701,7 @@ t([[You are surrounded by a vortex of entropic energy that feeds on the timeline
 			每次施法可以释放最多 %d 层加速衰老，但同一目标一次最多增加 2 层效果。]], "tformat")
 t("Severed Threads", "断绝", "talent name")
 t("On applying atrophy to a target below %d%% of their maximum life you will sever their lifeline, slaying them instantly %s. You will then feast on the remnants of their timeline for %d turns, increasing your life regeneration by %0.1f and causing talents without fixed cooldowns to refresh twice as fast.", "当对不足 %d%% 最大生命值的目标释放衰亡时，你将尝试切断目标的生命线，立刻杀死目标%s。在接下来的 %d 回合中，你将会享用目标残余的生命线，增加你的生命回复 %0.1f 并使没有固定冷却时间的技能冷却速度加倍。", "tformat")
-t("Temporal Feast", "时间盛宴", "talent name")
+t("Temporal Feast", "盛宴", "talent name")
 t([[You drink deeper from the timeline of others. Each time you apply atrophy you gain %0.1f%% spell speed per atrophy stack on the target and cause them to lose %d%% of a turn %s.
 			The highest atrophy stack found will be used for the spell speed calculation.]], [[你进一步榨取他人的时间线。每次使用衰亡时，目标身上的每层衰亡效果将使你获得 %0.1f%% 施法速度，同时目标将失去 %d%% 回合 %s。
 		计算施法速度增加时，会使用你周围最高层数的衰亡效果。]], "tformat")
@@ -3153,7 +3153,7 @@ t([[You trigger a cascade of rapidly mutating cells in your body for %d turns.
 		Each time you take a step your monstrous form causes a small quake destroying and rearranging nearby terrain.]], [[你激发了一次持续 %d 回合的体细胞急速变异。
 		你的身体急速变大，获得 +2 体型，并使你能够在行走时随意撞碎墙壁。增加 %d%% 全体伤害和 %d%% 全体伤害抗性。
 		你的巨大体型使你在每次行走时都导致一场小型的地震，破坏并重组周围的地形。]], "tformat")
-t("Writhing One", "蜿蜒", "talent name")
+t("Writhing One", "异变之体", "talent name")
 t([[At last you unlock the true power of your mutated body!
 		You gain %d%% stun immunity, %d%% chances to ignore critical strikes and your darkness and blight damage are increased by %d%%.]], [[你终于解开了这具变异身体的最终力量！
 		你获得 %d%% 震慑免疫 , %d%% 几率无视受到的暴击，并且增加 %d%% 暗影及枯萎伤害。]], "tformat")
@@ -4596,7 +4596,7 @@ t("portal to the Maggot", "到蛆虫内的传送门", "entity name")
 section "tome-cults/data/zones/town-kroshkkur/npcs.lua"
 
 t("horror", "恐魔", "entity type")
-t("eldritch", "艾尔德里奇", "entity subtype")
+t("eldritch", "骇异", "entity subtype")
 t("Destroy @himher@!", "摧毁@himher@!", "_t")
 t("drem cultist", "德瑞姆邪教徒", "entity name")
 t("A drem cultist.", "一位德瑞姆邪教徒", "_t")

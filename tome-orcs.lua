@@ -74,20 +74,20 @@ t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD# 每等级生命加值： #LIGH
 section "tome-orcs/data/birth/classes/tinker.lua"
 
 t("Tinker", "工匠系", "birth descriptor name")
-t("Tinkers use steamtech to power their attacks, defenses, ...", "工程师们使用蒸汽科技来强化攻击、防御，……", "_t")
+t("Tinkers use steamtech to power their attacks, defenses, ...", "工匠们使用蒸汽技术来强化攻击、防御，……", "_t")
 t("Build, experiment, discover. The path of inventions is never over!", "制造、实验、发现。创造之路永无止境！", "_t")
 t("%s healing salve", "%s 治疗药剂", "tformat")
 t("simple", "简单的", "_t")
 t("%s frost salve", "%s 寒霜药剂", "tformat")
 t("Sawbutcher", "链锯屠夫", "birth descriptor name")
-t("A formidable behemoth of war using steamsaws to improve his deadliness.", "可怕的战争巨兽，使用蒸汽链锯增加致命杀伤力。", "_t")
+t("A formidable behemoth of war using steamsaws to improve his deadliness.", "可怕的战争巨兽，使用蒸汽链锯提高致命杀伤力。", "_t")
 t("Their most important stats are: Strength and Cunning", "他们最重要的属性是：力量和灵巧", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD# 属性修正：", "_t")
 t("#LIGHT_BLUE# * +5 Strength, +0 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +5 力量 , +0 敏捷 , +1 体质", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 魔法 , +0 意志 , +3 灵巧", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 2", "#GOLD#每等级生命加值:#LIGHT_BLUE# 2", "_t")
 t("Gunslinger", "枪手", "birth descriptor name")
-t("A tinker who dual-wields steamguns to great effect.", "双持蒸汽枪的工程师。", "_t")
+t("A tinker who dual-wields steamguns to great effect.", "双持蒸汽枪的工匠。", "_t")
 t("Their most important stats are: Cunning and Dexterity", "他们最重要的属性是：灵巧和敏捷", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +4 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +0 力量, +4 敏捷, +1 体质", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +4 Cunning", "#LIGHT_BLUE# * +0 魔法, +0 意志, +4 灵巧", "_t")
@@ -95,14 +95,14 @@ t("#GOLD#Life per level:#LIGHT_BLUE# -1", "#GOLD# 每等级生命加值： #LIGH
 t("Psyshot", "灵能射手", "birth descriptor name")
 t("Bend the mind, bend the tech. All around inspire dread.", "扭曲精神，扭曲科技，一切都是为了激发恐惧。", "_t")
 t("Powerful psionics are able to enter a gestalt with steam generators and technology to enhance their own mental prowess.", "强大的灵能能进入蒸汽科技的格式塔中，以增强其金属力量。", "_t")
-t("The Psyshot combines this ability to gestalt to enhance his mindstar all the while shooting her steamgun to devastate the enemy lines.", "念力射手将这项能力与格式塔结合，来强化灵晶的力量，同时使用蒸汽枪毁灭敌人。", "_t")
+t("The Psyshot combines this ability to gestalt to enhance his mindstar all the while shooting her steamgun to devastate the enemy lines.", "灵能射手将这项能力与格式塔结合，来强化灵晶的力量，同时使用蒸汽枪毁灭敌人。", "_t")
 t("Their most important stats are: Cunning, Willpower and Dexterity", "他们最重要的属性是：灵巧、意志和敏捷", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 力量 , +3 敏捷 , +0 体质", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +3 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 魔法, +3 意志, +3 灵巧", "_t")
 t("Annihilator", "歼灭者", "birth descriptor name")
-t("The Annihilator is a master of destruction, wielding the most devastating steamtech inventions to lay waste to their foes.", "歼灭者是破坏的大师，他们掌握着最具破坏力的蒸汽科技成果，可以给他们的敌人带来无尽的毁灭。", "_t")
-t("While normally wielding a steamgun loaded with experimental ammunition and an electrically charged shield, they can equip heavy weapons such as flamethrowers.", "他们通常装备着装载着实验性弹药的蒸汽枪和一面电力充能的盾牌，但他们也可以装备像火焰喷射器那样的重装武器。", "_t")
-t("More adept at technology than most other tinkers, they supplement their weapons with automated turrets, mechanical minions and other such devices.", "他们比其他的工匠更加精通科学技术，他们使用自动炮台、机械随从和各种各样的强大发明来充实自己的武器库。", "_t")
+t("The Annihilator is a master of destruction, wielding the most devastating steamtech inventions to lay waste to their foes.", "歼灭者是破坏的大师，他们掌握着最具破坏力的蒸汽科技成果，给敌人带来无尽毁灭。", "_t")
+t("While normally wielding a steamgun loaded with experimental ammunition and an electrically charged shield, they can equip heavy weapons such as flamethrowers.", "他们通常装备着装载着实验性弹药的蒸汽枪和一面电力充能的盾牌，也可以装备火焰喷射器那样的重装武器。", "_t")
+t("More adept at technology than most other tinkers, they supplement their weapons with automated turrets, mechanical minions and other such devices.", "他们比其他的工匠更擅长技术，使用自动炮台、机械随从和各种各样的强大发明来充实自己的武器库。", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +4 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 力量 , +4 敏捷 , +0 体质", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +5 Cunning", "#LIGHT_BLUE# * +0 魔法 , +0 意志 , +5 灵巧", "_t")
 t("Research. Tinker. Annihilate.", "研究。制造。歼灭。", "_t")
@@ -116,8 +116,8 @@ t("Tatoos", "纹身", "birth facial category")
 t("Horns", "角", "birth facial category")
 t("Special", "特殊", "birth facial category")
 t("Orc", "兽人", "birth descriptor name")
-t("Orcs have a long and sad history. They are seen, and are, as an aggressive race that more than one time managed to imperil all of Maj'Eyal.", "兽人拥有久远而悲伤的历史。他们是，而且被见证为多次试图统治埃亚尔世界的侵略性种族。", "_t")
-t("But one year ago the Scourge from the West came and wiped four of the five Prides. And a hundred years ago King Toknor wiped all traces of orcs from Maj'Eyal.", "但是一年前，西方来的灾星消灭了四个部落。一百年前，图库纳国王消灭了马基埃亚尔本土的所有兽人。", "_t")
+t("Orcs have a long and sad history. They are seen, and are, as an aggressive race that more than one time managed to imperil all of Maj'Eyal.", "兽人拥有漫长而悲伤的历史。在人们眼中，他们是一个具有侵略性的种族，不止一次地设法危及整个马基埃亚尔，而事实上也是如此。", "_t")
+t("But one year ago the Scourge from the West came and wiped four of the five Prides. And a hundred years ago King Toknor wiped all traces of orcs from Maj'Eyal.", "但是一年前，来自西方的天灾消灭了四个部落。一百年前，图库纳国王消灭了马基埃亚尔本土的所有兽人。", "_t")
 t("The orc race is dangerously on the brink of destruction. One wrong move is all that is needed.", "兽人种族处于灭绝边际，仅仅一步之遥。", "_t")
 t("But they are strong and will face whatever is needed to ensure a future of their own!", "但他们意志强大，敢于直面任何磨难，来创造属于他们的未来！", "_t")
 t("Skin Color 1", "皮肤颜色1", "_t")
@@ -165,7 +165,7 @@ t("Facial features", "脸部特征", "birth facial category")
 t("Horns", "角", "birth facial category")
 t("Special", "特殊", "birth facial category")
 t("Undead", "不死族", "_t")
-t("Grave strength, dread will, this flesh cannot stay still. Kings die, masters fall, we will outlast them all.", "死亡的力量，恐惧的意志，这些肉体不会沉寂。国王去世，主人陨落，我们才是永生。", "_t")
+t("Grave strength, dread will, this flesh cannot stay still. Kings die, masters fall, we will outlast them all.", "死亡的力量，可怕的意志，肉体难以沉寂。国王去世，主人陨落，我们才是永生。", "_t")
 t("Undead are humanoids (Humans, Elves, Dwarves, ...) that have been brought back to life by the corruption of dark magics.", "不死族是被黑暗魔法复活的人形生物（人类，精灵，矮人…）。", "_t")
 t("Undead can take many forms, from ghouls to vampires and liches.", "不死族有多种形态，从食尸鬼、吸血鬼到巫妖。", "_t")
 t("Skin Color 1", "皮肤颜色1", "_t")
@@ -270,7 +270,7 @@ t("Orcs: Embers of Rage", "兽人战役：余烬怒火", "_t")
 t("The Prides lie in ruins!", "荣耀毁于一旦！", "_t")
 t("The Sorcerers have been defeated!", "法师惨遭失败！", "_t")
 t("Orcs in all Var'Eyal are in dismay, hunted by the Sunwall and their newfound allies from the west.", "埃亚尔大陆的兽人们惊慌失措，被晨曦之门和他们新的东方盟友追猎。", "_t")
-t("The Scourge from the West is back in the west, but her legacy stays strong: the orc race is once again upon the brink of destruction!", "西方的灾星来自西方，又回归西方，但她带来的后遗症如此强大：整个兽人种族再次来到灭亡边际", "_t")
+t("The Scourge from the West is back in the west, but her legacy stays strong: the orc race is once again upon the brink of destruction!", "天灾来自西方，又回归西方，但她带来的后遗症如此强大：整个兽人种族再次来到灭亡边际", "_t")
 t("But not all hope is lost.", "即使如此，希望仍存。", "_t")
 t("On the isolated Clork Peninsula lies the fifth pride: Kruk's Pride; unseen and unharmed by the Scourge.", "在与世隔绝的克洛尔克半岛上栖息着兽人第五部落：克鲁克部落；他们并没有被这场灾难伤害。", "_t")
 t("Yet not all is great there either, the Sunwall offensive has set up an outpost blocking the way to the mainland.", "不幸的是，晨曦之门建立了前哨站阻断了通向大陆的道路。", "_t")
@@ -278,7 +278,7 @@ t("But the worst threat comes from the peninsula itself, the main inhabitants ar
 t("A civilization of steam giants whose mastery of steamtech makes them incredible foes.", "蒸汽巨人的文明掌控蒸汽科技，他们是无比强大的敌人。", "_t")
 t("Play an orc, prove your worth! Use steamtech against the giants, reclaim the far east and free it from Sunwall scum!", "用兽人种族进行游戏，证明你的价值！使用蒸汽科技对抗巨人，回到远东，并将其从晨曦之门手中夺回！", "_t")
 t("Craft your own steamsaws, rocket boots, steam powered armours, and all kind of steamy technology!", "制造自己的蒸汽锯，火箭靴，蒸汽护甲，以及其他各式各样的蒸汽科技！", "_t")
-t("This is your destiny! For Garkul's Legacy, for the Glory of the Pride!", "这是你的天命！为了加库尔的遗产，为了部落的荣耀！", "_t")
+t("This is your destiny! For Garkul's Legacy, for the Glory of the Pride!", "这是你的天命！为了加库尔，为了部落的荣耀！", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/aaa.lua"
@@ -327,16 +327,16 @@ section "tome-orcs/data/chats/destructicus.lua"
 t("DESTRUCTICUS!", "“毁天灭地！”", "_t")
 t("Fire Imp", "火焰小鬼", "_t")
 t("Steam Giant Airship", "蒸汽巨人飞船", "_t")
-t("#LIGHT_GREEN#*#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# stands before you, and as much as it pains you to admit it, Kaltor's advertisement wasn't flattering enough.  This may be the most unreasonably lethal device you've ever seen.  The sunlight, gleaming off its voratun body, seems dull compared to the intensely glowing mass of unstable runes on its tip; its surface has the ornate grooves of a metal that has been psionically reforged through hours of migraine-inducing concentration.  The bayonet mounted on the launching tube just seems like gloating.  This particular model appears to be equipped with an enclosed, fireproof booth around its control panel, and a built-in tea dispenser in said booth, which your fellow orcs have already taken the liberty of filling with looted Dwarven ale.  It is truly a thing of beauty.*#WHITE#", "#LIGHT_GREEN#*#{bold}#裂天者 毁灭号#{normal}# 站在你面前，让你痛苦地承认，卡托尔的广告并不全是垃圾。这是你见过的最无端致命的设备。阳光照耀在它的沃瑞钽躯壳上，在它边缘上镶嵌的强大而不稳定的符文面前黯然失色;它的表面有着金属历经数个小时精心打磨而成的华丽沟槽，在发射管上搭载的刺刀能轻盈地上下游走。控制组件上环绕着一层密封的防火隔间，操作室内建的自动饮水机还能提供矮人的佳酿。这简直就是美的化身。*#WHITE#", "_t")
+t("#LIGHT_GREEN#*#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# stands before you, and as much as it pains you to admit it, Kaltor's advertisement wasn't flattering enough.  This may be the most unreasonably lethal device you've ever seen.  The sunlight, gleaming off its voratun body, seems dull compared to the intensely glowing mass of unstable runes on its tip; its surface has the ornate grooves of a metal that has been psionically reforged through hours of migraine-inducing concentration.  The bayonet mounted on the launching tube just seems like gloating.  This particular model appears to be equipped with an enclosed, fireproof booth around its control panel, and a built-in tea dispenser in said booth, which your fellow orcs have already taken the liberty of filling with looted Dwarven ale.  It is truly a thing of beauty.*#WHITE#", "#LIGHT_GREEN#*#{bold}#裂天者 毁灭号#{normal}# 站在你面前，让你不得不承认，卡托尔的广告并不全是垃圾。这是你见过的最无端致命的设备。强大而不稳定的符文镶嵌在它边缘，令照耀着它的沃瑞坦躯壳的阳光都黯然失色。华丽的沟槽，由金属历经数个小时精心打磨而成的，覆盖在表面，能让发射管上搭载的刺刀轻盈游走。控制组件上环绕着一层密封的防火隔间，操作室内建的自动饮水机还能提供矮人的佳酿。这简直就是美的化身。*#WHITE#", "_t")
 t("[continue]", "[继续]", "_t")
-t("#LIGHT_GREEN#*You enter the booth, sit down, and insert the key.  #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# whirrs to life, its base slightly rotating underneath you.  A strange beaded panel slides in front of you, pins pushing out and pulling back by magnetic force to display the outline of an airship (and a tiny speck), and the words #{italic}#\"AERIAL TARGETS FOUND: 2.\"#{normal}#*#WHITE#", "#LIGHT_GREEN#*你进入了操作室，坐好，插入钥匙。#{bold}#裂天者 毁灭号#{normal}# 启动了它的生命,它的基座开始运转。一块奇怪的珍珠板从你前方滑过，针伸了出来，被电磁力量控制，显示出飞船的轮廓（以及一个小黑点）与以下短语：#{italic}#“发现空中目标-数目：2”。#{normal}#*#WHITE#", "_t")
+t("#LIGHT_GREEN#*You enter the booth, sit down, and insert the key.  #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# whirrs to life, its base slightly rotating underneath you.  A strange beaded panel slides in front of you, pins pushing out and pulling back by magnetic force to display the outline of an airship (and a tiny speck), and the words #{italic}#\"AERIAL TARGETS FOUND: 2.\"#{normal}#*#WHITE#", "#LIGHT_GREEN#*你进入了操作室，坐稳并插入钥匙。#{bold}#裂天者 毁灭号#{normal}# 活了过来,基座开始运转。一块奇怪的珍珠板滑过前方，伸出被电磁力量控制的针，显示出飞船的轮廓（以及一个小黑点）与以下短语：#{italic}#“发现空中目标-数目：2”。#{normal}#*#WHITE#", "_t")
 t([[#LIGHT_GREEN#*#{italic}#"OBTAINING SCRYING LOCK...  OBTAINED."#{normal}#
  
 The beaded panel is suddenly awash with colors, showing the colossal interior of the airship.  Steam Giant families huddle and weep, sorting through the few belongings they could take with them when fleeing; a guard sits on a pile of luggage and storage crates, head in her hands.  The view pans around the cabin, and you see a few crew members hurrying between the captain's quarters and the engine room, pausing to take worried glances out the window - at you.
  
 This airship appears to be evacuating what's left of the Atmos Tribe.  With the press of a single button, you could eradicate the Steam Giant species forever.
  
-You press a button labelled #{italic}#"SELECT NEXT TARGET"#{normal}#, and the panel shifts to show a very lost and very confused Fire Imp, flying in the air near nothing of importance.  Firing on it would have little effect whatsoever, aside from showing off DESTRUCTICUS's power in the most harmless way possible.*#WHITE#]], [[#LIGHT_GREEN#*#{italic}#"解除锁定中...  解除成功."#{normal}#
+You press a button labelled #{italic}#"SELECT NEXT TARGET"#{normal}#, and the panel shifts to show a very lost and very confused Fire Imp, flying in the air near nothing of importance.  Firing on it would have little effect whatsoever, aside from showing off DESTRUCTICUS's power in the most harmless way possible.*#WHITE#]], [[#LIGHT_GREEN#*#{italic}#"锁定解除中……  解除成功."#{normal}#
  
 珍珠面板突然充满色彩，显示飞船的巨大内部结构。蒸汽巨人们拥挤而哭泣，带着少量东西逃走。一名守卫用手抱头，坐在储藏室前。视角切换到船舱，你看见一些成员匆忙走过船长室和引擎室，偶尔忧虑地瞥向窗外——看向你。
 飞船似乎开始计算气之部落还剩下些什么。只要按下一个按钮，你将能永久摧毁蒸汽巨人这个种族。
@@ -355,9 +355,9 @@ The Steam Giants are no more.
  
 The secondary charges from the warhead detonate, as burning debris falls into the sea, and the ongoing display serves as a signal to all the Orcs of Var'Eyal, and anyone else who may be watching: This is the fate of all who would try to eradicate the Orcs.  The previous millennia of oppression, genocide, and bullying are over: your people will never be pushed around like this again.
  
-A nagging thought in the back of your head insists that you now know how the Sun Paladins felt, how King Toknor felt, how the halflings felt, how everyone that has always committed such atrocities against the Orcs felt.  It can keep whining all it wants - your people are finally safe.*#WHITE#]], [[#LIGHT_GREEN#*让蒸汽巨人们逃离太过危险 - 你不能允许他们这样简单的离开，然后将来某日再实现其图谋, 消灭你的部落。你按下#{italic}#"上一名目标"#{normal}# 按钮，朝飞船开火。一阵巨大的轰鸣声和一道强烈的火光闪过，你从窗户里看见导弹朝目标飞去，飞向你视线远处，拥挤的飞船里惊恐的乘客那边。
+A nagging thought in the back of your head insists that you now know how the Sun Paladins felt, how King Toknor felt, how the halflings felt, how everyone that has always committed such atrocities against the Orcs felt.  It can keep whining all it wants - your people are finally safe.*#WHITE#]], [[#LIGHT_GREEN#*让蒸汽巨人们逃离太过危险 - 你不能允许他们这样简单地离开，然后将来某日再实现其图谋, 消灭你的部落。你按下#{italic}#"上一名目标"#{normal}# 按钮，朝飞船开火。一阵巨大的轰鸣声和一道强烈的火光闪过，你从窗户里看见导弹朝目标飞去，飞向你视线远处，拥挤的飞船里惊恐的乘客那边。
 
-导弹到达了目的地，巨大的爆炸堵塞了你透过窗户的视线，令操作舱的光线变得黑暗低沉。
+导弹到达了目的地，巨大的爆炸堵塞了你透过窗户的视线，面板也随之变暗。
 
 蒸汽巨人消失了。
 
@@ -379,15 +379,15 @@ As the secondary charges go off, the ongoing pyrotechnic display acts as a celeb
 
 这些难民不再是威胁，很长时间内都不可能成为威胁……但最好能让他们充分意识到你的力量，你本能轻易带来的毁灭命运，向他们展示这一切，让他们永远铭记：他们的生死取决于你的仁慈。
 
-你瞄准了火焰小鬼，令武器开火。巨大的轰鸣声和火光闪过，#{bold}#裂天者 毁灭号#{normal}#朝那只虚弱的恶魔冲过去。它惊恐无比，试图躲避，而#{bold}#裂天者 毁灭号#{normal}#相对修正了行进路线，直到它彻底放弃，沮丧地颤抖。在导弹的轰鸣声中，你不能听见飞船里的声音，不过你能肯定恶魔的嘴型在说'这真滑稽'。
+你瞄准了火焰小鬼，令武器开火。巨大的轰鸣声和火光闪过，#{bold}#裂天者 毁灭号#{normal}#朝那只虚弱的恶魔冲过去。它惊恐无比，试图躲避，而#{bold}#裂天者 毁灭号#{normal}#相对修正了行进路线，直到它彻底放弃，沮丧地颤抖。在导弹的轰鸣声中，你不能听见飞船里的声音，不过你能肯定恶魔的嘴型在说'这可太滑稽了'。
 
 导弹到达了目的地，巨大的爆炸堵塞了你透过窗户的视线。碎片无害地坠落在山顶，整个大陆都听见了巨大的爆鸣声。
 
-痛饮刚分下来的美酒，你将已经空仓的#{bold}#裂天者 毁灭号#{normal}#指向飞船，不出所料看见巨人们欢呼拥抱，在安心和喜悦中痛苦流涕。少数大声质疑你为什么这么做，而大部分人明白这是仁慈的表示。
+痛饮刚分下来的美酒，你将已经空仓的#{bold}#裂天者 毁灭号#{normal}#指向飞船，不出所料看见巨人们欢呼拥抱，在安心和喜悦中痛苦流涕。少数人疑惑于你为什么这么做，而大部分人明白这是仁慈的表示。
 
 第二发导弹带着火光坠落大海，这场持续的烟火盛宴成为大陆上所有蒸汽巨人，所有兽人，甚至所有能看到这一盛景的生物的庆典：
 战争结束了。
-千年以来，埃亚尔大陆，以及拥有它的兽人们，第一次明白了和平的意义。*#WHITE#]], "_t")
+千年以来，瓦·埃亚尔，以及拥有它的兽人们，第一次明白了和平的意义。*#WHITE#]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/john-surrender.lua"
@@ -430,7 +430,7 @@ You #{italic}#dare#{normal}# carry her ring around like a trophy! I can feel it 
 你 #{italic}#竟敢#{normal}# 带着她的戒指作为战利品！我能感觉到它在你身上。拿出来，受死吧！！]], "_t")
 t("Oh you liked that paladin lady? I loved killing her!", "你喜欢那个女圣骑士？我爱死杀她的感觉了", "_t")
 t("She left me no choice; I had to protect #{bold}#my#{normal}# people.", "她令我别无选择; 我必须保护 #{bold}#我的#{normal}# 族民。", "_t")
-t("Whatever.", "还行吧。", "chat_john-worldmap")
+t("Whatever.", "随便吧。", "chat_john-worldmap")
 t("What?", "什么?", "_t")
 
 ------------------------------------------------
@@ -439,8 +439,8 @@ section "tome-orcs/data/chats/kaltor-entry.lua"
 t([[#LIGHT_GREEN#*As you open the door to the shop, you are greeted by a pair of Steam Giant guards, staring at you and holding their steamguns tightly, at the ready but not aimed at you.*#WHITE#
 No sudden moves, @playername@. Kaltor's orders are to consider you a customer for now. Try anything foolish, and you'll be a live demonstration for his newest guns instead.  Understand?]], [[#LIGHT_GREEN#*当你打开商店大门，你被一群蒸汽巨人警卫包围，他们盯着你看，手中紧握蒸汽枪，准备就绪，但并没有瞄准你。*#WHITE#
 别乱动， @playername@。卡托尔的指令让我们将你视为顾客。做蠢事的话，你将被他最新的枪支毁灭。明白了么]], "_t")
-t("I have gold, you have equipment. This doesn't need to be any more complicated than that.", "我有钱，你们有装备。没什么更复杂的东西。", "_t")
-t("Those are some pretty fancy guns. Think it'll be hard to get your blood out of the gears?", "这些枪看起来挺有趣的。你们以为有了这些装备，我就不能打得你们头破血流了么？", "_t")
+t("I have gold, you have equipment. This doesn't need to be any more complicated than that.", "我有钱，你们有装备，这再简单不过了。", "_t")
+t("Those are some pretty fancy guns. Think it'll be hard to get your blood out of the gears?", "这些枪看起来挺有趣，你们以为有了这些装备，我就不能打得你们头破血流了么？", "_t")
 t([[#LIGHT_GREEN#*She smiles, relieved but also slightly disappointed.*#WHITE#
 Couldn't have said it better myself. Come on in - and try not to scare the other patrons.]], [[#LIGHT_GREEN#*她微微一笑，轻松却似乎有些失望。*#WHITE#
 那再好不过。进来吧 - 别吓到其他顾客。]], "_t")
@@ -867,7 +867,7 @@ t("ritch larva", "里奇幼虫", "entity name")
 t("ritch hunter", "里奇猎手", "entity name")
 t("ritch hive mother", "里奇巢母", "entity name")
 t("ritch centipede", "里奇百足虫", "entity name")
-t("This strange creature looks like a ritch hunter but with more legs. So many legs.", "这个奇怪的生物看上去像是一个里奇猎手，但是它的脚要多多了，多很多很多。", "_t")
+t("This strange creature looks like a ritch hunter but with more legs. So many legs.", "这个奇怪的生物看上去像是一个里奇猎手，但是它的脚更多，多很多很多。", "_t")
 t("larvae bloated ritch mother", "满载幼虫的里奇巢母", "entity name")
 t("The skin of this creature is literally crawling with larvae, yet she seems to be moving toward you very fast.", "这个生物的皮肤上爬满了幼虫，字面意义上的爬满。尽管如此，她向你前进的速度非常快。", "_t")
 
@@ -1413,7 +1413,7 @@ t("%s razor edge", "%s 锐利刀片", "tformat")
 t("BODY", "躯体", "entity on slot")
 t("%s armour reinforcement", "%s 装甲加固", "tformat")
 t("%s crystal edge", "%s 水晶刀刃", "tformat")
-t("Deals high light damage and increases critical multiplier.", "造成大量光明伤害，增加暴击系数。", "_t")
+t("Deals high light damage and increases critical multiplier.", "造成大量光系伤害，增加暴击系数。", "_t")
 t("flashes light on your target dealing %d damage", "闪光攻击敌人，造成%d伤害。", "tformat")
 t("%s crystal plating", "%s 水晶镀层", "tformat")
 t("armor", "护甲", "entity type")
@@ -1432,10 +1432,10 @@ t("%s grounding strap", "%s 接地导线", "tformat")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinkers/therapeutics.lua"
 
-t("simple", "简单的", "_t")
-t("potent", "有效", "_t")
-t("powerful", "强大", "_t")
-t("great", "强大的", "_t")
+t("simple", "简易的", "_t")
+t("potent", "有效的", "_t")
+t("powerful", "强大的", "_t")
+t("great", "超强的", "_t")
 t("amazing", "惊人的", "_t")
 t("%s healing salve", "%s 治疗药剂", "tformat")
 t("heal %d", "治疗%d", "_t")
@@ -1495,7 +1495,7 @@ If you're very careful.]], [[这套鞋子似乎是被一位具有……创造力
 只要你非常非常小心。]], "_t")
 t("These boots have a %d%% chance to fail to operate properly (reduced by Cunning).", "火箭靴有%d%%几率失败(随灵巧降低)。", "tformat")
 t("jump to a nearby location within range %d, blasting everything within radius 2 (%d burning fire damage, 2 tile knockback) of the jump point and within radius 3 (%d burning fire damage, 3 tile knockback) of the landing point (damage based on Cunning)", "跳向半径%d码范围内的地点，轰炸起跳点附近半径2码范围内的所有敌人 (%d 火焰燃烧伤害，击退2格)以及落地点附近半径3码范围的所有敌人 (%d 火焰燃烧伤害，击退3格)（伤害随灵巧值提升）", "tformat")
-t("#LIGHT_RED#You see no place to land near there.", "#LIGHT_RED#那边你看不见着陆的空间。", "logPlayer")
+t("#LIGHT_RED#You see no place to land near there.", "#LIGHT_RED#那边你看不到可以着陆的空间。", "logPlayer")
 t("#Source# ignites %s %s, creating a #LIGHT_RED#blast of fire#LAST# that %s!", "#Source#点燃了%s%s，创造出一股#LIGHT_RED#火焰爆炸#LAST#%s!", "logCombat")
 t("engulfs %s spectacularly", "，壮观的火焰吞没了%s", "tformat")
 t("launches %s in the air", "，将%s送上天空！", "tformat")
@@ -1531,7 +1531,7 @@ t("engraved steamgun", "被雕刻的蒸汽枪", "_t")
 t([[This gun is engraved with a strange material which focuses mental powers.
 It seems like your mind will operate even faster with this equipped.]], [[这把枪被一种能强化精神力量的神秘物质雕刻。
 装备着它，你的大脑似乎更加灵敏了。]], "_t")
-t("Dreamweaver", "梦想编织者", "entity name")
+t("Dreamweaver", "梦境编织者", "entity name")
 t("shimmering steamgun", "闪光蒸汽枪", "_t")
 t("This isn't so much a gun, as it is the idea of a gun.  You'll be able to remember it pretty easily if you lose it.", "这并不能算是一把枪，因为它只是一把枪的概念。当你丢掉它时你就记住它了。", "_t")
 t("throw the gun and cause it to explode, dealing by %d mind damage (based on Cunning and Willpower) to all targets in an area, attempting to put them to sleep, and disarming yourself for 3 turns", "将枪扔出去引发爆炸，对范围内的所有敌人造成%d精神伤害（基于灵巧和意志），并试图催眠它们。你自己会被缴械3回合", "tformat")
@@ -1552,7 +1552,7 @@ t("Scattermind", "破碎意志", "entity name")
 t("shattered mindstar", "破碎的灵晶", "_t")
 t("A linen pouch of jagged mindstar fragments, each radiating a palpable sense of confusion and pain. They must have made up an impressive whole originally, before some cretin turned it to bits.", "一个亚麻布袋中装着锯齿状的灵晶碎片，让人清晰的感受到混乱和痛苦。在某个混蛋把它打成碎片之前，它一定是一个令人无法忘怀的整体。", "_t")
 t("strike the target with one of Mind Sear, Psychic Lobotomy, or Sunder Mind, at random.", "随机使用以下技能之一打击目标：心灵光束、精神切断或碾碎心灵", "_t")
-t("Thundercrack", "雷电打击", "entity name")
+t("Thundercrack", "雷霆之怒", "entity name")
 t("pouch of copper shots", "一袋铜制弹丸", "_t")
 t("Through a combination of magic and airborne probes, these shots incite powerful bolts of lightning to strike your target from above, frying them and those around them!", "这些弹药通过魔法和探针从天空引导强力的闪电冲击你的目标，灼烧目标及周边的单位。", "_t")
 t("a bolt of lightning strikes your target, dealing lightning damage to them and fire damage to those around them.", "一道闪电击中目标，造成闪电伤害，并对周围生物造成火焰伤害。", "_t")
@@ -1642,8 +1642,10 @@ t("%s's Shadow", "%s的阴影", "tformat")
 t([[itshereitshereitshereitshere
 itshereitshereitshereitshere
 itshereitshereitshereitshere
-itshereitshereitshereitshere]], [[他们来了！
-这不是真的不是真的不是真的不是真的真的不是真的不是]], "_t")
+itshereitshereitshereitshere]], [[他在这里在这里在这里在这里
+在这里在这里在这里在这里
+在这里在这里在这里在这里
+在这里在这里在这里在这]], "_t")
 t("#F53CBE#%s's shadow awakens!", "#F53CBE#%s的阴影觉醒了!", "logSeen")
 t("Pressurizer", "稳压器", "entity name")
 t("heavy lined cloak", "沉重的披风", "_t")
@@ -1747,8 +1749,8 @@ t([[Grushgore the Destroyer was absolutely enthralled when he discovered steamsa
 His naming skills have not improved.]], [[毁灭者格鲁什戈尔发现蒸汽链锯时十分激动，他立刻抓了几个工程师，强迫他们为他做了这个。
 他的取名技巧从没有得到提高。]], "_t")
 t("deal a melee attack against all other enemies in a circle around you", "对周围一圈敌人进行近战攻击。", "_t")
-t("Galen's Flowing Robe", "盖伦的科技法袍", "entity name")
-t("ample robe", "微妙地法袍", "_t")
+t("Galen's Flowing Robe", "盖伦的流苏法袍", "entity name")
+t("ample robe", "宽大的袍子", "_t")
 t("This robe was worn by the Technomancer Galen, infused with technomancy enchantments it is said to react to techno-spells!", "这身法袍是科技法师盖伦的创造，加入了科技法术的强化力量，可以对科技法术做出反应！", "_t")
 t([[20% chance when casting a technomancy spell (or 10% chance when casting a normal spell) to power-up the internal defense circuits of the robe.
 The circuit will do one of:
@@ -1786,7 +1788,7 @@ t("see everything. EVERYTHING. For 5 turns, anyway", "看到所有东西。*所�
 t("Laser Powered Giant Smasher", "激光驱动巨型粉碎器", "entity name")
 t("radiant hammer", "光辉的锤子", "_t")
 t("The Laser Powered Giant Smasher, nicknamed the Gloryhammer. You can feel it vibrating with untold power in your hands.", "激光驱动的巨型粉碎器，绰号“光锤”。你能感觉到它在你的手中以无穷的力量震动。", "_t")
-t("#PURPLE#You feel the power of the Gloryhammer course through you! It has become fully empowered!", "#PURPLE#你感受到光荣之锤的力量环绕着你！它的力量被完全释放了！", "logPlayer")
+t("#PURPLE#You feel the power of the Gloryhammer course through you! It has become fully empowered!", "#PURPLE#你感受到光锤的力量环绕着你！它的力量被完全释放了！", "logPlayer")
 -- untranslated text
 --[==[
 t("%s", "%s", "tformat")
@@ -1883,7 +1885,7 @@ For pricing, please discuss the matter with Kaltor, and then forget about it ent
 
 一个你的家园或飞艇必须添置的东西！
 
-关于售价，请向卡托尔咨询，然后完全忘记。如果价格对你来说是一个考虑因素，你几乎完全负担不起毁天灭地。
+关于售价，请向卡托尔咨询，然后完全忘记。如果价格对你来说是一个考虑因素，你几乎不可能负担得起毁天灭地。
 
 #{italic}#（声明：我们不对任何对毁天灭地的不当运输产生的伤亡和财产损失负责。我们不负责决定毁天灭地的恰当运输方式。不供应毁天灭地的附加炮弹。不保证在毁天灭地爆炸射程以外的准确性。我们不对任何在中途改变毁天灭地轨迹而产生的伤亡和财产损失负责。）#{normal}#
 ]], "_t")
@@ -2009,7 +2011,7 @@ WARNING: This product has been determined by the Council of Health Authority to 
 
 只要一瓶盖的量就能清洁你的气孔，和蒸汽一道排出毒素！
 
-也对以下症状有效：头痛、恶心、倦怠、疲劳、各种疼痛，以及广泛性的不适！
+也对以下症状有效：头痛、恶心、倦怠、疲劳、各种疼痛，以及各种不适！
 
 #{italic}#【一个备注占据了海报的底部边缘，印刷字体太小以致于你怀疑巨人们能不能看到。】#{normal}#
 
@@ -6740,11 +6742,11 @@ To be used with the medical injector implant.]], [[一个可以清除你身上�
 你需要通过植入物：药物注射来使用他。]], "_t")
 t("Fiery Salve", "烈火药剂", "_t")
 t([[A powerful salve that can clean magical detrimental effects from your body and grant a fiery aura (fire, light and lightning affinity).
-To be used with the medical injector implant.]], [[一个可以清除你身上的负面魔法效果并获得一个烈火光环（火焰、光系、闪电伤害吸收）的强大药剂。
+To be used with the medical injector implant.]], [[一个可以清除你身上的负面魔法效果并获得一个烈火光环（增加火焰、光系、闪电伤害吸收）的强大药剂。
 你需要通过植入物：药物注射来使用他。]], "_t")
 t("Water Salve", "静水药剂", "_t")
 t([[A powerful salve that can clean mental detrimental effects from your body and grant a water aura (blight, mind and acid affinity).
-To be used with the medical injector implant.]], [[一个可以清除你身上的负面精神效果并获得一个静水光环（枯萎、精神、酸性伤害吸收）的强大药剂。
+To be used with the medical injector implant.]], [[一个可以清除你身上的负面精神效果并获得一个静水光环（增加枯萎、精神、酸性伤害吸收）的强大药剂。
 你需要通过植入物：药物注射来使用他。]], "_t")
 t("Unstoppable Force Salve", "势不可挡药剂", "_t")
 t([[A powerful salve that makes you more resilient to physical, mental and magic effects and grants increased healing.
@@ -8025,7 +8027,7 @@ All Tinker classes use Steam for their powers.
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-tinker_psyshot.lua"
 
-t("New Class: #LIGHT_GREEN#Psyshot (Tinker)", "新职业： #LIGHT_GREEN# 念力射手（工匠系）", "_t")
+t("New Class: #LIGHT_GREEN#Psyshot (Tinker)", "新职业： #LIGHT_GREEN# 灵能射手（工匠系）", "_t")
 t([[You have found extremely old machines powered by advanced psionics and technology. Psionics without a living mind was never thought possible.
 You can now create new characters with the #LIGHT_GREEN#Psyshot class#WHITE#.
 
@@ -8038,9 +8040,9 @@ Class features:#YELLOW#
 
 All Tinker classes use Steam for their powers.
 ]], [[你找到了一台由灵能和科技驱动的古老机器。由机械引发的灵能不再是不可能的想象。
-现在你可以在创建人物时选择新的职业： #LIGHT_GREEN# 念力射手 #WHITE#。
+现在你可以在创建人物时选择新的职业： #LIGHT_GREEN# 灵能射手 #WHITE#。
 
-念力射手是混合使用灵能和蒸汽科技的恐怖敌人，一手持蒸汽枪一手持灵晶。
+灵能射手是混合使用灵能和蒸汽科技的恐怖敌人，一手持蒸汽枪一手持灵晶。
 职业特色：#YELLOW#
 - 将灵晶的攻击投射到你发射的子弹中。
 - 激发敌人的恐惧，让敌人在你的枪法前无处遁形。
@@ -8066,7 +8068,7 @@ Talents:
 - #YELLOW#Necrotic Breath: #WHITE#Breath pure darkness
 ]], [[龙是自然力量的象征，最顶级的捕食者。然而当它们变得老去并获得智能，其中有的个体也会希望能够延长生命、超越死亡。
 你曾经遇到过一个这样的个体并征服了它。
-你现在掌握了亡灵龙的魔法，创造的新龙战士角色可以使用#LIGHT_GREEN#龙之亡灵系#WHITE#技能。
+你现在掌握了亡灵龙的魔法，创造的新龙战士角色可以使用#LIGHT_GREEN#亡灵龙系#WHITE#技能。
 技能
 - #YELLOW#夷为平地：#WHITE#使用死亡的力量强化你的攻击，吞噬敌人的灵魂。
 - #YELLOW#疫毒瘴气：#WHITE#在目标区域释放疾病和枯萎的云团。

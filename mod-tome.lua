@@ -258,7 +258,7 @@ t("%s is too afraid to use %s.", "%s非常恐惧，无法使用%s。", "logSeen"
 t("%s is silenced and cannot use %s.", "%s被沉默，无法使用%s。", "logSeen")
 t("The spell fizzles.", "法术失败了。", "logSeen")
 t("%s is too disconnected from Nature to use %s.", "%s扰乱了自然平衡而无法使用%s。", "logSeen")
-t("%s is unable to use this kind of inscription.", "%s无法使用这类纹身。", "logSeen")
+t("%s is unable to use this kind of inscription.", "%s无法使用这类刻印。", "logSeen")
 t("%s is too heavily armoured to use this talent.", "%s身穿重甲，无法使用该技能。", "logSeen")
 t("%s can't use this talent while holding a weapon or shield.", "%s在装备武器或盾牌的时候，无法使用该技能。", "logSeen")
 t("%s is sleeping and unable to do this.", "%s正处于睡眠中，不能这样做。", "logPlayer")
@@ -1309,10 +1309,10 @@ t("#YELLOW_GREEN#__Computed tactics: %s", "#YELLOW_GREEN#__Computed tactics: %s"
 ------------------------------------------------
 section "mod-tome/class/interface/ActorInscriptions.lua"
 
-t("You are unable to use this kind of inscription.", "你无法使用这种纹身或符文。", "logPlayer")
-t("You already have too many of this inscription.", "你已经拥有太多这种纹身。", "logPlayer")
-t("You have no more inscription slots.", "你没有更多纹身槽了。", "logPlayer")
-t("You are now inscribed with %s.", "你的纹身更新为： %s 。", "logPlayer")
+t("You are unable to use this kind of inscription.", "你无法使用这种刻印。", "logPlayer")
+t("You already have too many of this inscription.", "你已经拥有太多的同种刻印。", "logPlayer")
+t("You have no more inscription slots.", "你没有更多刻印槽了。", "logPlayer")
+t("You are now inscribed with %s.", "你的刻印更新为： %s 。", "logPlayer")
 t("Your %s is depleted!", "你的 %s 被耗尽！", "logPlayer")
 
 ------------------------------------------------
@@ -1649,9 +1649,10 @@ t([[#GOLD#Inscriptions#LAST#
 The people of Eyal have found a way to create herbal infusions and runes that can be inscribed on the skin of a creature.  More exotic types of inscriptions also exist.
 Those inscriptions give the bearer always-accessible powers that can be used an unlimited number of times.
 A simple regeneration infusion is the most common type of infusion, and the use of runes of various types is also common among arcane users.
-]], [[#GOLD#纹身#LAST#
-埃亚尔的人们发明了一种利用提取的植物精华将一些符咒纹刻到皮肤上的技术。
-那些纹身可以产生一些特殊的能力，通常人们会纹刻一种回复纹身，当然还有一些其他种类的纹身。
+]], [[#GOLD#刻印#LAST#
+埃亚尔的人们发明了一种利用提取的植物精华将一些符咒纹刻到皮肤上的技术。此外，可能存在着某些更加奇异的刻印。
+刻印给被刻印者提供一些可以无限使用的特殊能力。
+通常人们会纹刻一种回复纹身，当然奥术施法者之中还有各种常见的符文。
 ]], "_t")
 t([[#GOLD#Prodigies#LAST#
 Prodigies are special talents that only the most powerful of characters can acquire.
@@ -2590,7 +2591,7 @@ t("Got to level 500 of the infinite dungeon.", "到达无尽地下城第500层�
 section "mod-tome/data/achievements/items.lua"
 
 t("Deus Ex Machina", "上帝之佑", "achievement name")
-t("Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "获得生命之血与四种特殊符文：原初纹身，野性生长纹身，反射符文，时空裂缝符文。", "_t")
+t("Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "获得生命之血与四种特殊刻印：原初纹身，野性生长纹身，反射符文，时空裂缝符文。", "_t")
 t("Treasure Hunter", "宝藏猎人", "achievement name")
 t("Amassed 1000 gold pieces.", "积累1000金币。", "_t")
 t("Treasure Hoarder", "藏金库", "achievement name")
@@ -3460,7 +3461,7 @@ to start, look where halflings once tinkered with portals...]], [[他们铸造�
 过去的窃贼失败了，但他们的数据将永远保存；
 要想找到他们，请寻找那些摆弄传送门的半身人……]], "_t")
 t("Ogres are an altered form of Human, created in the Age of Allure as workers and warriors for the Conclave.", "食人魔是变种人类，在厄流纪被孔克雷夫作为工人和战士而制造。", "_t")
-t("Inscriptions have granted them magical and physical power far beyond their natural limits, but their dependence on runic magic made them a favored target during the Spellhunt, forcing them to take refuge among the Shalore.", "符文给他们超过自然界限的强大力量，但他们对符文魔法的依赖使之成为猎魔行动绝佳的目标，而不得不依附于永恒精灵。", "_t")
+t("Inscriptions have granted them magical and physical power far beyond their natural limits, but their dependence on runic magic made them a favored target during the Spellhunt, forcing them to take refuge among the Shalore.", "刻印给他们超过自然界限的强大力量，但他们对符文魔法的依赖使之成为猎魔行动绝佳的目标，而不得不依附于永恒精灵。", "_t")
 t("Their preference for simple and direct solutions has given them an undeserved reputation as dumb brutes, despite their extraordinary talent with runes and their humble, dutiful nature.", "他们简单的喜好与直接的方式令他们获得了哑巴和野兽的蔑称，尽管他们在法术和符文上有惊人的亲和力。", "_t")
 t("They possess the #GOLD#Ogric Wrath#WHITE# talent, which grants them critical chance and power, as well as resistance to confusion and stuns, when their attacks miss or are blocked.", "他们拥有 #GOLD#怒火中烧 #WHITE# 技能，能提供暴击几率和伤害，并提供震慑定身免疫。", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD# 属性修正：", "_t")
@@ -5695,16 +5696,16 @@ t("What the...", "我X！", "_t")
 ------------------------------------------------
 section "mod-tome/data/chats/player-inscription.lua"
 
-t("Buy a new slot with one #{bold}#talent category point#{normal}#.", "使用#{bold}#技能树解锁点#{normal}#开启一个新的符文槽（最多5个）。", "_t")
+t("Buy a new slot with one #{bold}#talent category point#{normal}#.", "使用#{bold}#技能树解锁点#{normal}#开启一个新的刻印位（最多5个）。", "_t")
 t("Cancel", "取消", "_t")
-t("You have too many of this type of inscription. You can only override an existing one. The old inscription will be lost.", "你拥有一个此类纹身了，你只能覆盖掉现存的那一个。旧的纹身将消失。", "_t")
+t("You have too many of this type of inscription. You can only override an existing one. The old inscription will be lost.", "你已经拥有很多此类刻印了，你只能选择覆盖掉现存的某一个。旧的刻印将消失。", "_t")
 t([[You have reached your maximum number of inscriptions (infusions/runes).
 If you have unassigned #{bold}#talent category points#{normal}# you can use one to create a new slot (up to 5).
 You can replace an existing one or cancel.
-The old inscription will be lost.]], [[你已经到达了你的符文/纹身上限。
-如果你还有未使用的 #{bold}#技能树解锁点#{normal}# 你可以用它来开启一个新的符文槽。
-你可以替换掉一个现存的纹身，或者取消。
-旧的纹身将消失。]], "_t")
+The old inscription will be lost.]], [[你的刻印数量已经到达了上限。
+如果你还有未使用的 #{bold}#技能树解锁点#{normal}# 你可以用它来开启一个新的刻印位。
+你可以替换掉一个现存的刻印，或者取消。
+被替换掉的旧刻印将消失。]], "_t")
 -- untranslated text
 --[==[
 t([[#GOLD#%s#LAST#
@@ -9470,7 +9471,7 @@ t("vial of white fluid", "一瓶白色液体。", "_t")
 t("A vial of murky white fluid.", "一瓶朦胧的白色液体。", "_t")
 t("grant you two additional generic talent points", "获得额外2点通用技能点数", "_t")
 t("Taint of Purging", "堕落印记：清除", "entity name")
-t("Infusion of Wild Growth", "纹身：根须缠绕", "entity name")
+t("Infusion of Wild Growth", "纹身：野性生长", "entity name")
 t("Lifebinding Emerald", "生命之心", "entity name")
 t("green", "绿宝石", "entity subtype")
 t("cloudy, heavy emerald", "半透明的厚重翡翠", "_t")
@@ -11972,14 +11973,14 @@ t("This parchment contains some lore.", "这张卷轴里包含了一些手札。
 t("read it", "阅读", "_t")
 t("healing infusion", "治疗纹身", "entity name")
 t("regeneration infusion", "回复纹身", "entity name")
-t("wild infusion", "狂暴纹身", "entity name")
+t("wild infusion", "野性纹身", "entity name")
 t("movement infusion", "移动纹身", "entity name")
 t("heroism infusion", "英勇纹身", "entity name")
 t("teleportation rune", "传送符文", "entity name")
 t("shielding rune", "护盾符文", "entity name")
-t("biting gale rune", "冰风吞噬符文", "entity name")
-t("acid wave rune", "酸性冲击符文", "entity name")
-t("manasurge rune", "法力风暴符文", "entity name")
+t("biting gale rune", "冰风符文", "entity name")
+t("acid wave rune", "酸浪符文", "entity name")
+t("manasurge rune", "法力涌动符文", "entity name")
 t("blink rune", "闪烁符文", "entity name")
 t("stormshield rune", "风暴护盾符文", "entity name")
 t("shatter afflictions rune", "粉碎痛苦符文", "entity name")
@@ -12376,7 +12377,7 @@ t("blue", "蓝宝石", "entity subtype")
 t("windy gem", "微风环绕的宝石", "_t")
 t("Air currents swirl around this bright blue jewel.", "空气在这块亮蓝色宝石周围旋转。", "_t")
 t("Primal Infusion", "原初之纹身", "entity name")
-t("This wild infusion has evolved.", "这个纹身已经进化了", "_t")
+t("This wild infusion has evolved.", "这个野性纹身已经进化了", "_t")
 t("pulsing infusion", "有活力的纹身", "_t")
 t("Prismatic Rune", "棱彩符文", "entity name")
 t("Mirror Image Rune", "镜像符文", "entity name")
@@ -15825,7 +15826,7 @@ As to how to actually destroy one? Well, tell you what. If you manage to defeat 
 
 偶尔，有人会质问我：“难道世上所有的死灵法师都是邪恶的吗？”，“死灵法术也能造福群众啊！”，“只是因为法术流派不同而给人戴大帽子赶尽杀绝是正确的吗？” 对于这些人，在我一拳把他们打的亲娘都不认识之前，就是你给我先去看看食尸鬼。给我仔仔细细，好好的看看你亲爱的食尸鬼。它的腐肉不停散布着疾病，暴露的器官渗出腥臭的浓汁，五官与毛发缓缓软化如稻草般覆盖在它们身上。它以前也是个人，它也曾有过家庭，也有妹子爱。现在它却只是一具行尸走肉，唯一的欲望只是用活人之肉填补自己无尽的空虚。死灵法师都是邪恶的吗？我要大声回答一千次——是啊！
 
-就算这只不死族是最基本的单位，也能以出人意料的方式散布恐惧。一只普通食尸鬼身上的多种疾病能以出人意料的方式传染给众多的冒险者，更为可怕的是直到他们发现自己被食尸鬼抓破的小伤口周围出现大面积溃烂，腐败，爬满蛆虫时才会意识到大事不妙。这类伤口本应该立刻处理：如果你被食尸鬼咬了，立刻将受感染处浸入沸水，然后快速用干净的衣物撒上艾蒿和石灰粉将伤口包扎。这些伤口必须被包扎三周之久，每四天换一次药，可别忘了把上次换下的衣服烧掉哦！如果没有及时按上述步骤处理，狂暴纹身对伤员也疗效极佳。
+就算这只不死族是最基本的单位，也能以出人意料的方式散布恐惧。一只普通食尸鬼身上的多种疾病能以出人意料的方式传染给众多的冒险者，更为可怕的是直到他们发现自己被食尸鬼抓破的小伤口周围出现大面积溃烂，腐败，爬满蛆虫时才会意识到大事不妙。这类伤口本应该立刻处理：如果你被食尸鬼咬了，立刻将受感染处浸入沸水，然后快速用干净的衣物撒上艾蒿和石灰粉将伤口包扎。这些伤口必须被包扎三周之久，每四天换一次药，可别忘了把上次换下的衣服烧掉哦！如果没有及时按上述步骤处理，野性纹身对伤员也疗效极佳。
 
     * * *
 
@@ -19571,7 +19572,7 @@ Well, I won't have it.  I've been selling potions and inscriptions on the side f
 
 唉，可惜我的正义言论只受到了那些愚蒙之人的白眼和背后的议论，只有一对年轻的情侣被我对那篇关于“道德”的演讲进行的慷慨激昂仗义执言的回应深深感动，不过不久之后他们突然消失了。他们中的某些野蛮人无法在论点上击败我，就只能从别的方面对我造谣污蔑，别有用心地指责我“魔法技巧不精”，说什么我在我那伟大的龙傀儡身上浪费了太多时间！那些蠢人自以为自己可以用他们“干净”的方法保护这个世界；而事实上，兽人的入侵已经证明了他们是一群眼高手低的无能之徒。并且，一旦恶魔们强大的侵略部队真的到达这里，我们根本没有办法与他们为敌——是啊，我们甚至在伊格兰斯面前卑躬屈膝，东躲西藏，如果我们可以自由地在这片土地上漫游，我们的治疗师本来可以消除世界上那么多的疾病和痛苦。并且，只需要抓住几个他们的走狗进行实验，我们很快就能知道到打破他们防御的方法。
 
-不，我绝对不会向那些权威屈服。几年来，通过违反安格列文的规章偷偷出售药水和符文，我已经积攒了一大笔钱，足以让我在没有安格列文人监视的地方建造一个我自己的实验室。在那里，我可以秘密进行我自己的实验——那些娇气的同事们绝对没有本事做到这样的事情。我相信他们绝对不会同意，但是我不在乎——有些事情绝不能等到为时已晚再去了解，即使付出几个伊格狂徒或者罪犯的生命也没什么关系，我的研究成果最终将会拯救无数人的生命。建造工程明天就开始——我把任务交给了三个独立的建筑团队，这样没有人真正知道这座塔的详细构造。我已经和一些有权有势的商人达成了协议，这样我可以公开进行其中一些实验（他们希望一个用于贸易的传送门，而我向他们证明我的实验绝对不会再来一次魔法大爆炸），这样可以作为一些更加……有争议的实验提供掩饰。我可以让我的龙傀儡带上那些敏感的设备，这样我就不用亲自去回答那些烦人的问题。我可不想让被一群高傲自大的傻子再没收掉一个骨巨人——那种东西一个就要花掉我不少钱。]], "_t")
+不，我绝对不会向那些权威屈服。几年来，通过违反安格列文的规章偷偷出售药水和刻印，我已经积攒了一大笔钱，足以让我在没有安格列文人监视的地方建造一个我自己的实验室。在那里，我可以秘密进行我自己的实验——那些娇气的同事们绝对没有本事做到这样的事情。我相信他们绝对不会同意，但是我不在乎——有些事情绝不能等到为时已晚再去了解，即使付出几个伊格狂徒或者罪犯的生命也没什么关系，我的研究成果最终将会拯救无数人的生命。建造工程明天就开始——我把任务交给了三个独立的建筑团队，这样没有人真正知道这座塔的详细构造。我已经和一些有权有势的商人达成了协议，这样我可以公开进行其中一些实验（他们希望一个用于贸易的传送门，而我向他们证明我的实验绝对不会再来一次魔法大爆炸），这样可以作为一些更加……有争议的实验提供掩饰。我可以让我的龙傀儡带上那些敏感的设备，这样我就不用亲自去回答那些烦人的问题。我可不想让被一群高傲自大的傻子再没收掉一个骨巨人——那种东西一个就要花掉我不少钱。]], "_t")
 t("Personal note (2)", "个人笔记（2）", "_t")
 t([[Well...  that was interesting.
 
@@ -25842,7 +25843,7 @@ t("heal %d; %d cd", "治疗 %d; 冷却 %d", "tformat")
 t("Infusion: Healing", "纹身：治疗", "talent name")
 t("Activate the infusion to instantly heal yourself for %d then cleanse 1 wound, poison, and disease effect.", "激活纹身立即治疗你 %d 生命值，然后去除一个流血、毒素和疾病效果。", "tformat")
 t("heal %d; cd %d", "治疗 %d; 冷却 %d", "tformat")
-t("Infusion: Wild", "纹身：狂暴", "talent name")
+t("Infusion: Wild", "纹身：野性", "talent name")
 t("%s is cured!", "%s 被治愈！", "logSeen")
 t(" and ", "和", "_t")
 t([[Activate the infusion to cure yourself of one random %s effect and reduce all damage taken by %d%% for %d turns.
@@ -25871,7 +25872,7 @@ t([[Activate the infusion to endure even the most grievous of wounds for %d turn
 		（目前 %d 生命值， %d 持续时间）
 		效果结束时，如果你的生命值在 0 以下，会变为 1 点。]], "tformat")
 t("die at -%d; dur %d; cd %d", "-%d 死亡底线; 持续 %d; 冷却 %d", "tformat")
-t("Infusion: Wild Growth", "纹身：野性成长", "talent name")
+t("Infusion: Wild Growth", "纹身：野性生长", "talent name")
 t([[Causes thick vines to spring from the ground and entangle all targets within %d squares for %d turns, pinning them in place for 5 turns and dealing %0.2f physical damage and %0.2f nature damage.
 		The vines also grow all around you, increasing your armour by %d and armour hardiness by %d.]], [[从土地中召唤坚硬的藤蔓，缠绕 %d 码范围内所有生物，持续 %d 回合。将其定身5回合并造成每回合 %0.2f 物理和 %0.2f 自然伤害。
 		藤蔓也会生长在你的身边，增加 %d 护甲和 %d 护甲强度。]], "tformat")
@@ -25885,20 +25886,20 @@ t("absorb %d; dur %d; cd %d", "吸收 %d; 持续 %d; 冷却 %d", "tformat")
 t("Rune: Reflection Shield", "符文：反射护盾", "talent name")
 t("Activate the rune to create a protective shield absorbing and reflecting at most %d damage for %d turns.", "激活这个符文产生一个防御护盾，吸收并反弹最多 %d 伤害值，持续 %d 回合。效果与魔法成比例增长。", "tformat")
 t("absorb and reflect %d; dur %d; cd %d", "吸收并反弹 %d 持续 %d ; 冷却 %d", "tformat")
-t("Rune: Biting Gale", "符文：冰风吞噬", "talent name")
+t("Rune: Biting Gale", "符文：冰风", "talent name")
 t([[Activate the rune to direct a cone of chilling stormwind doing %0.2f cold damage.
 			The storm will soak enemies hit reducing their resistance to stuns by 50%% then attempt to freeze them for %d turns.
 			These effects can be resisted but not saved against.]], [[激活这个符文，形成一股锥形寒风，造成 %0.2f 寒冷伤害。
 			寒风会浸湿敌人，将其敌人震慑抗性降低50%%，并试图冻结他们 %d 回合。
 			效果可以被抵抗，但不能被豁免]], "tformat")
 t("damage %d; dur %d; cd %d", "伤害 %d; 持续 %d; 冷却 %d", "tformat")
-t("Rune: Acid Wave", "符文：酸性冲击波", "talent name")
+t("Rune: Acid Wave", "符文：酸浪", "talent name")
 t([[Activate the rune to unleash a cone dealing %0.2f acid damage.
 			The corrosive acid will also disarm enemies struck for %d turns.
-			This effect can be resisted but not saved against.]], [[发射锥形酸性冲击波造成 %0.2f 酸性伤害。
-			酸性冲击波会缴械目标 %d 回合。
+			This effect can be resisted but not saved against.]], [[发射锥形酸浪，造成 %0.2f 酸性伤害。
+			腐蚀性酸液会缴械目标 %d 回合。
 			效果可以被抵抗，但不能被豁免。]], "tformat")
-t("Rune: Manasurge", "符文：法力风暴", "talent name")
+t("Rune: Manasurge", "符文：法力涌动", "talent name")
 t("Your negative mana regeneration rate is unaffected by the rune.", "你的负法力回复率不受符文影响。", "logPlayer")
 t("Your nonexistant mana regeneration rate is unaffected by the rune.", "你没有法力回复率，不受符文影响。", "logPlayer")
 t([[Activate the rune to unleash a manasurge upon yourself, increasing mana regeneration by %d%% for %d turns (%d total) and instantly restoring %d mana.
@@ -25931,7 +25932,7 @@ t([[Activate the rune to summon a protective storm around you for %d turns.
 			当符文生效时，风暴可以抵挡大于 %d 的任何伤害最多 %d 次。]], "tformat")
 t("threshold %d; blocks %d; dur %d; cd %d", "阈值 %d; 次数 %d; 持续 %d; 冷却 %d", "tformat")
 t("Rune: Prismatic", "符文：棱彩", "talent name")
-t("Activate the rune to create a shield for %d turns blocking several instances of damage of the following types:%s", "激活符文展开一个护盾，在 %d 回合内，抵挡以下类型的伤害 : %s", "tformat")
+t("Activate the rune to create a shield for %d turns blocking several instances of damage of the following types:%s", "激活符文展开一个护盾，在 %d 回合内，按次数抵挡以下类型的伤害 : %s", "tformat")
 t("%d turns; %s", "%d 回合; %s", "tformat")
 t("Rune: Mirror Image", "符文：镜像", "talent name")
 t("You cannot summon; you are suppressed!", "你不能召唤，你被压制了！", "logPlayer")
@@ -25952,7 +25953,7 @@ t([[Activate the rune to instantly dissipate the energy of your ailments, cleans
 		每清除一个负面效果，你都会获得一个抵挡 %d 伤害的护盾，持续 %d 回合。
 		如果只清除了越层效果，不会产生护盾且冷却时间减少75%% 。]], "tformat", {2,1})
 t("absorb %d; cd %d", "吸收 %d; 冷却 %d", "tformat")
-t("Rune: Dissipation", "符文：耗散", "talent name")
+t("Rune: Dissipation", "符文：消散", "talent name")
 t("Activate the rune to remove 8 beneficial magical sustains from an enemy target or all magical debuffs from you.", "激活这个符文，从敌人身上移除 8 个正面魔法持续效果，或从自己身上移除所有魔法负面效果。", "tformat")
 t("Taint: Devourer", "堕落印记：吞噬", "talent name")
 t("Activate the taint on a foe, removing up to %d magical or physical effects or sustains from it and healing you for %d for each effect.", "对目标激活此印记，移除其 %d 魔法或物理效果，或是持续技能，每移除一个治疗 %d 生命值。", "tformat")
@@ -26033,13 +26034,13 @@ t("class", "职业", "talent type")
 t("The basic talents defining a class.", " 一个职业的基础定义。", "_t")
 t("race", "种族技能", "talent type")
 t("The various racial bonuses a character can have.", " 多种多样的种族天赋。", "_t")
-t("inscriptions", "纹身和符文", "talent category")
+t("inscriptions", "刻印", "talent category")
 t("infusions", "纹身", "talent type")
-t("Infusions are not class abilities, you must find them or learn them from other people.", " 纹身不是技能，你必须找到它们或从其他人那获得它们。", "_t")
+t("Infusions are not class abilities, you must find them or learn them from other people.", " 纹身不是职业技能，你必须找到它们或从其他人那获得它们。", "_t")
 t("runes", "符文", "talent type")
-t("Runes are not class abilities, you must find them or learn them from other people.", " 符文不是技能，你必须找到它们或从其他人那获得它们。", "_t")
-t("taints", "堕落印记", "talent type")
-t("Taints are not class abilities, you must find them or learn them from other people.", " 印记不是技能，你必须找到它们或从其他人那获得它们。", "_t")
+t("Runes are not class abilities, you must find them or learn them from other people.", " 符文不是职业技能，你必须找到它们或从其他人那获得它们。", "_t")
+t("taints", "污印", "talent type")
+t("Taints are not class abilities, you must find them or learn them from other people.", " 污印不是职业技能，你必须找到它们或从其他人那获得它们。", "_t")
 t("Attack", "攻击", "talent name")
 t("#Source# attacks empty space.", "#Source#打到了空地。", "logCombat")
 t("Hack and slash, baby!", "尽情砍杀吧，宝贝！", "tformat")
@@ -26867,21 +26868,21 @@ t("Grisly Constitution", "强大体魄", "talent name")
 t([[An ogre's body is acclimated to spells and inscriptions.
 		Increases spell save by %d and improves the contribution of primary stats on infusions and runes by %d%%.
 		At level 5 your body is so strong you can use a two handed weapon in your main hand while still using an offhand item.
-		When using a two handed weapon this way you suffer a 20%% accuracy, physical power, spellpower and mindpower penalty, decreasing by 5%% per size category above #{italic}#big#{normal}#; further, all damage procs from your weapons are reduced by 50%%.]], [[食人魔的身体对法术和符文亲和力很强。
-		增加 %d 法术豁免，增加纹身和符文的属性加成效果 %d%% 。
+		When using a two handed weapon this way you suffer a 20%% accuracy, physical power, spellpower and mindpower penalty, decreasing by 5%% per size category above #{italic}#big#{normal}#; further, all damage procs from your weapons are reduced by 50%%.]], [[食人魔的身体对法术和刻印的亲和力很强。
+		增加 %d 法术豁免，增加刻印的属性加成效果 %d%% 。
 		技能等级 5 时，你的身体变得如此强壮，能在主手持有双手武器的同时，副手持有其他副手武器。
 		这样做的话，你的命中、物理、法术、精神强度会下降 20%% ，体型超过#{italic}#'较大'#{normal}#时，每增加一体型，惩罚减少 5%% 。同时你的武器附加伤害减少 50%% 。]], "tformat")
 t("Scar-Scripted Flesh", "血肉伤痕", "talent name")
 t([[When you crit you have a %d%% chance to reduce by 1 the remaining cooldown of one of your inscriptions and of any saturations effects.
-		This effect can only happen once per turn.]], [[每次暴击时有 %d%% 几率减少随机一个纹身或符文 1 回合冷却时间，或减少符文紊乱或纹身紊乱 1 回合持续时间。
+		This effect can only happen once per turn.]], [[每次暴击时有 %d%% 几率减少随机一个刻印 1 回合冷却时间，或减少符文紊乱或纹身紊乱 1 回合持续时间。
 		该效果每回合最多触发一次。]], "tformat")
 t("Writ Large", "符文亲和", "talent name")
-t("#PURPLE#Your mastery over inscriptions is unmatched! One more inscriptions slot available to buy.", "#PURPLE#你对纹身的掌握无人能及！你可以消耗一个大系点进一步解锁一个纹身位", "logPlayer")
+t("#PURPLE#Your mastery over inscriptions is unmatched! One more inscriptions slot available to buy.", "#PURPLE#你对刻印的掌握无人能及！你可以消耗一个大系点进一步解锁一个刻印位", "logPlayer")
 t([[Instantly removes runic and infusion saturations.
 		For %d turns your inscriptions cool down twice as fast.
 		At level 5 your command over inscriptions is so good that you can use one more (you still need a category point to unlock it; you need to exit the levelup screen to validate it).]], [[立刻解除纹身紊乱和符文紊乱。
-		接下来 %d 回合内，你的纹身和符文冷却速度加倍。
-		技能等级 5 时，你能额外使用一个纹身（需要大系点解锁）。]], "tformat")
+		接下来 %d 回合内，你的刻印冷却速度加倍。
+		技能等级 5 时，你能额外解锁一个刻印位（需要消耗大系点）。]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/misc/tutorial.lua"
@@ -32443,7 +32444,7 @@ Now move on to the west.
 
 你发现的物品是一个纹身，纹身和符文可以将一种能力印刻到你的身上，获得新的技能。
 纹身来自于自然而符文则是由魔法创造。
-这个纹身的功能是能使你在你需要的时候回复生命值。你只能印刻有限数量的纹身，但
+这个纹身的功能是能使你在你需要的时候回复生命值。你只能印刻有限数量的刻印，但
 你可以非常方便的切换他们。
 
 现在继续向西前进。
@@ -34426,7 +34427,7 @@ Race features:#YELLOW#
 ]], [[食人魔是被魔法改变的人类，在永恒精灵的艾尔瓦拉避难。
 他们有着庞大的身躯，这个身躯由覆盖在他们皮肤上发光的复杂符文网支撑。食人魔的外貌令人生畏，但他们实际上有着认真和谦虚的性格。
 在厄流战争中，孔克雷夫创造了食人魔作为工人和战士，但最后他们成为了被遗弃的种族。他们庞大的体型和身上闪光的符文让他们成为了魔法狩猎的首要目标，只有那些逃去永恒精灵领地的少量族群幸免于难。
-因为他们必须要维护自己身上的符文存活下去，他们操纵符文和纹身的能力无可比拟，并且这份知识一直世代传承下去。他们解决问题的时候习惯使用最简单直接的手段，再加上他们稍微有些…暴躁的脾性，这一切让他们获得了一些粗暴的野蛮人的坏名声。然而进来，他们在符文和纹身制作领域的成就，渐渐抹去了人们对他们的坏印象。
+因为他们必须要维护自己身上的刻印存活下去，他们操纵刻印的能力无可比拟，并且这份知识一直世代传承下去。他们解决问题的时候习惯使用最简单直接的手段，再加上他们稍微有些…暴躁的脾性，这一切让他们获得了一些粗暴的野蛮人的坏名声。然而进来，他们在符文和纹身制作领域的成就，渐渐抹去了人们对他们的坏印象。
 
 你学习了食人魔的过去，并解决掉了他们恐怖的创造者。随着孔克雷夫最后残余的毁灭，厄流战争终于迎来了真正的结束。现在，你可以创造新的#LIGHT_GREEN#食人魔#WHITE#角色，在实战中发挥他们的魔法力量吧！
 
@@ -35497,7 +35498,7 @@ t("-Ogric Wrath", "-食人魔之怒", "_t")
 t("Ogre Fury", "食人魔的怒火", "_t")
 t("Increases crit chance by %d%% and critical power by %d%%. %d charge(s).", "增加 %d%% 暴击率与 %d%% 暴击强度。叠加： %d .", "tformat")
 t("Writ Large", "符文亲和", "_t")
-t("Inscriptions cooldown twice as fast.", "纹身符文冷却速度加倍。", "tformat")
+t("Inscriptions cooldown twice as fast.", "刻印冷却速度加倍。", "tformat")
 t("+Writ Large", "+符文亲和", "_t")
 t("-Writ Large", "-符文亲和", "_t")
 t("Static History", "静态历史", "_t")
@@ -41349,7 +41350,7 @@ t("Invisibility   : #00ff00#%s", "隐形强度：#00ff00#%s", "tformat")
 t("See invisible  : #00ff00#%s", "侦测隐形：#00ff00#%s", "tformat")
 t("Telepathy range: #00ff00#%s", "感应范围：#00ff00#%s", "tformat")
 t("#LIGHT_BLUE#Stats:        Base/Current", "#LIGHT_BLUE#属性值：       基础值/当前值", "_t")
-t("#AQUAMARINE#Inscriptions (%d/%d)", "#AQUAMARINE#纹身槽 (%d/%d)", "tformat")
+t("#AQUAMARINE#Inscriptions (%d/%d)", "#AQUAMARINE#刻印位 (%d/%d)", "tformat")
 t("Telepathy of: ", "心灵感应：", "_t")
 t("%sAll ", "%s所有 ", "tformat")
 t("#LIGHT_BLUE#Current effects:", "#LIGHT_BLUE#目前状态效果：", "_t")
@@ -41415,7 +41416,7 @@ t("#LIGHT_BLUE#Flat resistances:", "#LIGHT_BLUE#固定数值伤害减免：", "_
 t("#LIGHT_BLUE#Effect resistances:", "#LIGHT_BLUE#状态效果免疫：", "_t")
 t("#LIGHT_BLUE#Damage when hit:", "#LIGHT_BLUE#被击中后反击伤害：", "_t")
 t("race/.*", "种族技能/.*", "_t")
-t("Inscriptions", "纹身", "_t")
+t("Inscriptions", "刻印", "_t")
 t("Prodigies", "觉醒技", "_t")
 t("Item_Talents", "物品技能", "_t")
 t("Talents", "技能", "_t")
@@ -41920,20 +41921,20 @@ You gain a new point at level 10, 20 and 34.
 Some races or items may increase them as well.]], [[技能树解锁点有以下作用： 
 - 解锁职业或通用技能树 
 - 提升一个技能树所有技能等级，每点提升 0.2
-- 解锁新的纹身槽（最多 5 个，你使用纹身、符文等时会自动消耗点数解锁） 
+- 解锁新的刻印位（最多 5 个，你使用刻印时会自动消耗点数解锁）
 你会在人物等级达到 10、 20 和 34 级时各获得 1 个点数。 
 某些种族和物品可以获得额外的点数。]], "_t")
 t([[Prodigies are special talents that only the most powerful of characters can attain.
 All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], [[觉醒技是角色足够强大时才能获得的特殊技能。 
 所有觉醒技能必须在人物某项核心属性达到 50 点并满足所需的特殊要求后才能习得。 
 你可以在人物等级达到 25 级和 42 级时各获得一个觉醒技能点。]], "_t")
-t("You can use a category point to unlock a new inscription slot (up to 5 slots).", "你可以消耗 1 个技能树解锁点来解锁一个新的纹身槽（最多 5 个）。", "_t")
+t("You can use a category point to unlock a new inscription slot (up to 5 slots).", "你可以消耗 1 个技能树解锁点来解锁一个新的刻印位（最多 5 个）。", "_t")
 t("Prodigies", "觉醒技", "_t")
-t("Inscriptions", "纹身", "_t")
-t("You have learnt all the inscription slots you could.", "你已经解锁了所有的纹身槽。", "_t")
-t("You can learn %d new slot(s). Do you wish to buy one with one category point?", "您可以解锁 %d 个新的纹身槽。你希望用 1 个技能树解锁点解锁 1 个纹身槽吗", "tformat")
+t("Inscriptions", "刻印", "_t")
+t("You have learnt all the inscription slots you could.", "你已经解锁了所有的刻印位。", "_t")
+t("You can learn %d new slot(s). Do you wish to buy one with one category point?", "您可以解锁 %d 个新的刻印位。你希望用 1 个技能树解锁点解锁 1 个刻印位吗", "tformat")
 t("Category points: %s", "技能树解锁点：%s", "tformat")
-t("You can still learn %d new slot(s) but you need a category point.", "你还可以学习 %d 个新的纹身槽，但是你需要一个大系点来学习", "tformat")
+t("You can still learn %d new slot(s) but you need a category point.", "你还可以学习 %d 个新的刻印位，但是你需要一个大系点来学习", "tformat")
 t("Stats: %s", "属性: %s", "tformat")
 t("Class points: %s", "职业点：%s", "tformat")
 t("Generic points: %s", "通用点：%s", "tformat")
@@ -43031,7 +43032,7 @@ t("Some Sher'Tul artifacts can still be found in hidden places, but it is said t
 t("Drakes and wyrms are the strongest natural creatures in the world, capable of powers far beyond most other beings.", "龙与巨龙是这个世界上最强大的自然生物，它们所拥有的力量远在其他生物之上。", "init.lua load_tips")
 t("Giant worms tear open huge passageways through the deserts in the west. It is said great riches lie buried beneath the sand, still decorating the corpses of those who went there seeking great riches.", "西部沙漠中的巨型蠕虫挖掘出了很多巨大的通道。传说在那沙洞深处埋藏着很多诱人的宝物。不过除了宝物之外，更多的便是那些寻宝人的尸体。", "init.lua load_tips")
 t("Arcane Blades employ a fusion of melee and magical combat. Their training is harsh but the most dedicated rise to great powers.", "奥术之刃是一个混合了魔法与近战的职业。他们的训练非常严酷，同时他们的力量也极其强大。", "init.lua load_tips")
-t("Wild infusions call upon the powers of nature to protect the flesh and rid oneself of afflictions.", "自然纹身可以召唤自然的力量来保护你的肉体免于伤害。", "init.lua load_tips")
+t("Wild infusions call upon the powers of nature to protect the flesh and rid oneself of afflictions.", "野性纹身可以召唤自然的力量来保护你的肉体免于伤害。", "init.lua load_tips")
 t("Shield runes act instantly, letting one protect oneself quickly whilst also preparing to flee or launch a counter attack.", "护盾符文为瞬发技能，可以在你准备逃跑或者反击的同时提供防护。", "init.lua load_tips")
 t("Greater training in the use of armour lets it be used more effectively, blocking more damage and reducing the chance of an enemy hitting a critical spot.", "高级的护甲训练可以有效提高你的防护能力，使你格挡更多伤害并降低你受到致命一击的几率。", "init.lua load_tips")
 t("The Thick Skin talent reduces all incoming damage, letting you survive for longer before needing to heal.", "硬化皮肤技能可以降低所有受到的伤害，让你在能够使用治疗以前存活更长的时间。", "init.lua load_tips")

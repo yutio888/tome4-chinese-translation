@@ -2979,7 +2979,7 @@ t([[You establish a powerful mental link with your Worm that Walks.
 		As long as you remain within radius 3 of your worm that walks each of you gains %d%% all resistance for 5 turns.
 		Additionally, your Worm that Walks permanently gains an inscription slot every 2 raw talent levels (%d).]], [[ 你和蠕虫合体建立强大的精神链接。
 		只要你和它的距离不超过 3 格，你们均获得持续 5 回合的 %d%% 全体抗性。
-		该技能每增加两级原始等级，你的蠕虫合体获得一个纹身位（当前： %d ）。]], "tformat")
+		该技能每增加两级原始等级，你的蠕虫合体获得一个刻印位（当前： %d ）。]], "tformat")
 t("Terrible Sight", "恐怖景象", "talent name")
 t("You require your worm that walk to be alive and closeby.", "你需要有一个存活的蠕虫合体伙伴在周围。", "logPlayer")
 -- new text
@@ -3507,7 +3507,7 @@ t([[Enter a killing frenzy for 3 turns.
 		This does not work for inscriptions, talents that take no turn to use, passives, or talents with fixed cooldowns.
 		]], [[进入杀戮狂热状态 3 回合。
 		狂热状态下，  你使用的第一个职业技能不进入冷却（再次使用将进入冷却。）
-		该效果对纹身、符文、被动技能、瞬间技能以及固定冷却时间技能无效。
+		该效果对刻印、被动技能、瞬间技能以及固定冷却时间技能无效。
 		]], "tformat")
 t("Spikeskin", "尖刺皮肤", "talent name")
 t([[Your skin grows small spikes coated in dark blight.
@@ -3573,7 +3573,7 @@ t([[Since ziguranth removed those filthy magic runes from your body you have nee
 		当你学会该技能时，你变得如此强大，以至于能双持任何单手武器。]], "tformat", {1,3,2,4,5,6})
 t("Fuel Pain", "升华痛苦", "talent name")
 t([[Your body is used to pain. When you take a hit of 20%% or more of your max life one of your inscriptions is taken off cooldown and infusion saturation is removed.
-		This effect has a cooldown of %d turns.]], [[你的身体习惯于痛苦。每次你受到超过 20%% 最大生命的伤害时，你的一个纹身将立刻冷却完毕，并移除符文饱和效果。
+		This effect has a cooldown of %d turns.]], [[你的身体习惯于痛苦。每次你受到超过 20%% 最大生命的伤害时，你的一个刻印将立刻冷却完毕，并移除纹身饱和效果。
 		该效果冷却时间为 %d 回合。]], "tformat")
 t("Drakeblood Strike", "龙血打击", "talent name")
 t([[You were created by ziguranth for one purpose only, to wage war on magic!

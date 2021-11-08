@@ -8139,9 +8139,9 @@ section "mod-tome/data/general/npcs/ghost.lua"
 
 t("undead", "亡灵", "entity type")
 t("ghost", "幽灵", "entity subtype")
-t("dread", "梦魇", "entity name")
+t("dread", "噩灵", "entity name")
 t("It is a form that screams its presence against the eye. Death incarnate, its hideous black body seems to struggle against reality as the universe itself strives to banish it.", "它的可怕形象冲击着你的双眼。它是死亡的化身，它丑恶的身体似乎在向宇宙宣告着它与现实的格格不入。", "_t")
-t("dreadmaster", "梦魇之王", "entity name")
+t("dreadmaster", "噩灵之王", "entity name")
 t("It is an unlife of power almost unequaled. An affront to existence, its very touch abuses and disrupts the flow of life, and its unearthly limbs, of purest black, crumble rock and wither flesh with ease.", "它代表着无可匹敌的非生命力量。是对现实存在的否定。对它的轻微接触都会影响生命的流动，它那纯粹的不可思议的黑色边缘能够轻松地使岩石崩解，血肉成灰。", "_t")
 t("banshee", "哀嚎女妖", "entity name")
 t("It is a ghostly woman's form that wails mournfully.", "一个发出凄惨尖叫的女妖。", "_t")
@@ -9232,7 +9232,7 @@ t("No force can hope to silence the wearer of this amulet.", "没有任何力量
 t("Telos's Staff (Top Half)", "泰勒斯的法杖（上半部）", "entity name")
 t("broken staff", "损坏的法杖", "_t")
 t("The top part of Telos' broken staff.", "泰勒斯破损法杖的上半部分。", "_t")
-t("Choker of Dread", "恐惧护符", "entity name")
+t("Choker of Dread", "噩灵护符", "entity name")
 t("dark amulet", "黑暗的护符", "_t")
 t("The evilness of undeath radiates from this amulet.", "这件护符散发着不死生物的邪恶气息。", "_t")
 t("summon an elder vampire with Taunt to your side for 15 turns", "召唤一个会使用嘲讽的吸血鬼长老为你服务15回合。", "_t")
@@ -28469,7 +28469,7 @@ t([[Echoes of the future flash before your eyes, allowing you to sense some inco
 ------------------------------------------------
 section "mod-tome/data/talents/spells/dreadmaster.lua"
 
-t("Dread", "梦魇", "talent name")
+t("Dread", "噩灵", "talent name")
 t([[Summon a Dread of level %d that will annoyingly blink around, hexing your foes.
 		It knows the following spells:
 		- Burning Hex at level %d
@@ -28477,7 +28477,7 @@ t([[Summon a Dread of level %d that will annoyingly blink around, hexing your fo
 		- Pacification Hex at level %d
 		- Blur Sight at level %d
 		- Phase Door at level %d
-		]], [[召唤一个等级 %d 的梦魇。梦魇会四处传送，并对敌人释放邪术。
+		]], [[召唤一个等级 %d 的噩灵。噩灵会四处传送，并对敌人释放邪术。
 		它会使用以下技能：
 		- 燃烧邪术等级 %d
 		- 转移邪术等级 %d
@@ -28489,16 +28489,16 @@ t("Souleater", "噬魂者", "talent name")
 t("#GREY#%s has fed on enough minions and starts to randomly hex foes!", "#GREY#%s吸取了足够多的随从，开始随机对敌人释放邪术！", "logSeen")
 t([[Any time one of your minions dies or expires, and even if it is resurrected by a boneyard, the dread feeds on it.
 		Each time it feeds it gets healed for %d and reduces remaining cooldown of its spells by %d.
-		Every 10 minion deaths it casts a random hex on up to %d foes at once, instantly and without triggering a cooldown.]], [[每当你的一个死灵随从死亡或超时的时候，梦魇会吸收它的能量，即使它被大墓地复活了仍然会如此。
-		每当梦魇吸收一个随从，它会恢复 %d 生命值，并降低其法术剩余冷却时间 %d 。
+		Every 10 minion deaths it casts a random hex on up to %d foes at once, instantly and without triggering a cooldown.]], [[每当你的一个死灵随从死亡或超时的时候，噩灵会吸收它的能量，即使它被大墓地复活了仍然会如此。
+		每当噩灵吸收一个随从，它会恢复 %d 生命值，并降低其法术剩余冷却时间 %d 。
 		每当它吸收 10 个死亡的随从，它会立刻朝最多 %d 个敌人释放邪术，不消耗时间，也不会触发技能冷却。]], "tformat")
 t("Neverending Peril", "不灭灾厄", "talent name")
-t("In an effort to make your dread more annoying you focus a shell of darkness around it, rendering it fully invincible for %d turns.", "你使用一层暗影包裹你召唤的梦魇，以便最大限度给敌人带来扰乱。梦魇在 %d 回合内进入无敌状态。", "tformat")
-t("Dreadmaster", "梦魇之王", "talent name")
+t("In an effort to make your dread more annoying you focus a shell of darkness around it, rendering it fully invincible for %d turns.", "你使用一层暗影包裹你召唤的噩灵，以便最大限度给敌人带来扰乱。噩灵在 %d 回合内进入无敌状态。", "tformat")
+t("Dreadmaster", "噩灵之王", "talent name")
 t([[You now summon a Dreadmaster instead of a Dread.
 		Dreadmasters learn to cast silence, disperse magic and mind disruption, making them the ultimate annoyance tool.
-		It learns them at talent level %d.]], [[你改为召唤梦魇之王取代梦魇。
-		梦魇之王可以释放技能等级 %d 的沉默、驱散和精神干扰，是扰乱敌人的强大力量。]], "tformat")
+		It learns them at talent level %d.]], [[你改为召唤噩灵之王取代噩灵。
+		噩灵之王可以释放技能等级 %d 的沉默、驱散和精神干扰，是扰乱敌人的强大力量。]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/earth.lua"
@@ -29471,7 +29471,7 @@ t("master necromancer", "死灵大师", "talent type")
 t("Full and total control over your undead army.", "完全控制你的不死军团。", "_t")
 t("nightfall", "黄昏", "talent type")
 t("Manipulate darkness itself to slaughter your foes.", " 操控黑暗来消灭你的目标。", "_t")
-t("dreadmaster", "梦魇之王", "talent type")
+t("dreadmaster", "噩灵之王", "talent type")
 t("Summon an undead minion of pure darkness to harass your foes.", "召唤至暗的不死随从，骚扰你的敌人。", "_t")
 t("age of dusk", "黄昏纪", "talent type")
 t("Recall the glorious days of the Age of Dusk when necromancers reigned supreme.", "唤起黄昏纪的记忆，那个死灵法师处于至高无上地位的黄金年代。", "_t")
@@ -31420,7 +31420,7 @@ t([[You infuse blighted energies into all of your summons, granting them Bone Sh
 		- 骷髅战士：毁伤
 		- 骨巨人：白骨尖刺和 毁伤
 		- 食尸鬼：剧毒瘟疫
-		- 梦魇：催眠
+		- 噩灵：催眠
 		]], "tformat")
 t("Revisionist History", "修正历史", "talent name")
 t("Have time-travelled at least once", "曾经至少进行过一次时空穿越", "_t")

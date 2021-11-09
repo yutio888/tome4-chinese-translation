@@ -1742,7 +1742,7 @@ Some people just can't let go until they've bled dry.']], [[上面粘着一页�
 t([[All damage dealt by or to you (that is over 1% of max life) bleeds for an additional 20% of the damage as physical damage (ignores most status resistances).
 While you are bleeding, Heartrend's damage increases and it gains lifesteal.]], [[你受到与造成的所有超过1%总生命的伤害将触发流血效果，无视大部分状态免疫，造成额外20%物理伤害。
 当你处于流血状态时，心脏切割伤害增加并具有吸血效果。]], "_t")
-t("If bleed damage per turn is greater than 5% of max life, attacks cleave.", "若每回合流血伤害伤害超过5%最大生命，攻击变为劈击。", "_t")
+t("If bleed damage per turn is greater than 5% of max life, attacks cleave.", "若每回合的流血伤害超过5%最大生命，攻击变为劈击。", "_t")
 t("Dethzaw", "死忘链据", "entity name")
 t("fiery steamsaw", "火焰蒸汽锯", "_t")
 t([[Grushgore the Destroyer was absolutely enthralled when he discovered steamsaws. He immediately kidnapped several tinkerers and forced them to create this for him.
@@ -3294,7 +3294,7 @@ There is one group that remains.  A tiny Orcish pride, really more of a small to
 
 By the Sun...  why would our High Paladin agree to this treaty?  After what we've all been through...
 
-The Orcish scouts are getting bolder.  They've been approaching closer before fleeing, and coming more frequently.  They haven't engaged us yet, but it's only a matter of time...  and all I'm allowed to do is sit and wait on this ugly little bridge, as the West watches from a continent away.  Staring at an open wound, waiting for it to become infected, because they'd rather make a pretty little bow out of the bandages.]], [[我们做到了…我们终于做到了。尽管这主要是我们的%s的功劳，但结果是一样的：无论是东方和西方大陆，都再也不用担心兽人的威胁了。撕打兽人部落已经被完全粉碎，残余的生还者也都被关押了起来，我们的巡逻队四处扫荡他们的残兵败将。我们等待已久的来自西方的古老盟友终于现身，用大量的材料和人力来帮助我们，我们终于可以开始建设这片美丽的大陆。这是前所未有的胜利：太阳堡垒再也不是是瓦·埃亚尔上文明和希望的唯一堡垒了。
+The Orcish scouts are getting bolder.  They've been approaching closer before fleeing, and coming more frequently.  They haven't engaged us yet, but it's only a matter of time...  and all I'm allowed to do is sit and wait on this ugly little bridge, as the West watches from a continent away.  Staring at an open wound, waiting for it to become infected, because they'd rather make a pretty little bow out of the bandages.]], [[我们做到了…我们终于做到了。尽管这主要是我们的%s的功劳，但结果是一样的：无论是东方和西方大陆，都再也不用担心兽人的威胁了。撕打兽人部落已经被完全粉碎，残余的生还者也都被关押了起来，我们的巡逻队四处扫荡他们的残兵败将。我们等待已久的来自西方的古老盟友终于现身，用大量的材料和人力来帮助我们，我们终于可以开始建设这片美丽的大陆。这是前所未有的胜利：太阳堡垒再也不是瓦·埃亚尔上文明和希望的唯一堡垒了。
 
 然而，尽管如此…
 
@@ -3402,7 +3402,7 @@ You want your revenge on my father's people, foul cur?  #{italic}#Come and get i
 
 我再也不会犯同样的错误了。
 
-你们清楚地向我展现，兽人的铁石心肠中什么也没有，只有对死亡和毁灭的无尽欲望。无论把多么美好的未来摆在你们的面前，你们都会毫不在意地舍弃，只为了屠戮那些希望这种美好未来成真的真诚理性的人。你告诉我们，我曾经试图克服的，加在你们身上的偏见，都是正确的。你告诉我，我父亲的唯一错误，就是做的还不够——只把你们兽人从一个大陆上扫除还远远不够。现在，你们的种族会从埃亚尔上灭绝——这场战争将会是不可避免的，因为无论我们多少次提出了和平的提案，你们都对此不屑一顾。直到现在……你让我明白了了你们行动的理由。既然你们狂躁得把其他所有人都当做对你们生存的威胁，那唯一合理的方法就是用同样的态度对待你们。
+你们清楚地向我展现，兽人的铁石心肠中什么也没有，只有对死亡和毁灭的无尽欲望。无论把多么美好的未来摆在你们的面前，你们都会毫不在意地舍弃，只为了屠戮那些希望这种美好未来成真的真诚理性的人。你告诉我们，我曾经试图克服的，加在你们身上的偏见，都是正确的。你告诉我，我父亲的唯一错误，就是做的还不够——只把你们兽人从一个大陆上扫除还远远不够。现在，你们的种族会从埃亚尔上灭绝——这场战争将会是不可避免的，因为无论我们多少次提出了和平的提案，你们都对此不屑一顾。直到现在……你让我明白了你们行动的理由。既然你们狂躁得把其他所有人都当做对你们生存的威胁，那唯一合理的方法就是用同样的态度对待你们。
 
 你们已经没有任何机会了。现在，我要给你们一件你们最向往的礼物：战争。在这座传送门外，是联合王国的雄兵。他们曾经因为仇恨和嫉妒而相互攻击，现在却结成了牢不可破的联盟。因为我们知道和平与合作的重要性，而你们这种卑劣的种族永远不会明白这件事。我们会在一片开阔的战场上等待你们，向你们展示我们团结的力量。埃尔瓦拉的永恒精灵准备了强大的法术，食人魔们高举他们的棍棒。来自德斯和最后的希望的半身人和人类也在场，他们千年的仇恨早已弥合，团结一致，手持弓箭和投石索，带领着高大的傀儡和炼金炸弹。钢铁王座的矮人和夏特尔的自然精灵，他们过去甚至不是我们的盟友，但是现在，他们知道了你们巨大的威胁之后，决心再也不会置身事外。我们的队伍中有着呼唤兽群的自然之力强大召唤师，和意志#{italic}#绝不#{normal}#动摇的热诚的展示。太阳堡垒的战士们也加入了我们。他们派出了一支精锐的战士来强化我们的战士，训练我们战士使用他们钻研多年的魔法技能，你们这些愚顽不化的野兽，将会成为我们王者之师的磨刀石。
 
@@ -3790,7 +3790,7 @@ t("When you have enough, find a tunnel leading north and use the special sand sh
 t("Finally, place the eggs in a protected spot to hatch.  With luck, they will provide a distraction while you later assault the city.", "最后，在合适的地方放置这些虫卵来腐化它们。运气好的话，当你之后袭击城市的时候，它们可以大大扰乱敌军。", "_t")
 t("#LIGHT_GREEN#* You have collected enough eggs.#WHITE#", "#LIGHT_GREEN#* 你收集了足够多的虫卵#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have tunnelled close enough to the Gates of Morning.#WHITE#", "#LIGHT_GREEN#* 你已经向北挖到晨曦之门的地方。#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have placed the little surprise.#WHITE#", "#LIGHT_GREEN#* 你安排好了了这些小小的“惊喜”。#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have placed the little surprise.#WHITE#", "#LIGHT_GREEN#* 你安排好了这些小小的“惊喜”。#WHITE#", "_t")
 t("Stralite Sand Shredder", "蓝锆石掘沙者", "_t")
 t("Automatically deploy a huge rotating drill when you hit a sandwall, carving out a big part of it quickly.", "当你碰到沙墙时，会自动部署一个巨大的旋转钻头，很快就钻出一个大洞。", "_t")
 t("You cannot bring yourself to drop the %s", "你无法丢弃 %s", "logPlayer")

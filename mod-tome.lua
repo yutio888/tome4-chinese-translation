@@ -8184,7 +8184,7 @@ t("A giant black-skinned humanoid covered in spikey scabrous deposits.  Its face
 t("drem master", "德瑞姆领主", "entity name")
 t("A disfigured humanoid with vaguely Dwarven features dressed in patched-together and rusted mail armor.  It seems to be in command of others, though its mouth is sewn shut.", "丑陋且具有部分矮人特征的人形怪物，它装备了一件破烂不堪的重甲。尽管它无法说话，但是它却领导着其他矮人。", "_t")
 t("brecklorn", "布瑞克隆", "entity name")
-t("A giant hairless bat with the face of a Dwarf twisted into a constant scream.  Pustulant sores cover its malformed body, and your heart weakens as it nears.", "一只巨大的无毛蝙蝠，它有着一张不停尖叫且扭曲的矮人脸。躁狂症症在它畸形的身体内蔓延，当它靠近时，你感觉心跳都快停止了。", "_t")
+t("A giant hairless bat with the face of a Dwarf twisted into a constant scream.  Pustulant sores cover its malformed body, and your heart weakens as it nears.", "一只巨大的无毛蝙蝠，它有着一张不停尖叫且扭曲的矮人脸。躁狂症在它畸形的身体内蔓延，当它靠近时，你感觉心跳都快停止了。", "_t")
 t("grannor'vor", "格兰诺伏尔", "entity name")
 t("A large sluglike creature that moves slowly, leaving a trail of acid in its wake.  Its head has strangely humanoid features.", "一只长的类似蛞蝓的生物，当它缓慢经过时，会留下一滩酸性的踪迹。它的头部有着奇怪的人类特征。", "_t")
 t("grannor'vin", "格兰诺文", "entity name")
@@ -13094,7 +13094,7 @@ t("Exiler", "放逐", "entity name")
 t([[The chronomancer known as Solith was renowned across all of Eyal. He always seemed to catch his enemies alone.
 In the case of opponents who weren't alone, he had to improvise.]], "时空法师索利斯在马基埃亚尔的世界中十分有名。他总是抓住了他的敌人落单之时。即使对手不是独自一人,他也能临场发挥。", "_t")
 t("insignia ring", "荣誉之戒", "_t")
-t("attempt to inflict %0.2f temporal damage (based on Spellpower and Paradox, if any) on foes in a radius %d ball out to range %d (chance depends on rank, summons are always affected), removing any that survive from time for up to %d turn(s)", "对半径%d内所有目标目标造成 %0.2f 时空伤害（基于魔法和紊乱），射程%d。如果仍存活则移出时间线%d回合。", "tformat", {2,1,3,4})
+t("attempt to inflict %0.2f temporal damage (based on Spellpower and Paradox, if any) on foes in a radius %d ball out to range %d (chance depends on rank, summons are always affected), removing any that survive from time for up to %d turn(s)", "对半径%d内所有目标造成 %0.2f 时空伤害（基于魔法和紊乱），射程%d。如果仍存活则移出时间线%d回合。", "tformat", {2,1,3,4})
 t("%s focuses time flows through %s %s!", "%s将时间线集中在%s%s!", "logSeen")
 t("Piercing Gaze", "锐利目光", "entity name")
 t("stone-eyed shield", "刻有岩石眼的盾牌", "_t")
@@ -14830,7 +14830,7 @@ Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured w
 
 “我也想知道。”我回答道。我们有自己的记录——当然，这些记录不曾与那些短命的种族相分享。不过不可否认的是，这些记录与传播了无数年的神话传说比起来，还是逊色了许多。
 
-我们到达了中央甬道。随着夏·图尔魔法的驱动，我们缓缓上升，眼前一层层废弃的屋室从上方进入我们的视线，然后缓缓地在视野中消失。卧房、工坊、储藏室、还有很多房间就连我们的博学之人也没法猜测出是用来干什么的。在经过几分钟的上升后，我们到达了远古传送门所在的大厅，尼耶拉不禁因惊讶而倒吸一口冷气。她的眼睛很快看到了夏·图尔的远古传送门，闪耀着映照着着几百英尺之上的天花板上的图案。在传送门的周围，一大群身穿高级丝绸长袍的永恒精灵法师正在紧张地工作中，而伊菲尼亚斯陛下正亲自指挥着他们。
+我们到达了中央甬道。随着夏·图尔魔法的驱动，我们缓缓上升，眼前一层层废弃的屋室从上方进入我们的视线，然后缓缓地在视野中消失。卧房、工坊、储藏室、还有很多房间就连我们的博学之人也没法猜测出是用来干什么的。在经过几分钟的上升后，我们到达了远古传送门所在的大厅，尼耶拉不禁因惊讶而倒吸一口冷气。她的眼睛很快看到了夏·图尔的远古传送门，闪耀、映照着几百英尺之上的天花板上的图案。在传送门的周围，一大群身穿高级丝绸长袍的永恒精灵法师正在紧张地工作中，而伊菲尼亚斯陛下正亲自指挥着他们。
 
 当他看到我们的到来时，他先行从一旁围绕的皇家顾问身边脱开身来，怀着自信的笑容向我们走来。尽管他穿着魔法研究院的灰色长袍，他的手中仍然拿着那把金色的法杖，辉光杖，作为他国王身份的证明。
 
@@ -15364,7 +15364,7 @@ But ah, that is another tale, one indeed of many tales, in the long and rich his
 
 我试图斩断那个发光的生物，但我的剑穿过他的身体时似乎没有受到任何阻挡，我召唤的火焰似乎也没有什么效果。它向我伸出一根触手，一束强烈的光线从中发射出来，穿透我的身体，我的血肉感受到灼烧一般的痛苦。我向回跳了一步，向它发出一团冰风，撕下了它的一根触手，并将它推了开来。与此同时，莱娜尼尔将其中一个长着尖刺的生物化为了灰烬，但她的奥术护盾在其他生物的攻击下坍塌了，更多怪物的从天花板溢出。那团蠕虫怪物也占据了入口正在向前，倒下的尸体的口中吐出了燃烧的酸性物质。
 
-我们在这个狭窄的空间会有很大的被包围的风险，他们的数量是在太多，无法立刻解决。“走这里！”莱娜尼尔大声喊道，她冲破了她分开的门。我紧跟向前，用我的刀片切开了那些蠕虫团，使它在痛苦中尖叫起来。同时，我发出一道闪电，穿过了了某个长着尖刺的怪物，打破了他的脑袋。它试图继续攻击我，但我格挡了它，切下了它的手臂，在怪物的包围下起舞般闪避着他们的攻击，最终了到达门口。我面对着背后的怪物，建起一座水墙，然后释放一股洪水冲进了这个房间，把那些恐魔推到了外面，顺便跳进了我背后的门中。
+我们在这个狭窄的空间会有很大的被包围的风险，他们的数量是在太多，无法立刻解决。“走这里！”莱娜尼尔大声喊道，她冲破了她分开的门。我紧跟向前，用我的刀片切开了那些蠕虫团，使它在痛苦中尖叫起来。同时，我发出一道闪电，穿过了某个长着尖刺的怪物，打破了他的脑袋。它试图继续攻击我，但我格挡了它，切下了它的手臂，在怪物的包围下起舞般闪避着他们的攻击，最终了到达门口。我面对着背后的怪物，建起一座水墙，然后释放一股洪水冲进了这个房间，把那些恐魔推到了外面，顺便跳进了我背后的门中。
 
 在我通过的同时，莱娜尼尔将自己的法杖猛戳地面，一根石柱向上升起，封闭了入口。我可以听到另一边发出的撕裂和撞击声，但现在我们似乎已经安全了。“那些东西是什么？！”我怀疑地问道，同时观察这这个开放的洞穴，寻找有没有其他生物的迹象。这个洞穴似乎是一个很大的空间，但一切都很平静，我也看不到其他入口。
 
@@ -15400,7 +15400,7 @@ But ah, that is another tale, one indeed of many tales, in the long and rich his
 
 我向莱娜尼尔的身体靠近，同时切下了一个有尖刺的怪物的脑袋，然后用一道火墙阻隔了剩下的怪物。她看上去就像死了一样，没有任何活动和呼吸的迹象，但是我没有时间仔细检查了。那些发着光的触手怪物轻松穿过了我所造出的火墙，我冲上前去，试图用我的剑刃刺穿这个怪物的核心。它射出一道光芒穿透了我的身体，我咳出血来，但我奋力将我的剑刃刺入更深，往里面灌注了一道奥术能量，将那个怪物炸了个粉碎。更多长着尖刺的怪物冲了过来，我迈动步伐，在左侧格挡和切开它们的同时，向着右侧射出了一团团火焰。
 
-那团蠕虫团穿透了墙壁，伴随着它的是另外两个闪烁着光辉的恐魔，还有一些某种暗影和噩梦的魔鬼。我能看到，还有更多的恐魔在朝我们涌来。当那道光线射向我的时候，我打开了一个能量护盾，然后向他们发射了霜冻之球。一个发光的怪物倒下了，而另一个的行动则被减缓了。那个黑暗的东西也走了过来，那团蠕虫团则紧随其后。我把我的剑划过地面，将热能传到到地面上，把地上的石头化为了灼热的岩浆。那个黑暗的存在朝我接近过来，我能感受到它的身上散发出致死的寒意。我拼命地砍向它，而它则把它的触手如同长矛一般直射过来，准备吸走我的力量。我大吼一声，射出一团火焰，烧毁了它的触手。那些蠕虫踩着岩浆直冲过来，它们中的大部分都被烧成了灰烬，但它们整体的速度没有丝毫减弱。我调整了我的剑柄，随时准备轻快地躲开它们的攻势。然而就在这时，一束光线击中了我的大腿，我单膝跪地，发出痛苦的尖叫。那团蠕虫团继续冲向我，我试图用剑刺入蠕虫团的中央，但蠕虫很快爬遍了我的手臂，用他们酸性的牙齿啃噬着我的血肉，接近我的脖子。我仅存的左手释放出一团火焰，烧向我右臂上的虫子。虫群微微推开了，但那个发光的生物从另一侧接近了我，它的触手闪耀着光辉的能量。三个长着刺的恐魔围绕在它的后面。我的右臂严重烧伤，我的左臂也受了伤，我的锁甲已经满目疮痍，而我的法力也已经快要消耗光了。但我决心咬牙坚持——在这场战斗中我无路可逃。我紧握手中的剑，冲向那团蠕虫团。
+那团蠕虫团穿透了墙壁，伴随着它的是另外两个闪烁着光辉的恐魔，还有一些某种暗影和噩梦的魔鬼。我能看到，还有更多的恐魔在朝我们涌来。当那道光线射向我的时候，我打开了一个能量护盾，然后向他们发射了霜冻之球。一个发光的怪物倒下了，而另一个的行动则被减缓了。那个黑暗的东西也走了过来，那团蠕虫团则紧随其后。我把我的剑划过地面，将热能传导到地面上，把地上的石头化为了灼热的岩浆。那个黑暗的存在朝我接近过来，我能感受到它的身上散发出致死的寒意。我拼命地砍向它，而它则把它的触手如同长矛一般直射过来，准备吸走我的力量。我大吼一声，射出一团火焰，烧毁了它的触手。那些蠕虫踩着岩浆直冲过来，它们中的大部分都被烧成了灰烬，但它们整体的速度没有丝毫减弱。我调整了我的剑柄，随时准备轻快地躲开它们的攻势。然而就在这时，一束光线击中了我的大腿，我单膝跪地，发出痛苦的尖叫。那团蠕虫团继续冲向我，我试图用剑刺入蠕虫团的中央，但蠕虫很快爬遍了我的手臂，用他们酸性的牙齿啃噬着我的血肉，接近我的脖子。我仅存的左手释放出一团火焰，烧向我右臂上的虫子。虫群微微推开了，但那个发光的生物从另一侧接近了我，它的触手闪耀着光辉的能量。三个长着刺的恐魔围绕在它的后面。我的右臂严重烧伤，我的左臂也受了伤，我的锁甲已经满目疮痍，而我的法力也已经快要消耗光了。但我决心咬牙坚持——在这场战斗中我无路可逃。我紧握手中的剑，冲向那团蠕虫团。
 
 然而，它却在我的面前炸成了一团火焰。一股强大力量的波动席卷了整个山洞，火焰在周围炸开，将其他的恐魔化为了灰烬，甚至连那些发光的存在也不例外——当火焰把它烧尽时，它发出一声低沉的哀鸣。我喘息着，不知道这股强大的烈焰到底从哪里来，直到我回头看到了莱娜尼尔的身影。她正屹立在我的面前，长袍已经被烈焰烧毁。火焰在她的身旁起舞，她的眼睛放射出明亮的光芒。她的身边散发着灼热的气息。我手中紧握着我的长剑，不知道这到底是我知道的那个莱娜尼尔，还是因为她和已死之神的融合中产生的另一种存在。
 
@@ -15496,7 +15496,7 @@ Me likes to club!#{normal}#]], [[#{bold}#“我爱大棒槌”
 瘦弱的精灵呀，
 碧蓝的眼珠子，
 磨碎了排骨哇，
-美美的炖一锅！
+美美地炖一锅！
 
 毛茸茸的矮人，
 闻起来像陀屎，
@@ -17779,7 +17779,7 @@ Last night I spotted a red star in the early dawn. How very peculiar... Could th
 
 我们的先祖潜心研究群星的力量才创造出了属于它们的魔法，然而现在的年轻人只知道整天研究它们怎么在战斗中使用，对真正纯粹的魔法研究毫无兴趣。我知道我们现在和兽人交战的局势十分紧张，但是可别忘了，我们一切能量的根基都来自苍穹无限的智慧！我们只有从太阳、月亮和群星中才能获得真正的智慧与力量。
 
-唉，总之，现在我至少可以可以在这里潜心研究魔法了。我最近研发的隐形戒指让我可以轻松绕过那些兽人巡逻队，而在月亮石一旁的山洞十分寂静宜人，非常适合我的研究活动。我已经在月亮山谷里找了一个好地方架起了我的望远镜，是时候享受美丽的夜空了。
+唉，总之，现在我至少可以在这里潜心研究魔法了。我最近研发的隐形戒指让我可以轻松绕过那些兽人巡逻队，而在月亮石一旁的山洞十分寂静宜人，非常适合我的研究活动。我已经在月亮山谷里找了一个好地方架起了我的望远镜，是时候享受美丽的夜空了。
 
 顺带一提，就在昨晚黎明尚未到来之时，我在夜空中发现了一颗闪耀着红光的星星。真奇怪……或许这颗新的天体很值得作为我下一步的研究对象？]], "_t")
 t("Rassir's journal part 2", "拉希尔的旅行日记 第二部分", "_t")
@@ -19927,7 +19927,7 @@ t("arcane crystal", "奥术水晶", "_t")
 section "mod-tome/data/maps/zones/halfling-ruins-last.lua"
 
 t("Long tunnel to the island of Rel", "通向夺心魔之岛的通道", "_t")
-t("Long tunnel", "长长的通道", "_t")
+t("Long tunnel", "漫长的通道", "_t")
 t("As you enter the tunnel you feel a strange compulsion to go backward.", "在你试图进入隧道时，有种奇怪的力量把你推了回去。", "_t")
 
 ------------------------------------------------
@@ -20677,8 +20677,8 @@ section "mod-tome/data/quests/strange-new-world.lua"
 t("Strange new world", "奇怪的世界", "_t")
 t("You arrived through the farportal in a cave, probably in the Far East.", " 你穿过了山洞的远古传送门，可能会到达远东大陆。", "_t")
 t("Upon arrival you met an Elf and an orc fighting.", " 你碰到了一个精灵在和一个兽人战斗。", "_t")
-t("You decided to side with the Elven lady.", " 你决定帮帮那个精灵。", "_t")
-t("You decided to side with the orc.", " 你决定帮帮那个兽人。", "_t")
+t("You decided to side with the Elven lady.", " 你决定帮助那个精灵。", "_t")
+t("You decided to side with the orc.", " 你决定帮助那个兽人。", "_t")
 t("Fillarel told you to go to the southeast and meet with High Sun Paladin Aeryn.", " 菲拉瑞尔告诉你去东南方会见高阶太阳骑士艾琳。", "_t")
 t("Krogar told you to go to the west and look for the Kruk Pride.", " 克洛加尔告诉你去西面寻找克鲁克部落。", "_t")
 t("%s go to the west, and find Kruk Pride!", "%s，去西边，寻找克鲁克部落！", "tformat")
@@ -22120,7 +22120,7 @@ t("You do not have line of sight.", "你没有视线", "logSeen")
 t("%s resists the stun!", "%s抵抗了震慑！", "logSeen")
 t([[Violently fold the space between yourself and another point within range.
 		You teleport to the target location, and leave a temporal wake behind that stuns for %d turns %s and deals %0.2f temporal and %0.2f physical warp damage to targets in the path.
-		The damage will scale with your Spellpower.]], [[暴力地折叠你和另外一个点之间的空间。你传送到目标地点并造成时空的苏醒，震慑路径上的所有目标 %d 回合%s并造成 %0.2f 时空伤害和 %0.2f 物理（折叠）伤害 
+		The damage will scale with your Spellpower.]], [[暴力地折叠你和另外一个点之间的空间。你传送到目标地点并造成时空的苏醒，震慑路径上的所有目标 %d 回合%s并造成 %0.2f 时空伤害和 %0.2f 物理伤害。
 		伤害受法术强度加成。]], "tformat")
 t("Carbon Spikes", "碳化钉刺", "talent name")
 t([[Fragile spikes of carbon protrude from your flesh, clothing, and armor, increasing your armor rating by %d and inflicting %0.2f bleed damage over six turns on attackers.   Each time you're struck, the armor increase will be reduced by 1.  Each turn the spell will regenerate 1 armor up to its starting value.
@@ -25567,7 +25567,7 @@ t("This huge treant-like being is embedded with the fury of winter itself.", "�
 t([[Summon a Rimebark for %d turns to harass your foes. Rimebarks cannot move, but they have a permanent ice storm around them, damaging and freezing anything coming close in a radius of 3.
 		It will get %d Willpower, %d Cunning and %d Constitution.
 		Your summons inherit some of your stats: increased damage%%, resistance penetration %%, stun/pin/confusion/blindness resistance, armour penetration.
-		Their Willpower and Cunning will increase with your Mindpower.]], [[召唤 1 棵雾凇来来骚扰敌人，持续 %d 回合。 
+		Their Willpower and Cunning will increase with your Mindpower.]], [[召唤 1 棵持续 %d 回合的雾凇骚扰敌人。
 		雾凇不可移动，但是永远有寒冰风暴围绕着它们，伤害并冰冻 3 码半径范围内的任何人。 
 		它拥有 %d 点意志， %d 点灵巧和 %d 点体质。 
 		你的召唤物继承你部分属性：增加百分比伤害、抗性穿透、震慑/定身/混乱/致盲抵抗和护甲穿透。
@@ -25991,7 +25991,7 @@ t("Activate the rune to increase your global speed by %d%% for %d turns.", "激�
 t("speed %d%% for %d turns", "提速 %d%% 持续 %d 回合", "tformat")
 t("Rune: Vision", "符文：视野", "talent name")
 t([[Activate the rune to get a vision of the area surrounding you (%d radius) and to allow you to see invisible and stealthed creatures (power %d) for %d turns.
-		Your mind will become more receptive for %d turns, allowing you to sense any %s around.]], [[激活这个符文可以使你查看周围环境（ %d 有效范围）使你你查看隐形生物（ %d 侦测隐形等级）持续 %d 回合。 
+		Your mind will become more receptive for %d turns, allowing you to sense any %s around.]], [[激活这个符文可以使你查看周围环境（ %d 有效范围），使你能看到隐身和潜行生物（ %d 强度），持续 %d 回合。
 		你的精神更加敏锐，能感知到周围的 %s ，持续 %d 回合。]], "tformat", {1,2,3,5,4})
 t("radius %d; dur %d; see %s", "范围 %d; 持续 %d; 感知 %s", "tformat")
 t("Rune: Phase Door", "符文：相位之门", "talent name")
@@ -29071,7 +29071,7 @@ t([[By creating an arcane link with your minion army you are able to redirect pa
 		Anytime you take damage %d%% of it is instead redirected to a random minion within your aura of undeath.
 		The minion takes 300%% damage from that effect.
 		The damage redirected percent depends on your Spellpower.]], [[你与你的不死大军之间建立奥术连接，将你所收到的任何伤害转移到他们的身上。
-		每当你受到伤害的时候， %d%% 的伤害转移到到随机一个不死光环内的随从身上。
+		每当你受到伤害的时候， %d%% 的伤害转移到随机一个不死光环内的随从身上。
 		那个随从将会受到 3 倍伤害。
 		伤害转移比例受法术强度加成。]], "tformat")
 
@@ -31512,7 +31512,7 @@ section "mod-tome/data/talents/uber/str.lua"
 t("Giant Leap", "战争践踏", "talent name")
 t("Have dealt over 50000 damage with any weapon or unarmed", "曾使用武器或徒手造成超过50000点伤害", "_t")
 t([[You accurately jump to the target and deal 200%% weapon damage to all foes within radius 1 on impact as well as dazing them for 3 turns %s.
-		When you jump you free yourself from any stun, daze and pinning effects.]], [[你跃向目标地点，对 1 码半径范围内的所有敌人造成 200%% 的武器伤害，并眩晕目标 3 回合。 
+		When you jump you free yourself from any stun, daze and pinning effects.]], [[你跃向目标地点，对 1 码半径范围内的所有敌人造成 200%% 的武器伤害，并眩晕目标 3 回合 %s。
 		落地后，你解除自身眩晕、定身和震慑效果。]], "tformat")
 t("You Shall Be My Weapon!", "化作星星吧！！", "talent name")
 t("Be of size category 'big' or larger. This is also required to use it.", "体型至少为较大（使用也要满足此条件）", "_t")
@@ -34052,7 +34052,7 @@ Class features:#YELLOW#
 
 All mages use mana to cast their spells.
 It slowly replenishes over time.
-]], [[在猎魔行动行动之后魔法并没有从马基埃亚尔消失。
+]], [[猎魔行动之后魔法并没有从马基埃亚尔消失。
 
 在黄昏纪元，当猎魔行动接近尾声时，卡·克鲁尔的一名强大的法师——莱娜尼尔——为剩余的各种族的法师们建立了一个避风港。
 这个地方就是安格利文，魔法之城，在这里，魔法得以保留并传承了超过两千年。
@@ -41091,7 +41091,7 @@ t("A mysterious hole in the beach", "沙滩上的一个秘密洞穴", "entity na
 t("Tunnel into the ritchs grounds", "里奇通道", "entity name")
 t("Charred Scar Volcano", "灼烧之痕火山", "entity name")
 t("Tunnel to Maj'Eyal", "马基埃亚尔通道", "entity name")
-t("Long tunnel", "长长的通道", "_t")
+t("Long tunnel", "漫长的通道", "_t")
 t("You cannot abandon the yeeks of Rel to the dangers that lie within the island.", "岛屿的安全仍然在威胁之中，你不能丢下瑞尔岛的夺心魔出去。", "_t")
 t("Unremarkable cave", "不显眼的山洞", "entity name")
 t("A gate into the old kingdom of Reknor", "古代王国瑞库纳的大门", "entity name")
@@ -42254,7 +42254,7 @@ t("Prodigies: %s", "觉醒点：%s", "tformat")
 t([[#LIGHT_GREEN#Number available: %d#LAST#
 Prodigies are special talents that only the most powerful of characters can attain.%s
 All of them require at least 50 in a core stat and many also have more special demands. You can learn a new prodigy at level 25 and 42.]], [[#LIGHT_GREEN#当前可用觉醒技能点： %d
-觉醒技是角色足够强大时才能获得的特殊技能。
+觉醒技是角色足够强大时才能获得的特殊技能。 %s
 所有觉醒技能必须在人物某项核心属性达到50点并满足所需的特殊要求后才能习得。
 你可以在人物等级达到25级和42级时各获得一个觉醒技能点。]], "_t")
 t("\
@@ -43105,7 +43105,7 @@ t("This is your readied tool, always available immediately.", "这是你准备�
 t("Quiver", "弹药袋", "_t")
 t("Your readied ammo.", "你准备好的弹药", "_t")
 t("Socketed Gems", "镶嵌宝石", "_t")
-t("Gems worn in/on the body, providing their worn bonuses.", "装在在身体内/外的宝石，提供宝石的装备属性。", "_t")
+t("Gems worn in/on the body, providing their worn bonuses.", "装在身体内/外的宝石，提供宝石的装备属性。", "_t")
 t("Second weapon set: In main hand", "第二套武器：在主手", "_t")
 t("Weapon Set 2: Most weapons are wielded in the main hand. Press 'x' to switch weapon sets.", "第二套武器：大部分武器使用主手抓握。按x切换武器套。", "_t")
 t("Second weapon set: In off hand", "第二套武器：在副手", "_t")

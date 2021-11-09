@@ -1498,7 +1498,7 @@ This is all optional, you are not forced to use this feature at all, but the dev
 * 记录你的击杀数量，死亡次数，以及最喜欢的职业…
 * 统计你的游戏数据，来记录你的游戏风格
 * 在游戏里直接安装官方扩展包和第三方插件，免去手动安装的麻烦
-* 如果你购买了游戏或是在 https:/te4.org/ 上进行了捐助，你可以获得获得你的购买者/赞助者独享权益
+* 如果你购买了游戏或是在 https:/te4.org/ 上进行了捐助，你可以获得你的购买者/赞助者独享权益
 * 帮助游戏开发者调整游戏平衡，让这个游戏变得更好。
 
 你也会在获得一个 #LIGHT_BLUE#https:/te4.org/#LAST# 上的用户页面，可以用来向你的朋友炫耀。

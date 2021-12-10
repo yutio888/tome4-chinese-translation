@@ -28716,7 +28716,7 @@ t("Explosion Expert", "爆破专家", "talent name")
 t([[Your alchemist bombs now affect a radius of %d around them.
 		Explosion damage may increase by %d%% (if the explosion is not contained) to %d%% if the area of effect is confined.]], [[炼金炸弹的爆炸半径现在增加 %d 码。
 		增加 %d%% （地形开阔）～ %d%% （地形狭窄）爆炸伤害。]], "tformat")
-t("Shockwave Bomb", "烈性炸弹", "talent name")
+t("Shockwave Bomb", "冲击波炸弹", "talent name")
 t("You need to ready at least two alchemist gems in your quiver.", "至少需要装备两枚炼金宝石。", "logPlayer")
 t([[Crush together two alchemist gems, making them extremely unstable.
 		You then throw them to a target area, where they explode on impact, dealing %0.2f physical damage and knocking back any creatures in the blast radius %s.
